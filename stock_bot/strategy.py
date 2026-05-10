@@ -13,7 +13,14 @@ def normalize_ohlcv(df: pd.DataFrame) -> pd.DataFrame:
         return pd.DataFrame()
     out = df.copy()
     if isinstance(out.columns, pd.MultiIndex):
-        out.columns = [c[0] if isinstance(c, tuple) else c for c in out.columns]
+        seen = set()
+        cols = []
+        for c in out.columns:
+            name = c[0] if isinstance(c, tuple) else c
+            if name not in seen:
+                seen.add(name)
+                cols.append(name)
+        out.columns = cols
     required = ["Open", "High", "Low", "Close"]
     missing = [c for c in required if c not in out.columns]
     if missing:
