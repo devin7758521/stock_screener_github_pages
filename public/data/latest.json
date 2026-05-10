@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-10 08:43:54",
-  "market_status": "未知",
-  "universe_count": 513,
+  "generated_at": "2026-05-10 16:46:49",
+  "market_status": "偏强",
+  "universe_count": 4,
   "defaults": {
     "weeklyBodyMultiplier": 1.0,
     "dailyBodyMultiplier": 1.0,
@@ -13,9 +13,9 @@
   },
   "items": [
     {
-      "symbol": "AMD",
-      "name": "AMD",
-      "score": 13,
+      "symbol": "DEMO1",
+      "name": "DEMO1 Demo Corp",
+      "score": 11,
       "tags": [
         "高于5周线",
         "高于25周线",
@@ -25,608 +25,48 @@
         "周K实体突破",
         "日K实体确认",
         "日成交量放大",
-        "流动性达标",
-        "跑赢SPY",
-        "跑赢QQQ"
+        "流动性达标"
       ],
       "default_pass": true,
       "metrics": {
-        "close": 455.19,
-        "weekly_body_ratio": 1.4117,
+        "close": 145.81,
+        "weekly_body_ratio": 11.8134,
         "weekly_bullish": true,
         "above_ma5": true,
         "above_ma25": true,
         "above_ma60": true,
         "ma5_gt_ma25": true,
         "ma25_gt_ma60": true,
-        "daily_body_ratio": 3.0756,
+        "daily_body_ratio": 11.8249,
         "daily_bullish": true,
-        "volume_ratio": 1.2351,
-        "avg_dollar_volume_20": 15814573613.71,
-        "stock_return_60d": 1.2103,
-        "spy_return_60d": 0.0857,
-        "qqq_return_60d": 0.1856,
-        "beat_spy_60d": true,
-        "beat_qqq_60d": true
-      },
-      "fundamentals": {
-        "symbol": "AMD"
-      },
-      "news": [
-        {
-          "title": "AMD Stock Is Up 320% Over the Past Year. Should Investors Shift Their Attention Away From Nvidia? - The Motley Fool",
-          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNSXZPMGJoVmtqbmRDSHBMNFR3WGhjQTYydzBjbWdLUEJFNjI1Y203V1cwRzk0bjM4WVNhVWpOeVUtU05sVURadUoxZVh4UVNHMWlLZ3ZTaXdmNjM1a1RBZklCNjk5UzBaX1A4OVQtRllUZkdZeklvc21JQVEzMUdoR2ZhTzdyTXpDRVczdm1laG81dk5uX19ubA?oc=5",
-          "published": "Sun, 10 May 2026 00:30:00 GMT"
-        },
-        {
-          "title": "Jim Cramer Slams AMD Downgrade - Yahoo Finance",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQMzBBWVhXSmRhTy1uWUdwekJKUlMyYmJTWUtWbW9VbVdUc0hQSVZvT0k4MUlXb1E5b05vMEFNdkZFR3dsNVJCSzY3UUQ5eUZrZDZYSWlvWHRkTUVrY1ZheHJielgtT0l4ZkpOTGNWTXJoUS1GUjZNbTRpSzlIQXd3SGtTdTVYZ1FUQXJ0VFFFUUlyQmt4blZnOE9SVQ?oc=5",
-          "published": "Sat, 09 May 2026 18:36:36 GMT"
-        },
-        {
-          "title": "Cathie Wood’s ARK sells AMD stock, buys CoreWeave and Kratos - Investing.com",
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPOGVIWkhvM25vOFNiOFlhZWxJUjBUeFhVRnlZNEEzMzhTcFZDTFVLMEhaMEZNOHNzdGQwUjJqTTFOUFlxV09OXzNnRTV5UktObFhOekladWRuNUlFT0ZqLXkySllYazNZYU9yNTJJN0pTMUVaTEpia0pPdGZVQW9VdGpnbnNRQ2ZUcWJOcGRPWThsdXdkRkRyVzVodUE1YnVyYktISTN2NHFjLVVBQjdZQzF0ZWhPUQ?oc=5",
-          "published": "Sat, 09 May 2026 00:06:34 GMT"
-        },
-        {
-          "title": "Cathie Wood Dumps More AMD Shares Despite Its Massive 108% Rally. Here's Why. - Yahoo Finance",
-          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQWkFMVkRnbW1OR0RKZVVIYzRSVmdMTjl2YWJXdE4tWG9WVDdpWk5tZkRSMFpnRko3UHBVRE53RUlZN3ROeC1LcXRYZ1R1RFNFbHF4UmVaRnBub2hXUWN0d2JGNzhObm1RSGU3dGQ3S1NUVEFxZFNJTDFQcWhicnZWZEpvU0RXTkpsa1dMYVlIRG56SlBqdlE?oc=5",
-          "published": "Fri, 08 May 2026 18:21:43 GMT"
-        },
-        {
-          "title": "Cathie Wood Dumps Another $3 Million In AMD Stock As Ark Invest Trims For Third Day Running, This Is the - Benzinga",
-          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNOTVkaGhWRDRVTWhsbEhXV1dXdlFHb2FoenpMcVFZZWNXZ2RodVMtLWQya0l6UWw5SzlZZzFpNnpUQjJ6Z3ZWSXhMRHFYWkNPUVI5M1RRU0JjVUhZdUpGX2lWenJNREhkdUpJTGpFVUFQLTJkZk05eWJ2NHlEUDZERXF6MWczQm5rZXFPMVJvUlZ0WmJZVFU4aDc5M2w4YUNoRmI0YQ?oc=5",
-          "published": "Fri, 08 May 2026 03:08:25 GMT"
-        }
-      ],
-      "ai_summary": "DeepSeek API Key未配置，已跳过AI分析。"
-    },
-    {
-      "symbol": "CSCO",
-      "name": "Cisco Systems, Inc.",
-      "score": 13,
-      "tags": [
-        "高于5周线",
-        "高于25周线",
-        "高于60周线",
-        "5周线>25周线",
-        "25周线>60周线",
-        "周K实体突破",
-        "日K实体确认",
-        "日成交量放大",
-        "流动性达标",
-        "跑赢SPY",
-        "跑赢QQQ"
-      ],
-      "default_pass": true,
-      "metrics": {
-        "close": 96.57,
-        "weekly_body_ratio": 1.1211,
-        "weekly_bullish": true,
-        "above_ma5": true,
-        "above_ma25": true,
-        "above_ma60": true,
-        "ma5_gt_ma25": true,
-        "ma25_gt_ma60": true,
-        "daily_body_ratio": 3.24,
-        "daily_bullish": true,
-        "volume_ratio": 1.3725,
-        "avg_dollar_volume_20": 1598961292.62,
-        "stock_return_60d": 0.2946,
-        "spy_return_60d": 0.0857,
-        "qqq_return_60d": 0.1856,
-        "beat_spy_60d": true,
-        "beat_qqq_60d": true
-      },
-      "fundamentals": {
-        "symbol": "CSCO",
-        "name": "Cisco Systems, Inc.",
-        "sector": "Technology",
-        "industry": "Communication Equipment",
-        "market_cap": 381441179648,
-        "trailing_pe": 34.73741,
-        "forward_pe": 21.404253,
-        "profit_margin": 0.18756,
-        "revenue_growth": 0.097,
-        "earnings_growth": 0.312,
-        "debt_to_equity": 66.509
-      },
-      "news": [
-        {
-          "title": "Cisco Q3 Earnings Preview: Margin Focus As Shares Trade Near Highs (NASDAQ:CSCO) - Seeking Alpha",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTl91enl1US12Rlh1YXVDczJ2Zm5sUTRmTWc0WFRLeGpWUFBBR2VrQ3NxaVlQc0t0UFpLY2pac3hHODhuYU1mRDkzcnFNS0xid0FsRWJ4c2dkcFhUcmVRYTFHOEwtXzlfZlVrQkJSMDZxb1d0SkdCR0Z6al9JZXRKMGRpalhLek9Cc1pXUXM3UDl2T21nZ1A2TmFxaWh2RjlNZ1RzVVI1MU9Zdw?oc=5",
-          "published": "Wed, 06 May 2026 15:15:00 GMT"
-        },
-        {
-          "title": "Cisco stock price forecast: $95.98 resistance as CSCO gains 3.92% - Traders Union",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNR2dnUXRkRGZ2cHFEaVBvandXNWJkZmQ2c05rWlBLVWx5aTQ3S2k5V1Bmd29Pa05ORmF6UmlvUE9TNU9vN283djlxYzYtTXBUaFdZMHNuWmtmanNNZjdGTjhpZU91RU5kN1VhX3l5dXZSWTFCY3RqWlN0SjJCZmI1ZVZWR1ZuN1B1ZHFZYWZCSktDNEx0ek1OaWlucw?oc=5",
-          "published": "Fri, 08 May 2026 14:47:16 GMT"
-        },
-        {
-          "title": "Cisco Stock Jumps Before Earnings as Wall Street Eyes the AI Order Test - TechStock²",
-          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTjYxOXBJR0NQUDB0ZnBVVEllQkgwUm9iRTJaZFo4MkNjN2ZjTmFKSC00TVVmZGEwc1FXTTJMOFpDZzJnVjNYdDlWamZWZ3AwT0R3Y3NwRWxXemJtRHpDbXNpeTVtQWZPdDNCZUcyWFdTa0FDb09DVEhudXFCRFhVQm00cFpNejJ3QzRwWHRJUjRoYmZMZmdN?oc=5",
-          "published": "Sat, 09 May 2026 13:32:33 GMT"
-        },
-        {
-          "title": "Cisco Systems (CSCO) Stock Drops Despite Market Gains: Important Facts to Note - Yahoo Finance",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQMkZNRjdPbHJGVThkWHNvdWhRLVZocWttTVlGclo3RkdBTDlKbTZxRWJXVmFzd3lyWE15VWVUdm1MUXlIQ2Z2WFJBQWJQNHRMZTFzcXIwUlhCYk1xcnE0TUdNLWNHT256YU4xeEhfbmR0SnR0S0IxR2stNHdINkxEeWlQOEVsWFE5RUlaX2dNUE1XdU0yUnRUS2hkbw?oc=5",
-          "published": "Wed, 06 May 2026 21:45:03 GMT"
-        },
-        {
-          "title": "Cisco (CSCO) Stock Hits All-Time High — Here’s What’s Driving It - CoinCentral",
-          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZUxub1hEeGkxdVplZHE3bWpfYXdPNXdQS0I4c3JDZXBUYjd4YnQ2cTJDQTBhSWhFcjZoSkxaT21aalhKZWFGbTlxaG5uaGlxMHR1VEZseHhUb0tOSjNxNHNoTk5QZnEyM01zUGlJNFlNRlFkV3paLVZ1eHYwUnZqTjBqYmFBd0ZHdGJv?oc=5",
-          "published": "Sat, 09 May 2026 13:21:29 GMT"
-        }
-      ],
-      "ai_summary": "DeepSeek API Key未配置，已跳过AI分析。"
-    },
-    {
-      "symbol": "DDOG",
-      "name": "Datadog, Inc.",
-      "score": 13,
-      "tags": [
-        "高于5周线",
-        "高于25周线",
-        "高于60周线",
-        "5周线>25周线",
-        "25周线>60周线",
-        "周K实体突破",
-        "日K实体确认",
-        "日成交量放大",
-        "流动性达标",
-        "跑赢SPY",
-        "跑赢QQQ"
-      ],
-      "default_pass": true,
-      "metrics": {
-        "close": 200.16,
-        "weekly_body_ratio": 2.7554,
-        "weekly_bullish": true,
-        "above_ma5": true,
-        "above_ma25": true,
-        "above_ma60": true,
-        "ma5_gt_ma25": true,
-        "ma25_gt_ma60": true,
-        "daily_body_ratio": 7.404,
-        "daily_bullish": true,
-        "volume_ratio": 1.8591,
-        "avg_dollar_volume_20": 966476738.65,
-        "stock_return_60d": 0.5869,
-        "spy_return_60d": 0.0857,
-        "qqq_return_60d": 0.1856,
-        "beat_spy_60d": true,
-        "beat_qqq_60d": true
-      },
-      "fundamentals": {
-        "symbol": "DDOG",
-        "name": "Datadog, Inc.",
-        "sector": null,
-        "industry": null,
-        "market_cap": 71248994304,
-        "trailing_pe": 526.7369,
-        "forward_pe": 70.84282,
-        "profit_margin": null,
-        "revenue_growth": null,
-        "earnings_growth": null,
-        "debt_to_equity": null
-      },
-      "news": [
-        {
-          "title": "Datadog’s stock is soaring. Here’s how the company became such a crucial AI player. - MarketWatch",
-          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPcy1WLWFRUXhVLXRGd29BRFltSGtMZHk2eHl6cTh0SklMeW92aDY2RnM5c05nNEwyaU95Z2pid0JvVFBjS0xhWjY4V2JTWU5DWGFiZzhhSFVDYWY1QVlFSTU2aWtka2hDMks4YWhrblhYQnJxY01mRFU2dXQyTnk0ZDQ4UllNdjl1YjhqMWNSNFRZcHBFS0ZJM1gwWFh2bzVoVnBaa2xCSGpCZVQ3UHFJby1PTVpuRm1jSDBiUzE2QQ?oc=5",
-          "published": "Thu, 07 May 2026 15:29:00 GMT"
-        },
-        {
-          "title": "Tech stocks lead Nasdaq with Datadog emerging as highest weekly gainer (DDOG:NASDAQ) - Seeking Alpha",
-          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPN3BpbG1qOURNbGxXdXZuZHh4VVNxWTdDVU1fU0FHcDIwTDU0MnVoNWlaUFNsalVfTnBsUG41U0ZZdk5jWXd5aHl4TllRZThsZkRhMHRHeFBoa3RlUGVENFQ5MGs3b2J4QV9ObHU4ZWxBaUFSZUFNUjJGeHJibGtZbkRxV090V3RYT3hCMXBySVBLZmN0OXRCUUhOWWl0Y3B6OFZB?oc=5",
-          "published": "Fri, 08 May 2026 20:15:57 GMT"
-        },
-        {
-          "title": "Biggest stock movers Thursday: SNAP, FSLY, DDOG, and more - Seeking Alpha",
-          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQcVEtTVNxWEVCVVVPcnpuYUFSWFhMUS05X2wtOHZObGV5NzZ2dUpuUlk5Tk1wWk9XUkREM1ZhVDZtaWlXZ2Z5WENFblhfbVFlX3VMT25EaXdabHRyWENjbXM5d3U5TTMxeDc5LUFSV3BFdDZLZ043MkF1QlNWc05WZVk2emZuVkNMNEpFdkRnTQ?oc=5",
-          "published": "Thu, 07 May 2026 14:10:00 GMT"
-        },
-        {
-          "title": "DDOG Stock To $400? - Trefis",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZnIzOVRtWTVFNkZneXU0ZXp0VWVxNl9CamhySFd2a3NuQ1FTaXlFMVdBVFlvX2ViaGQ3UDBPT3V6R1BWTjMwZGxQckN1SmN5eTczdGI5cFFvbV9pUHp4LUNLeFBNMklwbk5xSEVvSDJXZDl6V1NsZ3J0b191SGdDcDF3REs?oc=5",
-          "published": "Fri, 08 May 2026 13:03:21 GMT"
-        },
-        {
-          "title": "Datadog tops $1 billion in quarterly sales as big clients keep growing - Stock Titan",
-          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNU2ljaXVWV29IeDNNcW1iWHc4YVh4TEtoMW9BMlhCSHd3QWM0ME5qVjc0QnpnWWxoek44emV5V0xGR2JEX2hyZURBUFE4dWJ3SnBYbl9CcENLQmlJNjV6RXRlZEcwYmNQOHdDbFA1T291ZkhFcTllWkVJN2xVMlRLdFhpa0tVMEEteldzWlpEeWJNOEpJMzN6N2Vlb1pheEl3czFr?oc=5",
-          "published": "Thu, 07 May 2026 11:00:00 GMT"
-        }
-      ],
-      "ai_summary": "DeepSeek API Key未配置，已跳过AI分析。"
-    },
-    {
-      "symbol": "HPE",
-      "name": "Hewlett Packard Enterprise Comp",
-      "score": 13,
-      "tags": [
-        "高于5周线",
-        "高于25周线",
-        "高于60周线",
-        "5周线>25周线",
-        "25周线>60周线",
-        "周K实体突破",
-        "日K实体确认",
-        "日成交量放大",
-        "流动性达标",
-        "跑赢SPY",
-        "跑赢QQQ"
-      ],
-      "default_pass": true,
-      "metrics": {
-        "close": 31.35,
-        "weekly_body_ratio": 1.241,
-        "weekly_bullish": true,
-        "above_ma5": true,
-        "above_ma25": true,
-        "above_ma60": true,
-        "ma5_gt_ma25": true,
-        "ma25_gt_ma60": true,
-        "daily_body_ratio": 1.2981,
-        "daily_bullish": true,
-        "volume_ratio": 1.2246,
-        "avg_dollar_volume_20": 400050626.32,
-        "stock_return_60d": 0.4213,
-        "spy_return_60d": 0.0857,
-        "qqq_return_60d": 0.1856,
-        "beat_spy_60d": true,
-        "beat_qqq_60d": true
-      },
-      "fundamentals": {
-        "symbol": "HPE",
-        "name": "Hewlett Packard Enterprise Comp",
-        "sector": "Technology",
-        "industry": "Communication Equipment",
-        "market_cap": 41596878848,
-        "trailing_pe": null,
-        "forward_pe": 11.530272,
-        "profit_margin": -0.0033000002,
-        "revenue_growth": 0.184,
-        "earnings_growth": -0.303,
-        "debt_to_equity": 87.223
-      },
-      "news": [
-        {
-          "title": "Why Hewlett Packard Enterprise (HPE) is a Top Growth Stock for the Long-Term - Yahoo Finance",
-          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNREhBX3AwUGpQdlJNOFJtc3U4ZnJLTmM4U0hySHd6b2hhWVozbW00WkdZUG9oc0FZdnZRd2RQZThyMDRqOEJqM21zel93LTlOTHRTVHNRdWNHQnFySXQyQ3p1UXVKMUNWX1R4R1Z6dXpEU19wRGg1dU1vY1RRX3RyMmFIUWd3RGhNVE81WVIxLTN3NXRmS05za3k1ZkNRZERt?oc=5",
-          "published": "Fri, 24 Apr 2026 07:00:00 GMT"
-        },
-        {
-          "title": "Hewlett Packard Enterprise Co (HPE) Stock Up 5.6% but GF Value Says Overvalued -- GF Score: 81/100 - GuruFocus",
-          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQYzlhMVliT0x4Vl9QcXpYZE9ONlBKSFUwMTJhb0k0LTVtSm41aEhRU3NvaGlqNjNfQ2dCVW5qWE5vSU92Z2xCY0dNYXJEVUFXWG9wMzV0WXZwTXloUjlsZFZWT0w4R1VDcG95b18zTzlQRzJlRzIzcjlMQ1FsY09mUGJtT1RVUUtQQWVRZF9rVndic3dlRDdzdHZEMnRRbXd3bjZZQUdkSlZFV3EtOG5GN20zTkpnQUlKUXpsZFBVbFg2SktveC1RemlhOXROWEJ5ZF9zVS1Waw?oc=5",
-          "published": "Sat, 09 May 2026 00:47:38 GMT"
-        },
-        {
-          "title": "Dell, Super Micro, or HPE: Which AI server stock crushed it in April? - MSN",
-          "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOU1VfRGNWWkp6anhodGw5YTBlQ1BfOENOalJtVndBQmpnc1AwWjZ6Y3NKOXh3a3BvNnd4Ym1BdEtwaDhyLXo5TF9CY3B1Z2R2VEhleXlROHEwaTVBaWtnaWs2bjlYRW1aVFJqTTEzTktibXJYSzBXVnVIWFJQWUNjclBOajVIOFNOMUxySjEzUTJfRDJENEdOWF9LU1IzenYzdFdNd0xuWHVVUk9aTnhQM3NGd2hGTDhTZ0tSYndsdEhUTllfQlBFdUdiYXVPVzZjNk1rVHhfQmRYTmREcXQtYVExMzNjZw?oc=5",
-          "published": "Thu, 07 May 2026 18:41:56 GMT"
-        },
-        {
-          "title": "HPE jumps 4.3% as analyst target hikes extend post-earnings momentum | HPE Stock News - Quiver Quantitative",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOVlNWY2pvRlhkb1dyM2M4N1hha2RPc01xNFo2N3l2QTNFazBrSzBUaXFDQVpHTmpMRFFQOTdGdjA4a1ZCTHd3OEMySkxEY3RwZDhZWGp2aDkzWU9RUlk3djhfSm5ieVdGRTlkaktMY3pxek1vTno0SUVDWWxvbVo1TEkwU3h1N3I2WVcycEtQMnJUcVBDR04tUDRFMHVhcjlGRDhtSEV3?oc=5",
-          "published": "Mon, 20 Apr 2026 07:00:00 GMT"
-        },
-        {
-          "title": "Bethany Mayer Sells 6,482 Shares of Hewlett Packard Enterprise (NYSE:HPE) Stock - MarketBeat",
-          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNMGNka1dEaHNDenlzMkg1OTVtTVl1WTV6a3FWbFlVb3FVVjkwM2EzcEJwcDA5Sm12bjVfalptbmlFVktkb3NoVS13Z09jR2otaFF0ZWpVbkFFLWhORzVha3hVTlYxOGZqYUswOUpMLWdPb3ZJc0g4U01WSExUaUVOdnJPbFJIYzZ4Z3RPckk4d19SNXpvS3l3R0tYcVczYW1SR0d1THl4NzNWNHFtaVF2b2VpaW8wWTRYUjlIY1hyZTRwV2tYRkp3VA?oc=5",
-          "published": "Tue, 05 May 2026 23:12:18 GMT"
-        }
-      ],
-      "ai_summary": "DeepSeek API Key未配置，已跳过AI分析。"
-    },
-    {
-      "symbol": "INTC",
-      "name": "INTC",
-      "score": 13,
-      "tags": [
-        "高于5周线",
-        "高于25周线",
-        "高于60周线",
-        "5周线>25周线",
-        "25周线>60周线",
-        "周K实体突破",
-        "日K实体确认",
-        "日成交量放大",
-        "流动性达标",
-        "跑赢SPY",
-        "跑赢QQQ"
-      ],
-      "default_pass": true,
-      "metrics": {
-        "close": 124.92,
-        "weekly_body_ratio": 1.6138,
-        "weekly_bullish": true,
-        "above_ma5": true,
-        "above_ma25": true,
-        "above_ma60": true,
-        "ma5_gt_ma25": true,
-        "ma25_gt_ma60": true,
-        "daily_body_ratio": 1.716,
-        "daily_bullish": true,
-        "volume_ratio": 1.5261,
-        "avg_dollar_volume_20": 13061978091.87,
-        "stock_return_60d": 1.6876,
-        "spy_return_60d": 0.0857,
-        "qqq_return_60d": 0.1856,
-        "beat_spy_60d": true,
-        "beat_qqq_60d": true
-      },
-      "fundamentals": {
-        "symbol": "INTC"
-      },
-      "news": [
-        {
-          "title": "Intel’s stock achieves a never-before-seen feat as Apple enthusiasm builds - MarketWatch",
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQWW93NTFkalhOOVpGa2luMmJzSkx0YzZRdVIyRmZqaE9xeGZiMUpJRWtZYnBocVcxM0EwUWZkVHpGU0gtRF9tNWluM3NoRXc1d0p3c2NGaERxN3dJM3EzWndWbWxWTy1ZdjFYY0V6UFNFT0pVRllaYVF2VlUwTWJ4T2EydVBBOWRVTnZ5RVJIZUlNcGppZHhlbjJTcENHUjdOblhvbHlCbzljQXNLRDZ6R1dyWU5NaWtpV2RFNUxn?oc=5",
-          "published": "Fri, 08 May 2026 19:13:00 GMT"
-        },
-        {
-          "title": "Intel shares soar on Apple chip deal report. Here's why it signals a total pivot for chipmaking - CNBC",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE90OXhpS2o1Zlp3UE5WMmd5bXhSZ0ViWG9VbXZoWXpqcDRCcF9COU9iZExpbmtNc00tTmM2OG5uTGlKcW50ekdLdy0wUi00VEMtZGpzNWZjVFBNaTkyd1MwUVlyTS00eFNJTGVYaGdiRVluZ9IBd0FVX3lxTE5WLXRaTmFidlFGcmlIeTA4elhIQVpUODZSdlZCZ0Q3WDdVUndzSUZRbEJIWGRkRjV0Q0JiSUQxanU2MUo5blBScGhhR3RfbXBMN1V0X3hmaHluR0RUVDlIc1ZLR0d0U1J5X01ZVkJqY3lrMG9rSUdJ?oc=5",
-          "published": "Fri, 08 May 2026 21:03:09 GMT"
-        },
-        {
-          "title": "Is Intel Stock the Next Nvidia? - Yahoo Finance",
-          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxONDFMNmw2RXgzdVhkNzE5THZFNXZ4SHRnNUFoVk9lUW5FOUNYTHk1dFA2MUV6dzg0OEc4SXh4QVZaclNHNmdoTjNwTTdVMWdnMmR0QnM5bG4zRk0zUGFUSDNlNW9mZFNlbTltaVVmZ2VnaXBlckNCdWdkalZqaVVBWnhfNEM5RjdhUGc0ZmRuTkpqdw?oc=5",
-          "published": "Sat, 09 May 2026 19:31:00 GMT"
-        },
-        {
-          "title": "Intel Exec Sells $4 Million in Stock After Record-Breaking Rally - Barron's",
-          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5jcDlaSTlOQV9ubzBGd3hjRmREVHNJZUFNa3h3TlRoZDZZUmRhdTV4ekNpOWgySkdWa3J4MHJrQjR4Vlp0M0c1WTg3YVZDbURnMWVUcnU2R0g4V0E2cWZNTXpYRkpIYmRHTEFBZ0pqTlpaaURWcVdSbw?oc=5",
-          "published": "Thu, 07 May 2026 19:29:00 GMT"
-        },
-        {
-          "title": "ARM vs. INTC: Which AI-Era Semiconductor Stock Will Reward Patient Investors? - 24/7 Wall St.",
-          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOUFp0eFZTZFhYcUlrSmoxSVp1V284VXVhdjhuOFhWdmN6YUVHdFBqVnNHOG4xS0tUcVAzN2ZzZ0Vjd2tZdDV2RFF3bUlxR2F2NjlnWHp5eWFyMG03S0ptSjFmZ2pua0JWMjhYLXJiRldxZTcwNzIxYms5Ql9fd1pFOVZCSkNLeHZweElIOEFvWm9DbjBrY0EtX2RPblQ4azJUN0EyNnNkLVdsZm5SNGloa1BSQ0NKOGFoZlE?oc=5",
-          "published": "Sat, 09 May 2026 21:11:10 GMT"
-        }
-      ],
-      "ai_summary": "DeepSeek API Key未配置，已跳过AI分析。"
-    },
-    {
-      "symbol": "MRNA",
-      "name": "Moderna, Inc.",
-      "score": 13,
-      "tags": [
-        "高于5周线",
-        "高于25周线",
-        "高于60周线",
-        "5周线>25周线",
-        "25周线>60周线",
-        "周K实体突破",
-        "日K实体确认",
-        "日成交量放大",
-        "流动性达标",
-        "跑赢SPY",
-        "跑赢QQQ"
-      ],
-      "default_pass": true,
-      "metrics": {
-        "close": 54.35,
-        "weekly_body_ratio": 1.7167,
-        "weekly_bullish": true,
-        "above_ma5": true,
-        "above_ma25": true,
-        "above_ma60": true,
-        "ma5_gt_ma25": true,
-        "ma25_gt_ma60": true,
-        "daily_body_ratio": 1.6984,
-        "daily_bullish": true,
-        "volume_ratio": 3.0349,
-        "avg_dollar_volume_20": 348949722.1,
-        "stock_return_60d": 0.355,
-        "spy_return_60d": 0.0857,
-        "qqq_return_60d": 0.1856,
-        "beat_spy_60d": true,
-        "beat_qqq_60d": true
-      },
-      "fundamentals": {
-        "symbol": "MRNA",
-        "name": "Moderna, Inc.",
-        "sector": "Healthcare",
-        "industry": "Biotechnology",
-        "market_cap": 21565333504,
-        "trailing_pe": null,
-        "forward_pe": -13.078453,
-        "profit_margin": -1.4355099,
-        "revenue_growth": 2.602,
-        "earnings_growth": null,
-        "debt_to_equity": 17.522
-      },
-      "news": [
-        {
-          "title": "Why is Moderna stock surging today? - Investing.com",
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPd0I4TGh0QmNwdDY3UjlVbzVXd3ZIX0JqdXhCcy1jMU5kZHFGNE5JaUNvNHFWcTZGTE80eFJlb3IwTFRGeGlPLVNHNmFuY0xhMkpOYVpKUnJiVTJiVzVMNWY5RzNnc0kyZlZXQURrNEdqYk1vS1hTTV9VcDBIUWhzNl9EMFdmbWhUZzhyMW1qZDJBT1JMa0tneUZ2akk?oc=5",
-          "published": "Fri, 08 May 2026 14:42:35 GMT"
-        },
-        {
-          "title": "How Hantavirus Made Moderna a Must-Own Stock Again - Barron's",
-          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOWUJjNUtlTEZxcXBqRExHQzN2Qk12cm1IZFZaUTRxajJXY1dmZkRvT3ZhR3JrdG5PWWQ0NHk4TmJENnBnc2U2RGZGOUsyNVFzM3RtZHVZMm1EMzF6RUNibERiTXFmejI2a2RkYUNLSHBYVHByWVZZWE5SNGhod3NlSlpqOGZjemhpMlNycVpSdw?oc=5",
-          "published": "Fri, 08 May 2026 18:44:00 GMT"
-        },
-        {
-          "title": "MRNA stock rises pre-market: Moderna bets on US comeback with flu vaccine pipeline - MSN",
-          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNTXBNM0FSdnRGSndtaE81OUJITy1lNFI1aUlLcmFEdnozeXp0bzNvWTBwWGxvTFlwUGJTU2RQU3Q2dkhRRjRKRWIwOTYyNU9pUGREOHZIRjFPSkxGcWVBVC1Hb3p3bHlIRXpQQ1lKVEp3Z3pPNi1HRGFXN2lzSTRGTHpBWXR5dzVsYzU4MUZNYkotUTk0Mk9ubmpkdzdmSk9IbHM1NE5VQWtBdG9VUGxDU3ZwUU5WQ2E3Sk1Vdm1MZ3hONEtseUszVklGa2JKQQ?oc=5",
-          "published": "Sat, 09 May 2026 22:13:39 GMT"
-        },
-        {
-          "title": "Moderna Stock Surges on Hantavirus Vaccine Research as MRNA Investors Eye Flu and Cancer Pipeline - TechStock²",
-          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQNm93VmZVZmVTNjQtcGk5cEdZdkVlY3RBNHh6MzZyRlFGVWxhODFEVGdyYXcxa2NlQnE3WmtMbXJrTXlyUUVvZGxxVXNwTjBKQ3dTMnBzb2tUU3g5RnlVbHBQUUV6bmVJRjlURm5VaVBuU3gzUTNOcUstUlpyekt6ZmFkMWRpeXE1TDh0eVN3NXRJWjZCUzV0dXJXQlh4WEJtMzZYa2ktdFFfV3RVcV9SZXQ5Nlo2eUFldEE?oc=5",
-          "published": "Sat, 09 May 2026 15:47:42 GMT"
-        },
-        {
-          "title": "Moderna stock holds steady amid regulatory review of mRNA-1010 in US, EU, Canada, Australia - Traders Union",
-          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOT3Rncm5sWmZfaXlSbGhSUFBCWEVsRHpwMS1NMHo5eFdzTnJrQWxCQjhLRkpJTFRTLTd5TS1ieUNyZ2IyeDRzd3lTOUExMHRGUzJlTUhKZ2NQZWVVeWNjZXVWN3BtZFBNdlo4TXduZ0NnVmtMX29XaWR6ODVXeGFXM3dkcGlKMWsyRFhKU28wNWwzNEVtclJHSEstSXlsV3lN?oc=5",
-          "published": "Thu, 07 May 2026 15:14:51 GMT"
-        }
-      ],
-      "ai_summary": "DeepSeek API Key未配置，已跳过AI分析。"
-    },
-    {
-      "symbol": "MU",
-      "name": "Micron Technology, Inc.",
-      "score": 13,
-      "tags": [
-        "高于5周线",
-        "高于25周线",
-        "高于60周线",
-        "5周线>25周线",
-        "25周线>60周线",
-        "周K实体突破",
-        "日K实体确认",
-        "日成交量放大",
-        "流动性达标",
-        "跑赢SPY",
-        "跑赢QQQ"
-      ],
-      "default_pass": true,
-      "metrics": {
-        "close": 746.81,
-        "weekly_body_ratio": 4.8241,
-        "weekly_bullish": true,
-        "above_ma5": true,
-        "above_ma25": true,
-        "above_ma60": true,
-        "ma5_gt_ma25": true,
-        "ma25_gt_ma60": true,
-        "daily_body_ratio": 2.313,
-        "daily_bullish": true,
-        "volume_ratio": 1.5103,
-        "avg_dollar_volume_20": 23095762852.47,
-        "stock_return_60d": 0.8048,
-        "spy_return_60d": 0.0857,
-        "qqq_return_60d": 0.1856,
-        "beat_spy_60d": true,
-        "beat_qqq_60d": true
-      },
-      "fundamentals": {
-        "symbol": "MU",
-        "name": "Micron Technology, Inc.",
-        "sector": "Technology",
-        "industry": "Semiconductors",
-        "market_cap": 842203070464,
-        "trailing_pe": 35.21028,
-        "forward_pe": 7.3373413,
-        "profit_margin": 0.41486,
-        "revenue_growth": 1.963,
-        "earnings_growth": 7.56,
-        "debt_to_equity": 14.902
-      },
-      "news": [
-        {
-          "title": "Micron Stock Is Up 700% Over the Past Year. Its Shares Still Look Relatively Cheap. - The Motley Fool",
-          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSzMzbzBxOWtrWmE1bGc2a1NzczdWUm5PUVRqWUJ1Z2lURzl0QWwyVUpSRmV4SXhZdnVWUUpwYkV1c0hpZXRQMlBoV0hTd2JUdUJreUJ6QkZFdnVta085R0JRNUdENkswbG8zUUxrd3NNWkxNSldidjFSOXZFMXFZMGE2djlRelU3SkFocHVLOHdaUzZYd29HSQ?oc=5",
-          "published": "Sat, 09 May 2026 15:00:00 GMT"
-        },
-        {
-          "title": "Why Memory-Chip Stocks Are Top Of Mind For Investors - Investor's Business Daily",
-          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNSTRYWmZyVTZHY2s4VzJzaGtIeU5oc1hCN2xsMXd4WFNROWhULUNoaV9FY2ItWk1kYVJ4bDFtdGVoLTAzc0RCQzBud3JPMzc4Y0VWd0VXN2YyMXNyQktPS1hRSkg3YzJDV1ZDczNWNE5LSkZQNEJibnBub2VWSXY3eU9kaThXNThDTW9SNm4wTQ?oc=5",
-          "published": "Fri, 08 May 2026 20:12:00 GMT"
-        },
-        {
-          "title": "Micron Stock: I Called The Supercycle - Here's What Comes Next (NASDAQ:MU) - Seeking Alpha",
-          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWF94N1JGampHRlVKaFR2bWZvVVEybEZZTHd0aDFWbEQxd3FqS2xaUHZldk5RY1JhWW5WcXVFeXZYOEpvQjA2d09wZjJvRHlEaTFjcTNaVHdHMWpaNWxad1Z6Sl95UWJfTVVtcUU0aVZjbXVSMlJXYVBqUTczWk9zWFFwZFNyV20zUy1tN04wdTFJMjZCbVpNMUhoOG9zTVRX?oc=5",
-          "published": "Fri, 08 May 2026 15:19:09 GMT"
-        },
-        {
-          "title": "Why Micron Stock Bounced Back Today - Yahoo Finance",
-          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOQm9EYkpiTTNMdnFLYmtrOTRQbVVmb2FjTDlkSkd0YVZfSFZjLXREdC1xRTlEQm1RTy1qdDRvWjhGa2JRenBrNW9pSUFmQ0M3QWxyNS1pdFZDZi1rajh1TUVDYWU5NWtaZWFwQkZvMEU1M2dKNW92S0Q3VUV4QTRjWkJoMk1xdFhXT3BkX1dqaWFuRjRDTjZnckZR?oc=5",
-          "published": "Fri, 08 May 2026 14:55:33 GMT"
-        },
-        {
-          "title": "Micron zooms past $700 billion market cap as rally in memory stocks accelerates - CNBC",
-          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQd2JZQnBmUWc5bUM5aTEwYjRlU3lZSDV5T2UyT3lHU3BvQ3dfOWJpM1NvbldfVzVyakJKeVNYV2tROVhPWWVDVnI0QVlsLXRRaW1OaHdnZzNFU0NHZi1FVW9OMVh1bi1ORVBYa0s0X1JHbnlhVkV1dTF6N3hqM0s5OER1Vm85Qi04YkVfMTJta0NqaDhPRThySXZyb3lqbUpSaFNv0gGoAUFVX3lxTFBWRW81YjdnUW01cElqUXd3T2s3OG5acXBjUzdQOG5rZTBHZVdKeUdSX00zazI0OFNZNms5MmdZZlRKV2NGMFFwLU1vUlFMRkRpMEYwMDREaXNNQ1NBR0l5MGFJczBlNVNpMjh0d0ZOMmlOTzhQSGNVYXA0UnVhWHFKUTlkWUtUOVdNVnZlT1VjSTZfX0IyQkJhS2d2dFN1MVl6Qm9DUG0ybg?oc=5",
-          "published": "Tue, 05 May 2026 18:51:27 GMT"
-        }
-      ],
-      "ai_summary": "DeepSeek API Key未配置，已跳过AI分析。"
-    },
-    {
-      "symbol": "ASML",
-      "name": "ASML Holding N.V. - New York Re",
-      "score": 12,
-      "tags": [
-        "高于5周线",
-        "高于25周线",
-        "高于60周线",
-        "5周线>25周线",
-        "25周线>60周线",
-        "周K实体突破",
-        "日K实体确认",
-        "日成交量放大",
-        "流动性达标",
-        "跑赢SPY"
-      ],
-      "default_pass": true,
-      "metrics": {
-        "close": 1592.02,
-        "weekly_body_ratio": 6.1864,
-        "weekly_bullish": true,
-        "above_ma5": true,
-        "above_ma25": true,
-        "above_ma60": true,
-        "ma5_gt_ma25": true,
-        "ma25_gt_ma60": true,
-        "daily_body_ratio": 1.2843,
-        "daily_bullish": true,
-        "volume_ratio": 1.2319,
-        "avg_dollar_volume_20": 2712960036.8,
-        "stock_return_60d": 0.1341,
-        "spy_return_60d": 0.0857,
-        "qqq_return_60d": 0.1856,
-        "beat_spy_60d": true,
+        "volume_ratio": 2.0755,
+        "avg_dollar_volume_20": 283831916.57,
+        "stock_return_60d": 0.2152,
+        "spy_return_60d": 0.2152,
+        "qqq_return_60d": 0.2152,
+        "beat_spy_60d": false,
         "beat_qqq_60d": false
       },
       "fundamentals": {
-        "symbol": "ASML",
-        "name": "ASML Holding N.V. - New York Re",
-        "sector": "Technology",
-        "industry": "Semiconductor Equipment & Materials",
-        "market_cap": 613592662016,
-        "trailing_pe": 52.35186,
-        "forward_pe": 33.05493,
-        "profit_margin": 0.29713,
-        "revenue_growth": 0.132,
-        "earnings_growth": 0.192,
-        "debt_to_equity": 12.989
+        "symbol": "DEMO1",
+        "name": "DEMO1 Demo Corp",
+        "sector": "Demo",
+        "revenue_growth": 0.12,
+        "profit_margin": 0.18
       },
       "news": [
         {
-          "title": "ASML Stock Quote Price and Forecast - CNN",
-          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1qNThlRFUxU1lXM3hiUTdwc0M5T2t0cElFUkR1YTktNzFJMWRsNGhnMTNpYzJWZ19YS1J4aXJXUmkzNW5BSGRYTlhaVDZKY1o4?oc=5",
-          "published": "Thu, 07 May 2026 17:17:44 GMT"
-        },
-        {
-          "title": "Is It Too Late To Consider ASML Holding (NasdaqGS:ASML) After 117% One Year Surge? - Yahoo Finance",
-          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZHJldHFSTjBwWjhoWmZPNGZ5OXhKZ3RFd3dNLUZaT2JpRk1teHNfbGVTSnJjcUpHZVVuc1h0VnhJQjhLSDZ0ZHdkOEZ3V1NTbmVhN09tZkZYUGMwLVkzT3hyLVc4X1BieWpVRVQ3ejFZc3hNbGpQWHNKanFfU0pGdF8wYkxfOXZlbkNiUFdZRElCZGc3SHZXNkdMRHNoZVNo?oc=5",
-          "published": "Sun, 26 Apr 2026 07:00:00 GMT"
-        },
-        {
-          "title": "TSMC and ASML post-earnings stock moves could be a sign of what's to come from chip companies - CNBC",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQeV9WUFp1bHNtbFUtVk91YzhnTmlTc3RlVEl4VFBrYjdsbW9qREVaR25HbVR0R01ZN29SUVA2TW5DT2NhT1ZBNG9fR3RyeVdiY2lzYW1SMFdiS0VzVEh2WHJ2aDY5MWFIODZCR0VCV0QyNUpxekZBeGhFQkZ3Ukk4SGk1M1BHemlN0gGOAUFVX3lxTE9hVEliU1FCZy1EcGg1TktDbGtIQ3RnTDlOZXc3cjMtTDVuWURwM3JNaFlzVmpScXZXVG5fQUxNeWJVS2s2eTFOdE9MZ0hHdHhiRHEyVDIyWFVMNHhyU2hxVTRsN1BQTGJXazQ0aG1QMkV4bEZyaEp6a2Fmd3FVM29TTnBRemtCOWJMcHZNakE?oc=5",
-          "published": "Thu, 16 Apr 2026 07:00:00 GMT"
-        },
-        {
-          "title": "Bensler LLC Invests $3.06 Million in ASML Holding N.V. $ASML - MarketBeat",
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOOEdJS2ZWckJLcTI3TnZoeGt3a09mY0VnSE9Vd0d6U0pfaUI4aWltVFpTZWJyT05IR25QTzh0anhYdWpZcmlQc2FPTk1xcW5ZZHg3SF9EV0V3bkc0dW9uMWVXMk1nZUVjTHJIQVA2QXJxNW1CalFHelluVjBhYl9BNkNUQXAzeGVXNXNSazlpYTlHUW5WR0xreEpXZ2ZOano1a1UwRmZCS0g0NG1tOThoZ0ItZUxTTzQ?oc=5",
-          "published": "Sun, 10 May 2026 07:37:45 GMT"
-        },
-        {
-          "title": "Has ASML (NasdaqGS:ASML) Risen Too Far After 115.6% One-Year Surge? - simplywall.st",
-          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOckVITEFzWHoxMzc4dzBRVVA0dWU3SVpZS2FCM1RmWjRsLTFKcXZUcEdZX2plSzBMeUx3RERpbVVSRHhVNUJjUU9Sa1BJUjhEM1NGV2RfTmp2Y3Rrd1llUlM4MWlqTEVxRVlfclhWOEVaclZqR0FFS2hCaURiQ0h5OS1nQm1OUmZLeVNrdkl2bXdQNTRZbGhKYTdqczRSZV95bi1TMkl3MjN2UkJSeGc5X0FrR2F0R202c0ZBWE52a1ZrekFMUnZaaU5CRzY4RUs1UWxJ0gHYAUFVX3lxTFBDOFUxUHUwY2VOODFUZ3A1aVZtWmtMV2hkR2I0WGRCSVlfQnRaY3Rzc2kySXh4VVNhNEFkZ0t1VlFBbHlEdUpCczZzR3hOcW92amEzTFJaSjNmbFVBaEdKMzcwMzZiT1YtTlRJOXV0Tk83SWUtRUN4cXRId2hFcE9jbDNIQ3VFeHpmaTRnY3J5ZkYxa1BWRFY3eG5GLVhFN2gybTA3Q3FWOTlTTkhrbjNFNHdVRFpCZmtNUW9iVzI3TGJ5Nm4wdWxoeFVYVk9SZUxaMVk1azB5WQ?oc=5",
-          "published": "Sat, 09 May 2026 20:46:42 GMT"
+          "title": "DEMO1 demo news: business momentum remains positive",
+          "link": "",
+          "published": ""
         }
       ],
-      "ai_summary": "DeepSeek API Key未配置，已跳过AI分析。"
+      "ai_summary": "Dry-run分析：技术形态满足筛选条件；基本面和新闻为模拟数据；请在真实环境中复核。"
     },
     {
-      "symbol": "CBOE",
-      "name": "Cboe Global Markets, Inc.",
-      "score": 12,
+      "symbol": "DEMO3",
+      "name": "DEMO3 Demo Corp",
+      "score": 11,
       "tags": [
         "高于5周线",
         "高于25周线",
@@ -635,149 +75,143 @@
         "25周线>60周线",
         "周K实体突破",
         "日K实体确认",
-        "流动性达标",
-        "跑赢SPY",
-        "跑赢QQQ"
+        "日成交量放大",
+        "流动性达标"
       ],
       "default_pass": true,
       "metrics": {
-        "close": 348.56,
-        "weekly_body_ratio": 1.0287,
+        "close": 109.36,
+        "weekly_body_ratio": 8.8601,
         "weekly_bullish": true,
         "above_ma5": true,
         "above_ma25": true,
         "above_ma60": true,
         "ma5_gt_ma25": true,
         "ma25_gt_ma60": true,
-        "daily_body_ratio": 1.3231,
+        "daily_body_ratio": 8.8687,
         "daily_bullish": true,
-        "volume_ratio": 0.8788,
-        "avg_dollar_volume_20": 289391118.93,
-        "stock_return_60d": 0.2913,
-        "spy_return_60d": 0.0857,
-        "qqq_return_60d": 0.1856,
-        "beat_spy_60d": true,
-        "beat_qqq_60d": true
+        "volume_ratio": 2.0755,
+        "avg_dollar_volume_20": 212873937.43,
+        "stock_return_60d": 0.2152,
+        "spy_return_60d": 0.2152,
+        "qqq_return_60d": 0.2152,
+        "beat_spy_60d": false,
+        "beat_qqq_60d": false
       },
       "fundamentals": {
-        "symbol": "CBOE",
-        "name": "Cboe Global Markets, Inc.",
-        "sector": "Financial Services",
-        "industry": "Financial Data & Stock Exchanges",
-        "market_cap": 36478124032,
-        "trailing_pe": 29.766012,
-        "forward_pe": 24.264668,
-        "profit_margin": 0.25774,
-        "revenue_growth": 0.065,
-        "earnings_growth": 0.544,
-        "debt_to_equity": 29.489
+        "symbol": "DEMO3",
+        "name": "DEMO3 Demo Corp",
+        "sector": "Demo",
+        "revenue_growth": 0.12,
+        "profit_margin": 0.18
       },
       "news": [
         {
-          "title": "One April day hit 9M Cboe index options as volumes swung widely - Stock Titan",
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNU0J4RVdWNGFrbVlPM1N5TDV0Uk51bTRFSmJwUmRMcEZjX2JJYUJlS0JBeEMyTlYzeXV4STR0RndLTGd0OUJVS0c3VEprekRaTElQYlVRcUk5TG92bnhCS2NGNkMtR0ZiM0pLTDNGazVXODByZVNaZGxVWXppMVhRa1A3RHZNVUd0ZGZkamRwdlVZQllaU1Z0cXByRm00SlNXY1FOUXVCUDUzRFE?oc=5",
-          "published": "Tue, 05 May 2026 20:30:00 GMT"
-        },
-        {
-          "title": "Best Low-Beta Stocks to Own Right Away: LQDA, CBOE, VLO & FANG - Yahoo Finance",
-          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbDZfaFo0ZHZvOEdHbEV3QXRKYll3cDRpaVJpLVJZOWJSNEtUMFl0R2dpTkIwRzlUZExBOTBuNUw0VXJZdVI2SHlHR0pVem8tZmRBUTV0eUJrcnlmWHBCTlVCem9lTVpGVVRQYWcyc1lBV1pkeExkSVlKVk5HcHdqb0F1SW5VZFNESHVDSHNaWW1Zd2s?oc=5",
-          "published": "Fri, 08 May 2026 15:06:00 GMT"
-        },
-        {
-          "title": "Cboe Global Markets Inc. stock outperforms competitors on strong trading day - MarketWatch",
-          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQQ2JWaHJtd0R6ME5fQjc2bUQwN1J3RjRPcFZ2M3QyOWM0UnhGLURyNnBPQW9NbW8taDdUN2NOY28zUF9IWFpTaEJ3dkQxVVJuUHB2ZUdFYngwdEFIUkY1OXRRNUVKRzhhRXlLRV92SFR0M0NJVjhlQjBSU1lzQXNwY2E2OGhZdGJ6Vml3RGUxRlZoUktJR2JGeE8wYWhNclRtcjJmaHZxc1JtUTNnV0IydVV0ejhNX3dPdmFNYUJsS1BLb3NZcFFHVkNfSGZJZ1Fk?oc=5",
-          "published": "Fri, 08 May 2026 20:57:00 GMT"
-        },
-        {
-          "title": "Why is Cboe Global Markets stock rallying today? - Investing.com",
-          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOOTZ5MW9JbWg5cEQ0Qi1mSDNGZ3YxQ2VUQTNXRjdVLUN3QXV6SjhKa0RnQndWRWV5VmdGb0t2WHI4VzRRVlFVcVpBRU13MnhocFBXZEE3RXUyMldWM052Q1hFUXJkVElVT2Z3VlVaWjd1RHZqcVA5T1VOOW5sMUt2Zm9US2ZFZXg0RlFfSlRTT2xtZi00M2czTXBZS0ZhVzlDUnY1WGluUm5FMnhONGc?oc=5",
-          "published": "Mon, 04 May 2026 16:38:08 GMT"
-        },
-        {
-          "title": "Cboe Is Slashing 20% of Its Staff in Bid to Focus on Core Businesses - WSJ",
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOYXdSeEVQR2Z0VWhuNjNReEU1VDdvVnJnd2JkQ1FHeVEzaXkyYlJoRWxTRk9ZTV9WMmgxOXl3ZlZCT3d1MW0yVGhLZkNlZ1Y2Rk1RNnREVzUzMnY1eTlFLU0wSHJjZjA5TWZMbnlKMi11LTNfV0N4b1VpenZ1VlJLUWZBR1otdHVMWnVJODZUZkY2OHFmblhZZkI3ckJ3ZGRuT256MllVY0I?oc=5",
-          "published": "Fri, 01 May 2026 07:00:00 GMT"
+          "title": "DEMO3 demo news: business momentum remains positive",
+          "link": "",
+          "published": ""
         }
       ],
-      "ai_summary": "DeepSeek API Key未配置，已跳过AI分析。"
+      "ai_summary": "Dry-run分析：技术形态满足筛选条件；基本面和新闻为模拟数据；请在真实环境中复核。"
     },
     {
-      "symbol": "CRWD",
-      "name": "CrowdStrike Holdings, Inc.",
-      "score": 12,
+      "symbol": "DEMO4",
+      "name": "DEMO4 Demo Corp",
+      "score": 11,
       "tags": [
         "高于5周线",
         "高于25周线",
         "高于60周线",
         "5周线>25周线",
+        "25周线>60周线",
         "周K实体突破",
         "日K实体确认",
         "日成交量放大",
-        "流动性达标",
-        "跑赢SPY",
-        "跑赢QQQ"
+        "流动性达标"
       ],
       "default_pass": true,
       "metrics": {
-        "close": 527.77,
-        "weekly_body_ratio": 1.6162,
+        "close": 109.36,
+        "weekly_body_ratio": 8.8601,
         "weekly_bullish": true,
         "above_ma5": true,
         "above_ma25": true,
         "above_ma60": true,
         "ma5_gt_ma25": true,
-        "ma25_gt_ma60": false,
-        "daily_body_ratio": 1.4567,
+        "ma25_gt_ma60": true,
+        "daily_body_ratio": 8.8687,
         "daily_bullish": true,
-        "volume_ratio": 1.4135,
-        "avg_dollar_volume_20": 1289375623.61,
-        "stock_return_60d": 0.2824,
-        "spy_return_60d": 0.0857,
-        "qqq_return_60d": 0.1856,
-        "beat_spy_60d": true,
-        "beat_qqq_60d": true
+        "volume_ratio": 2.0755,
+        "avg_dollar_volume_20": 53218484.36,
+        "stock_return_60d": 0.2152,
+        "spy_return_60d": 0.2152,
+        "qqq_return_60d": 0.2152,
+        "beat_spy_60d": false,
+        "beat_qqq_60d": false
       },
       "fundamentals": {
-        "symbol": "CRWD",
-        "name": "CrowdStrike Holdings, Inc.",
-        "sector": "Technology",
-        "industry": "Software - Infrastructure",
-        "market_cap": 134336749568,
-        "trailing_pe": null,
-        "forward_pe": 85.56528,
-        "profit_margin": -0.033770002,
-        "revenue_growth": 0.233,
-        "earnings_growth": null,
-        "debt_to_equity": 18.336
+        "symbol": "DEMO4",
+        "name": "DEMO4 Demo Corp",
+        "sector": "Demo",
+        "revenue_growth": 0.12,
+        "profit_margin": 0.18
       },
       "news": [
         {
-          "title": "CrowdStrike Stock: Durable Growth Justifies The Premium (NASDAQ:CRWD) - Seeking Alpha",
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZF9ZbzdPa2Y4SXdXWFRBNFlSTncxWm45X2owX2tTWWJRSDZQc0ZiZnJTb0dfbUg5bXluem1ZMGN2b2ZSdmJJY294eEpDMHFKRnRZRjdZWF82VVZaOEo2Y2ZZZjZjMlBtQzNCeXNIU1M5UmJESF9tTEpQcFktdVZWOEVlR0xxUllQT0ZiRkQyaTA3cHZGM1d1VXM5bjlKUQ?oc=5",
-          "published": "Sun, 10 May 2026 03:09:08 GMT"
-        },
-        {
-          "title": "What Are Analysts Saying About CrowdStrike (CRWD) Stock? - Yahoo Finance",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdWd3UXIxZXIzX19aVy1VNTdLTmdpQ1pMYkx4NEYyZG1uY3JUVEhOazFta0hnR2x4cVRMTUgzRHVUY2xUZDZuNGNmSlN3Mm5pd1d3SXNhbzBaelpoOWRTZGpxNk9EWEpkV1lnSXNIblplenVNYzhXb29CQkpubHhPS2RPR2RtOTc1S296ekp4SDA5VlhESDB5MTZwU1hrRm9ac0tQSlN3?oc=5",
-          "published": "Tue, 14 Apr 2026 07:00:00 GMT"
-        },
-        {
-          "title": "CrowdStrike Stock (CRWD) Opinions on Anthropic Project Glasswing - Quiver Quantitative",
-          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOY3pWMTBDVXVJYll1Y3UzckNpamxaOGg0bXlWczdzd3h2dDhDQXpUa2xFcGxfSkhGSFNPVDc2aktUMXgwVUhndjA2Vk90WFJXZVAyMTkzZ04tR0lJYldkMEtudFhiSnFzMTc3VTFvX0ptZk9GX0tzaUdnVWxNVDlBMmhEYmtKaVZfYVN4enZMWGVoTHJQZDVTRS1DU3VQVlEyV05n?oc=5",
-          "published": "Wed, 06 May 2026 17:40:00 GMT"
-        },
-        {
-          "title": "CrowdStrike Stock Surges 8.0% In A Single Day, Wait For A Dip To Buy The Stock - Trefis",
-          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQTVZ1OF9vM3ZjQkFvQ1JDd2loazdhUXFwdHZPblE0dUtQalVJVGxkRDlsbnhUTFJKX3RqVER4ZWprcHpmZHlqemgwMXh6MU5BbENhN0xTempSRUJxOWRTeFJtYlhJc0R0VXFFQkREUzZtbUpjelBRSm9HdHRoVk13OGdRaU9KVTRjSFBrZGVWRXJoa0JiRlNWNG9XRGRKcV9qOVdnWTYxQ3FZWHEtaENrVFVrY09Za0hTQkd1WV9Pak9zU2VWVVpJWVRZdXhBb3ZWTnlYRVRyYjJJcllMdThz?oc=5",
-          "published": "Fri, 08 May 2026 06:12:28 GMT"
-        },
-        {
-          "title": "CrowdStrike: Trimming Ahead Of Earnings Is The Right Move As AI Evolves (Rating Downgrade) - Seeking Alpha",
-          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOb0M5bmRVWEloU19hLUtHdWJVVUtMYzhKY25mM2FmNHhaSXNKMXhJS1MyeERzeFVRZGF0MkxlcC11ZFEyVUY4d3lUVFRUenkyM0Z3OXpUTTY2UGpnYWJpb3plbW1Ia1E3OTFnbUgzMnRyck5ldkRmdGkzMWxHRk5haXgzOU11ak1xcVBrNGs2OHBXTEY5Wm5MNmJHaG1KTklxN3JKR3N2WUJZNGhFajMwLU5VLVJmQWVicGxleUI4aGhvaUlwMWxN?oc=5",
-          "published": "Sun, 10 May 2026 02:34:00 GMT"
+          "title": "DEMO4 demo news: business momentum remains positive",
+          "link": "",
+          "published": ""
         }
       ],
-      "ai_summary": "DeepSeek API Key未配置，已跳过AI分析。"
+      "ai_summary": "Dry-run分析：技术形态满足筛选条件；基本面和新闻为模拟数据；请在真实环境中复核。"
+    },
+    {
+      "symbol": "DEMO2",
+      "name": "DEMO2 Demo Corp",
+      "score": 6,
+      "tags": [
+        "高于5周线",
+        "高于25周线",
+        "高于60周线",
+        "5周线>25周线",
+        "25周线>60周线",
+        "流动性达标"
+      ],
+      "default_pass": false,
+      "metrics": {
+        "close": 135.21,
+        "weekly_body_ratio": 0.2529,
+        "weekly_bullish": false,
+        "above_ma5": true,
+        "above_ma25": true,
+        "above_ma60": true,
+        "ma5_gt_ma25": true,
+        "ma25_gt_ma60": true,
+        "daily_body_ratio": 0.0172,
+        "daily_bullish": true,
+        "volume_ratio": 1.0,
+        "avg_dollar_volume_20": 265251303.92,
+        "stock_return_60d": 0.1264,
+        "spy_return_60d": 0.2152,
+        "qqq_return_60d": 0.2152,
+        "beat_spy_60d": false,
+        "beat_qqq_60d": false
+      },
+      "fundamentals": {
+        "symbol": "DEMO2",
+        "name": "DEMO2 Demo Corp",
+        "sector": "Demo",
+        "revenue_growth": 0.12,
+        "profit_margin": 0.18
+      },
+      "news": [
+        {
+          "title": "DEMO2 demo news: business momentum remains positive",
+          "link": "",
+          "published": ""
+        }
+      ],
+      "ai_summary": "Dry-run分析：技术形态满足筛选条件；基本面和新闻为模拟数据；请在真实环境中复核。"
     }
   ]
 }
