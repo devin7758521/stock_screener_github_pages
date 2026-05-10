@@ -1,9 +1,18 @@
+def _safe_info(symbol):
+    """Get ticker info, returning empty dict on any internal yfinance error."""
+    import yfinance as yf
+    try:
+        info = yf.Ticker(symbol).info
+        return info if isinstance(info, dict) else {}
+    except Exception:
+        return {}
+
+
 def get_fundamentals(symbol, dry_run=False):
     if dry_run:
         return {"symbol": symbol, "name": f"{symbol} Demo Corp", "sector": "Demo", "revenue_growth": 0.12, "profit_margin": 0.18}
-    try:
-        import yfinance as yf
-        info = yf.Ticker(symbol).info or {}
+    info = _safe_info(symbol)
+    if info:
         return {
             "symbol": symbol,
             "name": info.get("shortName"),
@@ -17,6 +26,4 @@ def get_fundamentals(symbol, dry_run=False):
             "earnings_growth": info.get("earningsGrowth"),
             "debt_to_equity": info.get("debtToEquity"),
         }
-    except Exception as e:
-        print(f"[WARN] 基本面获取失败 {symbol}: {e}")
-        return {"symbol": symbol}
+    return {"symbol": symbol}
