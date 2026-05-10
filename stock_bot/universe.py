@@ -1,4 +1,5 @@
 import json
+import io
 import time
 from pathlib import Path
 
@@ -88,7 +89,7 @@ def _read_html_with_headers(url):
     response = requests.get(url, headers=headers, timeout=30)
     response.raise_for_status()
 
-    return pd.read_html(response.text)
+    return pd.read_html(io.StringIO(response.text))
 
 
 def get_sp500_symbols():

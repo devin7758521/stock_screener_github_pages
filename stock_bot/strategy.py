@@ -122,6 +122,37 @@ def relative_strength_metrics(symbol_df: pd.DataFrame, spy_df: pd.DataFrame = No
     return result
 
 
+def kdj_metrics(df: pd.DataFrame, n=18, k_smooth=3, d_smooth=3) -> dict:
+    """Calculate KDJ indicator.
+
+    RSV = (Close - LLV(Low, N)) / (HHV(High, N) - LLV(Low, N)) * 100
+    K = SMA(RSV, K_smooth)
+    D = SMA(K, D_smooth)
+    J = 3 * K - 2 * D
+    """
+    df = normalize_ohlcv(df)
+    min_len = n + max(k_smooth, d_smooth)
+    if len(df) < min_len:
+        return {"k": 50.0, "d": 50.0, "j": 50.0, "kdj_bullish": True}
+
+    llv = df["Low"].rolling(window=n).min()
+    hhv = df["High"].rolling(window=n).max()
+    denom = hhv - llv
+    # Avoid division by zero
+    rsv = ((df["Close"] - llv) / denom.replace(0, float("nan")) * 100).fillna(50)
+
+    k = rsv.rolling(window=k_smooth, min_periods=1).mean()
+    d = k.rolling(window=d_smooth, min_periods=1).mean()
+    j = 3 * k - 2 * d
+
+    return {
+        "k": round(float(k.iloc[-1]), 2),
+        "d": round(float(d.iloc[-1]), 2),
+        "j": round(float(j.iloc[-1]), 2),
+        "kdj_bullish": bool(float(k.iloc[-1]) > float(d.iloc[-1])),
+    }
+
+
 def build_score_and_tags(metrics):
     score, tags = 0, []
     m = metrics

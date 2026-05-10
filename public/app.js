@@ -14,6 +14,11 @@ const defaults = {
   requireMA25GTMA60: false,
   requireBeatSPY: false,
   requireBeatQQQ: false,
+  enableKDJ: false,
+  kdjKThreshold: 50,
+  kdjJThreshold: 0,
+  requireKDJWeekly: true,
+  requireKDJDaily: true,
   showAI: true,
   showNews: false,
   topN: 10
@@ -54,6 +59,7 @@ function saveParams() { localStorage.setItem("stockScreenerParams", JSON.stringi
 function loadParams() { setParams(JSON.parse(localStorage.getItem("stockScreenerParams") || "null") || defaults); }
 function syncOutputs() {
   ["weeklyBodyMultiplier", "dailyBodyMultiplier", "volumeMultiplier"].forEach(id => { $(id + "Out").textContent = Number($(id).value).toFixed(1); });
+  ["kdjKThreshold", "kdjJThreshold"].forEach(id => { const el = $(id); if (el) $(id + "Out").textContent = el.value; });
 }
 
 function passClientFilter(item, p) {
@@ -68,6 +74,12 @@ function passClientFilter(item, p) {
   if (p.requireMA25GTMA60 && !m.ma25_gt_ma60) return false;
   if (p.requireBeatSPY && !m.beat_spy_60d) return false;
   if (p.requireBeatQQQ && !m.beat_qqq_60d) return false;
+  if (p.enableKDJ) {
+    if (p.requireKDJWeekly && !m.weekly_kdj_bullish) return false;
+    if (p.requireKDJDaily && !m.daily_kdj_bullish) return false;
+    if (m.weekly_k < p.kdjKThreshold && m.daily_k < p.kdjKThreshold) return false;
+    if (m.weekly_j < p.kdjJThreshold && m.daily_j < p.kdjJThreshold) return false;
+  }
   return true;
 }
 
@@ -95,6 +107,8 @@ function renderCards(items, p) {
         <div><span>SPY 60日</span><strong>${pct(m.spy_return_60d)}</strong></div>
         <div><span>QQQ 60日</span><strong>${pct(m.qqq_return_60d)}</strong></div>
         <div><span>收盘价</span><strong>${m.close || "--"}</strong></div>
+        <div><span>周KDJ</span><strong>${m.weekly_k ?? "--"}/${m.weekly_d ?? "--"}/${m.weekly_j ?? "--"}</strong></div>
+        <div><span>日KDJ</span><strong>${m.daily_k ?? "--"}/${m.daily_d ?? "--"}/${m.daily_j ?? "--"}</strong></div>
       </div>
       ${p.showAI ? `<div class="analysis">${item.ai_summary || "暂无AI摘要"}</div>` : ""}
       ${p.showNews && news ? `<ul class="news">${news}</ul>` : ""}

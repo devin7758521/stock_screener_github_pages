@@ -5,7 +5,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from .universe import get_universe
 from .market_data import get_price_data
 from .strategy import (
-    weekly_metrics, daily_metrics, relative_strength_metrics,
+    weekly_metrics, daily_metrics, kdj_metrics, relative_strength_metrics,
     build_score_and_tags, hard_pass_default, normalize_ohlcv,
 )
 from .fundamentals import get_fundamentals
@@ -48,7 +48,12 @@ def process_symbol(symbol, spy_norm, qqq_norm, dry_run):
     if not wm or not dm:
         return None
     rs = relative_strength_metrics(daily, spy_norm, qqq_norm)
+    wk = kdj_metrics(weekly)
+    dk = kdj_metrics(daily)
     metrics = {**wm, **dm, **rs}
+    for prefix, kdj in [("weekly", wk), ("daily", dk)]:
+        for key in ("k", "d", "j", "kdj_bullish"):
+            metrics[f"{prefix}_{key}"] = kdj[key]
     score, tags = build_score_and_tags(metrics)
     fundamentals = get_fundamentals(symbol, dry_run=dry_run)
     news = get_google_news(symbol, dry_run=dry_run)
@@ -123,6 +128,11 @@ def run(argv=None):
             "volumeMultiplier": VOLUME_MULTIPLIER,
             "enableDollarVolumeFilter": True,
             "minAvgDollarVolume": MIN_AVG_DOLLAR_VOLUME,
+            "enableKDJ": False,
+            "kdjKThreshold": 50,
+            "kdjJThreshold": 0,
+            "requireKDJWeekly": True,
+            "requireKDJDaily": True,
             "topN": 10,
         },
         "items": top_items,
