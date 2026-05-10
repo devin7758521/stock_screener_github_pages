@@ -23,7 +23,7 @@ const defaults = {
   enableWeeklyMA60DeviationFilter: false,
   maxWeeklyMA60Deviation: 1.0,
   showWeeklyMA60DeviationRisk: true,
-  topN: 10
+  topN: 200
 };
 
 const presets = {

@@ -99,23 +99,24 @@ def run(argv=None):
                 items.append(item)
 
     items.sort(key=lambda x: x["score"], reverse=True)
-    top_items = items[:MAX_STOCK_COUNT_FOR_DEEPSEEK]
-    print(f"筛选结果：{len(items)} 只，Top {len(top_items)} 将进行AI分析")
+    candidates = [i for i in items if i["default_pass"]]
+    top_for_deepseek = candidates[:MAX_STOCK_COUNT_FOR_DEEPSEEK]
+    print(f"全量扫描 {len(symbols)} 只 → 硬条件通过 {len(candidates)} 只，Top {len(top_for_deepseek)} 进行AI分析")
 
-    # Phase 2: DeepSeek analysis only on top N (parallel)
+    # Phase 2: DeepSeek analysis only on candidates' top N (parallel)
     def analyze(item):
         item["ai_summary"] = analyze_with_deepseek(
             item["symbol"], item["metrics"], item["fundamentals"], item["news"], dry_run=dry_run,
         )
         return item
 
-    if top_items:
+    if top_for_deepseek:
         if dry_run:
-            for item in top_items:
+            for item in top_for_deepseek:
                 analyze(item)
         else:
-            with ThreadPoolExecutor(max_workers=min(5, len(top_items))) as executor:
-                executor.map(analyze, top_items)
+            with ThreadPoolExecutor(max_workers=min(5, len(top_for_deepseek))) as executor:
+                executor.map(analyze, top_for_deepseek)
 
     payload = {
         "generated_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
@@ -135,9 +136,9 @@ def run(argv=None):
             "enableWeeklyMA60DeviationFilter": False,
             "maxWeeklyMA60Deviation": 1.0,
             "showWeeklyMA60DeviationRisk": True,
-            "topN": 10,
+            "topN": 200,
         },
-        "items": top_items,
+        "items": candidates,
     }
 
     if args.site_output:
@@ -145,5 +146,5 @@ def run(argv=None):
         print(f"Site data written: {latest}, {run_file}")
 
     if not args.no_feishu:
-        send_feishu_message(build_feishu_message(top_items, status), dry_run=dry_run)
+        send_feishu_message(build_feishu_message(top_for_deepseek, status), dry_run=dry_run)
     return payload
