@@ -50,7 +50,7 @@ jobs:
           git config user.email "github-actions@github.com"
           git add public/data
           git commit -m "update stock screener data" || echo "No changes"
-          git push
+          git pull --rebase origin main && git push || echo "Push failed (likely conflict), data is in artifact"
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
