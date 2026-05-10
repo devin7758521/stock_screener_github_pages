@@ -1,9 +1,12 @@
+from .market_data import get_session
+
+
 def get_fundamentals(symbol, dry_run=False):
     if dry_run:
         return {"symbol": symbol, "name": f"{symbol} Demo Corp", "sector": "Demo", "revenue_growth": 0.12, "profit_margin": 0.18}
     try:
         import yfinance as yf
-        info = yf.Ticker(symbol).info or {}
+        info = yf.Ticker(symbol, session=get_session()).info or {}
         return {
             "symbol": symbol,
             "name": info.get("shortName"),

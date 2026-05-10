@@ -69,7 +69,7 @@ def run(argv=None):
     parser.add_argument("--dry-run", action="store_true", help="使用内置模拟数据，不访问外部网络/API")
     parser.add_argument("--site-output", action="store_true", help="生成GitHub Pages需要的public/data/*.json")
     parser.add_argument("--no-feishu", action="store_true", help="不推送飞书")
-    parser.add_argument("--workers", type=int, default=6, help="并行拉取数据的线程数")
+    parser.add_argument("--workers", type=int, default=4, help="并行拉取数据的线程数")
     args = parser.parse_args(argv)
     dry_run = args.dry_run
 
