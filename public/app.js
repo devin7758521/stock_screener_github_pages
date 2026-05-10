@@ -16,8 +16,8 @@ const defaults = {
   requireBeatQQQ: false,
   enableKDJ: false,
   kdjJThreshold: 100,
-  requireKDJWeekly: true,
-  requireKDJDaily: true,
+  requireKDJJgtKWeekly: false,
+  requireKDJJgtKDaily: false,
   showAI: true,
   showNews: false,
   topN: 10
@@ -73,8 +73,8 @@ function passClientFilter(item, p) {
   if (p.requireBeatSPY && !m.beat_spy_60d) return false;
   if (p.requireBeatQQQ && !m.beat_qqq_60d) return false;
   if (p.enableKDJ) {
-    if (p.requireKDJWeekly && !(m.weekly_j > m.weekly_d)) return false;
-    if (p.requireKDJDaily && !(m.daily_j > m.daily_d)) return false;
+    if (p.requireKDJJgtKWeekly && !(m.weekly_j > m.weekly_k)) return false;
+    if (p.requireKDJJgtKDaily && !(m.daily_j > m.daily_k)) return false;
     if (m.weekly_j > p.kdjJThreshold || m.daily_j > p.kdjJThreshold) return false;
   }
   return true;
