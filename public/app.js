@@ -59,7 +59,6 @@ function saveParams() { localStorage.setItem("stockScreenerParams", JSON.stringi
 function loadParams() { setParams(JSON.parse(localStorage.getItem("stockScreenerParams") || "null") || defaults); }
 function syncOutputs() {
   ["weeklyBodyMultiplier", "dailyBodyMultiplier", "volumeMultiplier"].forEach(id => { $(id + "Out").textContent = Number($(id).value).toFixed(1); });
-  ["kdjKThreshold", "kdjJThreshold"].forEach(id => { const el = $(id); if (el) $(id + "Out").textContent = el.value; });
 }
 
 function passClientFilter(item, p) {
@@ -107,8 +106,10 @@ function renderCards(items, p) {
         <div><span>SPY 60日</span><strong>${pct(m.spy_return_60d)}</strong></div>
         <div><span>QQQ 60日</span><strong>${pct(m.qqq_return_60d)}</strong></div>
         <div><span>收盘价</span><strong>${m.close || "--"}</strong></div>
-        <div><span>周KDJ</span><strong>${m.weekly_k ?? "--"}/${m.weekly_d ?? "--"}/${m.weekly_j ?? "--"}</strong></div>
-        <div><span>日KDJ</span><strong>${m.daily_k ?? "--"}/${m.daily_d ?? "--"}/${m.daily_j ?? "--"}</strong></div>
+        <div><span>周K</span><strong>${m.weekly_k ?? "--"}</strong></div>
+        <div><span>周J</span><strong>${m.weekly_j ?? "--"}</strong></div>
+        <div><span>日K</span><strong>${m.daily_k ?? "--"}</strong></div>
+        <div><span>日J</span><strong>${m.daily_j ?? "--"}</strong></div>
       </div>
       ${p.showAI ? `<div class="analysis">${item.ai_summary || "暂无AI摘要"}</div>` : ""}
       ${p.showNews && news ? `<ul class="news">${news}</ul>` : ""}
