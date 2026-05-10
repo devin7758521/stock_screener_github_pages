@@ -15,8 +15,7 @@ const defaults = {
   requireBeatSPY: false,
   requireBeatQQQ: false,
   enableKDJ: false,
-  kdjKThreshold: 50,
-  kdjJThreshold: 0,
+  kdjJThreshold: 100,
   requireKDJWeekly: true,
   requireKDJDaily: true,
   showAI: true,
@@ -76,8 +75,7 @@ function passClientFilter(item, p) {
   if (p.enableKDJ) {
     if (p.requireKDJWeekly && !(m.weekly_j > m.weekly_d)) return false;
     if (p.requireKDJDaily && !(m.daily_j > m.daily_d)) return false;
-    if (m.weekly_k < p.kdjKThreshold || m.daily_k < p.kdjKThreshold) return false;
-    if (m.weekly_j < p.kdjJThreshold || m.daily_j < p.kdjJThreshold) return false;
+    if (m.weekly_j > p.kdjJThreshold || m.daily_j > p.kdjJThreshold) return false;
   }
   return true;
 }
@@ -106,9 +104,7 @@ function renderCards(items, p) {
         <div><span>SPY 60日</span><strong>${pct(m.spy_return_60d)}</strong></div>
         <div><span>QQQ 60日</span><strong>${pct(m.qqq_return_60d)}</strong></div>
         <div><span>收盘价</span><strong>${m.close || "--"}</strong></div>
-        <div><span>周K</span><strong>${m.weekly_k ?? "--"}</strong></div>
         <div><span>周J</span><strong>${m.weekly_j ?? "--"}</strong></div>
-        <div><span>日K</span><strong>${m.daily_k ?? "--"}</strong></div>
         <div><span>日J</span><strong>${m.daily_j ?? "--"}</strong></div>
       </div>
       ${p.showAI ? `<div class="analysis">${item.ai_summary || "暂无AI摘要"}</div>` : ""}
