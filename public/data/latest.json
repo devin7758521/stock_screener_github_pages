@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-10 21:30:11",
+  "generated_at": "2026-05-10 14:07:10",
   "market_status": "偏强",
-  "universe_count": 4,
+  "universe_count": 516,
   "defaults": {
     "weeklyBodyMultiplier": 1.0,
     "dailyBodyMultiplier": 1.0,
@@ -20,9 +20,9 @@
   },
   "items": [
     {
-      "symbol": "DEMO1",
-      "name": "DEMO1 Demo Corp",
-      "score": 11,
+      "symbol": "AMD",
+      "name": "Advanced Micro Devices, Inc.",
+      "score": 13,
       "tags": [
         "高于5周线",
         "高于25周线",
@@ -32,59 +32,87 @@
         "周K实体突破",
         "日K实体确认",
         "日成交量放大",
-        "流动性达标"
+        "流动性达标",
+        "跑赢SPY",
+        "跑赢QQQ"
       ],
       "default_pass": true,
       "metrics": {
-        "close": 145.81,
-        "weekly_body_ratio": 11.8134,
+        "close": 455.19,
+        "weekly_body_ratio": 1.4117,
         "weekly_bullish": true,
         "above_ma5": true,
         "above_ma25": true,
         "above_ma60": true,
         "ma5_gt_ma25": true,
         "ma25_gt_ma60": true,
-        "weekly_ma60": 123.59,
-        "weekly_ma60_deviation": 0.1798,
-        "weekly_ma60_deviation_risk": "正常延伸",
-        "daily_body_ratio": 11.8249,
+        "weekly_ma60": 187.48,
+        "weekly_ma60_deviation": 1.4279,
+        "weekly_ma60_deviation_risk": "明显过热",
+        "daily_body_ratio": 3.0756,
         "daily_bullish": true,
-        "volume_ratio": 2.0755,
-        "avg_dollar_volume_20": 283831916.57,
-        "stock_return_60d": 0.2152,
-        "spy_return_60d": 0.2152,
-        "qqq_return_60d": 0.2152,
-        "beat_spy_60d": false,
-        "beat_qqq_60d": false,
-        "weekly_k": 88.24,
-        "weekly_d": 86.18,
-        "weekly_j": 92.37,
+        "volume_ratio": 1.2351,
+        "avg_dollar_volume_20": 15814573613.71,
+        "stock_return_60d": 1.2103,
+        "spy_return_60d": 0.0827,
+        "qqq_return_60d": 0.1841,
+        "beat_spy_60d": true,
+        "beat_qqq_60d": true,
+        "weekly_k": 98.39,
+        "weekly_d": 94.89,
+        "weekly_j": 105.38,
         "weekly_kdj_bullish": true,
-        "daily_k": 84.77,
-        "daily_d": 81.17,
-        "daily_j": 91.98,
+        "daily_k": 94.2,
+        "daily_d": 92.51,
+        "daily_j": 97.58,
         "daily_kdj_bullish": true
       },
       "fundamentals": {
-        "symbol": "DEMO1",
-        "name": "DEMO1 Demo Corp",
-        "sector": "Demo",
-        "revenue_growth": 0.12,
-        "profit_margin": 0.18
+        "symbol": "AMD",
+        "name": "Advanced Micro Devices, Inc.",
+        "sector": "Technology",
+        "industry": "Semiconductors",
+        "market_cap": 742233079808,
+        "trailing_pe": 151.73,
+        "forward_pe": 35.279404,
+        "profit_margin": 0.13374,
+        "revenue_growth": 0.378,
+        "earnings_growth": 0.912,
+        "debt_to_equity": 6.005
       },
       "news": [
         {
-          "title": "DEMO1 demo news: business momentum remains positive",
-          "link": "",
-          "published": ""
+          "title": "AMD Stock Is Up 320% Over the Past Year. Should Investors Shift Their Attention Away From Nvidia? - The Motley Fool",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNSXZPMGJoVmtqbmRDSHBMNFR3WGhjQTYydzBjbWdLUEJFNjI1Y203V1cwRzk0bjM4WVNhVWpOeVUtU05sVURadUoxZVh4UVNHMWlLZ3ZTaXdmNjM1a1RBZklCNjk5UzBaX1A4OVQtRllUZkdZeklvc21JQVEzMUdoR2ZhTzdyTXpDRVczdm1laG81dk5uX19ubA?oc=5",
+          "published": "Sun, 10 May 2026 00:30:00 GMT"
+        },
+        {
+          "title": "Why AMD Stock Is Much More Than Just A GPU Play - Forbes",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdlF2dkljVWpVZHVFRWoyRER2Q01GWkdtaW1nLTZMMGJnOGRtZWJIektOTnpzRmw4TDZRM0UxbWhrQWZiX3hLQjZsTGdxYmRnNXlxNGNwSWlkV09pa0lMZkZwVG9MQ1BxMmtiREdRTUFXZk9RUjlyZExtM0pKcVU3T3dQd2VhWWQtTmkzZElGVXR2MTFLOU9BbEJ3TXdySkM5ZFh5TDZzQWNmQQ?oc=5",
+          "published": "Fri, 08 May 2026 13:24:13 GMT"
+        },
+        {
+          "title": "Intel vs. AMD: Which Stock Is the Better Buy for the Agentic AI Boom? - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPbm1jdWZoNlF1ZmFXOGcyZ2tueDREZnhhUGhlOEZIaG1BcGJYMXUycUJjTmhaYUFBSFZOT3kzVlpWRG9KMmZnSnhKMktPZDNodFlfdS0wS3hyaGVzYk10TG1xUWszTVJlSGlYcFgwdWFjYjA1Rnl6Ty0xSDhBQ2N0a0dHaWl0dDRoVUpVTnBqbDJaZ3dp?oc=5",
+          "published": "Sun, 10 May 2026 12:01:00 GMT"
+        },
+        {
+          "title": "Wall Street sees 'changing of the guard in AI' as Intel, AMD shares soar while Nvidia lags - CNBC",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNNFBsdk9WTUhFWTBZTElxNHRLQnBWYll6MWI0OFZ3cWZ3dFVSNkV6MFZIYW5zZGRPaFNwYmJfNmRiNl9hVFdDc2N5aC1FX0FWZV80d3ZKZDVlT3dpWkFseUJDalBySU1iWl90emo4N1pDVE1QYVRybVlyanNZbGdvdndmZ0NGLWh4UHRNSWxpeFdybzB5X0lZbzg5WWx3emJhMUZubTRB0gGrAUFVX3lxTE9mczV3bkZjVHJQNWN3RWtjQ3JrSHgwZjdad3hHRHVFSWFhWE80a005YlVTUVdkZVAzWDlVQUFTTFlKZVhTSXNtcnEtMHZWM1BUalNxUkZnXzdpSXFxR1hNdUg5MU16Ni1oMU9Ia3N2WTU2SkJzckVSMUZzUWV0WEpCX0NPTm9wWmVNYW8xUnZYMjVmeDVKbE9NQjRCNXkwNlBvaWZpLWZ6ZXNmTQ?oc=5",
+          "published": "Fri, 08 May 2026 19:23:01 GMT"
+        },
+        {
+          "title": "How Intel Stock Could Be the Biggest Winner from AMD’s Explosive Earnings Win - Barchart",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQamJ3dWJKel9haDZNRXdjdWtRenVjSkViQWRldXhzdklUR3RES1plazBZTGtQX2tMSlFjSEo4WUdKdFZSU014MVRNT202OTJKajVGZ2xqbnVLQ0VHS09ucTAyNmJOWDhvRG5EdGduVkNFM3E0ODZubjRTZHlwUnlQTkgxZzJ4NkQtS1R4Rmoza1NxWncta19GUGM5ZU00d2pxYUw2REFlV1ZmMTRvZWtPbDF0QVdqZXlYUjR2bw?oc=5",
+          "published": "Fri, 08 May 2026 19:15:14 GMT"
         }
       ],
-      "ai_summary": "Dry-run分析：技术形态满足筛选条件；基本面和新闻为模拟数据；请在真实环境中复核。"
+      "ai_summary": "基于您提供的资料，以下是对AMD（超威半导体）的简洁分析：\n\n### 技术面\n- **趋势与动能**：股价处于强劲多头排列（站上所有短期均线，且均线呈多头排列）。近60日涨幅（+121%）远超标普500（+8.3%）和纳斯达克100（+18.4%），表现极为强势。\n- **短期信号**：日线和周线均为阳线，且成交量放大（量比1.24）。KDJ指标处于超买区域（周J值105，日J值97），显示短期动能极强但存在技术性回调压力。\n- **风险提示**：周线偏离60周均线幅度达143%，属于“明显过热”状态，历史高位附近需警惕获利回吐。\n\n### 基本面\n- **估值**：静态市盈率（151.73倍）极高，但前瞻市盈率（35.28倍）显著下降，反映市场对其未来盈利高增长（+91.2%）的预期。\n- **成长性**：营收增长37.8%，盈利增长91.2%，增速强劲。利润率（13.37%）在半导体行业中处于中等水平。\n- **财务风险**：负债权益比（6.005）较高，表明公司杠杆水平较大，需关注利息覆盖能力。\n\n### 新闻与政策\n- **市场情绪**：多家媒体（Motley Fool、Forbes、CNBC）聚焦AMD在AI领域的潜力，将其与英伟达、英特尔对比，认为AMD正成为AI算力竞争中的关键角色。\n- **行业动态**：报道提及“AI领域权力更迭”，AMD股价暴涨引发市场对其在数据中心和AI芯片市场份额提升的乐观预期。英特尔也被视为潜在受益者。\n- **政策风险**：未直接提及政策影响，但半导体行业受中美科技竞争、出口管制等宏观政策影响较大。\n\n### 风险\n1. **技术面过热**：周线偏离度极高，KDJ超买，短期回调风险显著。\n2. **高估值压力**：静态PE超150倍，若盈利增速不及预期，估值可能大幅收缩。\n3. **竞争格局**：英伟达在AI芯片领域仍占主导地位，AMD需持续证明其产品竞争力。\n4. **财务杠杆**：负债权益比偏高，利率环境变化可能增加财务成本。\n\n### 综合关注等级\n**高关注（警惕过热）**\n- **理由**：基本面成长性优异，技术面趋势极强，市场情绪积极。但短期技术指标严重超买，估值处于历史高位，风险与机遇并存。建议密切跟踪后续财报及AI芯片订单数据，关注回调后的介入机会。"
     },
     {
-      "symbol": "DEMO4",
-      "name": "DEMO4 Demo Corp",
-      "score": 11,
+      "symbol": "CSCO",
+      "name": "Cisco Systems, Inc.",
+      "score": 13,
       "tags": [
         "高于5周线",
         "高于25周线",
@@ -94,58 +122,1333 @@
         "周K实体突破",
         "日K实体确认",
         "日成交量放大",
-        "流动性达标"
+        "流动性达标",
+        "跑赢SPY",
+        "跑赢QQQ"
       ],
       "default_pass": true,
       "metrics": {
-        "close": 109.36,
-        "weekly_body_ratio": 8.8601,
+        "close": 96.57,
+        "weekly_body_ratio": 1.1211,
         "weekly_bullish": true,
         "above_ma5": true,
         "above_ma25": true,
         "above_ma60": true,
         "ma5_gt_ma25": true,
         "ma25_gt_ma60": true,
-        "weekly_ma60": 92.69,
-        "weekly_ma60_deviation": 0.1798,
+        "weekly_ma60": 71.77,
+        "weekly_ma60_deviation": 0.3456,
         "weekly_ma60_deviation_risk": "正常延伸",
-        "daily_body_ratio": 8.8687,
+        "daily_body_ratio": 3.24,
         "daily_bullish": true,
-        "volume_ratio": 2.0755,
-        "avg_dollar_volume_20": 53218484.36,
-        "stock_return_60d": 0.2152,
-        "spy_return_60d": 0.2152,
-        "qqq_return_60d": 0.2152,
-        "beat_spy_60d": false,
-        "beat_qqq_60d": false,
-        "weekly_k": 88.24,
-        "weekly_d": 86.18,
-        "weekly_j": 92.37,
+        "volume_ratio": 1.3725,
+        "avg_dollar_volume_20": 1598961292.62,
+        "stock_return_60d": 0.2876,
+        "spy_return_60d": 0.0827,
+        "qqq_return_60d": 0.1841,
+        "beat_spy_60d": true,
+        "beat_qqq_60d": true,
+        "weekly_k": 94.89,
+        "weekly_d": 88.78,
+        "weekly_j": 107.1,
         "weekly_kdj_bullish": true,
-        "daily_k": 84.77,
-        "daily_d": 81.17,
-        "daily_j": 91.98,
-        "daily_kdj_bullish": true
+        "daily_k": 85.49,
+        "daily_d": 87.06,
+        "daily_j": 82.34,
+        "daily_kdj_bullish": false
       },
       "fundamentals": {
-        "symbol": "DEMO4",
-        "name": "DEMO4 Demo Corp",
-        "sector": "Demo",
-        "revenue_growth": 0.12,
-        "profit_margin": 0.18
+        "symbol": "CSCO",
+        "name": "Cisco Systems, Inc.",
+        "sector": "Technology",
+        "industry": "Communication Equipment",
+        "market_cap": 381441179648,
+        "trailing_pe": 34.73741,
+        "forward_pe": 21.404253,
+        "profit_margin": 0.18756,
+        "revenue_growth": 0.097,
+        "earnings_growth": 0.312,
+        "debt_to_equity": 66.509
       },
       "news": [
         {
-          "title": "DEMO4 demo news: business momentum remains positive",
-          "link": "",
-          "published": ""
+          "title": "Cisco Stock at $97: How the Silicon One AI Buildout Changes the Long-Term Valuation Picture - TIKR.com",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZVZTVDItYWV3Mzl5X3pOdHdKbVNLbU5YWDZPa0JYdzhESlY4WjdoRVdFLXh5dDllZk81RGVWeTZQTm9KNi1iQXZhaVZ1cFBIVTB3VWtMVEtHYUdST1lMMngzcjZBelo3aFRENm5wMUpjbkpFS1JFTmd4a3Y2aFpsZWRnckNoMjZPX0Z6b2dwOVNRNHJ4U3hJd0FJQ0xOc0NzVzJCNW8tUV9qNkplSk1KdU8teEx4QQ?oc=5",
+          "published": "Sun, 10 May 2026 13:12:47 GMT"
+        },
+        {
+          "title": "Cisco Q3 Earnings Preview: Margin Focus As Shares Trade Near Highs (NASDAQ:CSCO) - Seeking Alpha",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTl91enl1US12Rlh1YXVDczJ2Zm5sUTRmTWc0WFRLeGpWUFBBR2VrQ3NxaVlQc0t0UFpLY2pac3hHODhuYU1mRDkzcnFNS0xid0FsRWJ4c2dkcFhUcmVRYTFHOEwtXzlfZlVrQkJSMDZxb1d0SkdCR0Z6al9JZXRKMGRpalhLek9Cc1pXUXM3UDl2T21nZ1A2TmFxaWh2RjlNZ1RzVVI1MU9Zdw?oc=5",
+          "published": "Wed, 06 May 2026 15:15:00 GMT"
+        },
+        {
+          "title": "12,148 Shares in Cisco Systems, Inc. $CSCO Purchased by Income Insurance Ltd - MarketBeat",
+          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNVWxtQ3YtdEJ4ZnlTNjQycmRPczVzeVFwODhrOF9OaFBfRGd6RHlzU2NOLWZZQk02RnVKREZwaUFRVEszQkpOOEVnMVFUOGRBVzcyMWlDOXQ2bm8xTENXYzVuYlI3SVZaUElESWVEcHQ4dEpRZ3F0NUtVeTFOTHU3TFVzQjB3ZHplQXJvOXduVENQUUVaNW5JY0FHSnZpYUhJRDM3bkFPMUZpZDlyS2VmSFNZd0lqUTI3eDBTVUhOcTR3U3ZhcE5ZeldsSHBpdw?oc=5",
+          "published": "Sun, 10 May 2026 10:45:10 GMT"
+        },
+        {
+          "title": "Cisco stock price forecast: $95.98 resistance as CSCO gains 3.92% - Traders Union",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNR2dnUXRkRGZ2cHFEaVBvandXNWJkZmQ2c05rWlBLVWx5aTQ3S2k5V1Bmd29Pa05ORmF6UmlvUE9TNU9vN283djlxYzYtTXBUaFdZMHNuWmtmanNNZjdGTjhpZU91RU5kN1VhX3l5dXZSWTFCY3RqWlN0SjJCZmI1ZVZWR1ZuN1B1ZHFZYWZCSktDNEx0ek1OaWlucw?oc=5",
+          "published": "Fri, 08 May 2026 14:47:16 GMT"
+        },
+        {
+          "title": "Cisco Systems (CSCO) Stock Drops Despite Market Gains: Important Facts to Note - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQMkZNRjdPbHJGVThkWHNvdWhRLVZocWttTVlGclo3RkdBTDlKbTZxRWJXVmFzd3lyWE15VWVUdm1MUXlIQ2Z2WFJBQWJQNHRMZTFzcXIwUlhCYk1xcnE0TUdNLWNHT256YU4xeEhfbmR0SnR0S0IxR2stNHdINkxEeWlQOEVsWFE5RUlaX2dNUE1XdU0yUnRUS2hkbw?oc=5",
+          "published": "Wed, 06 May 2026 21:45:03 GMT"
         }
       ],
-      "ai_summary": "Dry-run分析：技术形态满足筛选条件；基本面和新闻为模拟数据；请在真实环境中复核。"
+      "ai_summary": "基于您提供的资料，以下是对 CSCO（思科）的简洁分析：\n\n### 技术面\n- **短期强势**：股价收于96.57美元，日线实体阳线（3.24%）且成交量放大（1.37倍），近60日涨幅（28.76%）显著跑赢标普500（8.27%）和纳斯达克100（18.41%）。\n- **多头排列**：股价站上5日、25日、60日均线，且均线呈多头排列（MA5>MA25>MA60），周线级别看涨。\n- **超买信号**：周线KDJ的J值高达107.1，日线KDJ的J值82.34且呈死叉迹象，短期存在技术性回调压力。周线偏离60周均线34.56%，属于正常延伸但需警惕高位震荡。\n\n### 基本面\n- **估值偏高**：当前市盈率（TTM）34.74倍，高于行业平均水平；但前瞻市盈率21.4倍，显示市场对盈利增长有预期。\n- **增长稳健**：营收同比增长9.7%，盈利增长31.2%，利润率18.76%，显示盈利能力改善。\n- **财务风险**：资产负债率（Debt to Equity）66.5%，在科技股中属于中等偏高水平，需关注利息覆盖能力。\n\n### 新闻政策\n- **AI叙事驱动**：新闻提及“Silicon One AI Buildout”改变长期估值，市场关注其AI网络设备需求（如交换机、路由器）对业绩的拉动。\n- **财报预期**：Q3财报临近，市场聚焦利润率能否维持高位。近期股价接近历史高点，财报若不及预期可能引发获利了结。\n- **机构动向**：有机构增持（如Income Insurance Ltd），但亦有新闻指出股价在整体市场上涨时出现下跌，显示多空分歧。\n\n### 风险\n1. **技术回调风险**：短期超买信号明显，且股价已接近100美元整数关口，获利盘抛压可能加大。\n2. **财报不确定性**：若Q3业绩或指引低于预期（如企业IT支出放缓），高估值可能面临修正。\n3. **竞争与宏观**：通信设备行业竞争激烈（如Arista、华为），且宏观利率环境若持续高位，可能压制科技股估值。\n\n### 综合关注等级\n**中等偏高（Watch with Caution）**  \n理由：技术面强势但短期超买，基本面增长稳健但估值不低，AI叙事提供长期想象空间，但财报窗口期临近且存在回调风险。建议关注财报发布后的量价表现及均线支撑有效性。"
     },
     {
-      "symbol": "DEMO3",
-      "name": "DEMO3 Demo Corp",
+      "symbol": "DDOG",
+      "name": "Datadog, Inc.",
+      "score": 13,
+      "tags": [
+        "高于5周线",
+        "高于25周线",
+        "高于60周线",
+        "5周线>25周线",
+        "25周线>60周线",
+        "周K实体突破",
+        "日K实体确认",
+        "日成交量放大",
+        "流动性达标",
+        "跑赢SPY",
+        "跑赢QQQ"
+      ],
+      "default_pass": true,
+      "metrics": {
+        "close": 200.16,
+        "weekly_body_ratio": 2.7554,
+        "weekly_bullish": true,
+        "above_ma5": true,
+        "above_ma25": true,
+        "above_ma60": true,
+        "ma5_gt_ma25": true,
+        "ma25_gt_ma60": true,
+        "weekly_ma60": 131.84,
+        "weekly_ma60_deviation": 0.5182,
+        "weekly_ma60_deviation_risk": "正常延伸",
+        "daily_body_ratio": 7.404,
+        "daily_bullish": true,
+        "volume_ratio": 1.8591,
+        "avg_dollar_volume_20": 966476738.65,
+        "stock_return_60d": 0.5869,
+        "spy_return_60d": 0.0827,
+        "qqq_return_60d": 0.1841,
+        "beat_spy_60d": true,
+        "beat_qqq_60d": true,
+        "weekly_k": 84.77,
+        "weekly_d": 66.99,
+        "weekly_j": 120.33,
+        "weekly_kdj_bullish": true,
+        "daily_k": 91.77,
+        "daily_d": 90.96,
+        "daily_j": 93.39,
+        "daily_kdj_bullish": true
+      },
+      "fundamentals": {
+        "symbol": "DDOG",
+        "name": "Datadog, Inc.",
+        "sector": "Technology",
+        "industry": "Software - Application",
+        "market_cap": 71248994304,
+        "trailing_pe": 526.7369,
+        "forward_pe": 70.84282,
+        "profit_margin": 0.03695,
+        "revenue_growth": 0.322,
+        "earnings_growth": 1.04,
+        "debt_to_equity": 32.221
+      },
+      "news": [
+        {
+          "title": "DDOG Stock To $400? - Trefis",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZnIzOVRtWTVFNkZneXU0ZXp0VWVxNl9CamhySFd2a3NuQ1FTaXlFMVdBVFlvX2ViaGQ3UDBPT3V6R1BWTjMwZGxQckN1SmN5eTczdGI5cFFvbV9pUHp4LUNLeFBNMklwbk5xSEVvSDJXZDl6V1NsZ3J0b191SGdDcDF3REs?oc=5",
+          "published": "Fri, 08 May 2026 13:03:21 GMT"
+        },
+        {
+          "title": "Tech stocks lead Nasdaq with Datadog emerging as highest weekly gainer (DDOG:NASDAQ) - Seeking Alpha",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPN3BpbG1qOURNbGxXdXZuZHh4VVNxWTdDVU1fU0FHcDIwTDU0MnVoNWlaUFNsalVfTnBsUG41U0ZZdk5jWXd5aHl4TllRZThsZkRhMHRHeFBoa3RlUGVENFQ5MGs3b2J4QV9ObHU4ZWxBaUFSZUFNUjJGeHJibGtZbkRxV090V3RYT3hCMXBySVBLZmN0OXRCUUhOWWl0Y3B6OFZB?oc=5",
+          "published": "Fri, 08 May 2026 20:15:57 GMT"
+        },
+        {
+          "title": "Datadog Surges After Earnings. These Software Stocks Are Rising Too. - Investor's Business Daily",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOeTVyVWctLXhGYnAtOFFtTEpwN0dUTW5Xb29uNmd2SXc4RjlPQnN0WW85Qy04T2RpdnFLVmFranVwNVh3RUFld1BURWQ3WG5ZX2FSN29UOHlHZzZ2Y3gzT1BRYi04RWVFU0lRaEpJQ0FJcDdJaUtqNF9DVjZqVC1RWGtfbW9NQnBfYTVfa1h4VmVNR0N1UTRpTmVJdw?oc=5",
+          "published": "Thu, 07 May 2026 15:05:00 GMT"
+        },
+        {
+          "title": "Biggest stock movers Thursday: SNAP, FSLY, DDOG, and more - Seeking Alpha",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQcVEtTVNxWEVCVVVPcnpuYUFSWFhMUS05X2wtOHZObGV5NzZ2dUpuUlk5Tk1wWk9XUkREM1ZhVDZtaWlXZ2Z5WENFblhfbVFlX3VMT25EaXdabHRyWENjbXM5d3U5TTMxeDc5LUFSV3BFdDZLZ043MkF1QlNWc05WZVk2emZuVkNMNEpFdkRnTQ?oc=5",
+          "published": "Thu, 07 May 2026 14:10:00 GMT"
+        },
+        {
+          "title": "Datadog tops $1 billion in quarterly sales as big clients keep growing - Stock Titan",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNU2ljaXVWV29IeDNNcW1iWHc4YVh4TEtoMW9BMlhCSHd3QWM0ME5qVjc0QnpnWWxoek44emV5V0xGR2JEX2hyZURBUFE4dWJ3SnBYbl9CcENLQmlJNjV6RXRlZEcwYmNQOHdDbFA1T291ZkhFcTllWkVJN2xVMlRLdFhpa0tVMEEteldzWlpEeWJNOEpJMzN6N2Vlb1pheEl3czFr?oc=5",
+          "published": "Thu, 07 May 2026 11:00:00 GMT"
+        }
+      ],
+      "ai_summary": "好的，以下是对股票 DDOG (Datadog, Inc.) 的简洁分析：\n\n### 技术面\n- **趋势强劲**：股价远高于5日、25日及60日均线，且均线系统呈多头排列（MA5 > MA25 > MA60），表明短期、中期及长期趋势均向上。\n- **动能充足**：周线与日线KDJ指标均处于金叉看涨状态，且日线J值已进入超买区域（93.39）。近60日涨幅（58.69%）远超大盘（SPY +8.27%）和科技板块（QQQ +18.41%）。\n- **量价配合**：昨日成交量显著放大（量比1.86），日线实体巨大（7.4%），显示资金积极涌入。\n- **延伸风险**：股价已偏离60周均线约51.8%，属于“正常延伸”但偏离度较高，存在技术性回调或震荡整理的可能。\n\n### 基本面\n- **高增长但高估值**：营收同比增长32.2%，盈利增长更是高达104%，显示公司处于高速扩张期。然而，当前市盈率（TTM PE）高达526倍，估值极度昂贵。前瞻市盈率（Forward PE）降至70倍，市场预期其未来盈利将大幅改善。\n- **财务结构**：利润率（3.7%）较低，但处于改善通道。资产负债率（Debt to Equity 32.2）处于可控范围。\n\n### 新闻政策\n- **财报驱动**：近期股价飙升的主要催化剂是财报超预期，季度营收首次突破10亿美元大关，且大客户持续增长。\n- **行业领涨**：被多家媒体（Seeking Alpha, Investor‘s Business Daily）评为科技股领涨者，市场情绪积极。有分析机构（Trefis）给出高达400美元的目标价，进一步提振了市场信心。\n\n### 风险\n1.  **估值泡沫风险**：当前极高的市盈率意味着股价已充分甚至过度反映了未来的高增长预期。一旦增速放缓或不及预期，股价可能面临剧烈回调。\n2.  **技术性回调风险**：短期涨幅巨大，日线及周线指标均处于超买区域，技术上有强烈的回调或横盘整理需求。\n3.  **宏观与竞争风险**：作为高估值成长股，对利率变化敏感。同时，云监控市场竞争激烈，需关注其能否持续保持领先优势。\n\n### 综合关注等级\n**高关注**（积极但需警惕）\n- **理由**：公司基本面强劲，财报超预期是核心驱动力，技术面呈现强势突破形态。但极高的估值和短期超买的技术指标构成了显著风险。适合已持有者继续持有观察，潜在投资者需等待更合理的入场时机或回调确认支撑。"
+    },
+    {
+      "symbol": "DELL",
+      "name": "Dell Technologies Inc.",
+      "score": 13,
+      "tags": [
+        "高于5周线",
+        "高于25周线",
+        "高于60周线",
+        "5周线>25周线",
+        "25周线>60周线",
+        "周K实体突破",
+        "日K实体确认",
+        "日成交量放大",
+        "流动性达标",
+        "跑赢SPY",
+        "跑赢QQQ"
+      ],
+      "default_pass": true,
+      "metrics": {
+        "close": 260.46,
+        "weekly_body_ratio": 2.5389,
+        "weekly_bullish": true,
+        "above_ma5": true,
+        "above_ma25": true,
+        "above_ma60": true,
+        "ma5_gt_ma25": true,
+        "ma25_gt_ma60": true,
+        "weekly_ma60": 133.24,
+        "weekly_ma60_deviation": 0.9548,
+        "weekly_ma60_deviation_risk": "偏热",
+        "daily_body_ratio": 1.4928,
+        "daily_bullish": true,
+        "volume_ratio": 1.8637,
+        "avg_dollar_volume_20": 1371993952.88,
+        "stock_return_60d": 1.3086,
+        "spy_return_60d": 0.0827,
+        "qqq_return_60d": 0.1841,
+        "beat_spy_60d": true,
+        "beat_qqq_60d": true,
+        "weekly_k": 94.87,
+        "weekly_d": 94.64,
+        "weekly_j": 95.33,
+        "weekly_kdj_bullish": true,
+        "daily_k": 93.4,
+        "daily_d": 90.89,
+        "daily_j": 98.43,
+        "daily_kdj_bullish": true
+      },
+      "fundamentals": {
+        "symbol": "DELL",
+        "name": "Dell Technologies Inc.",
+        "sector": "Technology",
+        "industry": "Computer Hardware",
+        "market_cap": 169348153344,
+        "trailing_pe": 30.041521,
+        "forward_pe": 17.672981,
+        "profit_margin": 0.05228,
+        "revenue_growth": 0.395,
+        "earnings_growth": 0.573,
+        "debt_to_equity": null
+      },
+      "news": [
+        {
+          "title": "Why Is Dell (DELL) Stock Soaring Today - StockStory",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNOFh2aFE3WXNNOHRrOS1yX2tOYU9kQ1F2M0dnWC02V0ZOWXduUzNET3pjWWVxNDNJRmxwelpBeWRzeVJZR3BoM1RhbmZiNlMtN2ljdFVKNXZUdjZUUXJ1a3pCaEhabzRjNUJfdHdNZGxSXzBaeUZoTWpSLW5ZV2Y0ckZHNGNOUjBMNTVlM21FbnN5ejlxOHZTQjdSUEpTR3M?oc=5",
+          "published": "Fri, 08 May 2026 17:29:14 GMT"
+        },
+        {
+          "title": "Why Is Dell Technologies Stock (DELL) Rising Today, 5/8/26? - TipRanks",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQdkJ5eklQVy1oQXdsdktlbnJUT2ZiM045STVtSjlRaGtsLUFkRkUxMTVlVzZ5YU9Cd0ljQW1MWENJQ2hOZVpONGZrRy1VcXo2SlZvanpkNl9VM2xIOU1tazJteElMOUhXMG9wR2RvQU96MTVEOXQzNk9reXgwSlFCcWY0V3RTS2dhZlZ0Mkdn?oc=5",
+          "published": "Sat, 09 May 2026 00:20:39 GMT"
+        },
+        {
+          "title": "Dell: The Stock Is Pricey But I'm Still Dipping Into The Buys (NYSE:DELL) - Seeking Alpha",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWDZ1NzQ1ODVRZEN3bUpVeEUtMG5LcUxLMHZQbzYwZ1RNUFRUQkRYTWdGNExOcndtV21sLWRrR3ZlWHhCcXB1aDc2MjRUVUtJMWUyUFd2MGFQSDhWT0c4eUh4QmNSdG9TQnBWLVRyNFpHMFpZNHRUWV9hVHdnd2RubmdrUDhCVjR4NDVLclVUMXp3TlBOVm9VZVgtSlNkYmxOdmc?oc=5",
+          "published": "Sun, 10 May 2026 09:22:56 GMT"
+        },
+        {
+          "title": "Dell stock rockets as Trump makes bullish comments - Investing.com",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdUNOVFlFaUJXY0RYOENVZ1dqX1hsTkcyZHFiRUVVMUZSSlRGNC1ycDRmd20zSDNUUjlUdk9fYWlXUDBmeFA2el82YVU3Z3pfQXF0M2oyakFLUTVKZVgxaGpiMm5oN1YwS2hXWFhhZDBVWHRYQ1RkY2l2Zkw1cWtqcktFTElSWTFjZFoxQl94b3lwM2Zpd1VvVUY2ZTNwN0ZGWE8wamNURURaV2M?oc=5",
+          "published": "Fri, 08 May 2026 17:51:10 GMT"
+        },
+        {
+          "title": "Jim Cramer Says “I Wish I’d Bought Dell for My Charitable Trust a Hundred Points Ago” - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOX1FtcTU5Zm9VZTZVMFQwazU2djdibjJjZkdBUGNRSFQ3TE44MTV6MGxORU51RXZlOUxjT3Btbl9UWXhNbmVrYjBqX0UtaXBpQ045OFZVX2xPUzFrckpFV0xVUURHS0NWeVNZazdodkF0NFVhOENXWHBsVUtZa25DRnB0NkxRcTY5dlBZeF9odjg?oc=5",
+          "published": "Sat, 09 May 2026 18:47:51 GMT"
+        }
+      ],
+      "ai_summary": "基于您提供的信息，我对 DELL（Dell Technologies Inc.）进行如下简洁分析：\n\n**技术面**：强势看涨。股价远高于主要均线（MA5/25/60），且均线呈多头排列。周线与日线均为阳线，KDJ指标均处于超买区（>90），显示短期动能极强。近60日涨幅（130.86%）远超大盘（SPY +8.27%）和科技指数（QQQ +18.41%），但周线偏离60日均线幅度达95.48%，技术指标提示“偏热”，存在回调风险。\n\n**基本面**：中性偏积极。科技硬件行业，市值约1693亿美元。市盈率（TTM 30倍）偏高，但前瞻市盈率（17.67倍）显著下降，暗示市场预期未来盈利增长。营收增长39.5%，盈利增长57.3%，利润率5.2%偏低，需关注成本控制。资产负债率数据缺失，需警惕债务风险。\n\n**新闻政策**：偏正面。近期股价上涨受多重因素驱动：特朗普发表看多言论、分析师（Jim Cramer）公开表示后悔未早买入、以及多家财经媒体（StockStory、TipRanks、Seeking Alpha）报道其上涨动态。政策面暂无直接利空，但需关注关税及科技出口管制对硬件行业的影响。\n\n**风险**：1）技术面严重超买，短期回调压力大；2）当前PE较高，若盈利不及预期，估值可能承压；3）利润率偏低，行业竞争激烈（如AI服务器领域）；4）宏观政策（关税、芯片限制）及地缘政治风险。\n\n**综合关注等级**：**高关注（但谨慎）**。公司基本面改善、新闻面积极，但技术面过热且估值不低，建议等待回调或确认盈利持续增长后再做进一步评估。"
+    },
+    {
+      "symbol": "HPE",
+      "name": "Hewlett Packard Enterprise Comp",
+      "score": 13,
+      "tags": [
+        "高于5周线",
+        "高于25周线",
+        "高于60周线",
+        "5周线>25周线",
+        "25周线>60周线",
+        "周K实体突破",
+        "日K实体确认",
+        "日成交量放大",
+        "流动性达标",
+        "跑赢SPY",
+        "跑赢QQQ"
+      ],
+      "default_pass": true,
+      "metrics": {
+        "close": 31.35,
+        "weekly_body_ratio": 1.241,
+        "weekly_bullish": true,
+        "above_ma5": true,
+        "above_ma25": true,
+        "above_ma60": true,
+        "ma5_gt_ma25": true,
+        "ma25_gt_ma60": true,
+        "weekly_ma60": 21.55,
+        "weekly_ma60_deviation": 0.455,
+        "weekly_ma60_deviation_risk": "正常延伸",
+        "daily_body_ratio": 1.2981,
+        "daily_bullish": true,
+        "volume_ratio": 1.2246,
+        "avg_dollar_volume_20": 400050626.32,
+        "stock_return_60d": 0.4122,
+        "spy_return_60d": 0.0827,
+        "qqq_return_60d": 0.1841,
+        "beat_spy_60d": true,
+        "beat_qqq_60d": true,
+        "weekly_k": 91.39,
+        "weekly_d": 89.6,
+        "weekly_j": 94.95,
+        "weekly_kdj_bullish": true,
+        "daily_k": 96.0,
+        "daily_d": 95.09,
+        "daily_j": 97.82,
+        "daily_kdj_bullish": true
+      },
+      "fundamentals": {
+        "symbol": "HPE",
+        "name": "Hewlett Packard Enterprise Comp",
+        "sector": "Technology",
+        "industry": "Communication Equipment",
+        "market_cap": 41596878848,
+        "trailing_pe": null,
+        "forward_pe": 11.530272,
+        "profit_margin": -0.0033000002,
+        "revenue_growth": 0.184,
+        "earnings_growth": -0.303,
+        "debt_to_equity": 87.223
+      },
+      "news": [
+        {
+          "title": "Why Hewlett Packard Enterprise (HPE) is a Top Growth Stock for the Long-Term - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNREhBX3AwUGpQdlJNOFJtc3U4ZnJLTmM4U0hySHd6b2hhWVozbW00WkdZUG9oc0FZdnZRd2RQZThyMDRqOEJqM21zel93LTlOTHRTVHNRdWNHQnFySXQyQ3p1UXVKMUNWX1R4R1Z6dXpEU19wRGg1dU1vY1RRX3RyMmFIUWd3RGhNVE81WVIxLTN3NXRmS05za3k1ZkNRZERt?oc=5",
+          "published": "Fri, 24 Apr 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Hewlett Packard Enterprise Co (HPE) Stock Up 5.6% but GF Value Says Overvalued -- GF Score: 81/100 - GuruFocus",
+          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQYzlhMVliT0x4Vl9QcXpYZE9ONlBKSFUwMTJhb0k0LTVtSm41aEhRU3NvaGlqNjNfQ2dCVW5qWE5vSU92Z2xCY0dNYXJEVUFXWG9wMzV0WXZwTXloUjlsZFZWT0w4R1VDcG95b18zTzlQRzJlRzIzcjlMQ1FsY09mUGJtT1RVUUtQQWVRZF9rVndic3dlRDdzdHZEMnRRbXd3bjZZQUdkSlZFV3EtOG5GN20zTkpnQUlKUXpsZFBVbFg2SktveC1RemlhOXROWEJ5ZF9zVS1Waw?oc=5",
+          "published": "Sat, 09 May 2026 00:47:38 GMT"
+        },
+        {
+          "title": "Dell, Super Micro, or HPE: Which AI server stock crushed it in April? - MSN",
+          "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOU1VfRGNWWkp6anhodGw5YTBlQ1BfOENOalJtVndBQmpnc1AwWjZ6Y3NKOXh3a3BvNnd4Ym1BdEtwaDhyLXo5TF9CY3B1Z2R2VEhleXlROHEwaTVBaWtnaWs2bjlYRW1aVFJqTTEzTktibXJYSzBXVnVIWFJQWUNjclBOajVIOFNOMUxySjEzUTJfRDJENEdOWF9LU1IzenYzdFdNd0xuWHVVUk9aTnhQM3NGd2hGTDhTZ0tSYndsdEhUTllfQlBFdUdiYXVPVzZjNk1rVHhfQmRYTmREcXQtYVExMzNjZw?oc=5",
+          "published": "Thu, 07 May 2026 18:41:56 GMT"
+        },
+        {
+          "title": "HPE jumps 4.3% as analyst target hikes extend post-earnings momentum | HPE Stock News - Quiver Quantitative",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOVlNWY2pvRlhkb1dyM2M4N1hha2RPc01xNFo2N3l2QTNFazBrSzBUaXFDQVpHTmpMRFFQOTdGdjA4a1ZCTHd3OEMySkxEY3RwZDhZWGp2aDkzWU9RUlk3djhfSm5ieVdGRTlkaktMY3pxek1vTno0SUVDWWxvbVo1TEkwU3h1N3I2WVcycEtQMnJUcVBDR04tUDRFMHVhcjlGRDhtSEV3?oc=5",
+          "published": "Mon, 20 Apr 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Assessing Hewlett Packard Enterprise (HPE) Valuation After Strong Recent Share Price Momentum - simplywall.st",
+          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPMWdCZWNjN2E0M0NaSnAtMWg1Ql9LS1dsNW5MSnd0dWZhc24xc3FtNnVFSG9ETEIyTlZCSlVXTFlwOHpXbnlMdjZCUjJmVkM1Y1h4Q3FDLVE5c1V4MGlSSHp5c0lmUnBSRmJJaGhWbUFKLXhwaHZnaVEzclhoUlVScGhXM0dCcWE2VHFlendFMU04ZHRpUVlKRzY0U2VwaHppaWxudlQzem5oS3h6M0w1SzJ1YVFmblp4OGtfeGZsX014YUN6d3pqMzlMamJXOXhZS0c2eNIB2gFBVV95cUxOUmpUWDlyQWRoU1d6eTc4UzRMOVBUNFZmUTBCaUJIRnprSWdDMmJCOVFWTEc5WjNkQVBsMFFUWkxORklacnMxTW1PR2pQXzA2ZG5VXzF0dV9WNWdrNzB2bmZUdzBGMlg3QmpxU2F4TTlXNUt3ekhON0N5WW80RC1zdUZndmp5VndWZzQ0U3pBMEI4cG1YSlpjVTNpMjVTRUoySUhuTFZnQnRscFNTODNvc3Utdmp6VC02dTNwUnpGdWxITFBsVDZxbzVQYXlyN1I1cEhoeld2TzZ0QQ?oc=5",
+          "published": "Thu, 07 May 2026 18:00:25 GMT"
+        }
+      ],
+      "ai_summary": "基于您提供的信息，以下是对股票 HPE（Hewlett Packard Enterprise）的简洁分析：\n\n### 技术面\n- **趋势强劲**：股价站上所有主要均线（MA5/25/60），且均线呈多头排列（MA5>MA25>MA60）。周线与日线均为阳线，显示短期上涨动能充足。\n- **超买信号**：周线与日线KDJ指标均处于高位（K/D/J值均>89），尤其是J值接近100，提示短期可能存在技术性回调或震荡风险。\n- **相对表现优异**：近60日涨幅（41.22%）远超标普500（8.27%）和纳斯达克100（18.41%），显示个股强势。\n- **量价配合**：日成交量高于20日均量，资金参与度较高。\n\n### 基本面\n- **估值与增长**：远期市盈率（11.53倍）较低，但近期盈利增长为负（-30.3%），利润率微负（-0.33%）。收入增长（18.4%）尚可，但盈利能力承压。\n- **财务结构**：资产负债率较高（87.22倍），需关注债务水平对财务灵活性的影响。\n- **市值规模**：约416亿美元，属于中大型科技股，流动性较好。\n\n### 新闻政策\n- **市场情绪积极**：多家财经媒体（Yahoo Finance、GuruFocus、MSN）提及HPE为长期增长股，且分析师上调目标价，推动股价延续财报后涨势。\n- **行业关注点**：AI服务器需求是近期热点，HPE与Dell、Super Micro被并列讨论，显示其在AI基础设施领域的竞争地位。\n- **估值争议**：部分分析（如GuruFocus、simplywall.st）指出当前股价可能已偏高，需警惕短期追高风险。\n\n### 风险\n1. **技术回调风险**：KDJ指标严重超买，短期获利盘可能涌出。\n2. **盈利下滑**：负利润率和盈利负增长若持续，将难以支撑当前估值。\n3. **高负债**：87倍的负债权益比在利率高位环境下增加财务压力。\n4. **行业竞争**：AI服务器市场竞争激烈（戴尔、超微电脑等），份额变化可能影响业绩。\n\n### 综合关注等级\n**中等偏高**  \n理由：技术面强势且基本面有收入增长支撑，但超买信号、盈利下滑和高负债构成显著风险。建议关注后续财报能否验证盈利改善，以及技术指标是否出现修复性回调。"
+    },
+    {
+      "symbol": "INTC",
+      "name": "Intel Corporation",
+      "score": 13,
+      "tags": [
+        "高于5周线",
+        "高于25周线",
+        "高于60周线",
+        "5周线>25周线",
+        "25周线>60周线",
+        "周K实体突破",
+        "日K实体确认",
+        "日成交量放大",
+        "流动性达标",
+        "跑赢SPY",
+        "跑赢QQQ"
+      ],
+      "default_pass": true,
+      "metrics": {
+        "close": 124.92,
+        "weekly_body_ratio": 1.6138,
+        "weekly_bullish": true,
+        "above_ma5": true,
+        "above_ma25": true,
+        "above_ma60": true,
+        "ma5_gt_ma25": true,
+        "ma25_gt_ma60": true,
+        "weekly_ma60": 36.56,
+        "weekly_ma60_deviation": 2.4168,
+        "weekly_ma60_deviation_risk": "极度延伸",
+        "daily_body_ratio": 1.716,
+        "daily_bullish": true,
+        "volume_ratio": 1.5261,
+        "avg_dollar_volume_20": 13061978091.87,
+        "stock_return_60d": 1.6876,
+        "spy_return_60d": 0.0827,
+        "qqq_return_60d": 0.1841,
+        "beat_spy_60d": true,
+        "beat_qqq_60d": true,
+        "weekly_k": 95.74,
+        "weekly_d": 95.71,
+        "weekly_j": 95.8,
+        "weekly_kdj_bullish": true,
+        "daily_k": 93.79,
+        "daily_d": 94.41,
+        "daily_j": 92.56,
+        "daily_kdj_bullish": false
+      },
+      "fundamentals": {
+        "symbol": "INTC",
+        "name": "Intel Corporation",
+        "sector": "Technology",
+        "industry": "Semiconductors",
+        "market_cap": 627847921664,
+        "trailing_pe": null,
+        "forward_pe": 81.60652,
+        "profit_margin": -0.05904,
+        "revenue_growth": 0.072,
+        "earnings_growth": null,
+        "debt_to_equity": 36.028
+      },
+      "news": [
+        {
+          "title": "AMD vs. Intel (INTC) Stock: Inside the Chip War, This Analyst Picks a Side - TipRanks",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQX3lsVUM4M2VtNFJqdHJPR3Jsb3VVa1Zsaklsb29uLWxJRHR2dGYxX0hVYXY3bmNKcVZ4bFFRbHlFMXB0S3RSVzlTV2JSSjBLeEI3M0FiOU5Md1lRMlpMYWFaVjdTdGYzNHZrMkdsSEdsWWJ5dmc5Z3c1bExpUjg1RVVjcTVLOHRYYkY0WHpUclUzUQ?oc=5",
+          "published": "Sat, 09 May 2026 00:30:11 GMT"
+        },
+        {
+          "title": "Intel shares soar on Apple chip deal report. Here's why it signals a total pivot for chipmaking - CNBC",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE90OXhpS2o1Zlp3UE5WMmd5bXhSZ0ViWG9VbXZoWXpqcDRCcF9COU9iZExpbmtNc00tTmM2OG5uTGlKcW50ekdLdy0wUi00VEMtZGpzNWZjVFBNaTkyd1MwUVlyTS00eFNJTGVYaGdiRVluZ9IBd0FVX3lxTE5WLXRaTmFidlFGcmlIeTA4elhIQVpUODZSdlZCZ0Q3WDdVUndzSUZRbEJIWGRkRjV0Q0JiSUQxanU2MUo5blBScGhhR3RfbXBMN1V0X3hmaHluR0RUVDlIc1ZLR0d0U1J5X01ZVkJqY3lrMG9rSUdJ?oc=5",
+          "published": "Fri, 08 May 2026 21:03:09 GMT"
+        },
+        {
+          "title": "Intel Exec Sells $4 Million in Stock After Record-Breaking Rally - Barron's",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5jcDlaSTlOQV9ubzBGd3hjRmREVHNJZUFNa3h3TlRoZDZZUmRhdTV4ekNpOWgySkdWa3J4MHJrQjR4Vlp0M0c1WTg3YVZDbURnMWVUcnU2R0g4V0E2cWZNTXpYRkpIYmRHTEFBZ0pqTlpaaURWcVdSbw?oc=5",
+          "published": "Thu, 07 May 2026 19:29:00 GMT"
+        },
+        {
+          "title": "Intel stock hits fourth straight record high as Apple report fuels chip rally - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNLUdwY3RtLThPcGpXSFU1c2lnaVNaLXdiUjdDa0hRUmJGY2dzeEszZWRHeEhXZG5OVmlZX09lUDFFWjRjZjdHTERaQXBrQUlrOGNXQW1fTS1hY0lUSU03bWNFN0lZTms5dkhaRzN4UlVMZkhEX0ZUUWJBYm0yN0stNjNUQWxFSzFDckxwWGtob0MxclNQcUZPVGV0dkkzQjVqc3J6dnJwcV9LUl9Db1NUSGp5WEVFM2pmdkpidzM1WEs4YU9GZ3hySk1aYWY1bDA?oc=5",
+          "published": "Fri, 08 May 2026 20:27:31 GMT"
+        },
+        {
+          "title": "Intel’s stock achieves a never-before-seen feat as Apple enthusiasm builds - MarketWatch",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQWW93NTFkalhOOVpGa2luMmJzSkx0YzZRdVIyRmZqaE9xeGZiMUpJRWtZYnBocVcxM0EwUWZkVHpGU0gtRF9tNWluM3NoRXc1d0p3c2NGaERxN3dJM3EzWndWbWxWTy1ZdjFYY0V6UFNFT0pVRllaYVF2VlUwTWJ4T2EydVBBOWRVTnZ5RVJIZUlNcGppZHhlbjJTcENHUjdOblhvbHlCbzljQXNLRDZ6R1dyWU5NaWtpV2RFNUxn?oc=5",
+          "published": "Fri, 08 May 2026 19:13:00 GMT"
+        }
+      ],
+      "ai_summary": "基于您提供的资料，以下是对股票INTC（英特尔）的简洁分析：\n\n**技术面**\n股价处于强劲多头趋势，收盘价124.92美元，远高于所有主要均线（MA5/25/60），且均线呈多头排列。近60日涨幅（168.76%）远超标普500（8.27%）和纳斯达克100（18.41%）。周线KDJ指标处于超买区（K/D/J均>95），日线KDJ有走弱迹象。成交量显著放大（量比1.53）。**主要风险**在于周线相对MA60的偏离度高达241.68%，属于“极度延伸”状态，技术性回调压力较大。\n\n**基本面**\n公司市值约6278亿美元，属于半导体行业。当前市盈率为负（亏损），但远期市盈率高达81.6倍，显示市场对其未来盈利改善有较高预期。利润率（-5.9%）为负，营收增长7.2%，但盈利增长数据缺失。资产负债率（36.03）处于合理水平。基本面呈现“高预期、低现实”特征，盈利能力的恢复是核心关注点。\n\n**新闻政策**\n近期新闻高度正面，主要围绕与苹果的芯片代工合作传闻，以及股价连续创历史新高的市场情绪。分析师在“芯片战争”背景下对INTC与AMD进行了对比。**需注意**：有内部高管在股价创纪录高位时套现400万美元，这可能被解读为内部人减持信号。\n\n**风险**\n1.  **技术面回调风险**：股价极度偏离长期均线，超买严重，短期回调概率高。\n2.  **估值风险**：远期市盈率超过80倍，若盈利改善不及预期，股价面临估值压缩压力。\n3.  **基本面兑现风险**：当前股价上涨主要依赖新闻情绪和未来预期（如代工业务），公司尚未实现稳定盈利。\n4.  **内部人减持信号**：高管在股价高位套现，需关注后续是否有更多减持行为。\n\n**综合关注等级：中等偏高**\n股价处于强劲的技术性牛市，但短期风险（极度超买、内部人减持）与长期预期（代工转型、苹果合作）并存。建议密切关注后续成交量变化、盈利报告以及代工业务进展，以判断当前涨势的可持续性。"
+    },
+    {
+      "symbol": "MRNA",
+      "name": "Moderna, Inc.",
+      "score": 13,
+      "tags": [
+        "高于5周线",
+        "高于25周线",
+        "高于60周线",
+        "5周线>25周线",
+        "25周线>60周线",
+        "周K实体突破",
+        "日K实体确认",
+        "日成交量放大",
+        "流动性达标",
+        "跑赢SPY",
+        "跑赢QQQ"
+      ],
+      "default_pass": true,
+      "metrics": {
+        "close": 54.35,
+        "weekly_body_ratio": 1.7167,
+        "weekly_bullish": true,
+        "above_ma5": true,
+        "above_ma25": true,
+        "above_ma60": true,
+        "ma5_gt_ma25": true,
+        "ma25_gt_ma60": true,
+        "weekly_ma60": 33.63,
+        "weekly_ma60_deviation": 0.6161,
+        "weekly_ma60_deviation_risk": "正常延伸",
+        "daily_body_ratio": 1.6984,
+        "daily_bullish": true,
+        "volume_ratio": 3.0349,
+        "avg_dollar_volume_20": 348949722.1,
+        "stock_return_60d": 0.355,
+        "spy_return_60d": 0.0827,
+        "qqq_return_60d": 0.1841,
+        "beat_spy_60d": true,
+        "beat_qqq_60d": true,
+        "weekly_k": 68.73,
+        "weekly_d": 70.86,
+        "weekly_j": 64.45,
+        "weekly_kdj_bullish": false,
+        "daily_k": 51.77,
+        "daily_d": 39.23,
+        "daily_j": 76.85,
+        "daily_kdj_bullish": true
+      },
+      "fundamentals": {
+        "symbol": "MRNA",
+        "name": "Moderna, Inc.",
+        "sector": "Healthcare",
+        "industry": "Biotechnology",
+        "market_cap": 21565333504,
+        "trailing_pe": null,
+        "forward_pe": -13.078453,
+        "profit_margin": -1.4355099,
+        "revenue_growth": 2.602,
+        "earnings_growth": null,
+        "debt_to_equity": 17.522
+      },
+      "news": [
+        {
+          "title": "Why is Moderna stock surging today? - Investing.com",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPd0I4TGh0QmNwdDY3UjlVbzVXd3ZIX0JqdXhCcy1jMU5kZHFGNE5JaUNvNHFWcTZGTE80eFJlb3IwTFRGeGlPLVNHNmFuY0xhMkpOYVpKUnJiVTJiVzVMNWY5RzNnc0kyZlZXQURrNEdqYk1vS1hTTV9VcDBIUWhzNl9EMFdmbWhUZzhyMW1qZDJBT1JMa0tneUZ2akk?oc=5",
+          "published": "Fri, 08 May 2026 14:42:35 GMT"
+        },
+        {
+          "title": "How Hantavirus Made Moderna a Must-Own Stock Again - Barron's",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOWUJjNUtlTEZxcXBqRExHQzN2Qk12cm1IZFZaUTRxajJXY1dmZkRvT3ZhR3JrdG5PWWQ0NHk4TmJENnBnc2U2RGZGOUsyNVFzM3RtZHVZMm1EMzF6RUNibERiTXFmejI2a2RkYUNLSHBYVHByWVZZWE5SNGhod3NlSlpqOGZjemhpMlNycVpSdw?oc=5",
+          "published": "Fri, 08 May 2026 18:44:00 GMT"
+        },
+        {
+          "title": "MRNA stock rises pre-market: Moderna bets on US comeback with flu vaccine pipeline - MSN",
+          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNTXBNM0FSdnRGSndtaE81OUJITy1lNFI1aUlLcmFEdnozeXp0bzNvWTBwWGxvTFlwUGJTU2RQU3Q2dkhRRjRKRWIwOTYyNU9pUGREOHZIRjFPSkxGcWVBVC1Hb3p3bHlIRXpQQ1lKVEp3Z3pPNi1HRGFXN2lzSTRGTHpBWXR5dzVsYzU4MUZNYkotUTk0Mk9ubmpkdzdmSk9IbHM1NE5VQWtBdG9VUGxDU3ZwUU5WQ2E3Sk1Vdm1MZ3hONEtseUszVklGa2JKQQ?oc=5",
+          "published": "Sat, 09 May 2026 22:13:39 GMT"
+        },
+        {
+          "title": "MRNA Stock Price, Quote & Chart | MODERNA INC (NASDAQ:MRNA) - ChartMill",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA0WjdGMVM1ZG9wR2tEaHhkN0RFNTIza1lPTlloWFZWVHlLeTBacjgxcmFRTlAxRlBjd09vcTRTVjlDeHNDRTdLMjZSMUNmdTkyajV4MFBzRlZJUTNXNHhz?oc=5",
+          "published": "Fri, 08 May 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Moderna Stock Surges on Hantavirus Vaccine Research as MRNA Investors Eye Flu and Cancer Pipeline - TechStock²",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQNm93VmZVZmVTNjQtcGk5cEdZdkVlY3RBNHh6MzZyRlFGVWxhODFEVGdyYXcxa2NlQnE3WmtMbXJrTXlyUUVvZGxxVXNwTjBKQ3dTMnBzb2tUU3g5RnlVbHBQUUV6bmVJRjlURm5VaVBuU3gzUTNOcUstUlpyekt6ZmFkMWRpeXE1TDh0eVN3NXRJWjZCUzV0dXJXQlh4WEJtMzZYa2ktdFFfV3RVcV9SZXQ5Nlo2eUFldEE?oc=5",
+          "published": "Sat, 09 May 2026 15:47:42 GMT"
+        }
+      ],
+      "ai_summary": "基于您提供的资料，对MRNA（Moderna, Inc.）的简要分析如下：\n\n### 技术面：强势看涨\n- **趋势与形态**：股价站上所有主要均线（MA5/25/60），且均线呈多头排列（MA5>MA25>MA60），周线、日线均为阳线实体，显示强劲的上行动能。\n- **相对表现**：近60日涨幅（+35.5%）显著跑赢大盘SPY（+8.27%）和纳指QQQ（+18.41%）。\n- **量价配合**：日成交量放大至20日均量的3倍以上，资金介入明显。\n- **超买信号**：周线KDJ指标出现死叉（K<D），日线J值（76.85）偏高，短期存在技术性回调或震荡整理压力。\n\n### 基本面：盈利承压，成长性存疑\n- **估值**：市盈率为负（亏损状态），远期市盈率亦为负，反映市场对其未来盈利能力预期悲观。\n- **盈利能力**：净利润率（-143.55%）极低，债务权益比（17.52）较高，财务杠杆风险显著。\n- **成长性**：营收同比增长260%，但盈利增长数据缺失，高增长主要依赖新冠疫苗，可持续性存疑。\n\n### 新闻与政策：短期催化剂密集\n- **正面催化**：近期股价上涨主要受汉坦病毒疫苗研发进展、流感疫苗管线及癌症疫苗前景等消息驱动，市场情绪高涨。\n- **政策风险**：作为生物科技公司，FDA审批、疫苗政策变化及政府合同续签等不确定性较高。\n\n### 风险提示\n1.  **技术回调风险**：短期涨幅过大且KDJ指标出现背离，追高可能面临回调。\n2.  **基本面脆弱**：持续亏损、高负债率，若管线进展不及预期，估值压力将急剧放大。\n3.  **行业竞争**：mRNA技术赛道竞争激烈（如BioNTech、辉瑞），且新冠疫苗需求已大幅下降。\n4.  **新闻驱动波动**：股价对单一管线消息高度敏感，缺乏稳定业绩支撑。\n\n### 综合关注等级：**高关注（谨慎参与）**\n- **理由**：技术面强势突破，短期动量充足，但基本面存在硬伤且技术指标超买。建议关注回调至均线支撑（如MA60约33.63美元）附近的机会，或等待更明确的盈利改善信号。"
+    },
+    {
+      "symbol": "MU",
+      "name": "Micron Technology, Inc.",
+      "score": 13,
+      "tags": [
+        "高于5周线",
+        "高于25周线",
+        "高于60周线",
+        "5周线>25周线",
+        "25周线>60周线",
+        "周K实体突破",
+        "日K实体确认",
+        "日成交量放大",
+        "流动性达标",
+        "跑赢SPY",
+        "跑赢QQQ"
+      ],
+      "default_pass": true,
+      "metrics": {
+        "close": 746.81,
+        "weekly_body_ratio": 4.8241,
+        "weekly_bullish": true,
+        "above_ma5": true,
+        "above_ma25": true,
+        "above_ma60": true,
+        "ma5_gt_ma25": true,
+        "ma25_gt_ma60": true,
+        "weekly_ma60": 235.24,
+        "weekly_ma60_deviation": 2.1747,
+        "weekly_ma60_deviation_risk": "极度延伸",
+        "daily_body_ratio": 2.313,
+        "daily_bullish": true,
+        "volume_ratio": 1.5103,
+        "avg_dollar_volume_20": 23095762852.47,
+        "stock_return_60d": 0.804,
+        "spy_return_60d": 0.0827,
+        "qqq_return_60d": 0.1841,
+        "beat_spy_60d": true,
+        "beat_qqq_60d": true,
+        "weekly_k": 98.07,
+        "weekly_d": 94.54,
+        "weekly_j": 105.14,
+        "weekly_kdj_bullish": true,
+        "daily_k": 95.11,
+        "daily_d": 94.72,
+        "daily_j": 95.9,
+        "daily_kdj_bullish": true
+      },
+      "fundamentals": {
+        "symbol": "MU",
+        "name": "Micron Technology, Inc.",
+        "sector": "Technology",
+        "industry": "Semiconductors",
+        "market_cap": 842203070464,
+        "trailing_pe": 35.21028,
+        "forward_pe": 7.3373413,
+        "profit_margin": 0.41486,
+        "revenue_growth": 1.963,
+        "earnings_growth": 7.56,
+        "debt_to_equity": 14.902
+      },
+      "news": [
+        {
+          "title": "Micron stock sends a strong signal amid chip shortage - thestreet.com",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOdmQtd0dRZWJMSGJ4b0NXbzU0b1plYWlXWkdQaXBteGc0Z1VzNjZxc3pTQkl5SkItT2tiQ09QNGx1dWZGYXlhcmljeFJXeXlfcVZfdDhiYktyUmx2VEp0UHhaOFFOel83dkFmQm1XNFhNREpMRnBLT2ZVNzFOSzVqZF8weVlKaEdrSzVsb1lnY29nWnZuaDZUVjBKRDdTVWlv?oc=5",
+          "published": "Sat, 09 May 2026 18:03:00 GMT"
+        },
+        {
+          "title": "Why Memory-Chip Stocks Are Top Of Mind For Investors - Investor's Business Daily",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNSTRYWmZyVTZHY2s4VzJzaGtIeU5oc1hCN2xsMXd4WFNROWhULUNoaV9FY2ItWk1kYVJ4bDFtdGVoLTAzc0RCQzBud3JPMzc4Y0VWd0VXN2YyMXNyQktPS1hRSkg3YzJDV1ZDczNWNE5LSkZQNEJibnBub2VWSXY3eU9kaThXNThDTW9SNm4wTQ?oc=5",
+          "published": "Fri, 08 May 2026 20:12:00 GMT"
+        },
+        {
+          "title": "Micron Stock: I Called The Supercycle - Here's What Comes Next (NASDAQ:MU) - Seeking Alpha",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWF94N1JGampHRlVKaFR2bWZvVVEybEZZTHd0aDFWbEQxd3FqS2xaUHZldk5RY1JhWW5WcXVFeXZYOEpvQjA2d09wZjJvRHlEaTFjcTNaVHdHMWpaNWxad1Z6Sl95UWJfTVVtcUU0aVZjbXVSMlJXYVBqUTczWk9zWFFwZFNyV20zUy1tN04wdTFJMjZCbVpNMUhoOG9zTVRX?oc=5",
+          "published": "Fri, 08 May 2026 15:19:09 GMT"
+        },
+        {
+          "title": "Why Micron Stock Bounced Back Today - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOQm9EYkpiTTNMdnFLYmtrOTRQbVVmb2FjTDlkSkd0YVZfSFZjLXREdC1xRTlEQm1RTy1qdDRvWjhGa2JRenBrNW9pSUFmQ0M3QWxyNS1pdFZDZi1rajh1TUVDYWU5NWtaZWFwQkZvMEU1M2dKNW92S0Q3VUV4QTRjWkJoMk1xdFhXT3BkX1dqaWFuRjRDTjZnckZR?oc=5",
+          "published": "Fri, 08 May 2026 14:55:33 GMT"
+        },
+        {
+          "title": "MU Stock Quote Price and Forecast - CNN",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE12OGhUSWtGTk9iWTJqbXhwZ2hpa25tNUxnRWlMam1RYkNBckpUdlVCMXgzY2ZDbG1HUkdxeFlUMWRkZ3ljR2xXUkdJb285UQ?oc=5",
+          "published": "Sat, 09 May 2026 11:01:20 GMT"
+        }
+      ],
+      "ai_summary": "基于您提供的股票 MU（美光科技）信息，以下为简洁分析：\n\n**技术面**：  \n- 短期与中期趋势强劲：股价远高于MA5、MA25、MA60，且均线呈多头排列（MA5>MA25>MA60）。  \n- 近期动能极强：日线、周线均为阳线，成交量放大（量比1.51），60日涨幅（80.4%）远超大盘（SPY +8.27%）和科技板块（QQQ +18.41%）。  \n- 超买风险显著：周线KDJ指标J值高达105.14，周线偏离60日均线幅度达217%（“极度延伸”），短期回调压力较大。\n\n**基本面**：  \n- 估值分化：静态市盈率35.2倍（偏高），但远期市盈率仅7.34倍（极低），反映市场预期未来盈利将大幅增长。  \n- 增长强劲：营收同比增长196%，盈利同比增长756%，利润率41.5%处于健康水平。  \n- 财务风险：资产负债率（债务/权益）14.9倍，杠杆水平较高，需关注偿债能力。\n\n**新闻与政策**：  \n- 行业景气：芯片短缺、存储芯片“超级周期”成为市场焦点，多家权威媒体（TheStreet、IBD、Seeking Alpha）发布正面报道，情绪面偏乐观。  \n- 无直接政策利空：当前未出现针对存储芯片的负面监管或贸易政策。\n\n**风险**：  \n- 技术面回调风险：极度超买状态可能引发获利了结，短期波动加剧。  \n- 高杠杆风险：债务权益比过高，若行业需求放缓或利率持续高位，财务压力可能上升。  \n- 盈利预期兑现风险：远期市盈率隐含极高增长预期，若未来财报不及预期，股价可能大幅修正。\n\n**综合关注等级**：**中等偏高**  \n- 理由：技术面强势但超买严重，基本面增长亮眼但估值与杠杆存在隐忧，短期需警惕回调，中长期需跟踪行业周期与盈利兑现情况。建议持续关注，等待更优介入时机或设置严格止损。"
+    },
+    {
+      "symbol": "SNDK",
+      "name": "Sandisk Corporation",
+      "score": 13,
+      "tags": [
+        "高于5周线",
+        "高于25周线",
+        "高于60周线",
+        "5周线>25周线",
+        "25周线>60周线",
+        "周K实体突破",
+        "日K实体确认",
+        "日成交量放大",
+        "流动性达标",
+        "跑赢SPY",
+        "跑赢QQQ"
+      ],
+      "default_pass": true,
+      "metrics": {
+        "close": 1562.34,
+        "weekly_body_ratio": 2.0326,
+        "weekly_bullish": true,
+        "above_ma5": true,
+        "above_ma25": true,
+        "above_ma60": true,
+        "ma5_gt_ma25": true,
+        "ma25_gt_ma60": true,
+        "weekly_ma60": 288.62,
+        "weekly_ma60_deviation": 4.4132,
+        "weekly_ma60_deviation_risk": "极度延伸",
+        "daily_body_ratio": 1.4318,
+        "daily_bullish": true,
+        "volume_ratio": 1.2371,
+        "avg_dollar_volume_20": 18281070841.28,
+        "stock_return_60d": 1.4788,
+        "spy_return_60d": 0.0827,
+        "qqq_return_60d": 0.1841,
+        "beat_spy_60d": true,
+        "beat_qqq_60d": true,
+        "weekly_k": 99.36,
+        "weekly_d": 97.77,
+        "weekly_j": 102.53,
+        "weekly_kdj_bullish": true,
+        "daily_k": 92.31,
+        "daily_d": 93.39,
+        "daily_j": 90.16,
+        "daily_kdj_bullish": false
+      },
+      "fundamentals": {
+        "symbol": "SNDK",
+        "name": "Sandisk Corporation",
+        "sector": "Technology",
+        "industry": "Computer Hardware",
+        "market_cap": 231366557696,
+        "trailing_pe": 53.468174,
+        "forward_pe": 9.230573,
+        "profit_margin": 0.34185,
+        "revenue_growth": 2.51,
+        "earnings_growth": null,
+        "debt_to_equity": 1.503
+      },
+      "news": [
+        {
+          "title": "The AI Stock That Gets Stronger Every Time the Market Sells Off - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNcmliaGV6M2U0dF8yWEpLczRVV3o1anNHTldzNGRzUk1pSWxvZUZGVzNoaFBOYVFsNkFxZXZneXA0WUp6Z0R2WFp4c3UwUzBpQXFWM0d2Zy1UVEJnb0hZY1ZYenFqMF94NHdNMUR2d3llUkpVVVhFaVpTa25JLVQwdUc3MmxQandQZFRhSGVfYWlUZGxkRHpuVw?oc=5",
+          "published": "Sat, 09 May 2026 23:20:00 GMT"
+        },
+        {
+          "title": "MU vs. SNDK: Which AI Memory Stock Offers Better Value After the AI Rally? - TipRanks",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQcmVHSDlESW52SGpZT1JUbzhiWk1ESmNxVk1pYmpaU3ZzWTd6OUZEanFtcjZjU3VNZmpPZU1Hd2p0MXktdS04Sm1WYVg2ckhPWnFxOThHZ3A2SGhPb004VkdRejdtWWI5RWFkM1J1ZUdzVUFDSWY0NVVtTmF6TGc2UU84ZHNvT203OF9yY09xNWRRVFdJYVA3Y05XY2xxVC1jejlr?oc=5",
+          "published": "Fri, 08 May 2026 13:15:29 GMT"
+        },
+        {
+          "title": "Micron Has The Better Scarcity, Sandisk Has The Hotter Trade (NASDAQ:SNDK) - Seeking Alpha",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPd0ZFd1h0S2xPWDdWWFBOcnR1cmFWU3JqTllFQ1h2aGVQajA3dG9MeTJ4WU1xZHhqVWtXNi1wZlVWOUhGRm1LUURfUGV3dXZWX0RHbEZzWXBpMmowMWpVd1RyeXQxR0VkSjlZaUpYcUx4NVBCUkh1bDN4dFdUdlJjem9sTlRYcGpiOFpQSnNKMGZoUjVQY1IwdnlZbnozM1ItRXc?oc=5",
+          "published": "Sat, 09 May 2026 10:51:53 GMT"
+        },
+        {
+          "title": "Memory Stocks Continue to Surge. What’s Driving Micron and Sandisk Higher. - Barron's",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPRk5ETHdQTkRMNWI2Q3Zwa2pBSHFaT1U2S0xhclpTWmZXRkNZcEJOMHpXMHFxQ1IzWFhOek9tLWZtUlhlU1p1RkN3ckd5WVNUYjJUVG9pdmNQckFtMUlOVUFEYlU0alhQbHpzdE5vdTE4b0o1aTZFS2VWVXFnM0lQNDNUTHQ?oc=5",
+          "published": "Fri, 08 May 2026 18:51:00 GMT"
+        },
+        {
+          "title": "Boom or Bubble? Here's Where Sandisk Stock Could Be in 3 Years. - The Motley Fool",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNOHM2OWxiamI4THJZclowSGN6Sk9HQTNUTjJFNjRqMWVmcmNWNzBkdGRYX3BaUWpfbFk5VldsNXlJSDZBcGYwelRQLUYyQXA2VGJaMUItU2trb2VvYXlMeE16NGgwQ3pZRmdWU1ZuM0dwTkg4MlM5TThrYXozNktoRHBrSGZ3MFlCcW94QkhfUVFCNGtmZmVJ?oc=5",
+          "published": "Fri, 08 May 2026 09:41:00 GMT"
+        }
+      ],
+      "ai_summary": "基于提供的信息，对股票 SNDK (Sandisk Corporation) 的简洁分析如下：\n\n**技术面**\n股价处于极度强势的多头排列中：周线、日线均为阳线，且股价远高于所有主要均线（MA5/25/60），均线系统呈标准多头向上发散。近60日涨幅（147.88%）远超大盘（SPY +8.27%）和科技板块（QQQ +18.41%）。但需高度警惕：周线KDJ的J值已高达102.53，周线偏离60周均线幅度达441%，技术指标处于“极度延伸”状态，日线KDJ也已出现高位死叉信号，短期回调风险显著。\n\n**基本面**\n公司市值约2314亿美元，属于大型科技股。当前市盈率（TTM PE）为53.47倍，估值较高；但远期市盈率（Forward PE）仅为9.23倍，显示市场预期未来盈利将大幅增长。营收增速高达251%，利润率34.19%较为健康。资产负债率（D/E）为1.503，杠杆水平偏高。\n\n**新闻政策**\n近期市场关注度极高，新闻标题多聚焦于AI存储概念、与美光（MU）的对比以及股价持续飙升。市场情绪偏向乐观，但部分文章（如Seeking Alpha、Motley Fool）已开始讨论估值泡沫及未来3年风险，提示多空分歧加大。\n\n**风险**\n1.  **技术回调风险**：股价短期涨幅巨大，技术指标严重超买，存在快速回调修复的风险。\n2.  **高估值风险**：TTM PE高达53倍，若未来盈利增速不及预期，股价可能面临戴维斯双杀。\n3.  **高杠杆风险**：1.503的负债权益比在科技股中偏高，利率环境变化可能增加财务压力。\n4.  **行业竞争风险**：AI存储赛道竞争激烈，需持续关注与美光等对手的份额变化。\n\n**综合关注等级：高（但需警惕）**\n该股基本面强劲且处于AI热门赛道，技术面趋势极强，具备高关注价值。然而，当前股价已严重透支短期涨幅，技术回调压力巨大，追高风险极高。建议保持高度关注，但需等待充分回调或技术指标修复后再做进一步评估。"
+    },
+    {
+      "symbol": "ASML",
+      "name": "ASML Holding N.V. - New York Re",
+      "score": 12,
+      "tags": [
+        "高于5周线",
+        "高于25周线",
+        "高于60周线",
+        "5周线>25周线",
+        "25周线>60周线",
+        "周K实体突破",
+        "日K实体确认",
+        "日成交量放大",
+        "流动性达标",
+        "跑赢SPY"
+      ],
+      "default_pass": true,
+      "metrics": {
+        "close": 1592.02,
+        "weekly_body_ratio": 6.173,
+        "weekly_bullish": true,
+        "above_ma5": true,
+        "above_ma25": true,
+        "above_ma60": true,
+        "ma5_gt_ma25": true,
+        "ma25_gt_ma60": true,
+        "weekly_ma60": 1010.4,
+        "weekly_ma60_deviation": 0.5756,
+        "weekly_ma60_deviation_risk": "正常延伸",
+        "daily_body_ratio": 1.2843,
+        "daily_bullish": true,
+        "volume_ratio": 1.2319,
+        "avg_dollar_volume_20": 2716268322.62,
+        "stock_return_60d": 0.1316,
+        "spy_return_60d": 0.0827,
+        "qqq_return_60d": 0.1841,
+        "beat_spy_60d": true,
+        "beat_qqq_60d": false,
+        "weekly_k": 85.5,
+        "weekly_d": 83.37,
+        "weekly_j": 89.74,
+        "weekly_kdj_bullish": true,
+        "daily_k": 93.37,
+        "daily_d": 74.16,
+        "daily_j": 131.78,
+        "daily_kdj_bullish": true
+      },
+      "fundamentals": {
+        "symbol": "ASML",
+        "name": "ASML Holding N.V. - New York Re",
+        "sector": "Technology",
+        "industry": "Semiconductor Equipment & Materials",
+        "market_cap": 613592662016,
+        "trailing_pe": 52.35186,
+        "forward_pe": 33.05493,
+        "profit_margin": 0.29713,
+        "revenue_growth": 0.132,
+        "earnings_growth": 0.192,
+        "debt_to_equity": 12.989
+      },
+      "news": [
+        {
+          "title": "ASML Stock Quote Price and Forecast - CNN",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1qNThlRFUxU1lXM3hiUTdwc0M5T2t0cElFUkR1YTktNzFJMWRsNGhnMTNpYzJWZ19YS1J4aXJXUmkzNW5BSGRYTlhaVDZKY1o4?oc=5",
+          "published": "Thu, 07 May 2026 17:17:44 GMT"
+        },
+        {
+          "title": "Is It Too Late To Consider ASML Holding (NasdaqGS:ASML) After 117% One Year Surge? - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZHJldHFSTjBwWjhoWmZPNGZ5OXhKZ3RFd3dNLUZaT2JpRk1teHNfbGVTSnJjcUpHZVVuc1h0VnhJQjhLSDZ0ZHdkOEZ3V1NTbmVhN09tZkZYUGMwLVkzT3hyLVc4X1BieWpVRVQ3ejFZc3hNbGpQWHNKanFfU0pGdF8wYkxfOXZlbkNiUFdZRElCZGc3SHZXNkdMRHNoZVNo?oc=5",
+          "published": "Sun, 26 Apr 2026 07:00:00 GMT"
+        },
+        {
+          "title": "TSMC and ASML post-earnings stock moves could be a sign of what's to come from chip companies - CNBC",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQeV9WUFp1bHNtbFUtVk91YzhnTmlTc3RlVEl4VFBrYjdsbW9qREVaR25HbVR0R01ZN29SUVA2TW5DT2NhT1ZBNG9fR3RyeVdiY2lzYW1SMFdiS0VzVEh2WHJ2aDY5MWFIODZCR0VCV0QyNUpxekZBeGhFQkZ3Ukk4SGk1M1BHemlN0gGOAUFVX3lxTE9hVEliU1FCZy1EcGg1TktDbGtIQ3RnTDlOZXc3cjMtTDVuWURwM3JNaFlzVmpScXZXVG5fQUxNeWJVS2s2eTFOdE9MZ0hHdHhiRHEyVDIyWFVMNHhyU2hxVTRsN1BQTGJXazQ0aG1QMkV4bEZyaEp6a2Fmd3FVM29TTnBRemtCOWJMcHZNakE?oc=5",
+          "published": "Thu, 16 Apr 2026 07:00:00 GMT"
+        },
+        {
+          "title": "ASML Holding N.V. $ASML Holdings Increased by NewEdge Wealth LLC - MarketBeat",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNUlNnRWJ2X0prc0hRQU54RDU5dW4wclc3ODZBYW0tOUJXcG5LMjcxQ2xLUTdKZ0tGeFdoSGpUemlUSnZsVDFRZEsySzZreU5tLVJJVlcwTVhrOUZLb1F6MUFEa2oxSU8zanBzUzFnR3R5bzRkNmhNdGM2U2QyQ2p3Z2docjVVMFB1TXV1WFVGYWZGVGo4enRETldMWjBFUEJnenhCTElXazd3RTZ1X3J4dlhiLVhMeUtOU213ZmwtOA?oc=5",
+          "published": "Sun, 10 May 2026 10:02:32 GMT"
+        },
+        {
+          "title": "Assessing ASML Holding’s (ENXTAM:ASML) Valuation After A Strong Year Of Share Price Momentum - simplywall.st",
+          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNMG1pQ1BreUNmU3VERDIwQmJHUVhiekkxZTdJbDJCclZORVpzd2piMmNRTjlKNE55RGlKSnYyc0JpaklNVjFPZlZsNmZfZlVTWDZJemIyNGdrd1UyYzZfYV9kYWxWZzdlMDhkX0xCOHNPeW0yYzFNMmRZT01UNjRmLXNLSi15OEdmSWJOLW9SVF9GdUlzenlXUkxNbEp3TlpzTm9YNUprdVhfS2hNbVlMQUtiblVHeDAxenNqOTZKYjdzT0lCWnBVY3lXdHVGSVNvaHBpYzhRb9IB3AFBVV95cUxPSHVSOEVaZW95TC1JMDJmVnFoRzdyMEhJN2ZfMUJJaU4yQ2NBUE5OUTQyblFXb0Z6TUpKLVk2LVRDMVNGdDVyeERSS09idTFWaDFnWEtaLXl6SGJuLVdYanFMQ0dVTmgzQ0NIQnpEb3dnbUZJTEtLOEExMFZ1ZVIzTEZ3azI2UVZsdEd3ZkFVVXEyNUVReFc3RndVYWxtMVo4d1RIUS10dFU1WGVYNEJFRVVnTkdhLWNtM1lJaG5mTmNGYkRVSmZ6SGdpZU5lZU1HU2pwaHdOTWZ4VEFC?oc=5",
+          "published": "Sun, 10 May 2026 09:30:38 GMT"
+        }
+      ],
+      "ai_summary": "基于提供的多维度数据，对ASML（阿斯麦）的简要分析如下：\n\n### 技术面\n- **趋势强度**：价格远高于主要均线（MA5/MA25/MA60），且均线呈多头排列（MA5>MA25>MA60），周线与日线均为阳线，中期上升趋势明确。\n- **动量指标**：周线与日线KDJ均处于高位金叉状态（周J值89.74，日J值131.78），显示短期动能强劲，但日J值已进入超买区域，需警惕技术性回调风险。\n- **相对表现**：近60日跑赢标普500（SPY），但略逊于纳斯达克100（QQQ），表明其走势强于大盘但弱于科技龙头指数。\n- **量价配合**：成交量放大（量比1.23），日均成交额约27亿美元，流动性充裕，支撑当前上涨。\n\n### 基本面\n- **估值水平**：静态市盈率（52.35倍）较高，但远期市盈率（33.05倍）显著下降，反映市场对其未来盈利增长有较高预期。\n- **盈利能力**：净利润率29.7%，处于行业优秀水平；营收增长13.2%，盈利增长19.2%，显示公司处于稳健的成长轨道。\n- **财务风险**：资产负债率（Debt/Equity）高达12.99倍，属于高杠杆运营模式，需关注其债务偿付能力及利率变动对财务费用的影响。\n\n### 新闻与政策\n- **市场情绪**：多家主流财经媒体（CNN、Yahoo Finance、CNBC）近期对ASML进行报道，关注点集中于股价大幅上涨后的估值合理性及行业前景。\n- **行业联动**：台积电（TSMC）等芯片巨头财报后的股价波动被视为行业风向标，暗示ASML作为上游设备商可能受下游需求预期变化影响。\n- **机构动向**：有机构（NewEdge Wealth LLC）增持ASML，显示部分专业投资者仍看好其长期价值。\n\n### 风险\n1. **技术性回调风险**：日线KDJ处于极端超买区（J值>130），短期获利盘抛压可能引发震荡。\n2. **估值压力**：当前52倍PE已包含较高增长预期，若未来业绩不及预期，股价可能面临戴维斯双杀。\n3. **高杠杆风险**：近13倍的负债权益比在利率高位环境下，财务成本上升可能侵蚀利润。\n4. **行业周期风险**：半导体设备行业具有强周期性，若全球芯片资本开支放缓，订单可能下滑。\n\n### 综合关注等级\n**中等偏高关注**\n- **理由**：技术面处于强势上升通道，基本面盈利增长稳健，但估值偏高、技术指标超买及高杠杆构成主要制约。适合已持有者跟踪趋势变化，潜在投资者需等待更佳的风险收益比入场点。"
+    },
+    {
+      "symbol": "CBOE",
+      "name": "Cboe Global Markets, Inc.",
+      "score": 12,
+      "tags": [
+        "高于5周线",
+        "高于25周线",
+        "高于60周线",
+        "5周线>25周线",
+        "25周线>60周线",
+        "周K实体突破",
+        "日K实体确认",
+        "流动性达标",
+        "跑赢SPY",
+        "跑赢QQQ"
+      ],
+      "default_pass": true,
+      "metrics": {
+        "close": 348.56,
+        "weekly_body_ratio": 1.0287,
+        "weekly_bullish": true,
+        "above_ma5": true,
+        "above_ma25": true,
+        "above_ma60": true,
+        "ma5_gt_ma25": true,
+        "ma25_gt_ma60": true,
+        "weekly_ma60": 253.07,
+        "weekly_ma60_deviation": 0.3773,
+        "weekly_ma60_deviation_risk": "正常延伸",
+        "daily_body_ratio": 1.3231,
+        "daily_bullish": true,
+        "volume_ratio": 0.8788,
+        "avg_dollar_volume_20": 289391118.93,
+        "stock_return_60d": 0.2881,
+        "spy_return_60d": 0.0827,
+        "qqq_return_60d": 0.1841,
+        "beat_spy_60d": true,
+        "beat_qqq_60d": true,
+        "weekly_k": 95.45,
+        "weekly_d": 90.85,
+        "weekly_j": 104.65,
+        "weekly_kdj_bullish": true,
+        "daily_k": 94.26,
+        "daily_d": 94.81,
+        "daily_j": 93.16,
+        "daily_kdj_bullish": false
+      },
+      "fundamentals": {
+        "symbol": "CBOE",
+        "name": "Cboe Global Markets, Inc.",
+        "sector": "Financial Services",
+        "industry": "Financial Data & Stock Exchanges",
+        "market_cap": 36478124032,
+        "trailing_pe": 29.766012,
+        "forward_pe": 24.264668,
+        "profit_margin": 0.25774,
+        "revenue_growth": 0.065,
+        "earnings_growth": 0.544,
+        "debt_to_equity": 29.489
+      },
+      "news": [
+        {
+          "title": "Is It Too Late To Consider Cboe Global Markets (CBOE) After Its 52% One-Year Rally? - simplywall.st",
+          "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNQ0NIVkhmZklsUC1STEhPN25uRjMyeTIxdUpRMXlTQ0U0UEk4a1FOSUxpTk9mU0p3VnJidzdLTGt0V2pCMXRhTUdPLU10cWZjM01OOXV6aXR1Q1JfM01RTlF6N2Fjd04zNWZQbUhTLWQwdDZCVVlQeVdZT2VRaWE2alQ3d1FGaGhrU1ZORkdIeEs4YXhiM1NnYjZXdnRESHFFTnlBd3B6SlpIcmdrX1dEci1aODhMUHhsaGZqRU1VQzdqQ1lzbV92WklRRFNsS3RVS2ZTQl9ud216OTB5SDNEa3k3V3VUbnPSAewBQVVfeXFMTUVETzd4a2N5N0VfX1FNUG9VRFh0clhUY3V5RURmQ09fbERnTE1FZ1J0cG5SWU5sa05aSDlabE85cW45YlBvMVRDNWJmcG9CQTJFNVBxNWJmNnd1MmROYXlPaVRkVTBsOGVxazhQY1ZmSE9TRnJBMFB2VnlTUzlVN2hYU1VDZDlBSHM0ZkZzOV9tUnhTbldXNjFfWUlJNjVvS19VVlFPTm5MOEhNQTJ1SHBxNlhsNmtFZjhEMmN2aXVzR2t2NHBDTVJ3ay1zWHRtMEtfcVpHOUVxb0E2TGdwX1Y2QURqNEk1bHBkMUk?oc=5",
+          "published": "Sun, 10 May 2026 08:42:41 GMT"
+        },
+        {
+          "title": "One April day hit 9M Cboe index options as volumes swung widely - Stock Titan",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNU0J4RVdWNGFrbVlPM1N5TDV0Uk51bTRFSmJwUmRMcEZjX2JJYUJlS0JBeEMyTlYzeXV4STR0RndLTGd0OUJVS0c3VEprekRaTElQYlVRcUk5TG92bnhCS2NGNkMtR0ZiM0pLTDNGazVXODByZVNaZGxVWXppMVhRa1A3RHZNVUd0ZGZkamRwdlVZQllaU1Z0cXByRm00SlNXY1FOUXVCUDUzRFE?oc=5",
+          "published": "Tue, 05 May 2026 20:30:00 GMT"
+        },
+        {
+          "title": "Best Low-Beta Stocks to Own Right Away: LQDA, CBOE, VLO & FANG - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbDZfaFo0ZHZvOEdHbEV3QXRKYll3cDRpaVJpLVJZOWJSNEtUMFl0R2dpTkIwRzlUZExBOTBuNUw0VXJZdVI2SHlHR0pVem8tZmRBUTV0eUJrcnlmWHBCTlVCem9lTVpGVVRQYWcyc1lBV1pkeExkSVlKVk5HcHdqb0F1SW5VZFNESHVDSHNaWW1Zd2s?oc=5",
+          "published": "Fri, 08 May 2026 15:06:00 GMT"
+        },
+        {
+          "title": "Cboe Global Markets Inc. stock outperforms competitors on strong trading day - MarketWatch",
+          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQQ2JWaHJtd0R6ME5fQjc2bUQwN1J3RjRPcFZ2M3QyOWM0UnhGLURyNnBPQW9NbW8taDdUN2NOY28zUF9IWFpTaEJ3dkQxVVJuUHB2ZUdFYngwdEFIUkY1OXRRNUVKRzhhRXlLRV92SFR0M0NJVjhlQjBSU1lzQXNwY2E2OGhZdGJ6Vml3RGUxRlZoUktJR2JGeE8wYWhNclRtcjJmaHZxc1JtUTNnV0IydVV0ejhNX3dPdmFNYUJsS1BLb3NZcFFHVkNfSGZJZ1Fk?oc=5",
+          "published": "Fri, 08 May 2026 20:57:00 GMT"
+        },
+        {
+          "title": "Cboe Global Markets stock hits all-time high at 346.58 USD - Investing.com",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObXF5NWpJZ1hkOUtYU0s2ZmFTZmZfTFVYb1dOUUdVcXFZc0RhMHpVQzZLTWZ4aUJiWWJLRWdRclpOOHk4eUxlVmI0VXdRU21nQWlBNG0xYXNodTB3RUVlNXVSVTFzemdwbV9Lb3V3bnNmLW0yckw3cTNIRUI0YmIxaXdvQzZKN2QtVGV3R3pNVFBKZzhMMFAxNkpfcVk5OUgyVFQ3R1hxdlJWWnpWcGxXYjdObw?oc=5",
+          "published": "Fri, 08 May 2026 18:06:16 GMT"
+        }
+      ]
+    },
+    {
+      "symbol": "CRWD",
+      "name": "CrowdStrike Holdings, Inc.",
+      "score": 12,
+      "tags": [
+        "高于5周线",
+        "高于25周线",
+        "高于60周线",
+        "5周线>25周线",
+        "周K实体突破",
+        "日K实体确认",
+        "日成交量放大",
+        "流动性达标",
+        "跑赢SPY",
+        "跑赢QQQ"
+      ],
+      "default_pass": true,
+      "metrics": {
+        "close": 527.77,
+        "weekly_body_ratio": 1.6162,
+        "weekly_bullish": true,
+        "above_ma5": true,
+        "above_ma25": true,
+        "above_ma60": true,
+        "ma5_gt_ma25": true,
+        "ma25_gt_ma60": false,
+        "weekly_ma60": 450.24,
+        "weekly_ma60_deviation": 0.1722,
+        "weekly_ma60_deviation_risk": "正常延伸",
+        "daily_body_ratio": 1.4567,
+        "daily_bullish": true,
+        "volume_ratio": 1.4135,
+        "avg_dollar_volume_20": 1289375623.61,
+        "stock_return_60d": 0.2824,
+        "spy_return_60d": 0.0827,
+        "qqq_return_60d": 0.1841,
+        "beat_spy_60d": true,
+        "beat_qqq_60d": true,
+        "weekly_k": 83.5,
+        "weekly_d": 65.74,
+        "weekly_j": 119.02,
+        "weekly_kdj_bullish": true,
+        "daily_k": 95.29,
+        "daily_d": 94.54,
+        "daily_j": 96.79,
+        "daily_kdj_bullish": true
+      },
+      "fundamentals": {
+        "symbol": "CRWD",
+        "name": "CrowdStrike Holdings, Inc.",
+        "sector": "Technology",
+        "industry": "Software - Infrastructure",
+        "market_cap": 134336749568,
+        "trailing_pe": null,
+        "forward_pe": 85.56528,
+        "profit_margin": -0.033770002,
+        "revenue_growth": 0.233,
+        "earnings_growth": null,
+        "debt_to_equity": 18.336
+      },
+      "news": [
+        {
+          "title": "CrowdStrike Stock: Durable Growth Justifies The Premium (NASDAQ:CRWD) - Seeking Alpha",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZF9ZbzdPa2Y4SXdXWFRBNFlSTncxWm45X2owX2tTWWJRSDZQc0ZiZnJTb0dfbUg5bXluem1ZMGN2b2ZSdmJJY294eEpDMHFKRnRZRjdZWF82VVZaOEo2Y2ZZZjZjMlBtQzNCeXNIU1M5UmJESF9tTEpQcFktdVZWOEVlR0xxUllQT0ZiRkQyaTA3cHZGM1d1VXM5bjlKUQ?oc=5",
+          "published": "Sun, 10 May 2026 03:09:08 GMT"
+        },
+        {
+          "title": "What Are Analysts Saying About CrowdStrike (CRWD) Stock? - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdWd3UXIxZXIzX19aVy1VNTdLTmdpQ1pMYkx4NEYyZG1uY3JUVEhOazFta0hnR2x4cVRMTUgzRHVUY2xUZDZuNGNmSlN3Mm5pd1d3SXNhbzBaelpoOWRTZGpxNk9EWEpkV1lnSXNIblplenVNYzhXb29CQkpubHhPS2RPR2RtOTc1S296ekp4SDA5VlhESDB5MTZwU1hrRm9ac0tQSlN3?oc=5",
+          "published": "Tue, 14 Apr 2026 07:00:00 GMT"
+        },
+        {
+          "title": "CrowdStrike Stock (CRWD) Opinions on Anthropic Project Glasswing - Quiver Quantitative",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOY3pWMTBDVXVJYll1Y3UzckNpamxaOGg0bXlWczdzd3h2dDhDQXpUa2xFcGxfSkhGSFNPVDc2aktUMXgwVUhndjA2Vk90WFJXZVAyMTkzZ04tR0lJYldkMEtudFhiSnFzMTc3VTFvX0ptZk9GX0tzaUdnVWxNVDlBMmhEYmtKaVZfYVN4enZMWGVoTHJQZDVTRS1DU3VQVlEyV05n?oc=5",
+          "published": "Wed, 06 May 2026 17:40:00 GMT"
+        },
+        {
+          "title": "CrowdStrike Stock Surges 8.0% In A Single Day, Wait For A Dip To Buy The Stock - Trefis",
+          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQTVZ1OF9vM3ZjQkFvQ1JDd2loazdhUXFwdHZPblE0dUtQalVJVGxkRDlsbnhUTFJKX3RqVER4ZWprcHpmZHlqemgwMXh6MU5BbENhN0xTempSRUJxOWRTeFJtYlhJc0R0VXFFQkREUzZtbUpjelBRSm9HdHRoVk13OGdRaU9KVTRjSFBrZGVWRXJoa0JiRlNWNG9XRGRKcV9qOVdnWTYxQ3FZWHEtaENrVFVrY09Za0hTQkd1WV9Pak9zU2VWVVpJWVRZdXhBb3ZWTnlYRVRyYjJJcllMdThz?oc=5",
+          "published": "Fri, 08 May 2026 06:12:28 GMT"
+        },
+        {
+          "title": "CrowdStrike Holdings Stock Jumps 8% as AI Cybersecurity Rally Meets CEO Share Sale - TechStock²",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOYjNRejJwUk9yOXJzbjE4Q2s4dVV1aDhwOF9CTUpjNTd5VDZMdHZQVkY2ZE5VOEx3Ukg5Mnl4bUlON1VVYXU4R0tGclN3MU1scnUwM2hNRlVWeWlxRmloMTZsVWl4Uy1aWU1Fb1lsc2Y4RkJCUDJEcVBMRkxXMXlyc1k1OFUzbVAtMm00YUdpVWRhdWRkU1FSc0R0WDJtbE41NlQtTg?oc=5",
+          "published": "Fri, 08 May 2026 08:45:38 GMT"
+        }
+      ]
+    },
+    {
+      "symbol": "CVS",
+      "name": "CVS Health Corporation",
+      "score": 12,
+      "tags": [
+        "高于5周线",
+        "高于25周线",
+        "高于60周线",
+        "5周线>25周线",
+        "25周线>60周线",
+        "周K实体突破",
+        "日K实体确认",
+        "日成交量放大",
+        "流动性达标",
+        "跑赢SPY"
+      ],
+      "default_pass": true,
+      "metrics": {
+        "close": 90.55,
+        "weekly_body_ratio": 1.9504,
+        "weekly_bullish": true,
+        "above_ma5": true,
+        "above_ma25": true,
+        "above_ma60": true,
+        "ma5_gt_ma25": true,
+        "ma25_gt_ma60": true,
+        "weekly_ma60": 73.25,
+        "weekly_ma60_deviation": 0.2361,
+        "weekly_ma60_deviation_risk": "正常延伸",
+        "daily_body_ratio": 1.8613,
+        "daily_bullish": true,
+        "volume_ratio": 1.3907,
+        "avg_dollar_volume_20": 649884700.55,
+        "stock_return_60d": 0.1619,
+        "spy_return_60d": 0.0827,
+        "qqq_return_60d": 0.1841,
+        "beat_spy_60d": true,
+        "beat_qqq_60d": false,
+        "weekly_k": 81.14,
+        "weekly_d": 69.1,
+        "weekly_j": 105.21,
+        "weekly_kdj_bullish": true,
+        "daily_k": 91.98,
+        "daily_d": 83.27,
+        "daily_j": 109.41,
+        "daily_kdj_bullish": true
+      },
+      "fundamentals": {
+        "symbol": "CVS",
+        "name": "CVS Health Corporation",
+        "sector": "Healthcare",
+        "industry": "Healthcare Plans",
+        "market_cap": 115535216640,
+        "trailing_pe": 39.714912,
+        "forward_pe": 10.885428,
+        "profit_margin": 0.00723,
+        "revenue_growth": 0.061,
+        "earnings_growth": 0.631,
+        "debt_to_equity": 100.912
+      },
+      "news": [
+        {
+          "title": "CVS Stock Breaks Out On Earnings Due To ACA Exit, Premium Hikes - Investor's Business Daily",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTXI0dzVrY2RwNnVQZFRXeGdzT3J6WTNGN1FDcmt1dkFJNkVWNW9ERUcyamMxMk5HMnViWl9Ec3R1NXJpV0tzWUFTMDhEclREckZ2TlljVnNfMGhaeUMwMGRoYUd1NDRwNml6SGtVS3pIejRZRXFDY01ub3BjUGFtSQ?oc=5",
+          "published": "Wed, 06 May 2026 14:09:00 GMT"
+        },
+        {
+          "title": "CVS Health raises 2026 forecast after improving medical cost controls - Reuters",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQRDA1Nzl1T1JIODA0cW5fd3B5LVNTNWtNWkdvRWJzX3VzTmRpbUhyS0hZRV9FZmFucktvWHBQTUVTSHFkSTloUTZhX0lSNzJoRGFsb2pfY1F6WnZVQU80bTRncFp1SFI4Uk81R3pRS0NOdHVId2hCZ0xqdWpvSVdSM3dfaW15YnZiWXBmd2dTanZhaTkzYlBWX054QlRBMXFKM3BOc201dW9BNTBKQnN3X0ROU1EzREE3LTIxSVhBYw?oc=5",
+          "published": "Wed, 06 May 2026 14:42:55 GMT"
+        },
+        {
+          "title": "CVS blows past estimates, hikes outlook as insurance business outperforms - CNBC",
+          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1vUEQtY2xubVdUVlRobUlaclAwcGtpZjNmN2prbVM4LWxMa3BvVVQwMnlmVmFiOXdOdzA3SWpVUElBYmItQU1JSHpvRnhTV3J2N2ZjU0NMTGM2MHdoUlhYWWZxeGZTRHQyVVljQTd5N3Zlc3ZDMVBz0gF8QVVfeXFMT2c3QjU5UlVnYTdvdENYdXF3QVgzQUlKUTNENUJTb1Y3UlV6bkp5WWtIamdEY0dfaUY2RUxJNURkb1YzYmFiSmhxNm84bWNSa2wwTmpqaUl0UTl4dFhmT0p4V0tLZnhwVXJYVGQ3OUJlcHpycHA2bGpVRm1XcQ?oc=5",
+          "published": "Wed, 06 May 2026 10:31:14 GMT"
+        },
+        {
+          "title": "CVS Health Stock Jumps After Earnings. What’s Encouraging Wall Street. - Barron's",
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9iSmd3dThGTnB5c19hM3lUeUJwT3Nnak94NkVzdFBBVk9uZl9FQTQ0Q0ttNVhkamhxSUtsRE0yd3hBWm8tMDRUbzk5MHIxZmwtUzVyNkhzMTRMQUhnVWNFYzlnTVNsUjcya3ktSmtxWUNHNTVhQnZhdmFTcTE4Zw?oc=5",
+          "published": "Wed, 06 May 2026 11:02:00 GMT"
+        },
+        {
+          "title": "CVS Health Q1 Earnings Call Highlights - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQd0pVMHljNFVkcUxwRzdLT2NYYmdPUVpseF9GOEJHTXQtVWFaOEF1VC1JQ0hYRUVHZXR1djRsMUNpcmZzclBmbWJORGpXX3JqUXZLYkZhZHVpRktaVGF5NU01d0p4blVoYUgxbUJrdUNMeFRUNFRTVFNlczZONk5qaXJ2SndTcVpiZzhHQnVBY3ZkLVMyMnlQcUIteEc?oc=5",
+          "published": "Sun, 10 May 2026 00:04:00 GMT"
+        }
+      ]
+    },
+    {
+      "symbol": "FTNT",
+      "name": "Fortinet, Inc.",
+      "score": 12,
+      "tags": [
+        "高于5周线",
+        "高于25周线",
+        "高于60周线",
+        "5周线>25周线",
+        "周K实体突破",
+        "日K实体确认",
+        "日成交量放大",
+        "流动性达标",
+        "跑赢SPY",
+        "跑赢QQQ"
+      ],
+      "default_pass": true,
+      "metrics": {
+        "close": 114.07,
+        "weekly_body_ratio": 5.636,
+        "weekly_bullish": true,
+        "above_ma5": true,
+        "above_ma25": true,
+        "above_ma60": true,
+        "ma5_gt_ma25": true,
+        "ma25_gt_ma60": false,
+        "weekly_ma60": 88.39,
+        "weekly_ma60_deviation": 0.2905,
+        "weekly_ma60_deviation_risk": "正常延伸",
+        "daily_body_ratio": 2.4982,
+        "daily_bullish": true,
+        "volume_ratio": 1.6234,
+        "avg_dollar_volume_20": 550544926.93,
+        "stock_return_60d": 0.3538,
+        "spy_return_60d": 0.0827,
+        "qqq_return_60d": 0.1841,
+        "beat_spy_60d": true,
+        "beat_qqq_60d": true,
+        "weekly_k": 84.97,
+        "weekly_d": 68.23,
+        "weekly_j": 118.46,
+        "weekly_kdj_bullish": true,
+        "daily_k": 94.46,
+        "daily_d": 95.22,
+        "daily_j": 92.94,
+        "daily_kdj_bullish": false
+      },
+      "fundamentals": {
+        "symbol": "FTNT",
+        "name": "Fortinet, Inc.",
+        "sector": "Technology",
+        "industry": "Software - Infrastructure",
+        "market_cap": 83510878208,
+        "trailing_pe": 44.21318,
+        "forward_pe": 33.356533,
+        "profit_margin": 0.27491,
+        "revenue_growth": 0.201,
+        "earnings_growth": 0.286,
+        "debt_to_equity": 57.31
+      },
+      "news": [
+        {
+          "title": "Fortinet Stock Surges On Cybersecurity Firm's Q1 Earnings Beat, Strong Guidance - Investor's Business Daily",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPUGIwMmtteVVuUWxIUXlnQmVwZEtyV0h2LVdPYXJzaHhsLTJ4NW9VVHZMMlZWZXJrUHZibVNWdTNyWEdOTjYwWEJRUTlTQUt5akM5QzFJWlprcmlMczQ3UUVLbUJiUFBfRjJ5N3kxcEpxb01UbG5aYmhCZUoyWGIxVkdFaHpfa282VDFnVjBRTUEzWG52Y1ZV?oc=5",
+          "published": "Wed, 06 May 2026 21:29:00 GMT"
+        },
+        {
+          "title": "Fortinet posts $1.01B free cash flow after 31% billings jump - Stock Titan",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVzVxejFlQ2ZkU1hFZVlrclFNNi1rd2VQUmFLYjRFQ1VaTTZla2F3b3pzeVd6VExOTG1xSW5BUWE5YnlYcFpMLVRUeTRObG5yRVN5WTJ0SVczX1Q0S19NbVozdmtLU2Vvb2pwUVpuemdFeGpHdG5LMlFHWml3Q01WUXpTbEUwemtTRWdCdzBSYW9tZ3ZCOVZFdGJrajcxa0cyMmlab0lyRzZ4eG8?oc=5",
+          "published": "Wed, 06 May 2026 20:36:28 GMT"
+        },
+        {
+          "title": "Fortinet’s stock rockets higher as earnings help dispel fears of AI disruption - MarketWatch",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQMHFEVjVtNlNBcmRpTDlybFNWcWRUeUFLazh5QTE1YUNSQVFnMzFpc0NJMHpZVHQtLXpVd21zR3ZIaU51S1RQdEVYSVhkT3BFN01obElJdE1KU25EZTAtNXZ2ajEwVzBOTlNLUmVnMkxibHhQN3A4RzkwWmFCWnpZbi1OSDQwdjQ2Z1Y0ekRYeUVROXpRX0VZZm1zdEFVaXlSdE5GdjROR2MzWldUZjRvSE9ZYw?oc=5",
+          "published": "Wed, 06 May 2026 20:45:00 GMT"
+        },
+        {
+          "title": "Fortinet Stock Pulls Back to Support – Smart Entry? - Trefis",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPTkc3bHA0cXpPelZuQmYtUzBPcTNJd1dJZVNjX3BsWjQ1MUE5end2UzJJNHhsMDd6ZmppdGdKa3Izbk12aEp4RjBkMENseDlrVTBldVN1Ql9Mc3pMYjN4RTJEWUJjT09hMlhHTGF0YTVLbDlPNnF6dER1cDFoQTY3dnFmVzdhVjZmTDR3TklCWUp2R2RES2x1V2p0MnBNX3NPREdfcVpNRUhlTllzem5v?oc=5",
+          "published": "Fri, 08 May 2026 07:49:35 GMT"
+        },
+        {
+          "title": "Evaluating Fortinet (FTNT) Stock After Its Recent Strong Share Price Performance - simplywall.st",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNTVFHRTVNc0dYUi1nRnVPM1VWY2xULWJGQVlZYVdNU1NhbF9IMGcyWWEtMWpaa2YxR1dSU3BXWjVUblltb3kzUV8wdkd4cnRtVHV3RXhLNnRZREw0WVkwXzdWZnlzRmRFU2U5SGdqVkRwdWVBMHg2ajlEdUtCSk5NSmNsOUZUbk51a3l1cmZDb1lhMHAtYUlRMGRIRVhacXItbEJ0eDk0TTVIb2ZvWk1DSkluN3VEWlJDT2I3M0pMOXdYZDQxZVHSAcsBQVVfeXFMT1pjOXREeTRyV2R6MWpybnBNakQtOTFDa1AwZlMtYjZCc01kUk1rV0RHZTY2eUw4SVZDaWdpdnlKeFFLRTBfQTRFWVlZM3VYTkEzN0V2b0lVdVM2VzdlU1VqWk1SYXlsb1NlVTZxc3pldVJiOVN0TlR4c3NQdUpZUTI5Q09Pd0tPT09hQzc5d1hwWERtLWhFZFUteXhGdTd6VDA5VzVYeUJYRTM2VkJPcjZlMXNWbDVyVDgxeVppU3NTZkludkZRZ092MTA?oc=5",
+          "published": "Sat, 09 May 2026 11:50:10 GMT"
+        }
+      ]
+    },
+    {
+      "symbol": "HUM",
+      "name": "Humana Inc.",
+      "score": 12,
+      "tags": [
+        "高于5周线",
+        "高于25周线",
+        "高于60周线",
+        "5周线>25周线",
+        "周K实体突破",
+        "日K实体确认",
+        "日成交量放大",
+        "流动性达标",
+        "跑赢SPY",
+        "跑赢QQQ"
+      ],
+      "default_pass": true,
+      "metrics": {
+        "close": 274.96,
+        "weekly_body_ratio": 2.1895,
+        "weekly_bullish": true,
+        "above_ma5": true,
+        "above_ma25": true,
+        "above_ma60": true,
+        "ma5_gt_ma25": true,
+        "ma25_gt_ma60": false,
+        "weekly_ma60": 243.6,
+        "weekly_ma60_deviation": 0.1288,
+        "weekly_ma60_deviation_risk": "正常延伸",
+        "daily_body_ratio": 4.9721,
+        "daily_bullish": true,
+        "volume_ratio": 1.7448,
+        "avg_dollar_volume_20": 411412700.55,
+        "stock_return_60d": 0.5375,
+        "spy_return_60d": 0.0827,
+        "qqq_return_60d": 0.1841,
+        "beat_spy_60d": true,
+        "beat_qqq_60d": true,
+        "weekly_k": 63.81,
+        "weekly_d": 47.38,
+        "weekly_j": 96.66,
+        "weekly_kdj_bullish": true,
+        "daily_k": 94.41,
+        "daily_d": 90.71,
+        "daily_j": 101.82,
+        "daily_kdj_bullish": true
+      },
+      "fundamentals": {
+        "symbol": "HUM",
+        "name": "Humana Inc.",
+        "sector": "Healthcare",
+        "industry": "Healthcare Plans",
+        "market_cap": 33012109312,
+        "trailing_pe": 29.31343,
+        "forward_pe": 18.014595,
+        "profit_margin": 0.00824,
+        "revenue_growth": 0.235,
+        "earnings_growth": -0.046,
+        "debt_to_equity": 77.073
+      },
+      "news": [
+        {
+          "title": "3 Healthcare Stocks Set to Benefit From the One Big Beautiful Bill - MarketBeat",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPcjZZMlJ2WFF0TDZhOHVvS3NaLXJSZDNScjBlRUM2am8zaC04RkpPR1UtVEJKb0MtSGhHTldxVnVRRUJvWnVJc2RBSmVJd1lLYWZ5SGtHT1FPZ1RGZ3lmRGktWjI1MzJ4ekZPUElnR3c3U3FQMGdzOHJKLXBUWENxdy1pMkxfaVB0aDlCc3JUNU1XLW1EWWFKVWxiSkNwS0RQd1lHY3ZoYWVvQQ?oc=5",
+          "published": "Sun, 10 May 2026 12:50:36 GMT"
+        },
+        {
+          "title": "Humana Stock 5-Day Winning Spree: Stock Climbs 18% - Trefis",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNU1VENXl5MVNUa0ZUX1dUTjdEcnFnVTBPYUR6S2RxTDR1NWlSUjl3cDdqTHdXMS1WblFXbHlYRkp3WDRSODlPY19EU2JteHJkZHlfMVVRMm9DazF3dWVKc0xpR3FMMjRKazB3aFJQWGg2YWhWTXNmNXV6R1ZKN05ZRVVuX3poQVY0YWFRVF9yWHN2aUNpZTY1a2ptYlVndTRJMW1lOGNZRW5IYThn?oc=5",
+          "published": "Sat, 09 May 2026 06:06:20 GMT"
+        },
+        {
+          "title": "HUM Stock Chart | HUMANA INC (NYSE:HUM) - ChartMill",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5faWE4d0NMSFlwLUpzZGhPTjRUaE84MWZTVTdYekE0aDU4WFE3NVpJcEYzWGVOUWN0OHVkVnBGQnF4LWdHZUpkWXJraWN2UzJMSTQydmhxLXlySnlQTkJ6V0N2cw?oc=5",
+          "published": "Thu, 07 May 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Jim Cramer Discusses Big Humana (HUM) Business - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUDA4WnBtSmFCbHJSSThSYXB2cFZxbWZaM2pvenBhZlIwZDRTZ2g5Tkx3c0Vzbm5hNk42VnRpY2pIRmxGNGpVM0dFcDhCaFMxUlpDYWxpd19uMDhvaG5FQ1hLMVd5cEVfc1BDY2h6YTRqZ2lBRGtSY1VCYkRqQjlmcXpvWVJGMEYzWFdHbzdhbE5iSG1fWDdNb2VfenpNMVYtWkE?oc=5",
+          "published": "Thu, 16 Apr 2026 07:00:00 GMT"
+        },
+        {
+          "title": "$0.885 a share: Humana sets July 31 dividend payment date - Stock Titan",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNOEk1cVc3aVN2MW1LNnVCT0FkTGFqV3pOa05ieDJpa3B0bW0waTZZOW9YTmRJV2JQbUg3clE4VkpwY2dMT1ZlUEl3YzE1cXF0N01OUWZQZl9Tb2psUnp0M2Y0UkFZYVNuMEpOOERieUFwSE9ncjZKMmVndDBXb1BUN2V6WlE5R2pXal9RaU1ESW5JWVlGcUVtR2lLdHFWTnZjV2Ixd0htalpBUFZr?oc=5",
+          "published": "Wed, 15 Apr 2026 07:00:00 GMT"
+        }
+      ]
+    },
+    {
+      "symbol": "PANW",
+      "name": "Palo Alto Networks, Inc.",
+      "score": 12,
+      "tags": [
+        "高于5周线",
+        "高于25周线",
+        "高于60周线",
+        "5周线>25周线",
+        "周K实体突破",
+        "日K实体确认",
+        "日成交量放大",
+        "流动性达标",
+        "跑赢SPY",
+        "跑赢QQQ"
+      ],
+      "default_pass": true,
+      "metrics": {
+        "close": 207.88,
+        "weekly_body_ratio": 2.1385,
+        "weekly_bullish": true,
+        "above_ma5": true,
+        "above_ma25": true,
+        "above_ma60": true,
+        "ma5_gt_ma25": true,
+        "ma25_gt_ma60": false,
+        "weekly_ma60": 185.0,
+        "weekly_ma60_deviation": 0.1237,
+        "weekly_ma60_deviation_risk": "正常延伸",
+        "daily_body_ratio": 2.2622,
+        "daily_bullish": true,
+        "volume_ratio": 1.7346,
+        "avg_dollar_volume_20": 1202038913.73,
+        "stock_return_60d": 0.2768,
+        "spy_return_60d": 0.0827,
+        "qqq_return_60d": 0.1841,
+        "beat_spy_60d": true,
+        "beat_qqq_60d": true,
+        "weekly_k": 80.61,
+        "weekly_d": 64.39,
+        "weekly_j": 113.06,
+        "weekly_kdj_bullish": true,
+        "daily_k": 94.04,
+        "daily_d": 91.98,
+        "daily_j": 98.16,
+        "daily_kdj_bullish": true
+      },
+      "fundamentals": {
+        "symbol": "PANW",
+        "name": "Palo Alto Networks, Inc.",
+        "sector": "Technology",
+        "industry": "Software - Infrastructure",
+        "market_cap": 168590688256,
+        "trailing_pe": 114.85084,
+        "forward_pe": 52.366547,
+        "profit_margin": 0.12956999,
+        "revenue_growth": 0.149,
+        "earnings_growth": 0.605,
+        "debt_to_equity": 4.887
+      },
+      "news": [
+        {
+          "title": "PANW stock rises overnight on Anthropic integration, new AI gateway buy — but retail is still not sold - MSN",
+          "link": "https://news.google.com/rss/articles/CBMi_wJBVV95cUxOMXg3Y3pGay1sYzgzZFI2aFlrOTFza0Y0RGNOYVB0eEhSNno2OWRhOGswTWloemZTZGhqSmxQLUFxVnF6cElVXzVidDFQdEpGcGRJTy1kekIyR0hycDFaRjVrQ1llV1NZWGd6Ry10cmJzMG9fRHhDWmh5clU4MXJLYnluV2pObUlFN3JZRjdJVXdlMzk4Um9aNFdpb2dWTTBEYzlWUWRaS3JGNDRiMTU3VWZwd2QtckFFRnJ5RzcxbzBQN2VvZHFaS1ZlcDBwaEFyUHNad0FUZjhHOGFKenZibE55Y2xFb2ozeWYxWDU5dDF2R0ktaWtvVFc2Y0lISkQtT05fOWNVS0NVei14RXctLXQxNWNsU0xLQVczZTlwb1dLWm96VVBrM2cyVGgzS1hXQ2p6WlY1c1BJMEVINGoyNXQtOXpaQllySlNvSGI2ZnBlUmo5MkdzN0wzX2JEMlJxWkhWYWQzTEQzeXdyRnI4VWVXRmFnOEdfb0pfNG1iZw?oc=5",
+          "published": "Sun, 10 May 2026 04:57:17 GMT"
+        },
+        {
+          "title": "Is Palo Alto Networks (PANW) Stock Pricing In Too Much Optimism After Recent Gains - simplywall.st",
+          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNUTZyQ3FzQkdOakVPamQ0RVozdjFWcE5FY3d6b0tRRmpDQVFacXFrdngwUDY3aERRNHJONlZvTU01WW5CX3dRTXVOQkFQeUU2Ul93eURqNG5VVWRZb2VIUHZfcTdaZWNfWGZLeDltT3FpNll1alNDY05lZFdLRXhUU1pXOG5hS05sWTlVcl9DeHNOWHJ6d3F6UzRxRU1mSExaYXVQQzdKOGJnZzJaX1NiY281eHlSejByTVU0bzhxeGp6MlVCMFhTSmJoOHFNY1oxNDJJ0gHYAUFVX3lxTFBpZWp1VFktMEpnWnVwQWhDNHVHbzJmck80S0ZPdUxUaWpUSDlITVhNOGIwWnNqaVNSQVVzWEplWC15TW9ra2duVmMxOU5EZDhCM2h0QzEwZnBtdElrdU5UbkE3aDhkU25wNmJId21JTlNTREZkelBZVlVweFNmOXF2YVBueEVRMGVkZUswUDdtdVFtRXBEYVVBQ3VaV2wzdDBvcHl0R1NNNFJ4Q1R0S0dyWWdVZHRDNV9DOGFWbVE1Y3EyTDBKUUI3NjhrQW9pb3NmMThVY2pSMg?oc=5",
+          "published": "Sun, 10 May 2026 03:46:04 GMT"
+        },
+        {
+          "title": "Why is Palo Alto Networks stock surging today? - Investing.com",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPd09IR3p6RkdObUpqTFZ0aHRRUXQ4Ymw0U09PcHVvSGdIVE9BMmVhdTFDT1VtQW1yTUY3TU55Mi1EUC1NQmlGSHFSWmozci1yQVUzMTZGTlhFR1B0N3FzT1RGeDZLdlRfNnpNNVVTekNvQ18yU01hLVd2Y2J0YWZWTzRjZEV3bUVqOW55ajE2WndWLWZRNEJaQ2REeWdTdm9WbFc0clFrYWxzd0k?oc=5",
+          "published": "Thu, 07 May 2026 14:13:07 GMT"
+        },
+        {
+          "title": "Palo Alto Networks Stock (PANW) Opinions on Q1 Earnings Beat - Quiver Quantitative",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOSXBMQjJOalNqcHZrYTktSmpHa2ppYmlZZkVMS3FEOW5qYjNsUi14VkZTNWF6bnhVcnZVQ0RPR2JQTVJSR0treGZzaWUtR0NvWkFObTZzVjBEUG5KdDB5dVo1Q01rNGtRaGFJd08ydDBoX1VIVkZueW9fQUVQaFNUX21WMzA2T2QwMzE3SkRXRUtoTmRMWXV4cFJLc0NqUQ?oc=5",
+          "published": "Sat, 25 Apr 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Palo Alto Is Buying Portkey. That Makes PANW Stock Even More of a Bet on AI Agents. - Barchart",
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNQ1BVZldKNEIxWG5fb3B5M2I3X1VmbGhlLWVNVUlpTnZxTW56MDd3Tk9qRDJid3B0N3NxdG9GLXJ4a3RRSnYtM2lIRW1OQm5faHllWU9oN1VrOFNYNURnbEdJNF80bUhjTlljcFJra0NhaDJnQTdPbmFBUHdDRE5Pb21vMnZYWDVUSDhuUnhrem50U1EyZkhHTHVXWW8zbjlvVGdxdDB3cXdab0JQVURJNmdoZXl6TWtNWHVJaDhVaEVGaDg?oc=5",
+          "published": "Wed, 06 May 2026 15:21:20 GMT"
+        }
+      ]
+    },
+    {
+      "symbol": "CPAY",
+      "name": "Corpay, Inc.",
       "score": 11,
       "tags": [
         "高于5周线",
@@ -160,50 +1463,677 @@
       ],
       "default_pass": true,
       "metrics": {
-        "close": 109.36,
-        "weekly_body_ratio": 8.8601,
+        "close": 343.99,
+        "weekly_body_ratio": 1.1538,
         "weekly_bullish": true,
         "above_ma5": true,
         "above_ma25": true,
         "above_ma60": true,
         "ma5_gt_ma25": true,
         "ma25_gt_ma60": true,
-        "weekly_ma60": 92.69,
-        "weekly_ma60_deviation": 0.1798,
+        "weekly_ma60": 314.44,
+        "weekly_ma60_deviation": 0.094,
         "weekly_ma60_deviation_risk": "正常延伸",
-        "daily_body_ratio": 8.8687,
+        "daily_body_ratio": 2.6266,
         "daily_bullish": true,
-        "volume_ratio": 2.0755,
-        "avg_dollar_volume_20": 212873937.43,
-        "stock_return_60d": 0.2152,
-        "spy_return_60d": 0.2152,
-        "qqq_return_60d": 0.2152,
+        "volume_ratio": 1.7839,
+        "avg_dollar_volume_20": 168792663.08,
+        "stock_return_60d": 0.0706,
+        "spy_return_60d": 0.0827,
+        "qqq_return_60d": 0.1841,
         "beat_spy_60d": false,
         "beat_qqq_60d": false,
-        "weekly_k": 88.24,
-        "weekly_d": 86.18,
-        "weekly_j": 92.37,
+        "weekly_k": 49.75,
+        "weekly_d": 46.58,
+        "weekly_j": 56.1,
         "weekly_kdj_bullish": true,
-        "daily_k": 84.77,
-        "daily_d": 81.17,
-        "daily_j": 91.98,
+        "daily_k": 43.61,
+        "daily_d": 25.68,
+        "daily_j": 79.46,
         "daily_kdj_bullish": true
       },
       "fundamentals": {
-        "symbol": "DEMO3",
-        "name": "DEMO3 Demo Corp",
-        "sector": "Demo",
-        "revenue_growth": 0.12,
-        "profit_margin": 0.18
+        "symbol": "CPAY",
+        "name": "Corpay, Inc.",
+        "sector": "Technology",
+        "industry": "Software - Infrastructure",
+        "market_cap": 22748743680,
+        "trailing_pe": 20.6229,
+        "forward_pe": 11.419539,
+        "profit_margin": 0.24597,
+        "revenue_growth": 0.254,
+        "earnings_growth": 0.491,
+        "debt_to_equity": 271.343
       },
       "news": [
         {
-          "title": "DEMO3 demo news: business momentum remains positive",
-          "link": "",
-          "published": ""
+          "title": "Is Corpay (CPAY) Offering Value After Mixed Returns And Long Term Gains? - simplywall.st",
+          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOY1VJemVpS3JwVTJzVjJHcVJKclE2cEowM3BZWWNxNjlQOFZhd2VodmVDY280VEVucXBOY3ItRTdGcXI0SzdjMGtheWFRVnF2QV8xZjVpallsTWVtRUdfNjdqTjk2T0RJa1NGbW80NGpKenY1eWFkcy1xX1lDdzR4NTg0c05mQlg0YlJ6Tjd2S1kwaHBFa1AwOEs3WVBjUW5oTTdyUm1CV2pVamFPQlFwSmZlUjAtRWViUm9oU0h0V0h6Tk9TVUgzRUVhc3B2Rm9XQnhKcWtSeDHSAdgBQVVfeXFMTmNVSXplaUtycFUyc1YyR3FSSnJRNnBKMDNwWVljcTY5UDhWYXdlaHZlQ2NvNFRFbnFwTmNyLUU3RnFyNEs3YzBrYXlhUVZxdkFfMWY1aWpZbE1lbUVHXzY3ak45Nk9ESWtTRm1vNDRqSnp2NXlhZHMtcV9ZQ3c0eDU4NHNOZkJYNGJSek43dktZMGhwRWtQMDhLN1lQY1FuaE03clJtQldqVWphT0JRcEpmZVIwLUVlYlJvaFNIdFdIek5PU1VIM0VFYXNwdkZvV0J4SnFrUngx?oc=5",
+          "published": "Sun, 10 May 2026 03:42:00 GMT"
+        },
+        {
+          "title": "Strs Ohio Has $490,000 Holdings in Corpay, Inc. $CPAY - MarketBeat",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNUF9EMTdCeDZVb3ZCRzhOSDRURGhEQ3J4eVlIQl9QRzJYeVVTM2lPZVE5TGNzLVplTTlLVWN0Um9rbGxUVG83NG5FblVxMzd0eWFBZ2JLam1zeERqZFlrUUhUNTJhRncyZmF6N0RxaDlfM2JRSUVvSU5TcmZFSE9idWdZQ1hnS3A4bm1hZjJMa3FiRzVTa2cwamNSYVIyLVE4WVJaUkVIWjBpc2FXbVE?oc=5",
+          "published": "Sun, 10 May 2026 11:02:46 GMT"
+        },
+        {
+          "title": "Assessing Corpay (CPAY) Valuation After Mixed Share Performance And Earnings Multiple Signals - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQWZWSHpad3NtNkxXMERjdnFNVzJGNWZXeUVnV0VCcVZuX1RfY2VGZnV5ZmlzaUY5UUlrSnJ1MVRsTUFqN3JVeVpFZjEzVWhsY0VqeWdkdk1XYW91bHBQYkRRYlpLV1ROUXRwVDdsSG9Ya2U5YVhQbW1ZZFppUDNqZm9YeTcwbGFOTXJGMGhTR3QxbERBTGZyZmdFWE13SkxiYlExcQ?oc=5",
+          "published": "Sat, 09 May 2026 16:16:14 GMT"
+        },
+        {
+          "title": "CPAY Stock Price, Quote & Chart | CORPAY INC (NYSE:CPAY) - ChartMill",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE96Z0FOZFN3Q0dEWkVWMmRmektjV0tjMTBDNFBkRTRKeml3YlRud290WFdKRzFRU3FmVGRvV3JFWElXQlhTejJjYmpwVVlSYmtSYkNCczZGZlkwVTN3WHMw?oc=5",
+          "published": "Thu, 07 May 2026 07:00:00 GMT"
+        },
+        {
+          "title": "CPAY Q1 Deep Dive: Corporate Payments Expansion and Portfolio Rotation Define Quarter - StockStory",
+          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQcTlfN3hDNklON2l4NERra3ZCcTNQNXdXNW1kMDZKX2pSOGFjRGtNZ0FpMGYxcWVXRzlJbVViX3UtandQR281SktwdXVTRDdsQTJHTGJIcXJiVkFNekM1M252R0RDbEFxYWlfS3liZFR1aUhCdzZ0ckNGYXMxYU9TWVQ3MzlScTZsRG45UEV6Yi1LOC05NG4wOFl1NWhTWENPWHlSckVCSl9Pa0dGZUNXSGh4am5lQnVncjVJb3lHVVVIcElURDZ4Y05hR0VzMEsyNnc2X1VSajNzcUQ0VXpj?oc=5",
+          "published": "Fri, 08 May 2026 19:07:52 GMT"
         }
+      ]
+    },
+    {
+      "symbol": "MNST",
+      "name": "Monster Beverage Corporation",
+      "score": 11,
+      "tags": [
+        "高于5周线",
+        "高于25周线",
+        "高于60周线",
+        "5周线>25周线",
+        "25周线>60周线",
+        "周K实体突破",
+        "日K实体确认",
+        "日成交量放大",
+        "流动性达标"
       ],
-      "ai_summary": "Dry-run分析：技术形态满足筛选条件；基本面和新闻为模拟数据；请在真实环境中复核。"
+      "default_pass": true,
+      "metrics": {
+        "close": 86.29,
+        "weekly_body_ratio": 5.867,
+        "weekly_bullish": true,
+        "above_ma5": true,
+        "above_ma25": true,
+        "above_ma60": true,
+        "ma5_gt_ma25": true,
+        "ma25_gt_ma60": true,
+        "weekly_ma60": 69.11,
+        "weekly_ma60_deviation": 0.2485,
+        "weekly_ma60_deviation_risk": "正常延伸",
+        "daily_body_ratio": 2.2375,
+        "daily_bullish": true,
+        "volume_ratio": 3.0114,
+        "avg_dollar_volume_20": 394691576.99,
+        "stock_return_60d": 0.0631,
+        "spy_return_60d": 0.0827,
+        "qqq_return_60d": 0.1841,
+        "beat_spy_60d": false,
+        "beat_qqq_60d": false,
+        "weekly_k": 56.22,
+        "weekly_d": 44.02,
+        "weekly_j": 80.63,
+        "weekly_kdj_bullish": true,
+        "daily_k": 68.07,
+        "daily_d": 57.21,
+        "daily_j": 89.8,
+        "daily_kdj_bullish": true
+      },
+      "fundamentals": {
+        "symbol": "MNST",
+        "name": "Monster Beverage Corporation",
+        "sector": "Consumer Defensive",
+        "industry": "Beverages - Non-Alcoholic",
+        "market_cap": 84384374784,
+        "trailing_pe": 41.685993,
+        "forward_pe": 33.62743,
+        "profit_margin": 0.23108,
+        "revenue_growth": 0.269,
+        "earnings_growth": 0.289,
+        "debt_to_equity": 1.082
+      },
+      "news": [
+        {
+          "title": "Is It Too Late To Consider Monster Beverage (MNST) After Strong Multi Year Share Gains? - simplywall.st",
+          "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQdWhoWGxrUkNiM2xqRmlvWGY1QS04Y3FhUGZZVWhTXzRoTTNvYjdRZmRWUWdrM3RNZ0VxTWdXMjU0QzF0QkU0aFdGRVVNdGVBX1RXUEpMdXBUbHhzOXB3cWF3MVFISVlNYUhRVnJJUWZoX2ZSNk5EREhNd05oNGl4YVpBOG9yWU9zcUMwREtwSnNyYU9sNEZjTE10YTdUeGhvQXk1c0RyMWczcU1XaGltQWVaazAzWEUwRVlMR0ZWVmt5c3d0SGtTSkpHMHI1VHlZQ19ubUJUc1Z6cFdnS2JURzFB0gHnAUFVX3lxTE01MEhlSGpHSl9FTkQyRWpFQXpYZzh4WWpVLWNVV0hiM3VMNGtmRk9QdVRnZmZfWV9fa2xtVGtIMlM0RllQNG1udTRDYXFaU2xQV0NtRm83bk1nMUxKajNrRUFNVWQwUjI5SUJvU0E0eWx6aHNSeWp2Y1lNdGNLX1Z1Qlh1OTUxZUhZc3VXRExUUy1BcDItLUQ1U3BuTzZrV3FjbktnLVc2WDRReWJBZmFjOW5Kc29rN3dDajV5UTBnTDlEci01WHlZZ09FZU9oSzVZZVI0Q2lMT0xNNzktYjVvYlVtNEt5RQ?oc=5",
+          "published": "Sun, 10 May 2026 10:44:55 GMT"
+        },
+        {
+          "title": "Monster Beverage Corporation $MNST Position Increased by Ethic Inc. - MarketBeat",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOc3piSFBjcWdMeHZqMkdVd3NQcEhjQ281bjBObnR4aF9BREQ1bWFFdEhubzZlXzdQTEdpaExQNHhrMUl6S1N1UGdLTmNMSER0MVpKWDZOejhNRHBpaENsVzFmY19mZGRpN1VHNGltUmJIUXlXSm5fcnJMUVJyaEI5dTAtdXdJdks5QzJmY3Fycm1LaWVSTkRXaEhrdmhWNTZvbWlEcTY3RnNJdWNfdWZNc3J4LVhKMW5JWDFoNDFHNy1fRU1J?oc=5",
+          "published": "Sun, 10 May 2026 08:10:01 GMT"
+        },
+        {
+          "title": "MONSTER BEVERAGE ($MNST) Releases Q1 2026 Earnings, Stock Rises - Quiver Quantitative",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNaExqS2ZnajZ0a0kzX05LMEFqWDRPc2lyNDhVM3ZJME9rYXVaejZ5YmtSckl2aG9SOE5udzVqNUxZRmRCcmtvMGhBWkFDTktpNFhiOWFVdGZ1Tmc1MnY3T09ncm5NN1BDeWkwLW9QNVAtX2hyN2VyR3BScll2d3htWW5JQ2pGdDlFVk9zQ3ZRUjNZTGVPY2I3Umd1YmFPYmwyc3p1d3hmRQ?oc=5",
+          "published": "Thu, 07 May 2026 20:32:00 GMT"
+        },
+        {
+          "title": "Monster Beverage Stock Is Up 25% Over the Past Year: Here’s What Q1 Sales Jump Means for 2026 - TIKR.com",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPZVctTFNIOFFfZ3JjRnkyaUcxa0hmSk0wX1V3a3NJX1F1RklBYVVSZTBocnBsNFdGWjZHY2RKYWI3bkc4ZEpuT1VlWjQyaFh6V2kxbHozeXBuaXVlRG1JZnllWC1mMUZ6WDhlQ0VBX3cxVFhqWGplbHNqNnlzRjNzNFYtd0draDYyeDhyOFlCbnVNaUVJRnBJMm5paHJidklnRW9XZjhRY1dpMFlObmJpa2pYN08zRkk?oc=5",
+          "published": "Fri, 08 May 2026 14:07:53 GMT"
+        },
+        {
+          "title": "Monster Beverage (MNST) Valuation Check After Record Q1 2026 Beat And Surging Global Energy Drink Sales - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQekpNVVdyaTBZSjVReWVmQXBMVi1SZzFLQ2l3ak9MdnBlVGREV0VPY1VWbDlFRXJxUlNKcWJYMDBmNnF4LUdybFpTTDVOemYzdFVkMm0zaVhyUnFuem9veWtrLUwyUlNtNjBIbXdaV01PUDVmVkQzTWJVcnNRU0o4cUJwekdEQmI0WWc1cFdsUGNNV2oycVJHTEljT0FCbnpyd0pGTw?oc=5",
+          "published": "Sun, 10 May 2026 12:06:55 GMT"
+        }
+      ]
+    },
+    {
+      "symbol": "VRSN",
+      "name": "VeriSign, Inc.",
+      "score": 11,
+      "tags": [
+        "高于5周线",
+        "高于25周线",
+        "高于60周线",
+        "5周线>25周线",
+        "周K实体突破",
+        "日K实体确认",
+        "流动性达标",
+        "跑赢SPY",
+        "跑赢QQQ"
+      ],
+      "default_pass": true,
+      "metrics": {
+        "close": 288.21,
+        "weekly_body_ratio": 1.4451,
+        "weekly_bullish": true,
+        "above_ma5": true,
+        "above_ma25": true,
+        "above_ma60": true,
+        "ma5_gt_ma25": true,
+        "ma25_gt_ma60": false,
+        "weekly_ma60": 260.94,
+        "weekly_ma60_deviation": 0.1045,
+        "weekly_ma60_deviation_risk": "正常延伸",
+        "daily_body_ratio": 3.0533,
+        "daily_bullish": true,
+        "volume_ratio": 1.038,
+        "avg_dollar_volume_20": 235707599.64,
+        "stock_return_60d": 0.3212,
+        "spy_return_60d": 0.0827,
+        "qqq_return_60d": 0.1841,
+        "beat_spy_60d": true,
+        "beat_qqq_60d": true,
+        "weekly_k": 89.12,
+        "weekly_d": 84.84,
+        "weekly_j": 97.68,
+        "weekly_kdj_bullish": true,
+        "daily_k": 92.75,
+        "daily_d": 89.5,
+        "daily_j": 99.23,
+        "daily_kdj_bullish": true
+      },
+      "fundamentals": {
+        "symbol": "VRSN",
+        "name": "VeriSign, Inc.",
+        "sector": "Technology",
+        "industry": "Software - Infrastructure",
+        "market_cap": 26227109888,
+        "trailing_pe": 31.846407,
+        "forward_pe": 27.056383,
+        "profit_margin": 0.49958,
+        "revenue_growth": 0.066,
+        "earnings_growth": 0.114,
+        "debt_to_equity": null
+      },
+      "news": [
+        {
+          "title": "Oxbow Advisors LLC Grows Stake in VeriSign, Inc. $VRSN - MarketBeat",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMXBVZ3U1SHhjeWFqWlBuTk96a2Q1STRib0J6QTlEeWIzU0tlYWN3N3g0NFloT18wc2R4azFoQm54aTNNcjkzS3Yxelh2VmVkbnJQOEQ3ZjBlRHJqWWNFUHJlVjEzTjlNS1psWVNlMWJYems0V2xMQ2hMN2kyQUc4Z3RnMmFIQjJ3ZzJSbTFMWVQxNk9VY2t6aG45ajdQTl9uRDhiMmRQblF2aWdobDhzR3Zn?oc=5",
+          "published": "Sun, 10 May 2026 10:33:53 GMT"
+        },
+        {
+          "title": "VeriSign Stock Now Appears Fairly Priced (NASDAQ:VRSN) - Seeking Alpha",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNaGxxUlBaUnZCMlhDZzJaOHh0Wi00RFNLczlfc05JeERha21jdnBXMkZsZ0JhR3UyYi1UOGwycER3TjFfNkhnTElBb0gyVDRzczE1eTY1ZTNGZHAxS2Y0SGF5TWNXOExVYjlPWnBZbDJKamFUY1ViTDBYMDlCeFlHRnkxcTkxTHFW?oc=5",
+          "published": "Thu, 07 May 2026 11:26:05 GMT"
+        },
+        {
+          "title": "VeriSign Inc. (VRSN) Stock Rises on Q1 2026 Earnings - Quiver Quantitative",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNbWdiaG54SlA2MkkzUnJma2hqNmlMNHM4cGoxWnZFS3htdXgySkFoQlN2NzlZQTNBZmFhT0dwUThwZXBocV9ELWNGQnNVRVBBOUhZY04zZDNNOTM3WlB2Z1Q0dzg5TEpNUzg2Y3MweGxsQnQ3SVNPOE9hejlad0lhM2JzbEdoUDh5YU84MXZuUnRnOHc?oc=5",
+          "published": "Thu, 23 Apr 2026 20:27:00 GMT"
+        },
+        {
+          "title": "VeriSign (VRSN) Stock Trades Down, Here Is Why - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOOW1pS19QaTBRWlkzU3BNTGJGdUhVQlNsbVNiWU5FQ3o3SzBnRjV6ZlVndTdHdFk3dndSMlpIYTVuU3N0UkFNUFowbTVvY213dU5Vb3FhamE2VWxLcF85U3dfTjZlSnpiTGx3dlhjM1Y1Mld1RXU4NVUyOG5MczR3NHJ6MA?oc=5",
+          "published": "Fri, 24 Oct 2025 07:00:00 GMT"
+        },
+        {
+          "title": "VeriSign Inc (VRSN) Shares Surge 3.5% -- What GF Score of 93 Tel - GuruFocus",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQZGVZc2pINVJ5eC1GR0hoSy14ZVZQbXFvdkJIWlYzaWtpaHR4WnRjU2JoeFZEM2tGSk9QM0FiSjNaYnNSeXNvcndOYWNhUlZNLV9WZ3hsVmVFeXZ5NjdsRVltcERBRWJ0d09SNmdSaEdrZURzSzlZLVJqUU0zMW9TWjJwMC0wVnA2T2c1OVJFTVV3X2w4NFFCemY2ODctUGdlcDVuUHRaRS1UYmVF?oc=5",
+          "published": "Fri, 08 May 2026 23:56:20 GMT"
+        }
+      ]
+    },
+    {
+      "symbol": "WAT",
+      "name": "Waters Corporation",
+      "score": 11,
+      "tags": [
+        "高于5周线",
+        "高于25周线",
+        "高于60周线",
+        "25周线>60周线",
+        "周K实体突破",
+        "日K实体确认",
+        "日成交量放大",
+        "流动性达标",
+        "跑赢SPY"
+      ],
+      "default_pass": true,
+      "metrics": {
+        "close": 355.13,
+        "weekly_body_ratio": 2.9882,
+        "weekly_bullish": true,
+        "above_ma5": true,
+        "above_ma25": true,
+        "above_ma60": true,
+        "ma5_gt_ma25": false,
+        "ma25_gt_ma60": true,
+        "weekly_ma60": 338.56,
+        "weekly_ma60_deviation": 0.049,
+        "weekly_ma60_deviation_risk": "正常延伸",
+        "daily_body_ratio": 1.0868,
+        "daily_bullish": true,
+        "volume_ratio": 1.6056,
+        "avg_dollar_volume_20": 368706412.4,
+        "stock_return_60d": 0.1104,
+        "spy_return_60d": 0.0827,
+        "qqq_return_60d": 0.1841,
+        "beat_spy_60d": true,
+        "beat_qqq_60d": false,
+        "weekly_k": 32.78,
+        "weekly_d": 29.09,
+        "weekly_j": 40.17,
+        "weekly_kdj_bullish": true,
+        "daily_k": 94.44,
+        "daily_d": 85.63,
+        "daily_j": 112.06,
+        "daily_kdj_bullish": true
+      },
+      "fundamentals": {
+        "symbol": "WAT",
+        "name": "Waters Corporation",
+        "sector": "Healthcare",
+        "industry": "Diagnostics & Research",
+        "market_cap": 34861510656,
+        "trailing_pe": 45.23949,
+        "forward_pe": 21.680365,
+        "profit_margin": 0.11926,
+        "revenue_growth": 0.915,
+        "earnings_growth": null,
+        "debt_to_equity": 34.103
+      },
+      "news": [
+        {
+          "title": "Fund Update: New $11.4M $WAT stock position opened by Lazard Freres Gestion S.A.S. - Quiver Quantitative",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOV09wb2tRRmdYOE9UX0t5M1VrZ0k3ZTZrckRMcUs5amJVVHNSbVdsQXlpNmFJOTZuUU1sNmE1cHlpcXJkTG00Z3o0eUY3ZGpBNmRCVDNZYTZuemEzUWhEN1FTalY0MjRIT29yWEtXMnc5UTAzV1I1RXJmcG9pZmp0Sld2V29MSWF0WTZYU1FCMEtuRWJ3TkFPVDJRT3ROaUtZN2M5ZGVVUWUwLVp0a0k0ZlViR1JlRGN2Qlp1MU53?oc=5",
+          "published": "Thu, 07 May 2026 15:14:00 GMT"
+        },
+        {
+          "title": "Waters (WAT) Is Up 13.3% After Swing to Loss but Strong 2026 Revenue Guidance - What's Changed - simplywall.st",
+          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOQ3Z4TGdxSnVKeTU0NXBGV1V0TkViR0xnTE1DS3FSdFJUdl9kTTdhZXMtQm90Y19wVDQ4OUQySVU5REVXVzhrWUNYZTEwZC1wNTJNZWN3VmRCUnRUbDNBZ0lIV3lLSXlya3RvVHE3NVpuY0VCN0pUckJjSkhyZmYtTXczcDg4UG1iYlYwZUlaTEM2RmhCOFJiUkppQjVfUjVQVnF1ZHhVOVZ1RWNHalVIRHdJdFBWS1hodDVCOGF2RDBYSXQ3ZHVkVDdNNnZFamY2aXZz0gHYAUFVX3lxTE1MLXBDNzFxTHdiZm5na2hQOG01ZTc0YXpDcjJtN0t0dGlUbDlhM2Z1SFM4WGpKVy0zeXNQTW5mQjlqUlBJaWlOMnRnTV9sV191VnZ5cFpueXNlRzB0ZENIVi1mQnBDSE5NREN6UjE5OEFCUm5fUzUzNHUtNUZnT1FxVnhMSm1TTWFhbnZWSVlRcVl0eFhFVnphYkcwd09NZngtanNkQnhCVzktcUFBRmJKdTRzdEJEWlZiNU1WYlkyTzVadWctWVB3NkJxZUQxYWJPM0RYZExwSw?oc=5",
+          "published": "Sun, 10 May 2026 01:59:22 GMT"
+        },
+        {
+          "title": "Waters lifts 2026 outlook after $1.27B quarter, adjusted EPS up 20% - Stock Titan",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOSjZsZ3FRS0xHY0ZjNEszSUJKbGhRRzVPbENRb0xGa0FkM1JvMWlBVkFtaHZiaHp3OWFOa1BFMmlJY0tXS3JFRjlYMlNZNnhEVVdqNkpkd3hkRjh4ZnVObWd0bmNTYll1bGY3X3piUEp5WXZOVUFxT3N3elYzUFRwU1lJZHJKQXcwMlJ3WXA4MGFqMW5YQmN2M2ZSVzUxNU1NNE5WTHFTR1JmcWlrOElNTnE0YXFuN2E4Z3c?oc=5",
+          "published": "Tue, 05 May 2026 10:03:15 GMT"
+        },
+        {
+          "title": "Waters Corporation (NYSE:WAT) Shares Surge on Massive Q1 Earnings Beat - ChartMill",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPeFkwRUhNWmMtSkpGTklTSkZldnd3VUEyOHVzMVZFWER2a1p2V1pGSGJMWklnSnNaU2gzalNfbkVlYkxmWGdXa3B1SnU0YmRhS2lDb19FRndNaENTT3luc09UV2hNNi1CdW9aZV9pT0ZLX2NYTU5rU0hKaTYwT3ZEYVZaRTNBUjc0YzE1ZmNmMG43cmVpVGxiaU9hODROU0ktYmZ0UElJNU1WX3k3LVN4SDZUNXpGR2lBS1E?oc=5",
+          "published": "Tue, 05 May 2026 11:30:12 GMT"
+        },
+        {
+          "title": "3 Reasons to Sell WAT and 1 Stock to Buy Instead - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1YZVR6N2xwTFo2endjOFI0dDFTMXVpb2ZjNXRSVDYtVmVUNzBPb1JENUt6UTBfanZkZmY3Z3pJYTVOZXdjYXc4UTFhS1g3ODI4SkRKOHhSeXNvazFzZERfLTdfUHpUNWVjTnIxR19mZ1h0OEJD?oc=5",
+          "published": "Wed, 04 Mar 2026 08:00:00 GMT"
+        }
+      ]
+    },
+    {
+      "symbol": "BA",
+      "name": "Boeing Company (The)",
+      "score": 10,
+      "tags": [
+        "高于5周线",
+        "高于25周线",
+        "高于60周线",
+        "5周线>25周线",
+        "25周线>60周线",
+        "周K实体突破",
+        "日K实体确认",
+        "流动性达标"
+      ],
+      "default_pass": true,
+      "metrics": {
+        "close": 237.36,
+        "weekly_body_ratio": 1.0646,
+        "weekly_bullish": true,
+        "above_ma5": true,
+        "above_ma25": true,
+        "above_ma60": true,
+        "ma5_gt_ma25": true,
+        "ma25_gt_ma60": true,
+        "weekly_ma60": 211.92,
+        "weekly_ma60_deviation": 0.1201,
+        "weekly_ma60_deviation_risk": "正常延伸",
+        "daily_body_ratio": 2.7813,
+        "daily_bullish": true,
+        "volume_ratio": 1.1897,
+        "avg_dollar_volume_20": 1437080939.31,
+        "stock_return_60d": -0.0083,
+        "spy_return_60d": 0.0827,
+        "qqq_return_60d": 0.1841,
+        "beat_spy_60d": false,
+        "beat_qqq_60d": false,
+        "weekly_k": 67.05,
+        "weekly_d": 60.76,
+        "weekly_j": 79.62,
+        "weekly_kdj_bullish": true,
+        "daily_k": 79.18,
+        "daily_d": 62.51,
+        "daily_j": 112.53,
+        "daily_kdj_bullish": true
+      },
+      "fundamentals": {
+        "symbol": "BA",
+        "name": "Boeing Company (The)",
+        "sector": "Industrials",
+        "industry": "Aerospace & Defense",
+        "market_cap": 187111440384,
+        "trailing_pe": 93.44882,
+        "forward_pe": 55.344666,
+        "profit_margin": 0.024600001,
+        "revenue_growth": 0.14,
+        "earnings_growth": null,
+        "debt_to_equity": 828.696
+      },
+      "news": [
+        {
+          "title": "D Orazio & Associates Inc. Purchases Shares of 9,355 The Boeing Company $BA - MarketBeat",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQeXFfNElZMjl1TVhjdHZCOEFLR3BhUTF0dUtLaFV4OEdLM2xsR3pyTjQxYUtXcGduTVUzWFdfSE95OXRUNVpZUFE3U2hVY1cyTnZja2xndTdpWElxaE1Geks2VzlPNUNFQnlxZGt2bUZQS1hTVlFoTl9hMmo2Z05xd0VWcHZxMEVRTzBsTGNZa1A5WmpXRUEtVDRLZnllQXN3Zk1Ud1h4S1pMQWk5MHBvbzVMeWhHTklHZGVZSlRJMGE3eXFrLUoxX3Z4aw?oc=5",
+          "published": "Sun, 10 May 2026 08:36:15 GMT"
+        },
+        {
+          "title": "BA Stock Alert: What to Expect as Boeing CEO Joins Trump on China Trip - Barchart",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSXp6N1NES3BoN25KbzdRYXE5M0dpaDlISmlzNGJCVWRYcGdFaThXTHg2RS1lZzZjTjF3dC15dDFjWjNPZkRXbHB2RktaQk1jQVcwVkQ5WU5uUFhlamtFb1k1MVFnQXFEb211clQ4bU42NTFZT3Bfdi1HTHBSWHJxVTB1WnU3Sms5dGl6cTdQZWdCYmRPM3EwNmplNUhKUkkwaDhpMnkzUFZtMklGSzNUR0NFcw?oc=5",
+          "published": "Thu, 07 May 2026 17:44:34 GMT"
+        },
+        {
+          "title": "(BA) Price Dynamics and Execution-Aware Positioning - Stock Traders Daily",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOSFM4cXFxMlRRN1dDdlUyRWwyZEtPalRRV2JSMU14N2RoMUNQdTR5aFRkdFFQRS03Xy1DME1vcUhiRXVEZi1kc2VDRUlIUWd0ZHVyazFUWjZIdnNkcDctX29oemYtb1FwWEhRLUxYSERIWHI4QVhSV2dUZEwwX25MMEJ6cXBRbU1wa2tUeHp2WnhYbFNOLW1lZ0VnOV9DaHlrTGkza0JSYjA2b2hvUEdsdE5xQkFhVFBLZnphTmFLYUdvM1lDbmc0NA?oc=5",
+          "published": "Sun, 10 May 2026 08:22:01 GMT"
+        },
+        {
+          "title": "Buy Boeing Stock Market? (BA Stock Analysis) (ElCrg2XKmB) - Fathom Journal",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE41UUo0X2EyRFNiczVkZ21sUXI2a0ZzdmRkNS0xT1lNN0VyMW5uOE1OUjBJUEFRVFEwc2gxTFA1M1UwT0RLdnVkMk1jbHdiRzNtT3Nfdi1kWnU0cUg5VTdqLWJSSm5sWF9COHVzaVRWRVRHX05qUmc?oc=5",
+          "published": "Sat, 09 May 2026 05:50:47 GMT"
+        },
+        {
+          "title": "BA Stock Chart | BOEING CO/THE (NYSE:BA) - ChartMill",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1kR3BVY2haNUFDUUdodTgyYm1kSlhXbWxTV2EydGxHVU9BOEU2VzNUQ09ZQW9OZUNENkFYVmZtdVZTVW0wQUpsejktQl83UUxnQnQ1T3RCSUNXcWtVbENnMU53?oc=5",
+          "published": "Thu, 07 May 2026 07:00:00 GMT"
+        }
+      ]
+    },
+    {
+      "symbol": "BIIB",
+      "name": "Biogen Inc.",
+      "score": 10,
+      "tags": [
+        "高于5周线",
+        "高于25周线",
+        "高于60周线",
+        "5周线>25周线",
+        "25周线>60周线",
+        "周K实体突破",
+        "日K实体确认",
+        "流动性达标"
+      ],
+      "default_pass": true,
+      "metrics": {
+        "close": 193.45,
+        "weekly_body_ratio": 1.4814,
+        "weekly_bullish": true,
+        "above_ma5": true,
+        "above_ma25": true,
+        "above_ma60": true,
+        "ma5_gt_ma25": true,
+        "ma25_gt_ma60": true,
+        "weekly_ma60": 154.75,
+        "weekly_ma60_deviation": 0.2501,
+        "weekly_ma60_deviation_risk": "正常延伸",
+        "daily_body_ratio": 2.1543,
+        "daily_bullish": true,
+        "volume_ratio": 0.8317,
+        "avg_dollar_volume_20": 207573140.43,
+        "stock_return_60d": -0.0105,
+        "spy_return_60d": 0.0827,
+        "qqq_return_60d": 0.1841,
+        "beat_spy_60d": false,
+        "beat_qqq_60d": false,
+        "weekly_k": 66.44,
+        "weekly_d": 54.21,
+        "weekly_j": 90.9,
+        "weekly_kdj_bullish": true,
+        "daily_k": 81.62,
+        "daily_d": 76.61,
+        "daily_j": 91.62,
+        "daily_kdj_bullish": true
+      },
+      "fundamentals": {
+        "symbol": "BIIB",
+        "name": "Biogen Inc.",
+        "sector": "Healthcare",
+        "industry": "Drug Manufacturers - General",
+        "market_cap": 28560400384,
+        "trailing_pe": 20.801075,
+        "forward_pe": 11.672571,
+        "profit_margin": 0.13805,
+        "revenue_growth": 0.019,
+        "earnings_growth": 0.311,
+        "debt_to_equity": 35.181
+      },
+      "news": [
+        {
+          "title": "symbol__ Stock Quote Price and Forecast - CNN",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5Fa0hVVVExMEMwWnZzdDBOejh4Q00zdkFIVm5XY3FqdENnd2dSTVM5dmdUcXFLMlBabjI1NWQyQ0hPajBPTllwUUxKZWx2VDJL?oc=5",
+          "published": "Fri, 08 May 2026 17:29:46 GMT"
+        },
+        {
+          "title": "Biogen Had A Nearly Perfect Sales Sweep, But One Beat Really Stood Out - Investor's Business Daily",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPcWNJQ05Dejh6Yy1YWnZtU3V6a010bUotSWlPZU5FM01NUUZCN296WVN3STJxdnh1MXdjczMzNkh6UlFqYkdFcGdSeUY2TEFPSXJBb0p6M0NFeGgzMjZNR2FIQ3hNaGJvaFVySEpFbHJPZkFOVHdDMGhHRlIzUjd0cjhiaHJEUQ?oc=5",
+          "published": "Wed, 29 Apr 2026 20:04:00 GMT"
+        },
+        {
+          "title": "FDA pushes back weekly Alzheimer's shot decision to Aug. 24 - Stock Titan",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPcE1jekJISE9ZUmhZMllGX0lTaHJzVkdOMHc1VUEzN3ZRanlyenVZLTlrNjVsempZV0tKT3F0TWpmS2pja3RMSUY4X2x3Zk5iQlkwdlNNZC1Lalp0ZVdDOHp1RmhpV3IwUmtTSWE3dkJWd1IzQnQ1d1NUcEdxQ2p3RERXTTY0TGgzLXpQV3l3ZlZxZnJpUkY5b1pfT0VCNUs2MGtseTBLdHRfOGJNWTlaallPbEV1MkRDOEE?oc=5",
+          "published": "Fri, 08 May 2026 09:01:29 GMT"
+        },
+        {
+          "title": "Biogen Stock Gains Despite Extended FDA Review For Alzheimer's Therapy - Benzinga",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZzBhQmNrbXV3cGlBcHlnX21CdFg4QzBhUXdab25wVUZDWFBEWi16TW9hbE9WZnR5b25td0lKTGI0NWJuQ2NselhvNFN5R1Vxak9xN01kZml4SVhTUVhXckJnWWxRYzBMOElFUnlPMVBkUU1HSWFjeDE1ZS1PeldRVlZob09vcjRjRXVLRnMwY2pOa053UU9USXB6WThKOERkSUpQZmRCZ3BCTEZWTHptczRNMGxjMlNmeHc?oc=5",
+          "published": "Fri, 08 May 2026 15:31:32 GMT"
+        },
+        {
+          "title": "Biogen (BIIB) Stock Trades Up, Here Is Why - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNek03UkJPMmJFMlJJV1VxeGMwcjRFamV2T251SEdnVGhUbXlCWldWSnBYUU0tNDdGdkxPVVhsX0RYdkpNUnZYcEtJLVk1U244aE5JMHVTMGJ0TURINWtxcEotYUkteXc4RjVoRnZwNmNRYVBodjFZZ3ZxS0hybE1XMHhMaUhyekR0RlY4SzdQQnJ1ODJUY21xVQ?oc=5",
+          "published": "Mon, 20 Apr 2026 07:00:00 GMT"
+        }
+      ]
+    },
+    {
+      "symbol": "HPQ",
+      "name": "HP Inc.",
+      "score": 10,
+      "tags": [
+        "高于5周线",
+        "高于25周线",
+        "周K实体突破",
+        "日K实体确认",
+        "日成交量放大",
+        "流动性达标",
+        "跑赢SPY",
+        "跑赢QQQ"
+      ],
+      "default_pass": true,
+      "metrics": {
+        "close": 22.68,
+        "weekly_body_ratio": 1.1258,
+        "weekly_bullish": true,
+        "above_ma5": true,
+        "above_ma25": true,
+        "above_ma60": false,
+        "ma5_gt_ma25": false,
+        "ma25_gt_ma60": false,
+        "weekly_ma60": 24.0,
+        "weekly_ma60_deviation": -0.0549,
+        "weekly_ma60_deviation_risk": "低于60周线",
+        "daily_body_ratio": 4.8485,
+        "daily_bullish": true,
+        "volume_ratio": 1.2955,
+        "avg_dollar_volume_20": 338597591.48,
+        "stock_return_60d": 0.2019,
+        "spy_return_60d": 0.0827,
+        "qqq_return_60d": 0.1841,
+        "beat_spy_60d": true,
+        "beat_qqq_60d": true,
+        "weekly_k": 64.21,
+        "weekly_d": 43.74,
+        "weekly_j": 105.14,
+        "weekly_kdj_bullish": true,
+        "daily_k": 89.32,
+        "daily_d": 87.92,
+        "daily_j": 92.12,
+        "daily_kdj_bullish": true
+      },
+      "fundamentals": {
+        "symbol": "HPQ",
+        "name": "HP Inc.",
+        "sector": "Technology",
+        "industry": "Computer Hardware",
+        "market_cap": 20819888128,
+        "trailing_pe": 8.590909,
+        "forward_pe": 7.626016,
+        "profit_margin": 0.04462,
+        "revenue_growth": 0.069,
+        "earnings_growth": -0.017,
+        "debt_to_equity": null
+      },
+      "news": [
+        {
+          "title": "Why HP (HPQ) Stock Is Trading Up Today - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOX1lhbUkxSmQxS2ZtY2Y2WWZBUlBtODZPLWxlNGo2amRiM2dnR05CSXNVYkdQTWl3Wl8tSkJLd2VjbmdhNU4tYU54S1hkTUxuODdpckpuN2NDS25kZ3pXMThDTE9tMVp2czhNVzlqdGs2WTBRWi10Tmt5TTRPVGgxaE01a2tYUlZzTVpIWEVQU2YyUVE?oc=5",
+          "published": "Thu, 16 Apr 2026 07:00:00 GMT"
+        },
+        {
+          "title": "HPQ stock logs best day in over a year on 3D printing push: Shareholders back expanded incentive plan - MSN",
+          "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQVkVmdE56MmQwTFV4djgtU3ZfYlZXZEFpTGs5QUdXazBRQ29fUzJ0UGN4TXREaVZpQ0tUcWJWZFVkVFJ0a0p1ZHB5X1lTUGJtQW9BbksxUWlXbmZHWWUwNERPdU1vaUUteTdlcFM3cmkyalRYTFBvOXlQZmRwWGE4RFduYS1TdW0wQWNXVzg4ZGlQdUgxRjZ4MDR6MDN2Y3ROTlpQbXpyUmhCeEd2NzRMalgtcjZsOUZSMlVBSktYdWN1eVhpSnEtek95b2JQQV90Zk8wYzBuMUJUYTNNVWtQQW1YMEFsZ3RqRnFIaE9HOUk5S3FDV0pNM2xKSldfeTZvRnFDVUJOTDFVemo2?oc=5",
+          "published": "Wed, 22 Apr 2026 04:32:17 GMT"
+        },
+        {
+          "title": "HPQ Technical Analysis | Trend, Signals & Chart Patterns | HP INC (NYSE:HPQ) - ChartMill",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1DYzFjbWlJenhqeDZncFJsenUxWDhYODBhWmJvLTNScV9CQ214NHlvZHlzUm5xeTBPVExvYXZQYVFxN0Y1NHFhVEZ4TzBWdFQ1ZmFXTEF3UUdnRXF6TkVNS1ZzenlwcVdWeC0yRA?oc=5",
+          "published": "Thu, 07 May 2026 07:00:00 GMT"
+        },
+        {
+          "title": "HP shares jump as product-launch buzz and recent earnings beat lift sentiment | HPQ Stock News - Quiver Quantitative",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxON2VYZ2RGMERJTnF3c25NeFFqOXZTclBJUC1yQ3o0c0Y0ekxnT1duaHI2MndTZzgzUlZVcXBWaHlKY05xZGpLb0RYR0tyX1F3dE51YUZEZVhiNlBWVGhqNWZiZmtRdkpUd3l3TGl1TzZ1Z05OeF9sQTllOGp0aTZoMzM5b05haU1OSFdhWHV4cExjR0tNQ0JYRW1KbWF4QkZoRHVOS0ZYbkM1NkZaSWUw?oc=5",
+          "published": "Tue, 21 Apr 2026 07:00:00 GMT"
+        },
+        {
+          "title": "HP Inc (HPQ) Stock Up 8.1% and Still Undervalued -- GF Score: 69/100 - GuruFocus",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOSVF3T25QN1JkdE5uNjJmc3ctaEVFaFBuNHNxVmhoWW55bjNhanhyU2tES295Wm5VdVRWNkYwMVBhQUcyQUdVZlpva0VmZzNNVjBXYXRrSDY2YW16R0dzbU8xckNZdUtMdFhuUC1NczBpOGJJQ2pneEtZLW9xaUtPdkU1QVJYT3FrY0lfdWg2TWxiMURqdTl2VmZGQkZidEk?oc=5",
+          "published": "Sat, 09 May 2026 00:28:34 GMT"
+        }
+      ]
+    },
+    {
+      "symbol": "GEN",
+      "name": "Gen Digital Inc.",
+      "score": 7,
+      "tags": [
+        "高于5周线",
+        "周K实体突破",
+        "日K实体确认",
+        "日成交量放大",
+        "流动性达标"
+      ],
+      "default_pass": true,
+      "metrics": {
+        "close": 22.68,
+        "weekly_body_ratio": 1.4605,
+        "weekly_bullish": true,
+        "above_ma5": true,
+        "above_ma25": false,
+        "above_ma60": false,
+        "ma5_gt_ma25": false,
+        "ma25_gt_ma60": false,
+        "weekly_ma60": 26.16,
+        "weekly_ma60_deviation": -0.133,
+        "weekly_ma60_deviation_risk": "低于60周线",
+        "daily_body_ratio": 5.4,
+        "daily_bullish": true,
+        "volume_ratio": 2.4325,
+        "avg_dollar_volume_20": 141791630.37,
+        "stock_return_60d": -0.0369,
+        "spy_return_60d": 0.0827,
+        "qqq_return_60d": 0.1841,
+        "beat_spy_60d": false,
+        "beat_qqq_60d": false,
+        "weekly_k": 26.89,
+        "weekly_d": 18.52,
+        "weekly_j": 43.62,
+        "weekly_kdj_bullish": true,
+        "daily_k": 78.64,
+        "daily_d": 69.73,
+        "daily_j": 96.47,
+        "daily_kdj_bullish": true
+      },
+      "fundamentals": {
+        "symbol": "GEN",
+        "name": "Gen Digital Inc.",
+        "sector": "Technology",
+        "industry": "Software - Infrastructure",
+        "market_cap": 13736454144,
+        "trailing_pe": 14.44586,
+        "forward_pe": 6.8949585,
+        "profit_margin": 0.19459999,
+        "revenue_growth": 0.27,
+        "earnings_growth": 2.652,
+        "debt_to_equity": 313.903
+      },
+      "news": [
+        {
+          "title": "Gen Digital Inc. $GEN Shares Purchased by Mitsubishi UFJ Asset Management Co. Ltd. - MarketBeat",
+          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQU05kd3JaZDE1YUtWamd3U3Voa09naWs0Skp1clpyZ1U0LTlVM0U2VGNwUTNBRFN4SlRPZndaVnRwSk5XVS1aZXEyWXVyYUNPQk56U0dwaTZNbk4xQkVoSjJsejdrWnlSZkJzS3lBejU1RWJ2RXdUN1VNT0JNdEV1akRXS0ZMY0Y5ZDRjN0RzUzNSSWdEWGFFODkzamtGamVaQkNvajJDd2ZoZE9ISmM5TVFDY0F1dWc2ZVh6V2F3SEdjaGt5VzVMcHp5dHl6b1poR1JLYUp3?oc=5",
+          "published": "Sun, 10 May 2026 09:31:17 GMT"
+        },
+        {
+          "title": "Gen Digital Inc. (GEN) Stock Rises on Q4 2026 Earnings - Quiver Quantitative",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOOVgzM2FtTi11dm40SV96aTBrbUxsSEhUTzVnc1FZaVgtNFkwTW83bDRpckczc0NtZDhnVFlNYUY4a25PNXVLZWZIMlJka0QyektOR3ZId1hlNzZiSWFLeERBeVJSc3hPV05BOHFRTGlCcHNkX1RGRWgtVF9zdllFellUbDRabFRST2xMLUhrc3V5SDZiU0E?oc=5",
+          "published": "Thu, 07 May 2026 20:58:00 GMT"
+        },
+        {
+          "title": "Gen Digital Inc. stock outperforms competitors on strong trading day - MarketWatch",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPMUk0UDl1MXg2Z0FqeGVHOWVXeEdaM1VsRlVyeUI3WlpNQ1c4cGFPelVjeWVjY1hWeXl0bkxkSk9Mc2k1S0hiRVFtR1ZNU1VvZTV4Z1pnQm9ZOFdDMVFLbWhlSHhKYTF4d01hLVJuMjF0bjZBRVdtWUxTMWJOYmY2WGYycTFnN0ZiYTRzT0RRNUZCSU9pZlplbVM2eDZ3VVd0VEhRWHhjWFBYcy1fU29PLUlDMlJ5U1RzUlZJdkJRV1pjdnVwOHc?oc=5",
+          "published": "Fri, 08 May 2026 20:30:00 GMT"
+        },
+        {
+          "title": "Why is Gen Digital stock surging today? - Investing.com",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQM3poZ1hESEkwUUNBd05HQzBQUW1WUlFmWEV4ejJRWkwxR0R3Mnd6Um9WYWQ3YWMzU2RTMWZiczJjVnFic1VsMVFDdEFwNWpGUHVoSjhCQjFWN3FUN3V2aWtUUExxdFlWaHpEb0RpM1FqMFR2c0E3cVRCTV91dEllX0xhTDhMQzFWd19DWEttS2NTeS03SFVzR01DVkw4Q3ltSXc?oc=5",
+          "published": "Fri, 08 May 2026 14:47:35 GMT"
+        },
+        {
+          "title": "Gen Digital to Report Q4 Earnings: What's in Store for the Stock? - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQQVFqNVItVkdBUnlFWUMzc0NIWG9VMG9YZ0pKMzU1U1FzczJPaXJYa0laeVFicGhDVnVIOXNzbGhGTHdXbjV6Uk9tZ0hMRWZRSV82c2ZrUXNCSFVCWVJfMmQzc0ttVk9EZEJUbm05djd6TER6R1J4dGNvS0JJenB3RFJYQ3NaTE1EcVJxNWpudzZQRkIzN21aWUNjYw?oc=5",
+          "published": "Mon, 04 May 2026 15:45:00 GMT"
+        }
+      ]
     }
   ]
 }
