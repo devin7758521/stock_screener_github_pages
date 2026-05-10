@@ -20,13 +20,16 @@ const defaults = {
   requireKDJJgtKDaily: false,
   showAI: true,
   showNews: false,
+  enableWeeklyMA60DeviationFilter: false,
+  maxWeeklyMA60Deviation: 1.0,
+  showWeeklyMA60DeviationRisk: true,
   topN: 10
 };
 
 const presets = {
-  loose: { ...defaults, weeklyBodyMultiplier: 0.8, dailyBodyMultiplier: 0.8, enableVolumeFilter: false, minAvgDollarVolume: 10000000 },
+  loose: { ...defaults, weeklyBodyMultiplier: 0.8, dailyBodyMultiplier: 0.8, enableVolumeFilter: false, minAvgDollarVolume: 10000000, maxWeeklyMA60Deviation: 1.5 },
   standard: { ...defaults },
-  strict: { ...defaults, weeklyBodyMultiplier: 1.2, dailyBodyMultiplier: 1.2, volumeMultiplier: 1.5, minAvgDollarVolume: 100000000, requireAboveMA25: true, requireAboveMA60: true, requireBeatSPY: true }
+  strict: { ...defaults, weeklyBodyMultiplier: 1.2, dailyBodyMultiplier: 1.2, volumeMultiplier: 1.5, minAvgDollarVolume: 100000000, requireAboveMA25: true, requireAboveMA60: true, requireBeatSPY: true, enableWeeklyMA60DeviationFilter: true, maxWeeklyMA60Deviation: 0.7 }
 };
 
 function $(id) { return document.getElementById(id); }
@@ -58,6 +61,8 @@ function saveParams() { localStorage.setItem("stockScreenerParams", JSON.stringi
 function loadParams() { setParams(JSON.parse(localStorage.getItem("stockScreenerParams") || "null") || defaults); }
 function syncOutputs() {
   ["weeklyBodyMultiplier", "dailyBodyMultiplier", "volumeMultiplier"].forEach(id => { $(id + "Out").textContent = Number($(id).value).toFixed(1); });
+  const maxDev = $("maxWeeklyMA60Deviation");
+  if (maxDev) $("maxWeeklyMA60DeviationOut").textContent = (Number(maxDev.value) * 100).toFixed(0) + "%";
 }
 
 function passClientFilter(item, p) {
@@ -76,6 +81,11 @@ function passClientFilter(item, p) {
     if (p.requireKDJJgtKWeekly && !(m.weekly_j > m.weekly_k)) return false;
     if (p.requireKDJJgtKDaily && !(m.daily_j > m.daily_k)) return false;
     if (m.weekly_j > p.kdjJThreshold || m.daily_j > p.kdjJThreshold) return false;
+  }
+  if (p.enableWeeklyMA60DeviationFilter) {
+    const dev = m.weekly_ma60_deviation;
+    if (dev == null) return false;
+    if (dev > p.maxWeeklyMA60Deviation) return false;
   }
   return true;
 }
@@ -106,6 +116,8 @@ function renderCards(items, p) {
         <div><span>收盘价</span><strong>${m.close || "--"}</strong></div>
         <div><span>周J</span><strong>${m.weekly_j ?? "--"}</strong></div>
         <div><span>日J</span><strong>${m.daily_j ?? "--"}</strong></div>
+        <div><span>60周线偏离</span><strong>${pct(m.weekly_ma60_deviation)}</strong></div>
+        <div><span>60周线风险</span><strong>${m.weekly_ma60_deviation_risk || "--"}</strong></div>
       </div>
       ${p.showAI ? `<div class="analysis">${item.ai_summary || "暂无AI摘要"}</div>` : ""}
       ${p.showNews && news ? `<ul class="news">${news}</ul>` : ""}

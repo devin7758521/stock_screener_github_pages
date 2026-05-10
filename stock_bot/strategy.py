@@ -70,6 +70,20 @@ def volume_metrics(daily_df: pd.DataFrame):
     }
 
 
+def weekly_ma60_deviation_risk_label(deviation):
+    if deviation is None:
+        return "未知"
+    if deviation < 0:
+        return "低于60周线"
+    if deviation < 0.70:
+        return "正常延伸"
+    if deviation < 1.20:
+        return "偏热"
+    if deviation < 1.80:
+        return "明显过热"
+    return "极度延伸"
+
+
 def weekly_metrics(weekly_df: pd.DataFrame):
     df = normalize_ohlcv(weekly_df)
     if len(df) < 60:
@@ -81,8 +95,11 @@ def weekly_metrics(weekly_df: pd.DataFrame):
     latest = df.iloc[-1]
     if pd.isna(latest["MA60"]):
         return None
+    close = _to_scalar(latest["Close"])
+    ma60 = _to_scalar(latest["MA60"])
+    weekly_ma60_deviation = round(close / ma60 - 1, 4) if ma60 else None
     return {
-        "close": round(_to_scalar(latest["Close"]), 2),
+        "close": round(close, 2),
         "weekly_body_ratio": body_ratio_latest_vs_prev3(df),
         "weekly_bullish": is_bullish(latest),
         "above_ma5": _to_scalar(latest["Close"]) > _to_scalar(latest["MA5"]),
@@ -90,6 +107,9 @@ def weekly_metrics(weekly_df: pd.DataFrame):
         "above_ma60": _to_scalar(latest["Close"]) > _to_scalar(latest["MA60"]),
         "ma5_gt_ma25": _to_scalar(latest["MA5"]) > _to_scalar(latest["MA25"]),
         "ma25_gt_ma60": _to_scalar(latest["MA25"]) > _to_scalar(latest["MA60"]),
+        "weekly_ma60": round(ma60, 2),
+        "weekly_ma60_deviation": weekly_ma60_deviation,
+        "weekly_ma60_deviation_risk": weekly_ma60_deviation_risk_label(weekly_ma60_deviation),
     }
 
 
