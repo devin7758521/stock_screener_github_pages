@@ -76,8 +76,8 @@ function passClientFilter(item, p) {
   if (p.enableKDJ) {
     if (p.requireKDJWeekly && !(m.weekly_j > m.weekly_d)) return false;
     if (p.requireKDJDaily && !(m.daily_j > m.daily_d)) return false;
-    if (m.weekly_k < p.kdjKThreshold && m.daily_k < p.kdjKThreshold) return false;
-    if (m.weekly_j < p.kdjJThreshold && m.daily_j < p.kdjJThreshold) return false;
+    if (m.weekly_k < p.kdjKThreshold || m.daily_k < p.kdjKThreshold) return false;
+    if (m.weekly_j < p.kdjJThreshold || m.daily_j < p.kdjJThreshold) return false;
   }
   return true;
 }
