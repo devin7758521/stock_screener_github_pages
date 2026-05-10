@@ -1,167 +1,141 @@
 import json
-import io
 import time
 from pathlib import Path
 
 import pandas as pd
 
+_CACHE_FILE = Path("public/data/universe_cache.json")
+_NAME_CACHE_FILE = Path("public/data/universe_names.json")
+_FALLBACK_FILE = Path("config/universe_fallback.json")
 
-CACHE_FILE = Path("public/data/universe_cache.json")
-FALLBACK_FILE = Path("config/universe_fallback.json")
+# Populated after successful online fetch — used by fundamentals.py for name lookup
+_name_map: dict[str, str] = {}
 
 
 def _normalize_symbols(symbols):
     cleaned = []
-
     for symbol in symbols:
         s = str(symbol).strip()
-
         if not s:
             continue
-
-        if s.lower() in ["nan", "none", "ticker", "symbol"]:
+        if s.lower() in ("nan", "none", "ticker", "symbol"):
             continue
-
-        # Yahoo Finance 对 BRK.B / BF.B 这类股票代码使用 BRK-B / BF-B
         s = s.replace(".", "-")
-
         cleaned.append(s)
+    return sorted(set(cleaned))
 
-    return sorted(list(set(cleaned)))
 
-
-def _save_cache(symbols):
-    CACHE_FILE.parent.mkdir(parents=True, exist_ok=True)
-
+def _save_cache(symbols, name_map=None):
+    _CACHE_FILE.parent.mkdir(parents=True, exist_ok=True)
     symbols = _normalize_symbols(symbols)
-
-    CACHE_FILE.write_text(
-        json.dumps(symbols, indent=2),
-        encoding="utf-8"
-    )
+    _CACHE_FILE.write_text(json.dumps(symbols, indent=2), encoding="utf-8")
+    if name_map:
+        _NAME_CACHE_FILE.write_text(json.dumps(name_map, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
-def _load_json_file(path):
+def _load_json_list(path):
     if not path.exists():
         return []
-
     try:
         data = json.loads(path.read_text(encoding="utf-8"))
-
         if isinstance(data, list) and data:
             return _normalize_symbols(data)
-
     except Exception as e:
         print(f"[WARN] 读取 {path} 失败: {e}")
-
     return []
 
 
 def _load_cache():
-    return _load_json_file(CACHE_FILE)
+    return _load_json_list(_CACHE_FILE)
 
 
 def _load_fallback():
-    return _load_json_file(FALLBACK_FILE)
+    return _load_json_list(_FALLBACK_FILE)
 
 
-def _read_html_with_headers(url):
-    """
-    GitHub Actions 里直接 pd.read_html(url) 有时会被 403。
-    这里增加 User-Agent，降低被拒绝概率。
-    """
-
+def _fetch_csv(url):
+    """Fetch a CSV from a raw URL, return DataFrame."""
     import requests
-
     headers = {
         "User-Agent": (
             "Mozilla/5.0 (X11; Linux x86_64) "
             "AppleWebKit/537.36 (KHTML, like Gecko) "
-            "Chrome/124.0 Safari/537.36"
+            "Chrome/124.0.0.0 Safari/537.36"
         ),
-        "Accept": (
-            "text/html,application/xhtml+xml,application/xml;"
-            "q=0.9,image/avif,image/webp,*/*;q=0.8"
-        ),
-        "Accept-Language": "en-US,en;q=0.9",
     }
-
-    response = requests.get(url, headers=headers, timeout=30)
-    response.raise_for_status()
-
-    return pd.read_html(io.StringIO(response.text))
+    resp = requests.get(url, headers=headers, timeout=30)
+    resp.raise_for_status()
+    return pd.read_csv(url)
 
 
 def get_sp500_symbols():
-    url = "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
-
-    tables = _read_html_with_headers(url)
-
-    df = tables[0]
-
-    if "Symbol" not in df.columns:
-        raise RuntimeError("S&P 500 页面未找到 Symbol 列")
-
-    return _normalize_symbols(df["Symbol"].tolist())
+    url = "https://raw.githubusercontent.com/datasets/s-and-p-500-companies/master/data/constituents.csv"
+    df = _fetch_csv(url)
+    name_map = {}
+    symbols = []
+    for _, row in df.iterrows():
+        sym = str(row.get("Symbol", "")).strip()
+        name = str(row.get("Name", "")).strip()
+        if sym:
+            symbols.append(sym)
+            if name and name.lower() not in ("nan", ""):
+                name_map[sym] = name
+    return _normalize_symbols(symbols), name_map
 
 
 def get_nasdaq100_symbols():
-    url = "https://en.wikipedia.org/wiki/Nasdaq-100"
+    url = "https://raw.githubusercontent.com/Gary-Strauss/nasdaq100-scraper/main/data/nasdaq100_constituents.csv"
+    df = _fetch_csv(url)
+    name_map = {}
+    symbols = []
+    for _, row in df.iterrows():
+        sym = str(row.get("Ticker", "")).strip()
+        name = str(row.get("Company", "")).strip()
+        if sym:
+            symbols.append(sym)
+            if name and name.lower() not in ("nan", ""):
+                name_map[sym] = name
+    return _normalize_symbols(symbols), name_map
 
-    tables = _read_html_with_headers(url)
 
-    for table in tables:
-        for col in table.columns:
-            name = str(col).lower()
-
-            if (
-                name in ["ticker", "symbol"]
-                or "ticker" in name
-                or "symbol" in name
-            ):
-                symbols = _normalize_symbols(table[col].tolist())
-
-                if symbols:
-                    return symbols
-
-    raise RuntimeError("Nasdaq-100 页面未找到 ticker/symbol 列")
+def lookup_name(symbol: str) -> str | None:
+    """Return company name for a symbol, if known from the last universe fetch."""
+    return _name_map.get(symbol)
 
 
 def get_universe(dry_run=False):
+    global _name_map
+
     if dry_run:
         from .sample_data import dry_run_symbols
-
         return dry_run_symbols()
 
-    # 1. 优先尝试在线获取最新股票池
+    # 1. GitHub datasets CSVs (no anti-scraping)
     try:
-        sp500 = get_sp500_symbols()
-        time.sleep(1)
-        nasdaq100 = get_nasdaq100_symbols()
+        sp500, names_sp = get_sp500_symbols()
+        time.sleep(0.5)
+        nasdaq100, names_nq = get_nasdaq100_symbols()
 
         symbols = _normalize_symbols(sp500 + nasdaq100)
+        _name_map = {**names_sp, **names_nq}
 
         if symbols:
-            _save_cache(symbols)
+            _save_cache(symbols, _name_map)
             print(f"[INFO] 在线股票池获取成功，数量: {len(symbols)}")
             return symbols
-
     except Exception as e:
         print(f"[WARN] 在线获取股票池失败: {e}")
 
-    # 2. 在线失败，读取历史缓存
+    # 2. Cache
     cached = _load_cache()
-
     if cached:
         print(f"[INFO] 使用历史缓存股票池，数量: {len(cached)}")
         return cached
 
-    # 3. 第一次运行没有缓存，则读取本地 fallback
+    # 3. Fallback JSON
     fallback = _load_fallback()
-
     if fallback:
         print(f"[INFO] 使用本地 fallback 股票池，数量: {len(fallback)}")
         return fallback
 
-    # 4. 全部失败才报错
     raise RuntimeError("股票池获取失败，且没有可用缓存或 fallback 文件。")
