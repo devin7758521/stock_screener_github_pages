@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-10 16:34:28",
+  "generated_at": "2026-05-10 16:38:48",
   "market_status": "偏强",
   "universe_count": 4,
   "defaults": {
@@ -13,8 +13,8 @@
   },
   "items": [
     {
-      "symbol": "DEMO4",
-      "name": "DEMO4 Demo Corp",
+      "symbol": "DEMO1",
+      "name": "DEMO1 Demo Corp",
       "score": 11,
       "tags": [
         "高于5周线",
@@ -29,18 +29,18 @@
       ],
       "default_pass": true,
       "metrics": {
-        "close": 109.36,
-        "weekly_body_ratio": 8.8601,
+        "close": 145.81,
+        "weekly_body_ratio": 11.8134,
         "weekly_bullish": true,
         "above_ma5": true,
         "above_ma25": true,
         "above_ma60": true,
         "ma5_gt_ma25": true,
         "ma25_gt_ma60": true,
-        "daily_body_ratio": 8.8687,
+        "daily_body_ratio": 11.8249,
         "daily_bullish": true,
         "volume_ratio": 2.0755,
-        "avg_dollar_volume_20": 53218484.36,
+        "avg_dollar_volume_20": 283831916.57,
         "stock_return_60d": 0.2152,
         "spy_return_60d": 0.2152,
         "qqq_return_60d": 0.2152,
@@ -48,15 +48,15 @@
         "beat_qqq_60d": false
       },
       "fundamentals": {
-        "symbol": "DEMO4",
-        "name": "DEMO4 Demo Corp",
+        "symbol": "DEMO1",
+        "name": "DEMO1 Demo Corp",
         "sector": "Demo",
         "revenue_growth": 0.12,
         "profit_margin": 0.18
       },
       "news": [
         {
-          "title": "DEMO4 demo news: business momentum remains positive",
+          "title": "DEMO1 demo news: business momentum remains positive",
           "link": "",
           "published": ""
         }
@@ -115,8 +115,8 @@
       "ai_summary": "Dry-run分析：技术形态满足筛选条件；基本面和新闻为模拟数据；请在真实环境中复核。"
     },
     {
-      "symbol": "DEMO1",
-      "name": "DEMO1 Demo Corp",
+      "symbol": "DEMO4",
+      "name": "DEMO4 Demo Corp",
       "score": 11,
       "tags": [
         "高于5周线",
@@ -131,18 +131,18 @@
       ],
       "default_pass": true,
       "metrics": {
-        "close": 145.81,
-        "weekly_body_ratio": 11.8134,
+        "close": 109.36,
+        "weekly_body_ratio": 8.8601,
         "weekly_bullish": true,
         "above_ma5": true,
         "above_ma25": true,
         "above_ma60": true,
         "ma5_gt_ma25": true,
         "ma25_gt_ma60": true,
-        "daily_body_ratio": 11.8249,
+        "daily_body_ratio": 8.8687,
         "daily_bullish": true,
         "volume_ratio": 2.0755,
-        "avg_dollar_volume_20": 283831916.57,
+        "avg_dollar_volume_20": 53218484.36,
         "stock_return_60d": 0.2152,
         "spy_return_60d": 0.2152,
         "qqq_return_60d": 0.2152,
@@ -150,15 +150,15 @@
         "beat_qqq_60d": false
       },
       "fundamentals": {
-        "symbol": "DEMO1",
-        "name": "DEMO1 Demo Corp",
+        "symbol": "DEMO4",
+        "name": "DEMO4 Demo Corp",
         "sector": "Demo",
         "revenue_growth": 0.12,
         "profit_margin": 0.18
       },
       "news": [
         {
-          "title": "DEMO1 demo news: business momentum remains positive",
+          "title": "DEMO4 demo news: business momentum remains positive",
           "link": "",
           "published": ""
         }
