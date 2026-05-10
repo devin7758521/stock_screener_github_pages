@@ -1,0 +1,217 @@
+{
+  "generated_at": "2026-05-10 16:11:41",
+  "market_status": "偏强",
+  "universe_count": 4,
+  "defaults": {
+    "weeklyBodyMultiplier": 1.0,
+    "dailyBodyMultiplier": 1.0,
+    "enableVolumeFilter": true,
+    "volumeMultiplier": 1.2,
+    "enableDollarVolumeFilter": true,
+    "minAvgDollarVolume": 50000000.0,
+    "topN": 10
+  },
+  "items": [
+    {
+      "symbol": "DEMO1",
+      "name": "DEMO1 Demo Corp",
+      "score": 11,
+      "tags": [
+        "高于5周线",
+        "高于25周线",
+        "高于60周线",
+        "5周线>25周线",
+        "25周线>60周线",
+        "周K实体突破",
+        "日K实体确认",
+        "日成交量放大",
+        "流动性达标"
+      ],
+      "default_pass": true,
+      "metrics": {
+        "close": 145.81,
+        "weekly_body_ratio": 11.8134,
+        "weekly_bullish": true,
+        "above_ma5": true,
+        "above_ma25": true,
+        "above_ma60": true,
+        "ma5_gt_ma25": true,
+        "ma25_gt_ma60": true,
+        "daily_body_ratio": 11.8249,
+        "daily_bullish": true,
+        "volume_ratio": 2.0755,
+        "avg_dollar_volume_20": 283831916.57,
+        "stock_return_60d": 0.2152,
+        "spy_return_60d": 0.2152,
+        "qqq_return_60d": 0.2152,
+        "beat_spy_60d": false,
+        "beat_qqq_60d": false
+      },
+      "fundamentals": {
+        "symbol": "DEMO1",
+        "name": "DEMO1 Demo Corp",
+        "sector": "Demo",
+        "revenue_growth": 0.12,
+        "profit_margin": 0.18
+      },
+      "news": [
+        {
+          "title": "DEMO1 demo news: business momentum remains positive",
+          "link": "",
+          "published": ""
+        }
+      ],
+      "ai_summary": "Dry-run分析：技术形态满足筛选条件；基本面和新闻为模拟数据；请在真实环境中复核。"
+    },
+    {
+      "symbol": "DEMO4",
+      "name": "DEMO4 Demo Corp",
+      "score": 11,
+      "tags": [
+        "高于5周线",
+        "高于25周线",
+        "高于60周线",
+        "5周线>25周线",
+        "25周线>60周线",
+        "周K实体突破",
+        "日K实体确认",
+        "日成交量放大",
+        "流动性达标"
+      ],
+      "default_pass": true,
+      "metrics": {
+        "close": 109.36,
+        "weekly_body_ratio": 8.8601,
+        "weekly_bullish": true,
+        "above_ma5": true,
+        "above_ma25": true,
+        "above_ma60": true,
+        "ma5_gt_ma25": true,
+        "ma25_gt_ma60": true,
+        "daily_body_ratio": 8.8687,
+        "daily_bullish": true,
+        "volume_ratio": 2.0755,
+        "avg_dollar_volume_20": 53218484.36,
+        "stock_return_60d": 0.2152,
+        "spy_return_60d": 0.2152,
+        "qqq_return_60d": 0.2152,
+        "beat_spy_60d": false,
+        "beat_qqq_60d": false
+      },
+      "fundamentals": {
+        "symbol": "DEMO4",
+        "name": "DEMO4 Demo Corp",
+        "sector": "Demo",
+        "revenue_growth": 0.12,
+        "profit_margin": 0.18
+      },
+      "news": [
+        {
+          "title": "DEMO4 demo news: business momentum remains positive",
+          "link": "",
+          "published": ""
+        }
+      ],
+      "ai_summary": "Dry-run分析：技术形态满足筛选条件；基本面和新闻为模拟数据；请在真实环境中复核。"
+    },
+    {
+      "symbol": "DEMO3",
+      "name": "DEMO3 Demo Corp",
+      "score": 11,
+      "tags": [
+        "高于5周线",
+        "高于25周线",
+        "高于60周线",
+        "5周线>25周线",
+        "25周线>60周线",
+        "周K实体突破",
+        "日K实体确认",
+        "日成交量放大",
+        "流动性达标"
+      ],
+      "default_pass": true,
+      "metrics": {
+        "close": 109.36,
+        "weekly_body_ratio": 8.8601,
+        "weekly_bullish": true,
+        "above_ma5": true,
+        "above_ma25": true,
+        "above_ma60": true,
+        "ma5_gt_ma25": true,
+        "ma25_gt_ma60": true,
+        "daily_body_ratio": 8.8687,
+        "daily_bullish": true,
+        "volume_ratio": 2.0755,
+        "avg_dollar_volume_20": 212873937.43,
+        "stock_return_60d": 0.2152,
+        "spy_return_60d": 0.2152,
+        "qqq_return_60d": 0.2152,
+        "beat_spy_60d": false,
+        "beat_qqq_60d": false
+      },
+      "fundamentals": {
+        "symbol": "DEMO3",
+        "name": "DEMO3 Demo Corp",
+        "sector": "Demo",
+        "revenue_growth": 0.12,
+        "profit_margin": 0.18
+      },
+      "news": [
+        {
+          "title": "DEMO3 demo news: business momentum remains positive",
+          "link": "",
+          "published": ""
+        }
+      ],
+      "ai_summary": "Dry-run分析：技术形态满足筛选条件；基本面和新闻为模拟数据；请在真实环境中复核。"
+    },
+    {
+      "symbol": "DEMO2",
+      "name": "DEMO2 Demo Corp",
+      "score": 6,
+      "tags": [
+        "高于5周线",
+        "高于25周线",
+        "高于60周线",
+        "5周线>25周线",
+        "25周线>60周线",
+        "流动性达标"
+      ],
+      "default_pass": false,
+      "metrics": {
+        "close": 135.21,
+        "weekly_body_ratio": 0.2529,
+        "weekly_bullish": false,
+        "above_ma5": true,
+        "above_ma25": true,
+        "above_ma60": true,
+        "ma5_gt_ma25": true,
+        "ma25_gt_ma60": true,
+        "daily_body_ratio": 0.0172,
+        "daily_bullish": true,
+        "volume_ratio": 1.0,
+        "avg_dollar_volume_20": 265251303.92,
+        "stock_return_60d": 0.1264,
+        "spy_return_60d": 0.2152,
+        "qqq_return_60d": 0.2152,
+        "beat_spy_60d": false,
+        "beat_qqq_60d": false
+      },
+      "fundamentals": {
+        "symbol": "DEMO2",
+        "name": "DEMO2 Demo Corp",
+        "sector": "Demo",
+        "revenue_growth": 0.12,
+        "profit_margin": 0.18
+      },
+      "news": [
+        {
+          "title": "DEMO2 demo news: business momentum remains positive",
+          "link": "",
+          "published": ""
+        }
+      ],
+      "ai_summary": "Dry-run分析：技术形态满足筛选条件；基本面和新闻为模拟数据；请在真实环境中复核。"
+    }
+  ]
+}

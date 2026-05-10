@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>美股强势股观察系统</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="hero">
+      <div>
+        <div class="badge">GitHub Pages · Auto Screener</div>
+        <h1>美股强势股观察系统</h1>
+        <p>Nasdaq-100 + S&P 500 · 周K趋势 · 日K确认 · 成交量过滤 · AI摘要</p>
+      </div>
+      <div class="status-card">
+        <span>最近更新</span>
+        <strong id="lastUpdated">--</strong>
+      </div>
+    </header>
+
+    <section class="summary">
+      <div class="metric"><span>市场状态</span><strong id="marketStatus">--</strong></div>
+      <div class="metric"><span>股票池</span><strong id="universeCount">--</strong></div>
+      <div class="metric"><span>当前结果</span><strong id="candidateCount">0</strong></div>
+      <div class="metric"><span>缓存策略</span><strong>10天</strong></div>
+    </section>
+
+    <section class="panel controls">
+      <div class="panel-title">
+        <h2>筛选参数</h2>
+        <div class="preset-group">
+          <button data-preset="loose">宽松</button>
+          <button data-preset="standard">标准</button>
+          <button data-preset="strict">严格</button>
+          <button id="resetBtn">重置</button>
+        </div>
+      </div>
+
+      <div class="control-grid">
+        <label>周K实体倍数 <output id="weeklyBodyMultiplierOut">1.0</output>
+          <input id="weeklyBodyMultiplier" type="range" min="0.5" max="3" step="0.1" value="1.0" />
+        </label>
+        <label>日K实体倍数 <output id="dailyBodyMultiplierOut">1.0</output>
+          <input id="dailyBodyMultiplier" type="range" min="0.5" max="3" step="0.1" value="1.0" />
+        </label>
+        <label>成交量放大倍数 <output id="volumeMultiplierOut">1.2</output>
+          <input id="volumeMultiplier" type="range" min="0.5" max="3" step="0.1" value="1.2" />
+        </label>
+        <label>最低20日平均成交额
+          <select id="minAvgDollarVolume">
+            <option value="10000000">$10M</option>
+            <option value="30000000">$30M</option>
+            <option value="50000000" selected>$50M</option>
+            <option value="100000000">$100M</option>
+            <option value="300000000">$300M</option>
+          </select>
+        </label>
+        <label>Top N
+          <input id="topN" type="number" min="1" max="50" value="10" />
+        </label>
+      </div>
+
+      <div class="switch-grid">
+        <label class="switch"><input id="enableVolumeFilter" type="checkbox" checked><span></span>启用成交量过滤</label>
+        <label class="switch"><input id="enableDollarVolumeFilter" type="checkbox" checked><span></span>启用流动性过滤</label>
+        <label class="switch"><input id="requireAboveMA25" type="checkbox"><span></span>必须高于25周线</label>
+        <label class="switch"><input id="requireAboveMA60" type="checkbox"><span></span>必须高于60周线</label>
+        <label class="switch"><input id="requireMA5GTMA25" type="checkbox"><span></span>必须5周线&gt;25周线</label>
+        <label class="switch"><input id="requireMA25GTMA60" type="checkbox"><span></span>必须25周线&gt;60周线</label>
+        <label class="switch"><input id="requireBeatSPY" type="checkbox"><span></span>必须跑赢SPY</label>
+        <label class="switch"><input id="requireBeatQQQ" type="checkbox"><span></span>必须跑赢QQQ</label>
+        <label class="switch"><input id="showAI" type="checkbox" checked><span></span>显示AI摘要</label>
+        <label class="switch"><input id="showNews" type="checkbox"><span></span>显示新闻</label>
+      </div>
+    </section>
+
+    <section class="panel history-panel">
+      <h2>历史缓存</h2>
+      <div id="historyList" class="history-list"></div>
+    </section>
+
+    <main id="cards" class="cards"></main>
+  </div>
+  <script src="./app.js"></script>
+</body>
+</html>
