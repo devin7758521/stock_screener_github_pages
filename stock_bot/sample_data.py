@@ -4,12 +4,13 @@ import numpy as np
 
 def make_ohlcv(rows=120, start=100, strong_last=True, freq="D", volume=2_000_000):
     idx = pd.date_range(end=pd.Timestamp.today().normalize(), periods=rows, freq=freq)
-    trend = np.linspace(start, start * 1.35, rows)
-    open_ = trend * (1 + np.sin(np.arange(rows)) * 0.003)
-    close = trend * (1 + np.cos(np.arange(rows)) * 0.003)
+    n = len(idx)
+    trend = np.linspace(start, start * 1.35, n)
+    open_ = trend * (1 + np.sin(np.arange(n)) * 0.003)
+    close = trend * (1 + np.cos(np.arange(n)) * 0.003)
     high = np.maximum(open_, close) * 1.01
     low = np.minimum(open_, close) * 0.99
-    vol = np.full(rows, float(volume))
+    vol = np.full(n, float(volume))
     if strong_last:
         open_[-4:-1] = close[-4:-1] - [0.5, 0.8, 0.7]
         close[-1] = close[-2] * 1.08
