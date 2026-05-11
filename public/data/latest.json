@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-11 15:42:14",
+  "generated_at": "2026-05-11 16:46:13",
   "market_status": "偏强",
   "universe_count": 516,
   "defaults": {
@@ -13,190 +13,13 @@
     "kdjJThreshold": 100,
     "requireKDJJgtKWeekly": false,
     "requireKDJJgtKDaily": false,
-    "enableWeeklyMA60DeviationFilter": false,
-    "maxWeeklyMA60Deviation": 1.0,
+    "enableWeeklyMA60DeviationFilter": true,
+    "minWeeklyMA60Deviation": 0.05,
+    "maxWeeklyMA60Deviation": 1.2,
     "showWeeklyMA60DeviationRisk": true,
     "topN": 200
   },
   "items": [
-    {
-      "symbol": "COHR",
-      "name": "Coherent Corp.",
-      "score": 12,
-      "tags": [
-        "高于5周线",
-        "高于25周线",
-        "高于60周线",
-        "5周线>25周线",
-        "25周线>60周线",
-        "周K实体突破",
-        "日K实体确认",
-        "流动性达标",
-        "跑赢SPY",
-        "跑赢QQQ"
-      ],
-      "default_pass": true,
-      "metrics": {
-        "close": 377.83,
-        "weekly_body_ratio": 3.2218,
-        "weekly_bullish": true,
-        "above_ma5": true,
-        "above_ma25": true,
-        "above_ma60": true,
-        "ma5_gt_ma25": true,
-        "ma25_gt_ma60": true,
-        "weekly_ma60": 156.86,
-        "weekly_ma60_deviation": 1.4087,
-        "weekly_ma60_deviation_risk": "明显过热",
-        "daily_body_ratio": 3.4021,
-        "daily_bullish": true,
-        "volume_ratio": 0.8568,
-        "avg_dollar_volume_20": 2075532225.97,
-        "stock_return_60d": 0.7393,
-        "spy_return_60d": 0.0854,
-        "qqq_return_60d": 0.1849,
-        "beat_spy_60d": true,
-        "beat_qqq_60d": true,
-        "weekly_k": 88.1,
-        "weekly_d": 87.15,
-        "weekly_j": 89.99,
-        "weekly_kdj_bullish": true,
-        "daily_k": 63.92,
-        "daily_d": 60.11,
-        "daily_j": 71.56,
-        "daily_kdj_bullish": true
-      },
-      "fundamentals": {
-        "symbol": "COHR",
-        "name": "Coherent Corp.",
-        "sector": "Technology",
-        "industry": "Scientific & Technical Instruments",
-        "market_cap": 73918406656,
-        "trailing_pe": 179.06636,
-        "forward_pe": 47.13742,
-        "profit_margin": 0.07102,
-        "revenue_growth": 0.205,
-        "earnings_growth": null,
-        "debt_to_equity": 31.093
-      },
-      "news": [
-        {
-          "title": "AI datacenter demand helped lift Coherent to $1.81B; Q4 seen at $2.05B - Stock Titan",
-          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOMXVOWEEtejlEcEg0elVobWRvNGt6Q0FwcG5IbXlMZWlmRjY4c201TzFiY3JtV0I4MkI3UjgwODUxWG5nMFZfUlpxLUU2MGJmZ0FsbVJCTGJBc0JtVnlwT1BJdnUxZ0tfbUJ3ZHBmallWa1B3aE1POVB1NElqYkQwZ2ZGbWZnRVpodzFLTjFuWWdhN3lRZzFiWWcwWXp6ckZlSGR5bg?oc=5",
-          "published": "Wed, 06 May 2026 20:06:00 GMT"
-        },
-        {
-          "title": "Is Coherent Corp. (COHR) A Good Stock To Buy Now? - Yahoo Finance",
-          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPeGs0cXZkSzIteGt5czJ5YjVfN2JBMFhNbDFsT3B1YXd1M3h1NnVPX2NoNloyaUdqRjlXZGFZRlM1Q2xwQ21kLVNXdkJwWTczbjd6VURoZXdRY1lCYlBaSy1tQ1J5eTFfUllPN0lFT1NNVHZseE9uOTRuNlkyQmZSTlVfTFZXalR5TVc4bHNzcmQxUEZlbk1yb25n?oc=5",
-          "published": "Sun, 26 Apr 2026 07:00:00 GMT"
-        },
-        {
-          "title": "2 High-Flying Stocks Worth Your Attention and 1 We Avoid - StockStory",
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxONjFSMGxRd3VCQko1dXJfckpRLU4xZHRTOHBGT3NFOUVRdWVmdzRhZzNMZHR0OEhVdWpGdTBDU0hsdWdUYURYR1JXRHRpdFM5VURwRHRxSTBSM0Q0eVozNGVLdWg5R3d5WTdtQ0VmSjJXWkltTWdGamZDYmVlc1h0VXFqczRpZTlxb3pOWHpxeFJqc0N3a1B6Mmp3MVpHLVRNVTRCT0hjLThVakd6M2ZBS1l4WnN2MTg?oc=5",
-          "published": "Mon, 11 May 2026 09:41:25 GMT"
-        },
-        {
-          "title": "COHR Stock Price, Quote & Chart | COHERENT CORP (NYSE:COHR) - ChartMill",
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE95UXUwQVRpdXdNMjdUczQ0MVQwWHo2U2xjc05EdDh1ZGNTWG5JQ1JjaHB2TWJNZFptTVNvbHVkcU9NaWtCSEhjWmxLLUVFM1ZReEJyajFCNk14UVJIRW44?oc=5",
-          "published": "Fri, 08 May 2026 07:00:00 GMT"
-        },
-        {
-          "title": "COHR Stock: A Practical Guide to Playing AI Optics - Zacks Investment Research",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQc2l1SjNpeUw5NG5yQzJZaWppa1BDQTNHcjdRNHRWWnNOaXVNcWduODVDRHRaVDMtSHRvdnVKS0RKV0FhMWcxSjV4SFBFaHhLeGtIMWtuXzZxemtPWkxPRnlUUDZ5RkhabHRlNHFXOXlXbUMzQlhTMzM4X2dMOFlCR0lHQmhzTEd6WmhXYnZkb1RYbVRF?oc=5",
-          "published": "Wed, 06 May 2026 17:31:56 GMT"
-        }
-      ],
-      "ai_summary": "基于您提供的信息，以下是对股票 COHR（Coherent Corp.）的简洁分析：\n\n### 技术面\n- **趋势与形态**：股价远高于主要均线（MA5/25/60），且均线呈多头排列（MA5>MA25>MA60），周线与日线均为阳线，显示强劲的上升趋势。\n- **动量指标**：周线KDJ处于高位超买区（K=88.1, D=87.15, J=89.99），日线KDJ也呈金叉向上，短期动能充足。\n- **相对表现**：近60日涨幅（+73.9%）远超标普500（+8.5%）和纳斯达克100（+18.5%），表现出显著的相对强势。\n- **风险信号**：周线偏离60周均线幅度达140.87%，技术指标显示“明显过热”，存在回调风险。成交量略低于20日均量（0.86倍），上涨动能或有所减弱。\n\n### 基本面\n- **估值**：当前市盈率（TTM）高达179倍，但远期市盈率（Forward PE）为47倍，显示市场对其未来盈利增长有较高预期。\n- **成长性**：营收同比增长20.5%，利润率7.1%，盈利状况改善。但未提供具体每股收益增长率，需关注后续财报。\n- **财务风险**：债务权益比高达31.09，杠杆水平较高，需注意偿债压力。\n\n### 新闻与政策\n- **行业催化**：AI数据中心需求是核心驱动力，公司营收指引（Q4预计20.5亿美元）超预期，强化了市场对AI光电子业务的乐观情绪。\n- **市场关注**：多家机构（Zacks、Stock Titan等）近期发布分析，聚焦其AI光学业务，表明该主题是当前股价的主要支撑。\n\n### 风险\n1. **估值与过热风险**：高市盈率叠加技术面严重超买，一旦业绩不及预期或市场风格切换，可能面临剧烈回调。\n2. **高杠杆风险**：31倍的债务权益比在利率高位环境下增加财务脆弱性。\n3. **行业竞争与依赖**：高度依赖AI数据中心资本开支，若行业需求放缓或技术路线变化，将直接冲击业绩。\n4. **短期获利回吐**：60日涨幅巨大，短期获利盘积累，存在技术性调整压力。\n\n### 综合关注等级\n**【高关注 - 谨慎跟踪】**\n- **理由**：公司处于AI驱动的强成长赛道，基本面营收增长强劲，技术面处于强势多头趋势。但当前估值极高、技术指标严重过热、杠杆偏高，短期风险显著。建议密切跟踪后续财报及AI行业资本开支动态，等待更合理的风险收益比窗口。"
-    },
-    {
-      "symbol": "LITE",
-      "name": "Lumentum Holdings Inc.",
-      "score": 12,
-      "tags": [
-        "高于5周线",
-        "高于25周线",
-        "高于60周线",
-        "5周线>25周线",
-        "25周线>60周线",
-        "周K实体突破",
-        "日K实体确认",
-        "流动性达标",
-        "跑赢SPY",
-        "跑赢QQQ"
-      ],
-      "default_pass": true,
-      "metrics": {
-        "close": 1059.86,
-        "weekly_body_ratio": 1.1638,
-        "weekly_bullish": true,
-        "above_ma5": true,
-        "above_ma25": true,
-        "above_ma60": true,
-        "ma5_gt_ma25": true,
-        "ma25_gt_ma60": true,
-        "weekly_ma60": 320.21,
-        "weekly_ma60_deviation": 2.3099,
-        "weekly_ma60_deviation_risk": "极度延伸",
-        "daily_body_ratio": 2.1193,
-        "daily_bullish": true,
-        "volume_ratio": 1.0671,
-        "avg_dollar_volume_20": 5107982619.17,
-        "stock_return_60d": 0.8834,
-        "spy_return_60d": 0.0854,
-        "qqq_return_60d": 0.1849,
-        "beat_spy_60d": true,
-        "beat_qqq_60d": true,
-        "weekly_k": 92.12,
-        "weekly_d": 90.52,
-        "weekly_j": 95.34,
-        "weekly_kdj_bullish": true,
-        "daily_k": 64.49,
-        "daily_d": 62.58,
-        "daily_j": 68.33,
-        "daily_kdj_bullish": true
-      },
-      "fundamentals": {
-        "symbol": "LITE",
-        "name": "Lumentum Holdings Inc.",
-        "sector": "Technology",
-        "industry": "Communication Equipment",
-        "market_cap": 82457108480,
-        "trailing_pe": 186.26714,
-        "forward_pe": 58.880947,
-        "profit_margin": 0.17678,
-        "revenue_growth": 0.901,
-        "earnings_growth": null,
-        "debt_to_equity": 111.445
-      },
-      "news": [
-        {
-          "title": "Lumentum (LITE) Stock Rises on Nasdaq 100 Inclusion Amid AI Data Center Focus - GuruFocus",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMWZoNkRIbE56M2FLRlpyTjc0NWwyaWN3eURfeE5qaTh6LXQ5V25HSzlDaXo1c0VRT3ZodU5lRG9kM1hJNWw5N21rMTZxdTRyMExQbkNiZ09lTW8yWlNrbGMwVVhLYXdxdEZiWm5fRWdGVXFUMzl2SW5YdGRFR2djS1BQZWNmUXlQNmloZVVOdU5sR0htVXRpeU1nbTdVblVGbTZzUGEtcTRXUURRbDRoSjZGeGg?oc=5",
-          "published": "Mon, 11 May 2026 15:01:59 GMT"
-        },
-        {
-          "title": "Citic Securities Forecasts Strong Price Appreciation for Lumentum (NASDAQ:LITE) Stock - MarketBeat",
-          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxObVROeFNldkxLZ1lsVC1ObGtXb2pmV29uY3RDcEFxa3pIc1ljaG95SmQ3aVlFVkpDdjlMenMtUW4teTZwY1ZjcUE1NE1UdF9JUE4zWWJFRTNUclN1SlhCNF9VeXRoUnJyYVZXTGdBY0lIS1BTTGRZem5GR1pOWjBISkFDMXVUYjd3Si1iOGlsU0ZNX0ZaVmNKdmhYY0duQmhudHBDTGlSM2U1ekliWXkyazhRb0dpTmd1RmJINVdLREN4WWktQWpDNGJacjhTSnBwSHc?oc=5",
-          "published": "Mon, 11 May 2026 13:19:25 GMT"
-        },
-        {
-          "title": "As data-center bandwidth rises, Lumentum joins Nasdaq-100 - Stock Titan",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNMHlodVFlcjU0UVBDQmtQZHdfZEI0NTlva0hNUDFUaVg1MFpvYy1KYXJ3VnM2WFg5aDVicnViQl84S2hPbFpXZlAzd3duWkZVdTU2VE91c09aNnVlcmFUTkZsMGJkdHJDbDEtUjE5S2N6UTBBMFVhLTMxU1VUVTJJUFFWcnozWDBURGhvRVFEdElaMTgwdXZ6OVY5YUxxNEl0Q0ZNbUNCOG52c1pwSzZfVE9aZTh6aEpx?oc=5",
-          "published": "Mon, 11 May 2026 12:00:00 GMT"
-        },
-        {
-          "title": "Lumentum (LITE) shares advance following Nasdaq-100 inclusion - MSN",
-          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNOVBjUXlTc2hiUV9qRFRNYmFKQU5TOV9KdktISHF1VzM0bEdZNWJienBCWTFGaFhSQ2lWbm5qY0Zxd1Q0QUhvdXplVkNmUXRJNFlWc2lwTVJ1Q0JrUzFadEZwRlpWS29RbnFMNEVzZ25xa1dTNmtxWS1wS3B0aDJWazhmVG92RHA0T184RXZIUzN0V2c3d3RQbEVUZW1hZzJmU1d3R01BcjRNVmRmU1FLZkNHU2ExLWdOdFF0eGhqaGdLV2Z5WXY4YVdjYkZhUlFFdlBmZHdR?oc=5",
-          "published": "Mon, 11 May 2026 14:33:24 GMT"
-        },
-        {
-          "title": "Lumentum (LITE) Shares Advance Following Nasdaq-100 Inclusion - Yahoo Finance",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPd09GNTlaNHlGVlBUV3J5XzFrRnhtbGJzNmhOTEpyTVpNdEhpdGlKb3Y4RXBZODROd2tZVk13UERHZFZEcklnMWdZLTVnSFhkZlJ3cG4tQlFoQ2ZNSUFKeU5MZW1kRGxyWkFzZE52WGhnaGVBRmhSN2dINWxBaFhmLVpWRjk1YU52VERkcDVERldsNEstQmxnSjlURkdFVGpaNHRhSmhn?oc=5",
-          "published": "Mon, 11 May 2026 14:07:49 GMT"
-        }
-      ],
-      "ai_summary": "基于您提供的信息，以下是对股票 LITE（Lumentum Holdings Inc.）的简洁分析：\n\n**技术面**\n股价处于强势多头排列，站上所有主要均线（MA5/25/60），且短期均线高于长期均线。近60日涨幅（88.34%）远超大盘（SPY +8.54%）及科技指数（QQQ +18.49%）。周线与日线KDJ均呈金叉状态，但周线J值高达95.34，且周线偏离60周均线幅度达231%（极度延伸），显示短期超买风险显著。成交量温和放大。\n\n**基本面**\n公司属于科技板块通信设备行业，市值约825亿美元。营收同比增长90.1%，利润率17.68%。但当前市盈率（TTM）高达186倍，远期市盈率约59倍，估值较高。资产负债率（债务股本比111.4%）偏高，财务杠杆较大。\n\n**新闻政策**\n近期股价上涨主要受纳入纳斯达克100指数消息驱动，市场关注其AI数据中心相关业务（如高速光模块）。多家机构（如中信证券）发布看涨预测，正面情绪浓厚。\n\n**风险**\n1. **估值风险**：当前市盈率极高，若业绩增速不及预期，股价面临回调压力。\n2. **技术超买风险**：周线指标极度延伸，短期存在技术性修正需求。\n3. **财务风险**：高负债率可能限制财务灵活性，尤其在利率环境变化时。\n4. **行业竞争**：通信设备领域竞争激烈，技术迭代速度快。\n\n**综合关注等级：高**\n（股价处于强势趋势中，且受益于AI与指数纳入催化，但估值与超买风险显著，需密切跟踪后续业绩验证及技术面回调信号。）"
-    },
     {
       "symbol": "VRT",
       "name": "Vertiv Holdings, LLC",
@@ -213,10 +36,9 @@
         "跑赢SPY",
         "跑赢QQQ"
       ],
-      "default_pass": true,
       "metrics": {
-        "close": 367.07,
-        "weekly_body_ratio": 1.5228,
+        "close": 366.93,
+        "weekly_body_ratio": 1.5143,
         "weekly_bullish": true,
         "above_ma5": true,
         "above_ma25": true,
@@ -224,24 +46,24 @@
         "ma5_gt_ma25": true,
         "ma25_gt_ma60": true,
         "weekly_ma60": 172.72,
-        "weekly_ma60_deviation": 1.1252,
+        "weekly_ma60_deviation": 1.1244,
         "weekly_ma60_deviation_risk": "偏热",
-        "daily_body_ratio": 1.3481,
+        "daily_body_ratio": 1.3421,
         "daily_bullish": true,
-        "volume_ratio": 0.5452,
-        "avg_dollar_volume_20": 1805857594.94,
-        "stock_return_60d": 0.565,
-        "spy_return_60d": 0.0854,
-        "qqq_return_60d": 0.1849,
+        "volume_ratio": 0.6926,
+        "avg_dollar_volume_20": 1821611843.59,
+        "stock_return_60d": 0.5645,
+        "spy_return_60d": 0.0843,
+        "qqq_return_60d": 0.1833,
         "beat_spy_60d": true,
         "beat_qqq_60d": true,
-        "weekly_k": 95.69,
-        "weekly_d": 95.77,
-        "weekly_j": 95.55,
+        "weekly_k": 95.5,
+        "weekly_d": 95.7,
+        "weekly_j": 95.11,
         "weekly_kdj_bullish": false,
-        "daily_k": 79.45,
-        "daily_d": 82.98,
-        "daily_j": 72.41,
+        "daily_k": 78.97,
+        "daily_d": 82.82,
+        "daily_j": 71.28,
         "daily_kdj_bullish": false
       },
       "fundamentals": {
@@ -249,9 +71,9 @@
         "name": "Vertiv Holdings, LLC",
         "sector": "Industrials",
         "industry": "Electrical Equipment & Parts",
-        "market_cap": 140983304192,
-        "trailing_pe": 92.22111,
-        "forward_pe": 42.598137,
+        "market_cap": 140937199616,
+        "trailing_pe": 92.190956,
+        "forward_pe": 42.58421,
         "profit_margin": 0.14372,
         "revenue_growth": 0.301,
         "earnings_growth": 1.357,
@@ -259,14 +81,19 @@
       },
       "news": [
         {
-          "title": "Vertiv Holdings Co. $VRT Shares Sold by Generali Asset Management SPA SGR - MarketBeat",
-          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPalpmM29idldNMF9sNTNsWXpmZHAtaXA2VWRGMUNkRG05aFQ3cFBKbGJJOVk4NjZhM2lEdXgzRlVVUC1lbFNOeU5zaC15cm40ejFyblFENzMzTDJseWFlTDBpZTAyZGg3Y0pxckh1S2M1RFZ4dlNtWkRwTGlhbnF6TVEta21nLUdmRTUyaWJuZzlYQWV2T1kxYkZ3T25qckJ4WFJZT2ZIVWI5U19NSkhxdHhxNUgzVzZDamtSbWstejRGeXVzODlTTFhHOWo?oc=5",
-          "published": "Mon, 11 May 2026 09:59:45 GMT"
+          "title": "Why Vertiv (VRT) Stock Is Trading Up Today - TradingView",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOeEdnNkl1eXdtVDh6eTh0TjQ1MWtqVUNjcW5jT2VmaW9oYkFqZm12SkxjYmg3ZTJaV3k1blRUVE8tSW5qTFVoOEZMWVVyMG8waHFVaU9UYVJmTU5uVHFTSlY0eGdDOElScExhVVFqM1JTY1VJb1lwSGZadTQyYVY1c3pieVhGWmxaaDEycHVqd1FLQTJuenBqdG9lSWdVT2hGVDhV?oc=5",
+          "published": "Mon, 11 May 2026 15:45:47 GMT"
         },
         {
           "title": "VRT Stock Price, Quote & Chart | VERTIV HOLDINGS CO-A (NYSE:VRT) - ChartMill",
           "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5Wa0tSWmdDSkRaYW1nUXVfb2pZYWZON3M5c3h1VE5VSVh6UUFNS1hJVG91Skg3WmJIX0t5Z0stWTFSS3NzTlpZYVEwWmlONTN2UTJCdUMyVDVucE95dnc?oc=5",
           "published": "Fri, 08 May 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Vertiv Holdings Co. $VRT Shares Sold by Generali Asset Management SPA SGR - MarketBeat",
+          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPalpmM29idldNMF9sNTNsWXpmZHAtaXA2VWRGMUNkRG05aFQ3cFBKbGJJOVk4NjZhM2lEdXgzRlVVUC1lbFNOeU5zaC15cm40ejFyblFENzMzTDJseWFlTDBpZTAyZGg3Y0pxckh1S2M1RFZ4dlNtWkRwTGlhbnF6TVEta21nLUdmRTUyaWJuZzlYQWV2T1kxYkZ3T25qckJ4WFJZT2ZIVWI5U19NSkhxdHhxNUgzVzZDamtSbWstejRGeXVzODlTTFhHOWo?oc=5",
+          "published": "Mon, 11 May 2026 09:59:45 GMT"
         },
         {
           "title": "Are Wall Street Analysts Bullish on Vertiv Stock? - Barchart.com",
@@ -277,14 +104,11 @@
           "title": "Vertiv Stock Jumps 28% in a Month: Buy, Sell, or Hold the Stock? - Zacks Investment Research",
           "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUnJCa1Vhd3NFYjNuLWMyNGpwWWROZHdwSld2dDdsa1FpR3VwY012X3JPN0dUUW4zUGdLcFh1X1JvMUZGZXltLVRmUmZLeWpjVklyQjdBUm96QW50bk11OTJiQ1NmZTJMQTQtdVdHbkR6TUE3QnBwWWY3cHJSb29WejZjMTU1Y2dMd1UwcHJtODdJTUFZTEJZT2Z2YU9RT0lveEE?oc=5",
           "published": "Tue, 05 May 2026 18:01:00 GMT"
-        },
-        {
-          "title": "Vertiv Holdings Co. (VRT) Reports Next Week: Wall Street Expects Earnings Growth - Yahoo Finance",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZmZadnBLRkRhc2Z0RUQteERwc3ZDNmd0eWpyVzg5Z3gtUTQwenhhZE1Scl8zTW1pTkUwdFl0ZEFpaU1Bdm1nWGVXajhfUnp6eHVrc045ZDd2SnZfODVDWXE0OTRQWnlERHlkNWV3Mnh6MFJoVDdfeXc2bFdLTGpYVWN6TG00Z1Njb2F2YmgyYXdpcklDTWJVRkJONA?oc=5",
-          "published": "Wed, 15 Apr 2026 07:00:00 GMT"
         }
       ],
-      "ai_summary": "基于您提供的信息，以下是针对股票 VRT（Vertiv Holdings）的简洁分析：\n\n### 技术面\n- **趋势强劲**：股价远高于周线MA60（偏离度112.52%），且日线、周线均站上MA5/MA25/MA60，均线呈多头排列（MA5>MA25>MA60），中期上升趋势明确。\n- **短期动能**：近60日涨幅（56.5%）远超标普500（8.54%）和纳斯达克100（18.49%），显示显著超额收益。\n- **超买风险**：周线KDJ指标（K=95.69, D=95.77, J=95.55）处于高位钝化，日线KDJ（K=79.45, D=82.98, J=72.41）亦偏高，且两者均未形成金叉，提示短期回调压力。\n- **量价背离**：今日成交量仅为20日均量的54.52%，上涨缩量，需警惕动能衰减。\n\n### 基本面\n- **高增长高估值**：营收增长30.1%，盈利增长135.7%，利润率达14.37%，成长性突出。但当前市盈率（92.22倍）和远期市盈率（42.6倍）均处于高位，市场已给予较高增长预期。\n- **财务杠杆**：负债权益比76.91，处于中等偏高水平，需关注利率环境变化对财务费用的影响。\n\n### 新闻与政策\n- **机构动态**：Generali Asset Management 减持股份，可能引发市场对机构持仓变化的关注。\n- **市场情绪**：多家财经媒体（Zacks、Barchart等）聚焦其近期强势表现及即将发布的财报，市场关注度较高，财报结果可能成为短期催化剂。\n- **行业背景**：所属电气设备与零件行业受益于数据中心、AI基础设施建设需求，政策环境相对有利。\n\n### 风险\n1. **技术回调风险**：KDJ高位钝化、量价背离，叠加股价偏离均线过远，短期技术性回调概率较大。\n2. **估值消化风险**：92倍PE需持续超预期增长支撑，若财报不及预期，估值可能面临压缩。\n3. **机构减持信号**：资产管理公司减持可能反映部分机构对当前价位的谨慎态度。\n4. **财报不确定性**：下周即将发布财报，业绩指引若低于预期可能引发剧烈波动。\n\n### 综合关注等级\n**中等偏高关注**  \n- **理由**：基本面成长性优秀，技术面中期趋势强劲，但短期技术指标过热、估值偏高且面临财报窗口期。建议密切跟踪财报发布后的业绩指引及技术面是否出现有效回调后的企稳信号。"
+      "default_pass": true,
+      "_funnel_pass_until": 5,
+      "ai_summary": "基于您提供的信息，以下是对股票 VRT（Vertiv Holdings）的简洁分析：\n\n### 技术面\n- **趋势强劲**：股价远高于MA5、MA25及MA60，且均线呈多头排列（MA5>MA25>MA60），周线、日线均为阳线，显示短期和中期上升趋势明确。\n- **超买风险**：周线KDJ指标（K:95.5, D:95.7, J:95.11）处于极端高位，且出现死叉信号；日线KDJ同样高位钝化。股价偏离周线MA60（172.72）达112%，技术指标显示“偏热”，存在回调压力。\n- **量价背离**：今日成交量（量比0.69）低于20日均量，上涨缩量，需警惕动能减弱。\n\n### 基本面\n- **高增长高估值**：营收同比增长30%，盈利增长高达135.7%，利润率为14.37%，成长性突出。但当前市盈率（TTM PE 92.19）极高，远期市盈率（42.58）仍不低，市场已充分定价了高增长预期。\n- **财务杠杆**：资产负债率（Debt to Equity 76.9）处于较高水平，需关注利息覆盖能力及偿债风险。\n\n### 新闻与政策\n- **市场情绪积极**：近期股价单月上涨28%，多家媒体（TradingView、Zacks、Barchart）报道其上涨动态，分析师整体偏乐观。\n- **机构动向分化**：有机构（Generali Asset Management）减持，但未出现大规模负面消息。行业受益于数据中心、电气设备需求，政策环境中性偏暖。\n\n### 风险\n1. **技术回调风险**：超买信号叠加缩量上涨，短期获利盘了结压力较大。\n2. **估值泡沫风险**：高PE需持续超预期业绩支撑，若增速放缓，股价可能剧烈修正。\n3. **杠杆与利率风险**：高负债率在利率维持高位时，财务成本可能侵蚀利润。\n\n### 综合关注等级\n**中等偏高关注**  \n- **理由**：基本面成长性优秀，技术面趋势强劲，但估值和超买信号构成显著短期风险。适合已持有者密切跟踪止盈信号，未入场者需等待更安全的回调或技术指标修复机会。"
     },
     {
       "symbol": "EQIX",
@@ -301,10 +125,9 @@
         "流动性达标",
         "跑赢SPY"
       ],
-      "default_pass": true,
       "metrics": {
-        "close": 1092.95,
-        "weekly_body_ratio": 1.0751,
+        "close": 1092.68,
+        "weekly_body_ratio": 1.0608,
         "weekly_bullish": true,
         "above_ma5": true,
         "above_ma25": true,
@@ -312,24 +135,24 @@
         "ma5_gt_ma25": true,
         "ma25_gt_ma60": true,
         "weekly_ma60": 853.16,
-        "weekly_ma60_deviation": 0.2811,
+        "weekly_ma60_deviation": 0.2807,
         "weekly_ma60_deviation_risk": "正常延伸",
-        "daily_body_ratio": 1.1723,
+        "daily_body_ratio": 1.1568,
         "daily_bullish": true,
-        "volume_ratio": 0.1601,
-        "avg_dollar_volume_20": 586225626.51,
-        "stock_return_60d": 0.143,
-        "spy_return_60d": 0.0854,
-        "qqq_return_60d": 0.1849,
+        "volume_ratio": 0.2048,
+        "avg_dollar_volume_20": 587557583.08,
+        "stock_return_60d": 0.1427,
+        "spy_return_60d": 0.0843,
+        "qqq_return_60d": 0.1833,
         "beat_spy_60d": true,
         "beat_qqq_60d": false,
-        "weekly_k": 87.83,
-        "weekly_d": 90.35,
-        "weekly_j": 82.79,
+        "weekly_k": 87.8,
+        "weekly_d": 90.34,
+        "weekly_j": 82.73,
         "weekly_kdj_bullish": false,
-        "daily_k": 39.5,
-        "daily_d": 42.41,
-        "daily_j": 33.68,
+        "daily_k": 39.39,
+        "daily_d": 42.37,
+        "daily_j": 33.43,
         "daily_kdj_bullish": false
       },
       "fundamentals": {
@@ -337,9 +160,9 @@
         "name": "Equinix, Inc.",
         "sector": "Real Estate",
         "industry": "REIT - Specialty",
-        "market_cap": 107791368192,
-        "trailing_pe": 75.53213,
-        "forward_pe": 58.05624,
+        "market_cap": 107764752384,
+        "trailing_pe": 75.51348,
+        "forward_pe": 58.041904,
         "profit_margin": 0.14928001,
         "revenue_growth": 0.121,
         "earnings_growth": 0.2,
@@ -352,6 +175,11 @@
           "published": "Fri, 08 May 2026 07:00:00 GMT"
         },
         {
+          "title": "Here is why Equinix (EQIX) is Among the 10 Best AI Pick-and-Shovel Stocks - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOTVVCSExzQzF6aTJrVVdUeEJMOFhNSlBoelV3TWc0UEcwWnVEcjVfVTViOUQyQ1lURDhZb2g5WkJLTHFZcnFhN1VwN21IZXk4eFFZVmRCQU11NXlkc0ZBbi1mcTJSWnhHVGxkWXIwdzR3d0hLSUpldjE1QTFmTDJvR284VVpZdVBGRXVBX09TSkg1a2hm?oc=5",
+          "published": "Wed, 15 Apr 2026 07:00:00 GMT"
+        },
+        {
           "title": "Equinix, Inc. $EQIX Stock Position Raised by Mitsubishi UFJ Asset Management Co. Ltd. - MarketBeat",
           "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOVkVrNDd5cWlpTkpPT1dNbElDSlBmWkkzaXY3M0Vxb0wzUkJvSTlVQWx4akFGWGs3VGhjVkVOXzdzdXVSUFg0WWFyUXFlYVJHQjRwemY1MzlZTVlvS1hzTVBOcnI0X1lvOFN2aEVlM0QtNGhEcTFrLU1PWnllRUR2T1dPQThxRWNEQ2laOHhWWlpwdEZsYkRSUDRsak94dHRjWFVhVm5qVEFDMzBneHc1QU1YY1RTb3pSbjZBZU1wXzliNUNsRnFzQ3pOY19KcmsyRXZmd25Sb04?oc=5",
           "published": "Thu, 07 May 2026 10:37:07 GMT"
@@ -362,60 +190,145 @@
           "published": "Fri, 08 May 2026 19:23:01 GMT"
         },
         {
-          "title": "Here is why Equinix (EQIX) is Among the 10 Best AI Pick-and-Shovel Stocks - Yahoo Finance",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOTVVCSExzQzF6aTJrVVdUeEJMOFhNSlBoelV3TWc0UEcwWnVEcjVfVTViOUQyQ1lURDhZb2g5WkJLTHFZcnFhN1VwN21IZXk4eFFZVmRCQU11NXlkc0ZBbi1mcTJSWnhHVGxkWXIwdzR3d0hLSUpldjE1QTFmTDJvR284VVpZdVBGRXVBX09TSkg1a2hm?oc=5",
-          "published": "Wed, 15 Apr 2026 07:00:00 GMT"
-        },
-        {
           "title": "Equinix stock plunges as Q1 earnings fall short of expectations (EQIX:NASDAQ) - Seeking Alpha",
           "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPaWpYcTJDOUIyZ3pQend1ZS1kRFEyZm0xQnVzRmZLdFpzQTNMS3FFTHVhZ3lsbFN1WnBlM3VDTGxfV2c0Y3lnWE44WW1WUlNFTTdnd09mVmlpc003LUVWRTljaFdqVmhiLUdsODl6VW5Cc2I0ZEVaZGJKVDlBYzhmdXI2bGxKTzBiQ2pPalM2ZDBCaVNNQXJuNlA1Y2Z2Y3JOczhV?oc=5",
           "published": "Wed, 29 Apr 2026 07:00:00 GMT"
         }
       ],
-      "ai_summary": "基于您提供的信息，以下是对股票 EQIX 的简洁分析：\n\n### 技术面\n- **短期趋势**：日线收阳（实体比1.17），但KDJ指标（日K 39.5）偏弱，显示短期动能不足。\n- **中期趋势**：周线收阳且站上所有主要均线（MA5/25/60），均线多头排列（MA5>MA25>MA60），中期上升趋势明确。\n- **量价关系**：今日成交量仅为20日均量的16%，上涨缩量，需警惕动能衰减。\n- **相对表现**：近60日跑赢标普500（+14.3% vs +8.5%），但略逊于纳斯达克100（+18.5%）。\n- **超买风险**：周线KDJ处于高位（K:87.8, D:90.4），虽未形成死叉，但存在技术性回调压力。\n\n### 基本面\n- **估值**：市盈率（TTM 75.5倍，远期58.1倍）显著高于行业平均水平，市场给予较高增长溢价。\n- **成长性**：营收增长12.1%，盈利增长20%，增速稳健，符合数据中心REIT的行业特征。\n- **盈利能力**：利润率14.9%尚可，但高杠杆（债务股本比163倍）是REIT行业常态，需关注利息覆盖能力。\n- **行业属性**：属于REIT-专业板块，受益于数字基础设施需求，但利率敏感度较高。\n\n### 新闻与政策\n- **正面**：被列为“AI铲子股”之一，反映市场对其数据中心业务在AI浪潮中受益的预期；机构（三菱UFJ）增持，显示长期资金认可。\n- **负面**：近期一季度财报不及预期，导致股价单日大跌，短期业绩压力已反映在价格中。\n- **中性**：技术分析及SEC文件为常规披露，无重大政策或监管突发消息。\n\n### 风险\n1. **估值回调风险**：高PE叠加财报不及预期，若未来增速放缓，估值可能面临压缩。\n2. **利率风险**：作为REIT，高负债率使其对利率变动敏感，若美联储维持高利率，融资成本及资产重定价压力持续。\n3. **技术回调风险**：周线超买且日线缩量上涨，短期存在获利回吐可能。\n4. **竞争风险**：数据中心行业竞争加剧，资本开支需求可能影响现金流。\n\n### 综合关注等级\n**中等关注**  \n理由：中期技术面多头趋势完好，基本面受益于AI基建逻辑，但短期技术指标显示动能减弱，且高估值与财报不及预期的矛盾需进一步观察。建议等待回调至关键均线（如MA25）或业绩预期明朗化后再做深入评估。"
+      "default_pass": true,
+      "_funnel_pass_until": 5,
+      "ai_summary": "好的，以下是对股票 EQIX 的简洁分析：\n\n### 技术面\n- **短期趋势**：日线收阳，但成交量显著萎缩（量比0.20），KDJ指标（日/周）均呈死叉或偏空信号，显示短期动能不足。\n- **中期趋势**：周线收阳且站上所有主要均线（MA5/25/60），均线多头排列（MA5>MA25>MA60），价格处于60周均线上方正常延伸区间，中期上升结构完好。\n- **相对表现**：近60日跑赢标普500指数，但略逊于纳斯达克100指数。\n\n### 基本面\n- **估值**：市盈率（TTM 75.5倍，远期58倍）处于较高水平，反映市场对其增长预期较高。\n- **成长性**：营收增长12.1%，盈利增长20%，利润率为14.9%，在REIT行业中表现稳健。\n- **财务风险**：资产负债率（162.96倍）极高，属于REIT行业常见特征，但需关注利息覆盖能力。\n\n### 新闻政策\n- **正面**：被列为“AI铲子股”之一，受益于数据中心需求增长；获得机构（三菱UFJ资管）增持。\n- **负面**：最新一季度财报不及预期，导致股价大幅下跌，市场对短期业绩存在担忧。\n\n### 风险\n- **业绩风险**：Q1财报不及预期可能引发盈利预测下调，需关注后续季度的业绩指引。\n- **估值风险**：高市盈率叠加高负债率，若增长放缓或利率环境变化，估值可能承压。\n- **技术风险**：日线KDJ偏弱且缩量反弹，若无法放量突破，可能面临短期回调压力。\n\n### 综合关注等级\n**中等关注**\n- 中期技术结构良好且受益于AI基建主题，但短期财报瑕疵、估值偏高及技术指标偏弱构成制约。建议等待财报消化后的技术确认信号。"
     },
     {
-      "symbol": "PM",
-      "name": "Philip Morris International Inc",
-      "score": 9,
+      "symbol": "APD",
+      "name": "Air Products and Chemicals, Inc",
+      "score": 10,
       "tags": [
         "高于5周线",
         "高于25周线",
         "高于60周线",
+        "5周线>25周线",
+        "周K实体突破",
+        "日K实体确认",
+        "流动性达标",
+        "跑赢SPY"
+      ],
+      "metrics": {
+        "close": 304.4,
+        "weekly_body_ratio": 1.0221,
+        "weekly_bullish": true,
+        "above_ma5": true,
+        "above_ma25": true,
+        "above_ma60": true,
+        "ma5_gt_ma25": true,
+        "ma25_gt_ma60": false,
+        "weekly_ma60": 276.33,
+        "weekly_ma60_deviation": 0.1016,
+        "weekly_ma60_deviation_risk": "正常延伸",
+        "daily_body_ratio": 2.0472,
+        "daily_bullish": true,
+        "volume_ratio": 0.2723,
+        "avg_dollar_volume_20": 289374418.32,
+        "stock_return_60d": 0.0882,
+        "spy_return_60d": 0.0843,
+        "qqq_return_60d": 0.1833,
+        "beat_spy_60d": true,
+        "beat_qqq_60d": false,
+        "weekly_k": 88.38,
+        "weekly_d": 89.16,
+        "weekly_j": 86.83,
+        "weekly_kdj_bullish": false,
+        "daily_k": 51.59,
+        "daily_d": 51.67,
+        "daily_j": 51.42,
+        "daily_kdj_bullish": false
+      },
+      "fundamentals": {
+        "symbol": "APD",
+        "name": "Air Products and Chemicals, Inc",
+        "sector": "Basic Materials",
+        "industry": "Specialty Chemicals",
+        "market_cap": 67783999488,
+        "trailing_pe": 32.109707,
+        "forward_pe": 21.370926,
+        "profit_margin": 0.16906999,
+        "revenue_growth": 0.088,
+        "earnings_growth": null,
+        "debt_to_equity": 101.611
+      },
+      "news": [
+        {
+          "title": "APD Stock Price, Quote & Chart | AIR PRODUCTS & CHEMICALS INC (NYSE:APD) - ChartMill",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1sQ0lxYmI1SUFEeUx2bHFzN3kxalI2MlRkZ1RGdFp4cmNPajdsR2pwN0ZBRXlobzhwT085QUdFUXRIdDh6U2J6NnktMEF0TFpaT2RIUld1N3ZEd2ZVN1E?oc=5",
+          "published": "Thu, 07 May 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Is Air Products and Chemicals (APD) Stock Outpacing Its Basic Materials Peers This Year? - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOR1BiejBrY0FmNnVGc2VvblNWN19GREJSWmsxQlJMRTVjSEM0UGRmZ2FRR2xPNXBRWFZhalN6NGZIaTlaSktMdTUzclktZ3NrU19vQUxOZHJYdF83dkhoX3ExcjRHdlFsbExVTkpfSDU0X0hHT0xXU3lUbGtMQ280cFN2MXJkTmg5NDlZS1ZKNjdCM0xBZFhQQTJSRk9BQQ?oc=5",
+          "published": "Wed, 22 Apr 2026 07:00:00 GMT"
+        },
+        {
+          "title": "APD Stock Price Prediction 2025-2026 | Air Products and Chemicals Inc Forecast | 24/7 Wall St. - 24/7 Wall St.",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0tS3lQaEUxRG1EdUIyWGZUaTZlTTJaMEIyM3Zmbm8zdzhYejM5amJwdlgxaUdxWlFtN2tOSHBGdmE3cVAzX0o1bXFGaENwM2J6NEhXWnhCMHhNUUppLVQ3M1RrMA?oc=5",
+          "published": "Tue, 05 May 2026 14:11:05 GMT"
+        },
+        {
+          "title": "Insider Sale: Director at $APD Sells 70,175 Shares | APD Stock News - Quiver Quantitative",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQamRBNUNuaG1mNkw4RlJDOGUzdjJIRG5hOG94RzRVYjdCSUtnQ2lZNnhtUzVOQ01NZnpSdFBtRU1rX0ZTQWxIeTJqOTlBV2JfcG1yU05LUmN3M0dUWHhsT0dCRENvTDNrNG4wUzhQUVY4MEVOdUxPU2dmLWstdnFlTEc4QkJyZlprVzhmbDlaSHBlVGM?oc=5",
+          "published": "Fri, 13 Feb 2026 08:00:00 GMT"
+        },
+        {
+          "title": "Did Earnings Rebound and Samsung Semiconductor Deal Just Shift Air Products' (APD) Investment Narrative? - simplywall.st",
+          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOR0RJSHhFUFIwMDkySGh6eTcwYUZKV0l3X2UxZzlsUzRvTVNvTVZDb3pGbU4yRDIyRDFrZXFsY1k2azN4c1VJMEVnWXp4eXVrbExITWF2YTJtY2pFbEZYaVlIbE5aenNvM3FBV05SdjM2OW1uN2QyVGE4OG10UEFxdlNVVUloOU1HWXFVM0VCa2ExdWFBOF8xYWZrcTJ0bUZhZHZEa01nNjhadXZITUlKVU9lSmRzSXdhQ2pzYjJhcjVXa1doTXRhRllBbnUzRjUxMHJjeUFLUk9qNjDSAeABQVVfeXFMTzlwNXV3TDE4LWdJakozT3JHS1h0YVVWZVlKM2xsS3ZlTU44NjI3Y25DYWgyOGhFakxEbVgtREloak1CMU9MYmU5Zzd1bzVCQ3dXN3d3NHMtb2p1WE5EMW5zeEFGRW9RYUVsMDVpczRvT0syLXJuZmJFUWhDU2RsWDk4Q1VsTk45QjRUZ1BhQk1ieXpLenByNUluZklBOG5ya004eEFmTkE2Mm5CandtNy1iS3VsVXlaVkFzX3pZaTliTmJWV3J4c3RiQjZRNEFBaVlNSUJPSXN4Ym1fbUpwa3o?oc=5",
+          "published": "Fri, 08 May 2026 15:51:20 GMT"
+        }
+      ],
+      "default_pass": true,
+      "_funnel_pass_until": 5,
+      "ai_summary": "基于您提供的信息，以下是对股票 APD（Air Products and Chemicals, Inc.）的简洁分析：\n\n**技术面**\n- **短期趋势**：日线收出实体阳线（日线实体比2.0472），且站上5日、25日、60日均线，短期动能较强。但成交量显著萎缩（量比0.2723），上涨缺乏量能配合，需警惕动能持续性。\n- **中期趋势**：周线连续上涨，站上所有主要均线，且周线MA60（276.33）向上延伸，股价偏离该均线约10%，属于正常延伸范围，中期多头结构稳固。\n- **指标状态**：周线KDJ处于高位超买区（K值88.38），但未形成死叉；日线KDJ处于中性区域（K值51.59），短期存在震荡或回调压力。近60日涨幅（8.82%）略跑赢标普500（8.43%），但落后于纳斯达克100（18.33%），相对科技板块表现偏弱。\n\n**基本面**\n- **估值**：当前市盈率（TTM）32.1倍，高于行业平均水平；但前瞻市盈率21.4倍，显示市场预期未来盈利增长将消化部分高估值。\n- **盈利能力**：净利润率16.9%，处于健康水平；营收同比增长8.8%，但盈利增长数据缺失，需关注后续财报验证。\n- **财务风险**：资产负债率（债务股本比）101.6%，杠杆水平较高，在利率环境变化时可能增加财务成本压力。\n\n**新闻与政策**\n- **行业对比**：有报道指出APD今年表现优于基础材料板块同行，显示其在行业内的相对竞争力。\n- **内部交易**：近期有董事减持70,175股，可能引发市场对公司内部人信心的短期疑虑。\n- **投资叙事**：有分析提及盈利反弹及三星半导体交易可能改变公司投资叙事，暗示工业气体业务在半导体领域的需求增长潜力。\n\n**风险**\n1. **估值回调风险**：当前PE较高，若盈利增长不及预期，股价可能面临估值压缩。\n2. **成交量萎缩**：日线上涨缺乏量能支撑，短期技术性回调概率增加。\n3. **内部人减持**：董事减持可能传递谨慎信号，需关注后续是否有更多内部交易活动。\n4. **高杠杆运营**：债务水平较高，若利率持续高位或经济放缓，财务弹性可能受限。\n5. **行业周期风险**：基础材料行业受宏观经济及工业需求周期影响较大，若下游需求转弱，可能拖累业绩。\n\n**综合关注等级：中等偏高**\n- **理由**：技术面中期多头趋势明确，基本面营收增长稳健且前瞻估值合理，但短期量价背离、内部减持及高杠杆构成主要风险。建议关注后续成交量能否放大、盈利数据披露及半导体订单进展，以验证上涨逻辑的可持续性。"
+    },
+    {
+      "symbol": "PM",
+      "name": "Philip Morris International Inc",
+      "score": 10,
+      "tags": [
+        "高于5周线",
+        "高于25周线",
+        "高于60周线",
+        "5周线>25周线",
         "25周线>60周线",
         "周K实体突破",
         "日K实体确认",
         "流动性达标"
       ],
-      "default_pass": true,
       "metrics": {
-        "close": 179.65,
-        "weekly_body_ratio": 1.2935,
+        "close": 180.09,
+        "weekly_body_ratio": 1.3796,
         "weekly_bullish": true,
         "above_ma5": true,
         "above_ma25": true,
         "above_ma60": true,
-        "ma5_gt_ma25": false,
+        "ma5_gt_ma25": true,
         "ma25_gt_ma60": true,
-        "weekly_ma60": 166.97,
-        "weekly_ma60_deviation": 0.0759,
+        "weekly_ma60": 166.98,
+        "weekly_ma60_deviation": 0.0785,
         "weekly_ma60_deviation_risk": "正常延伸",
-        "daily_body_ratio": 5.5083,
+        "daily_body_ratio": 5.875,
         "daily_bullish": true,
-        "volume_ratio": 0.4086,
-        "avg_dollar_volume_20": 753260047.66,
-        "stock_return_60d": -0.0419,
-        "spy_return_60d": 0.0854,
-        "qqq_return_60d": 0.1849,
+        "volume_ratio": 0.5241,
+        "avg_dollar_volume_20": 758199242.11,
+        "stock_return_60d": -0.0396,
+        "spy_return_60d": 0.0843,
+        "qqq_return_60d": 0.1833,
         "beat_spy_60d": false,
         "beat_qqq_60d": false,
-        "weekly_k": 52.21,
-        "weekly_d": 39.85,
-        "weekly_j": 76.91,
+        "weekly_k": 52.58,
+        "weekly_d": 39.98,
+        "weekly_j": 77.77,
         "weekly_kdj_bullish": true,
-        "daily_k": 96.13,
-        "daily_d": 94.38,
-        "daily_j": 99.63,
+        "daily_k": 95.99,
+        "daily_d": 94.33,
+        "daily_j": 99.31,
         "daily_kdj_bullish": true
       },
       "fundamentals": {
@@ -423,9 +336,9 @@
         "name": "Philip Morris International Inc",
         "sector": "Consumer Defensive",
         "industry": "Tobacco",
-        "market_cap": 279995088896,
-        "trailing_pe": 25.302816,
-        "forward_pe": 19.64006,
+        "market_cap": 280680857600,
+        "trailing_pe": 25.364788,
+        "forward_pe": 19.688162,
         "profit_margin": 0.26742,
         "revenue_growth": 0.091,
         "earnings_growth": -0.093,
@@ -443,14 +356,14 @@
           "published": "Sun, 26 Apr 2026 07:00:00 GMT"
         },
         {
-          "title": "Behavioral Patterns of PM and Institutional Flows - Stock Traders Daily",
-          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxObE5lN0JPV1dpSHZnN0ZYdUJpQUpfa1p5eVF6UVkybFFxVnowdXZJdTZ3Y3p0UHo4OVoxUmFibjBNbzBNejRFU3BVT01EelVDaDM3c3lmemVzd1VDbGtFYjkxLVRrX0NUbV9USjFVdjloUUJFaFRrQklCZDhFN251NmVoLURtWURlRWloTDdKcmh2bTc1VDVLTkJVOWcxM3B5Um9vaDhFTDhobkdrU3pIMlBzQko4dE1ZbGZZNHFCdGpEd3FDUDVOLUh3?oc=5",
-          "published": "Mon, 11 May 2026 09:20:02 GMT"
-        },
-        {
           "title": "Philip Morris Q1 earnings on deck: What to expect - MSN",
           "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRU9EMzQ4Sk5LNmZKcDliaFh4bFo3cUIzWEZncTVtOTEzV0hkSmxKMndPQmV6NUdlRVdGUHhOSkxOTjBWNTFoOEZ4bjVUdFRxLWt1T2FlUWpsd0h3YjVnZkRiamRoU2tfZVFsczR1Y01TRVdmTy1aNUxyY29uUjdCN2YwSUFUdUtXd3k3M2xOLWNFa1dSVkY0eEg5Zk5RcEhjbEVLLQ?oc=5",
           "published": "Tue, 21 Apr 2026 17:26:57 GMT"
+        },
+        {
+          "title": "Behavioral Patterns of PM and Institutional Flows - Stock Traders Daily",
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxObE5lN0JPV1dpSHZnN0ZYdUJpQUpfa1p5eVF6UVkybFFxVnowdXZJdTZ3Y3p0UHo4OVoxUmFibjBNbzBNejRFU3BVT01EelVDaDM3c3lmemVzd1VDbGtFYjkxLVRrX0NUbV9USjFVdjloUUJFaFRrQklCZDhFN251NmVoLURtWURlRWloTDdKcmh2bTc1VDVLTkJVOWcxM3B5Um9vaDhFTDhobkdrU3pIMlBzQko4dE1ZbGZZNHFCdGpEd3FDUDVOLUh3?oc=5",
+          "published": "Mon, 11 May 2026 09:20:02 GMT"
         },
         {
           "title": "Director Werner Geissler awarded 1,119 PMI (NYSE: PM) shares - Stock Titan",
@@ -458,7 +371,9 @@
           "published": "Fri, 08 May 2026 18:01:18 GMT"
         }
       ],
-      "ai_summary": "基于您提供的信息，我对股票 PM（Philip Morris International Inc.）的简要分析如下：\n\n### 技术面\n**短期强势，但动能接近超买区间。**\n- 周线与日线均呈现看涨形态（阳线实体大），且价格站稳于所有主要均线（MA5/25/60）之上，中期趋势偏多。\n- 日线KDJ指标（K:96.13, J:99.63）处于极端高位，提示短期存在技术性回调或震荡风险。\n- 近60日收益率（-4.19%）显著跑输大盘（SPY +8.54%）和科技指数（QQQ +18.49%），显示近期相对弱势，但当前反弹力度较强。\n\n### 基本面\n**估值合理，盈利质量高，但增长分化。**\n- 行业：消费防御性板块（烟草），具备一定抗周期属性。\n- 盈利能力：利润率（26.74%）优秀，支撑高估值。\n- 增长：营收增长（+9.1%）稳健，但盈利增长（-9.3%）为负，需关注成本或非经常性项目影响。\n- 估值：远期市盈率（19.64倍）低于历史中枢，相对行业及大盘具备吸引力。\n\n### 新闻与政策\n**消息面偏中性，关注产品转型与财报。**\n- 机构持仓（Swiss Life）及内部人士增持（董事获授股票）提供一定信心。\n- 市场关注点集中于向“无烟高科技”转型的进展，以及即将发布的Q1财报（预期指引）。\n- 无明显负面政策或监管冲击信号。\n\n### 风险\n1.  **技术回调风险**：日线KDJ极度超买，短期获利盘可能涌出。\n2.  **增长风险**：盈利负增长与营收正增长背离，需验证Q1财报能否改善。\n3.  **行业风险**：烟草行业长期面临监管趋严与消费习惯变化压力。\n4.  **相对表现风险**：近60日持续跑输大盘，若市场风格切换，可能继续承压。\n\n### 综合关注等级\n**中等偏高（关注）**\n- **理由**：技术面短期强势但接近超买，基本面稳健但增长存在瑕疵。建议等待Q1财报验证盈利拐点，或等待技术指标回调至更安全区间后再做进一步评估。"
+      "default_pass": true,
+      "_funnel_pass_until": 5,
+      "ai_summary": "基于您提供的信息，对股票 PM（Philip Morris International Inc.）的简要分析如下：\n\n### 技术面\n- **短期强势**：日线及周线均为阳线，价格站上所有主要均线（MA5/25/60），且均线呈多头排列（MA5>MA25>MA60）。\n- **动能指标**：日线KDJ处于高位超买区（K=95.99, J=99.31），周线KDJ金叉向上（K=52.58, D=39.98, J=77.77），显示短期动能强劲但存在回调风险。\n- **相对表现**：近60日股价下跌3.96%，显著跑输标普500（+8.43%）和纳斯达克100（+18.33%），表明近期走势弱于大盘。\n- **量价关系**：成交量仅为20日均量的52.4%，上涨缩量，需警惕后续动能不足。\n\n### 基本面\n- **估值**：静态市盈率25.36倍，高于行业平均水平；但前瞻市盈率19.69倍，显示市场预期未来盈利增长。\n- **盈利能力**：净利润率26.74%较高，但盈利增速为负（-9.3%），收入增长9.1%，呈现“增收不增利”特征。\n- **财务健康**：未提供债务权益比，需关注其杠杆水平。\n\n### 新闻与政策\n- **机构动向**：Swiss Life Asset Management持有4510万美元仓位，显示机构关注。\n- **业务转型**：新闻提及公司正向高利润率、无烟技术转型，这是长期增长看点。\n- **财报预期**：即将发布Q1财报，市场关注其转型进展及业绩指引。\n- **内部交易**：董事增持1119股，属小额正面信号。\n\n### 风险\n- **行业监管**：烟草行业面临全球控烟政策趋严、税收增加等长期风险。\n- **转型不确定性**：无烟产品（如IQOS）的市场接受度及监管审批存在变数。\n- **相对弱势**：近期股价跑输大盘，若大盘回调可能加剧下跌压力。\n- **技术超买**：日线KDJ极高，短期存在技术性回调需求。\n\n### 综合关注等级\n**中性偏正面**（短期技术面强势，但基本面盈利下滑、相对大盘弱势及行业风险需警惕，重点关注即将发布的财报及转型进展。）"
     }
   ]
 }
