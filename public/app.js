@@ -22,7 +22,7 @@ const defaults = {
   showNews: false,
   enableWeeklyMA60DeviationFilter: false,
   minWeeklyMA60Deviation: 0.05,
-  maxWeeklyMA60Deviation: 1.2,
+  maxWeeklyMA60Deviation: 1.6,
   showWeeklyMA60DeviationRisk: true,
   topN: 200
 };
