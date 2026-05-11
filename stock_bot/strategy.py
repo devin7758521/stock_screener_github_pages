@@ -1,5 +1,5 @@
 import pandas as pd
-from .config import MIN_AVG_DOLLAR_VOLUME, VOLUME_MULTIPLIER
+from .config import MIN_AVG_DOLLAR_VOLUME, VOLUME_MULTIPLIER, MIN_WEEKLY_MA60_DEVIATION, MAX_WEEKLY_MA60_DEVIATION
 
 
 def _to_scalar(value):
@@ -201,10 +201,26 @@ def build_score_and_tags(metrics):
     return score, tags
 
 
+HARD_PASS_STEPS = [
+    ("高于5周线",        lambda m: m.get("above_ma5")),
+    ("60周线偏离 5%~120%", lambda m: (lambda d: d is not None and MIN_WEEKLY_MA60_DEVIATION <= d <= MAX_WEEKLY_MA60_DEVIATION)(m.get("weekly_ma60_deviation"))),
+    ("周K收阳 + 实体突破", lambda m: m.get("weekly_bullish") and m.get("weekly_body_ratio", 0) >= 1),
+    ("日K收阳 + 实体确认", lambda m: m.get("daily_bullish") and m.get("daily_body_ratio", 0) >= 1),
+    ("20日成交额 ≥ 50M",  lambda m: m.get("avg_dollar_volume_20", 0) >= MIN_AVG_DOLLAR_VOLUME),
+]
+
+
+def hard_pass_pipeline(metrics):
+    """Returns (passed: bool, details: list of (step_name, passed: bool))"""
+    details = []
+    for name, check in HARD_PASS_STEPS:
+        ok = check(metrics)
+        details.append((name, ok))
+        if not ok:
+            break  # 漏斗：一级不通过就停止
+    return details[-1][1] if details else False, details
+
+
 def hard_pass_default(metrics):
-    return (
-        metrics.get("above_ma5") and
-        metrics.get("weekly_bullish") and metrics.get("weekly_body_ratio", 0) >= 1 and
-        metrics.get("daily_bullish") and metrics.get("daily_body_ratio", 0) >= 1 and
-        metrics.get("avg_dollar_volume_20", 0) >= MIN_AVG_DOLLAR_VOLUME
-    )
+    passed, _ = hard_pass_pipeline(metrics)
+    return passed

@@ -6,14 +6,14 @@ from .universe import get_universe
 from .market_data import get_price_data
 from .strategy import (
     weekly_metrics, daily_metrics, kdj_metrics, relative_strength_metrics,
-    build_score_and_tags, hard_pass_default, normalize_ohlcv,
+    build_score_and_tags, hard_pass_pipeline, normalize_ohlcv, HARD_PASS_STEPS,
 )
 from .fundamentals import get_fundamentals
 from .news import get_google_news
 from .deepseek_analyzer import analyze_with_deepseek
 from .feishu import send_feishu_message
 from .site_builder import write_site_data
-from .config import MAX_STOCK_COUNT_FOR_DEEPSEEK, VOLUME_MULTIPLIER, MIN_AVG_DOLLAR_VOLUME
+from .config import MAX_STOCK_COUNT_FOR_DEEPSEEK, VOLUME_MULTIPLIER, MIN_AVG_DOLLAR_VOLUME, MIN_WEEKLY_MA60_DEVIATION, MAX_WEEKLY_MA60_DEVIATION
 
 
 def market_status(spy, qqq):
@@ -62,7 +62,6 @@ def process_symbol(symbol, spy_norm, qqq_norm, dry_run):
         "name": fundamentals.get("name") or symbol,
         "score": score,
         "tags": tags,
-        "default_pass": bool(hard_pass_default(metrics)),
         "metrics": metrics,
         "fundamentals": fundamentals,
         "news": news,
@@ -99,9 +98,27 @@ def run(argv=None):
                 items.append(item)
 
     items.sort(key=lambda x: x["score"], reverse=True)
+
+    # Annotate each item with pipeline result
+    for item in items:
+        passed, details = hard_pass_pipeline(item["metrics"])
+        item["default_pass"] = passed
+        item["_funnel_pass_until"] = len(details) if passed else next(i for i, (_, ok) in enumerate(details) if not ok)
+
+    # Funnel: print counts at each step
+    print(f"\n{'='*60}")
+    print(f"硬条件漏斗筛选（{len(items)} 只 → 逐级过滤）")
+    print(f"{'='*60}")
+    pool = items[:]
+    for i, (step_name, _) in enumerate(HARD_PASS_STEPS):
+        kept = [it for it in pool if it["_funnel_pass_until"] > i]
+        print(f"  {step_name:22s}  {len(pool):>3} → {len(kept):>3} 只  (淘汰 {len(pool) - len(kept)} 只)")
+        pool = kept
+    print(f"{'='*60}")
+
     candidates = [i for i in items if i["default_pass"]]
     top_for_deepseek = candidates[:MAX_STOCK_COUNT_FOR_DEEPSEEK]
-    print(f"全量扫描 {len(symbols)} 只 → 硬条件通过 {len(candidates)} 只，Top {len(top_for_deepseek)} 进行AI分析")
+    print(f"最终通过 {len(candidates)} 只，Top {len(top_for_deepseek)} 进行AI分析\n")
 
     # Phase 2: DeepSeek analysis only on candidates' top N (parallel)
     def analyze(item):
@@ -133,8 +150,9 @@ def run(argv=None):
             "kdjJThreshold": 100,
             "requireKDJJgtKWeekly": False,
             "requireKDJJgtKDaily": False,
-            "enableWeeklyMA60DeviationFilter": False,
-            "maxWeeklyMA60Deviation": 1.0,
+            "enableWeeklyMA60DeviationFilter": True,
+            "minWeeklyMA60Deviation": MIN_WEEKLY_MA60_DEVIATION,
+            "maxWeeklyMA60Deviation": MAX_WEEKLY_MA60_DEVIATION,
             "showWeeklyMA60DeviationRisk": True,
             "topN": 200,
         },

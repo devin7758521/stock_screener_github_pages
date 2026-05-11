@@ -20,8 +20,9 @@ const defaults = {
   requireKDJJgtKDaily: false,
   showAI: true,
   showNews: false,
-  enableWeeklyMA60DeviationFilter: false,
-  maxWeeklyMA60Deviation: 1.0,
+  enableWeeklyMA60DeviationFilter: true,
+  minWeeklyMA60Deviation: 0.05,
+  maxWeeklyMA60Deviation: 1.2,
   showWeeklyMA60DeviationRisk: true,
   topN: 200
 };
@@ -61,8 +62,9 @@ function saveParams() { localStorage.setItem("stockScreenerParams", JSON.stringi
 function loadParams() { setParams(JSON.parse(localStorage.getItem("stockScreenerParams") || "null") || defaults); }
 function syncOutputs() {
   ["weeklyBodyMultiplier", "dailyBodyMultiplier", "volumeMultiplier"].forEach(id => { $(id + "Out").textContent = Number($(id).value).toFixed(1); });
+  const minDev = $("minWeeklyMA60Deviation");
   const maxDev = $("maxWeeklyMA60Deviation");
-  if (maxDev) $("maxWeeklyMA60DeviationOut").textContent = (Number(maxDev.value) * 100).toFixed(0) + "%";
+  if (minDev && maxDev) $("weeklyMA60DeviationOut").textContent = (Number(minDev.value) * 100).toFixed(0) + "% ~ " + (Number(maxDev.value) * 100).toFixed(0) + "%";
 }
 
 function passClientFilter(item, p) {
@@ -85,7 +87,7 @@ function passClientFilter(item, p) {
   if (p.enableWeeklyMA60DeviationFilter) {
     const dev = m.weekly_ma60_deviation;
     if (dev == null) return false;
-    if (dev > p.maxWeeklyMA60Deviation) return false;
+    if (dev < p.minWeeklyMA60Deviation || dev > p.maxWeeklyMA60Deviation) return false;
   }
   return true;
 }
