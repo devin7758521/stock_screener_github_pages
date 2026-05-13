@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-13 01:25:43",
+  "generated_at": "2026-05-13 12:56:44",
   "market_status": "偏强",
   "universe_count": 516,
   "defaults": {
@@ -20,6 +20,95 @@
     "topN": 200
   },
   "items": [
+    {
+      "symbol": "COST",
+      "name": "Costco Wholesale Corporation",
+      "score": 11,
+      "tags": [
+        "高于5周线",
+        "高于25周线",
+        "高于60周线",
+        "5周线>25周线",
+        "25周线>60周线",
+        "周K实体突破",
+        "日K实体确认",
+        "日成交量放大",
+        "流动性达标"
+      ],
+      "metrics": {
+        "close": 1021.88,
+        "weekly_body_ratio": 2.2,
+        "weekly_bullish": true,
+        "above_ma5": true,
+        "above_ma25": true,
+        "above_ma60": true,
+        "ma5_gt_ma25": true,
+        "ma25_gt_ma60": true,
+        "weekly_ma60": 963.26,
+        "weekly_ma60_deviation": 0.0609,
+        "weekly_ma60_deviation_risk": "正常延伸",
+        "daily_body_ratio": 1.042,
+        "daily_bullish": true,
+        "volume_ratio": 1.205,
+        "avg_dollar_volume_20": 1784329148.74,
+        "stock_return_60d": 0.0097,
+        "spy_return_60d": 0.081,
+        "qqq_return_60d": 0.1762,
+        "beat_spy_60d": false,
+        "beat_qqq_60d": false,
+        "weekly_k": 86.55,
+        "weekly_d": 85.9,
+        "weekly_j": 87.87,
+        "weekly_kdj_bullish": true,
+        "daily_k": 62.8,
+        "daily_d": 60.57,
+        "daily_j": 67.26,
+        "daily_kdj_bullish": true
+      },
+      "fundamentals": {
+        "symbol": "COST",
+        "name": "Costco Wholesale Corporation",
+        "sector": "Consumer Defensive",
+        "industry": "Discount Stores",
+        "market_cap": 453359665152,
+        "trailing_pe": 53.195213,
+        "forward_pe": 45.385967,
+        "profit_margin": 0.029860001,
+        "revenue_growth": 0.215,
+        "earnings_growth": 0.455,
+        "debt_to_equity": 60.257
+      },
+      "news": [
+        {
+          "title": "BofA raises Ralliant stock price target on cost savings plan - Investing.com",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSXZ5VnN0VGZNWFkycUhJNHlNZ0dOMmxoSkZocGVJd05uZ1BHSFV4ek9rdGtpbUVKQzB0b29CQ1NOM05lZjRjM29RQmVrcktUdlZqaEQycnZSUzBFbHQ2MzZpaW1zWTg3bm55T2Z6ZG9SMW9SMmswV0Uzai1fUVhQU3htMFJ6OEkyaFN4bUZCaWtFWFA1bWxnejFPbC1kbld4a0RPNzczY1JvZTI1MXNyRVZiaE1OZ0NZVi1Vbw?oc=5",
+          "published": "Wed, 13 May 2026 10:09:23 GMT"
+        },
+        {
+          "title": "Costco Wholesale Corporation $COST Shares Purchased by World Investment Advisors - MarketBeat",
+          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNVnFXY29wMWEtemFOSElHaFl3MjJ5QkJvTWlURG8zSzJ0MFFYNExMTmpBXzJPU3Z3S09MUmhSZExEZC1MZWhqakIzX0dULUJWRDcyWnctYVdUTTZKby1IU0RhU3FoOTRJcEVnLTZGa1Rudy1lMlVPNXotdEZTcnFMRVp3UHUwNXdQeWdYVGZNdTh5dEQ1a2hDVXlBekNxSUgybmVxUklFVFgyZFFvYnJ2U1pEdDZJV003a0FIVWk0ZF90RUxfaVhxb2w0Qmktd0Z1N0FZOXgxdw?oc=5",
+          "published": "Wed, 13 May 2026 11:58:17 GMT"
+        },
+        {
+          "title": "Vodafone Earnings: Volume Deterioration Undermines Turnaround Credibility; Cost Discipline Needed - Morningstar Canada",
+          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNQk5JbGlrVE9vaVpfU1FkeVdxMG04b3R5cDdxZXVvbVU5bTRvaFZITS1aYjl2bHJvaWdYaV8wYjE3ZXh3eV9STGRKVFQzaktxcXhuZFNPQ3pRNThVdmdJdVNjRzdDR0FxdWhYdUdsR1REb2lYNWhPaDBiQjh0ckpTQWpDWFNDczc5bGxCZmlZREFwRDc0UDNIZURqc2FyX1BJVnowbmdVd3VCQWNYa0RuSkNDU0lncnVqanFlTy1qM09uNjB1NGZyMmFfVkZGME5DZGd1UUdR?oc=5",
+          "published": "Wed, 13 May 2026 08:08:26 GMT"
+        },
+        {
+          "title": "AEP ANNOUNCES PRICING OF COMMON STOCK OFFERING WITH A FORWARD COMPONENT - PR Newswire",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTjc5VTRlWllQQzJTNkcxQlRxNVpGWVZNQzBGc2paS19jZ1poR0kwdDk1anR3NUVFSUJPdUlYLUt0SGxxOU5YSldJLWZWbXpkekR4RkdueVBpSFRsS014eGpsaTE0QUtPRXFIbm1QNEJVSG85dlJlcFhIX0g5T2dwM05hb2VUa0F1Nk9NOTV3R0Q0d1VwNC1sa2dzdEtRY3dadm9QbmlnWG5NcnVnYjdpOFJyVlZWTGREMEwteFM0dDVkZk5JUXc?oc=5",
+          "published": "Wed, 13 May 2026 02:16:00 GMT"
+        },
+        {
+          "title": "Years of Rewards: $20 Bil From Costco Wholesale Stock - Trefis",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPYkxCRTF3b0dVc1RZQkJVZDYtczlNcm8wUk9DeHhoNTdncjBYaDVZcWVNWjJudjlpSERjMnpyMzRSUnRrYkVPYjJOTEFnQW9Ma1JrdzBOTVpkb3ZQM2FxYXFCWkVEV1RZZUdvSVpweGRZYVFfdUVnX3JUVGlsVXF4TEpGaXNVbVlic0g4M0plV0dNbURxcXVtMmNGZ3FxOFNQQmRFakpxSHlXQWVhNWtBXzE4TDNxdXJCOUxwYmF3?oc=5",
+          "published": "Wed, 13 May 2026 05:34:06 GMT"
+        }
+      ],
+      "default_pass": true,
+      "_funnel_pass_until": 5,
+      "ai_summary": "基于提供的多维度数据，对COST股票进行如下分析：\n\n### 技术面\n- **趋势结构**：价格站上所有主要均线（MA5/25/60），且均线呈多头排列（MA5>MA25>MA60），周线级别处于强势上升通道。\n- **动能指标**：周线KDJ高位钝化（K值86.55），日线KDJ亦处于多头区域，短期动能偏强但需警惕超买风险。\n- **量价关系**：日线成交量放大（量比1.205），但近60日收益率（0.97%）显著跑输标普500（8.1%）和纳斯达克100（17.62%），显示近期相对弱势。\n- **关键位置**：周线MA60（963.26）构成中期支撑，当前价格偏离度6.09%属正常延伸，无极端乖离。\n\n### 基本面\n- **估值水平**：静态PE（53.2）和动态PE（45.4）均处于历史高位，反映市场对其增长溢价定价较高。\n- **增长质量**：营收增长21.5%，净利润增长45.5%，利润增速显著高于营收，显示运营杠杆效应或成本控制有效。\n- **财务健康**：负债权益比60.3%，在零售行业中属合理水平，但需关注高估值下的债务偿付能力。\n- **行业属性**：消费防御板块（折扣零售）具备抗周期特征，但利润率（2.99%）偏低，依赖高周转模式。\n\n### 新闻与政策\n- **机构动向**：World Investment Advisors增持COST，显示专业资金对其长期价值认可。\n- **行业对比**：Vodafone财报提及成本纪律必要性，侧面反映零售/消费行业当前对成本管控的普遍重视，利好COST的运营效率优势。\n- **无关信息**：AEP股票发行及BofA对Ralliant的目标价调整与COST无直接关联，需剔除噪音。\n\n### 风险\n- **估值风险**：PE超50倍，若增长不及预期（如会员费增速放缓或同店销售下滑），可能面临戴维斯双杀。\n- **相对表现风险**：近60日显著跑输大盘，若资金持续从防御股流向成长/科技板块，短期可能承压。\n- **技术风险**：周线KDJ高位钝化，日线J值67.26未极端，但若量能无法持续，存在短期回调压力。\n- **宏观风险**：高利率环境下，消费支出韧性若减弱，将影响折扣零售的客流与客单价。\n\n### 综合关注等级\n**中等偏高关注**  \n理由：技术面多头结构完整，基本面增长强劲且机构增持，但高估值与近期相对弱势构成主要矛盾。建议重点跟踪：1）下周能否放量突破前高；2）即将发布的季度同店销售数据；3）会员费提价进展。若价格回踩周线MA60（963美元）且基本面无恶化，可视为中期布局窗口。"
+    },
     {
       "symbol": "KO",
       "name": "Coca-Cola Company (The)",
@@ -49,8 +138,8 @@
         "weekly_ma60_deviation_risk": "正常延伸",
         "daily_body_ratio": 2.06,
         "daily_bullish": true,
-        "volume_ratio": 1.3294,
-        "avg_dollar_volume_20": 1116092867.89,
+        "volume_ratio": 1.3754,
+        "avg_dollar_volume_20": 1118941299.61,
         "stock_return_60d": 0.0059,
         "spy_return_60d": 0.081,
         "qqq_return_60d": 0.1762,
@@ -85,6 +174,11 @@
           "published": "Fri, 08 May 2026 13:52:55 GMT"
         },
         {
+          "title": "KO Stock Price, Quote & Chart | COCA-COLA CO/THE (NYSE:KO) - ChartMill",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9ldlg3VjhfRGloSVNybE52cURTX1JRTllzeTU5OVQxMTRfU0djWnFSMW5VbmhPWmZmWGhkSEs3VjM4TDdSa2lvLW5hTk83VEZHNXZ2aXNiS0tSN1lB?oc=5",
+          "published": "Mon, 11 May 2026 07:00:00 GMT"
+        },
+        {
           "title": "Is The Coca-Cola Company (KO) the Best Stock Under $100 to Invest In Now? - Yahoo Finance",
           "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPNEI5Zzd2ZkpWWjhlWGhOdDdHeWRDUExsaERXQVNPTm1uWEtvYzhYVnlFWXpKLUVxTUVfOVV1bHQ2bXB6WFFjWlBwUjdnckFvT0l6TnBSVnluMUFGeWs0NW9YOVdwZ1hMZlhJYUQycXFJQWZrcm9VTWFUcDVKbUt2VXpHYzNYVUFlQWtGRjN6RjFIZTlu?oc=5",
           "published": "Tue, 12 May 2026 17:41:01 GMT"
@@ -95,19 +189,14 @@
           "published": "Thu, 30 Apr 2026 07:00:00 GMT"
         },
         {
-          "title": "Coca-Cola Earnings Show Why This Dividend Stock, With Its 2.7% Dividend Yield, Remains a Buy - The Motley Fool",
-          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNNmtnZ1Q4cWVvUDFjVkEzRklSaW90VlV6d2kyWWNJeERXWUtHRkxvZUVwZVNoN3l2Rm9wOTFaSEhzNnI5QXdTVkRhVlVhcmktbkk4V0lQbjZIVUhLN2s0ejBlSjUtVWdDNE1OY05rTFpURDNtYThhZlB5RnB2LUdsUmJIZFJkaFVXbk5NOC1iUVhxb2ZWS181UA?oc=5",
-          "published": "Tue, 28 Apr 2026 07:00:00 GMT"
-        },
-        {
-          "title": "Pay Less, Grow More: CELH, COKE Beat Coca-Cola Stock - Trefis",
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZzZ6OTFpRmdpR2oxejdSaERYQXN0Nk43bTZSaHhYeWlPY3pvcDdXQUM5UmNpVHNuc3ZxVjRyaFJzQk5EMWVLWFJrN1RiQ2dYaGxfaFYzZzR4X055X05sQUcyTFhoclRSaDJyVUVhaGVkd3Eyemt3Q3hjalNTZUl4OWp0d01TV2tndGU3Q2pTbHRsQS1oOVRjZWwwUFN1R1ZEY0ItcTNMT25aOWs?oc=5",
-          "published": "Fri, 08 May 2026 07:00:00 GMT"
+          "title": "Investors - The Coca-Cola Company",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1SYlAyLTB6QXhjNlF2ZmpPYzVOZ3U5TjFfRXF1RkU3QTMxMDVMdTZnSzNYc3YwMnRGT3R0YTJMLVJiMERzdU1fWVZjMlE5OU5n?oc=5",
+          "published": "Thu, 30 Apr 2026 07:00:00 GMT"
         }
       ],
       "default_pass": true,
       "_funnel_pass_until": 5,
-      "ai_summary": "基于提供的多维度数据，以下是对股票KO（可口可乐）的简洁分析：\n\n### 技术面\n- **趋势**：周线与日线均呈多头排列（价格站上MA5/MA25/MA60，且短期均线高于长期均线），KDJ指标均显示金叉看涨信号。\n- **强度**：周线实体饱满（周线实体比1.0），日线实体较大（2.06），成交量放大（量比1.33），显示近期上涨动能较强。\n- **相对表现**：近60日股价微涨（+0.59%），但显著跑输标普500（+8.1%）和纳斯达克100（+17.62%），表明其防御属性在近期成长风格主导的市场中承压。\n- **偏离度**：周线价格高于MA60约11%，属于正常延伸范围，未出现极端超买风险。\n\n### 基本面\n- **估值**：静态PE 25.17倍，动态PE 22.98倍，在消费防御板块中处于合理偏高区间，需关注盈利增长能否消化估值。\n- **盈利质量**：利润率27.8%优秀，营收增长12.1%，盈利增长18.2%，显示强劲的运营效率和增长韧性。\n- **财务风险**：资产负债率（D/E）124.9%，在饮料行业中偏高，需关注其利息覆盖能力及债务结构。\n\n### 新闻与政策\n- **市场关注**：多家机构（Morningstar、Motley Fool、Yahoo Finance）在财报后发布分析，普遍强调其股息率（约2.7%）和防御属性，但Trefis指出CELH、COKE等成长型饮料股表现更优。\n- **情绪倾向**：新闻标题以“买入”或“公平估值”为主，但存在对比性文章暗示其相对成长股吸引力不足。\n\n### 风险\n1. **相对表现风险**：持续跑输大盘和科技股，若市场风险偏好维持高位，资金可能继续流出防御板块。\n2. **估值风险**：PE处于历史中高位，若盈利增速放缓，估值有收缩压力。\n3. **债务风险**：高杠杆率在利率高位环境下增加财务成本压力。\n4. **行业竞争**：面临新兴品牌（如CELH、COKE）在功能饮料和健康化趋势下的份额挑战。\n\n### 综合关注等级\n**中等关注**  \n理由：技术面短期强势（多头排列+放量），基本面稳健（高利润率+双位数增长），但相对市场表现疲弱、估值偏高及高债务构成主要制约。适合作为防御性配置的观察标的，需等待相对强度改善或回调至更合理估值区间。"
+      "ai_summary": "基于您提供的资料，以下是对股票KO（可口可乐）的简洁分析：\n\n**技术面：**\n- **趋势强劲**：周线和日线均为阳线，且价格站上所有主要均线（MA5/25/60），均线系统呈多头排列（MA5>MA25>MA60）。\n- **动能偏强**：周线与日线KDJ均呈金叉状态，J值均处于高位（>85），显示短期动能充足，但需注意超买风险。\n- **量价配合**：日线成交量放大（量比1.38），支撑价格上涨。\n- **相对表现**：近60日涨幅（0.59%）显著跑输大盘（SPY +8.1%）和科技股（QQQ +17.6%），表明近期走势相对弱势。\n\n**基本面：**\n- **行业龙头**：属于消费防御性板块的非酒精饮料行业，市值约3443亿美元，地位稳固。\n- **盈利稳健**：净利润率27.8%，营收增长12.1%，盈利增长18.2%，显示良好的盈利能力和增长态势。\n- **估值合理**：静态市盈率25.17，前瞻市盈率22.98，在消费巨头中处于可接受范围。\n- **财务风险**：资产负债率（Debt to Equity）高达124.9%，杠杆水平较高，需关注其偿债能力。\n\n**新闻与政策：**\n- 近期新闻多为常规财报分析、股价图表及投资者关系内容，未出现重大政策或突发事件影响。\n- 市场关注点主要围绕财报后的估值讨论及与其他低价股的比较。\n\n**风险：**\n- **技术面风险**：KDJ指标处于高位，短期存在技术性回调压力；近60日相对大盘表现落后，可能面临资金轮动压力。\n- **基本面风险**：高负债率（124.9%）是主要财务风险，若利率环境变化可能影响财务成本。\n- **行业风险**：非酒精饮料行业竞争激烈，消费者偏好变化（如健康趋势）可能影响传统碳酸饮料需求。\n\n**综合关注等级：中性偏正面**\n- **理由**：技术面呈现强势多头格局，基本面盈利稳健、估值合理，但高负债率及短期超买信号需警惕。近期相对大盘表现不佳，可能提供逢低关注机会，但不宜追高。建议持续跟踪其负债管理及行业竞争动态。"
     }
   ]
 }
