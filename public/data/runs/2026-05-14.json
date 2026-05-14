@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-14 01:28:14",
+  "generated_at": "2026-05-14 13:51:26",
   "market_status": "偏强",
   "universe_count": 516,
   "defaults": {
@@ -21,9 +21,9 @@
   },
   "items": [
     {
-      "symbol": "BK",
-      "name": "The Bank of New York Mellon Cor",
-      "score": 11,
+      "symbol": "MRVL",
+      "name": "Marvell Technology, Inc.",
+      "score": 12,
       "tags": [
         "高于5周线",
         "高于25周线",
@@ -33,698 +33,82 @@
         "周K实体突破",
         "日K实体确认",
         "流动性达标",
-        "跑赢SPY"
+        "跑赢SPY",
+        "跑赢QQQ"
       ],
       "metrics": {
-        "close": 134.99,
-        "weekly_body_ratio": 1.5951,
+        "close": 190.26,
+        "weekly_body_ratio": 1.5824,
         "weekly_bullish": true,
         "above_ma5": true,
         "above_ma25": true,
         "above_ma60": true,
         "ma5_gt_ma25": true,
         "ma25_gt_ma60": true,
-        "weekly_ma60": 106.7,
-        "weekly_ma60_deviation": 0.2651,
-        "weekly_ma60_deviation_risk": "正常延伸",
-        "daily_body_ratio": 1.2808,
+        "weekly_ma60": 85.17,
+        "weekly_ma60_deviation": 1.2339,
+        "weekly_ma60_deviation_risk": "明显过热",
+        "daily_body_ratio": 1.0587,
         "daily_bullish": true,
-        "volume_ratio": 1.025,
-        "avg_dollar_volume_20": 529164036.21,
-        "stock_return_60d": 0.1297,
-        "spy_return_60d": 0.0816,
-        "qqq_return_60d": 0.1798,
+        "volume_ratio": 0.2748,
+        "avg_dollar_volume_20": 4049619371.17,
+        "stock_return_60d": 1.3898,
+        "spy_return_60d": 0.0891,
+        "qqq_return_60d": 0.1913,
         "beat_spy_60d": true,
-        "beat_qqq_60d": false,
-        "weekly_k": 77.92,
-        "weekly_d": 79.61,
-        "weekly_j": 74.53,
-        "weekly_kdj_bullish": false,
-        "daily_k": 38.71,
-        "daily_d": 26.16,
-        "daily_j": 63.8,
-        "daily_kdj_bullish": true
-      },
-      "fundamentals": {
-        "symbol": "BK",
-        "name": "The Bank of New York Mellon Cor",
-        "sector": "Financial Services",
-        "industry": "Banks - Diversified",
-        "market_cap": 92654305280,
-        "trailing_pe": 16.563192,
-        "forward_pe": 14.000077,
-        "profit_margin": 0.28722,
-        "revenue_growth": 0.134,
-        "earnings_growth": 0.418,
-        "debt_to_equity": null
-      },
-      "news": [
-        {
-          "title": "BK Stock Chart | BANK OF NEW YORK MELLON CORP (NYSE:BK) - ChartMill",
-          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5VV3RyMGVGUi1sUDF1NWVpQlQwWDdxMVZ4ZTFpYmk0b3ZzSFo1cjdWdXZzWmIta3VZNThDM2xGOWxQSWNHME5YTmNWT3dodmRWX3FOZGFVOS12NXhqbGFPN3BR?oc=5",
-          "published": "Fri, 08 May 2026 07:00:00 GMT"
-        },
-        {
-          "title": "Bank of America revamps Intel stock price target - thestreet.com",
-          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOeW41VHRjOG5hVGtpYTRYWGhBMmtCbWhmTG9TdC14eDFiNTBOczhhQmlQRmVQVkNrSXlyX3lWWHU0c2twWVJvLWFzSDNvYzJfS3liWXJ3QWRxNmdRdmVuZk91SGxqb0tuQ0V5bUtocGduNDBzby0zSFJodEpxbmNhaFNNWjRIMDBZektweTgxamVuTjhiVGc?oc=5",
-          "published": "Wed, 13 May 2026 14:49:46 GMT"
-        },
-        {
-          "title": "Alexander Hamilton’s 1784 bank is changing its Wall Street ticker - Stock Titan",
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTjBtNldvbVgzMnBiMVRhWFViLXlOZC10YmQ5Wl9tNWtjSUIwQjJLcENBay0wQ2ZXbklMdmFTZUkxbzB2NzBZdU00RkF4UWw3Z3ptUW0ycDRTVDUybF8xc3VmV196SHdxTjIwbEoyaDdYaER3Q1pRUGRvWlJFaWs4VTdnWmlxNEVCOVZTUURxVkRPTDByNEpVN1B1NmdQdkhYMVB1T1praHNLSms?oc=5",
-          "published": "Mon, 11 May 2026 12:00:00 GMT"
-        },
-        {
-          "title": "This is Why The Bank of New York Mellon Corporation (BK) is one of Goldman Sachs Top Bank Stocks - Yahoo Finance",
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQM2FXU3B5b3FqSWYxQjJUQlg3UlFYUUJFWGwtVWlqQnY0SHU2X01iaHNSYkNMbWYzZEJhNi1TSG5meEtzYUV6QVhTRjN4bU5UNi1wWFdyNGM5WWJieFI3enZGN0YxdHFZWUFydXhYVnpGamtvcGpVbXA4UzdFYlotZHlvdTB2cTJxYlhTdHI3bFVna3hQTjJBN3dRV0hTZw?oc=5",
-          "published": "Tue, 28 Apr 2026 07:00:00 GMT"
-        },
-        {
-          "title": "BNY $BK Stock Holdings Lessened by CORDA Investment Management LLC. - MarketBeat",
-          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOOUlUTVZ0R2djUDRaMmRITUFvRWs0U1ZXZ054ODZoWWItSkY0MDBCOWhmenI1X2ZyOG9ONWVBRmtWOWVZNzBOSm5hY0hiR2UxdUZPSW5ZQWYzRThYOEc5bUtIdWlmTlFpb0poNXhpd2VEOTc5RnB4LWNhUks0YnlJMndIWl8yTU13cDlJYUN3X0JHUVNzWlItQk00Tjk4eGozaEt4bFRoRHFyMnRMQzgzMjFUcHVoSmw3R1JnUWJJQzlDZG9f?oc=5",
-          "published": "Fri, 08 May 2026 08:26:46 GMT"
-        }
-      ],
-      "default_pass": true,
-      "_funnel_pass_until": 5,
-      "ai_summary": "基于提供的多维度信息，对股票 BK（纽约梅隆银行）的简洁分析如下：\n\n### 技术面：偏强\n- **趋势结构**：价格站上所有主要均线（MA5/25/60），且均线呈多头排列（MA5>MA25>MA60），周线级别处于强势上涨通道。\n- **动能指标**：周线KDJ处于高位（K>77），但出现轻微死叉信号，短期存在技术性回调压力；日线KDJ金叉向上，显示短线仍有上冲动力。\n- **量价关系**：日线阳线实体饱满，成交量温和放大（量比1.025），资金参与度尚可。\n- **相对表现**：近60日跑赢标普500（SPY），但跑输纳斯达克100（QQQ），表明其走势强于大盘蓝筹，但弱于科技成长股。\n\n### 基本面：稳健\n- **估值**：当前市盈率（TTM 16.56倍）低于行业平均水平，前瞻市盈率（14倍）进一步下降，估值具备吸引力。\n- **成长性**：营收同比增长13.4%，净利润同比增长41.8%，盈利增速显著高于营收，显示成本控制或业务结构优化有效。\n- **盈利能力**：净利润率28.7%，在银行业中处于较高水平，反映其托管及资产管理业务的轻资产、高附加值特征。\n- **财务健康**：未提供债务权益比，但作为全球最大托管银行，通常具备稳健的资产负债表。\n\n### 新闻与政策：中性偏正面\n- **机构关注**：被高盛列为顶级银行股之一，显示机构对其基本面认可。\n- **事件驱动**：公司计划更改其历史悠久的华尔街股票代码（从BK变更为其他），可能引发短期市场关注度提升。\n- **行业背景**：美联储降息预期下，银行股整体受益于净息差压力缓解及资本市场活跃度提升，利好BK的托管与手续费收入。\n\n### 风险\n- **技术回调风险**：周线KDJ高位死叉信号，若日线量能无法持续，可能引发短期获利回吐。\n- **相对弱势**：近60日跑输QQQ，若市场风格切换至科技成长，BK可能面临资金分流压力。\n- **宏观不确定性**：若通胀反复导致降息推迟，银行股估值修复逻辑可能受阻。\n\n### 综合关注等级：**中等偏高（关注）**\n**理由**：技术面处于多头趋势但短期有超买迹象，基本面稳健且估值合理，叠加机构背书与行业利好。建议关注周线KDJ是否修复、日线能否放量突破前高，以及后续降息政策信号。"
-    },
-    {
-      "symbol": "GS",
-      "name": "Goldman Sachs Group, Inc. (The)",
-      "score": 11,
-      "tags": [
-        "高于5周线",
-        "高于25周线",
-        "高于60周线",
-        "5周线>25周线",
-        "25周线>60周线",
-        "周K实体突破",
-        "日K实体确认",
-        "日成交量放大",
-        "流动性达标"
-      ],
-      "metrics": {
-        "close": 955.42,
-        "weekly_body_ratio": 1.6024,
-        "weekly_bullish": true,
-        "above_ma5": true,
-        "above_ma25": true,
-        "above_ma60": true,
-        "ma5_gt_ma25": true,
-        "ma25_gt_ma60": true,
-        "weekly_ma60": 770.95,
-        "weekly_ma60_deviation": 0.2393,
-        "weekly_ma60_deviation_risk": "正常延伸",
-        "daily_body_ratio": 1.1122,
-        "daily_bullish": true,
-        "volume_ratio": 1.2299,
-        "avg_dollar_volume_20": 1693767899.33,
-        "stock_return_60d": 0.0232,
-        "spy_return_60d": 0.0816,
-        "qqq_return_60d": 0.1798,
-        "beat_spy_60d": false,
-        "beat_qqq_60d": false,
-        "weekly_k": 77.39,
-        "weekly_d": 73.72,
-        "weekly_j": 84.74,
+        "beat_qqq_60d": true,
+        "weekly_k": 96.21,
+        "weekly_d": 95.35,
+        "weekly_j": 97.94,
         "weekly_kdj_bullish": true,
-        "daily_k": 89.64,
-        "daily_d": 81.6,
-        "daily_j": 105.72,
+        "daily_k": 87.29,
+        "daily_d": 84.96,
+        "daily_j": 91.96,
         "daily_kdj_bullish": true
       },
       "fundamentals": {
-        "symbol": "GS",
-        "name": "Goldman Sachs Group, Inc. (The)",
-        "sector": "Financial Services",
-        "industry": "Capital Markets",
-        "market_cap": 281855983616,
-        "trailing_pe": 17.270788,
-        "forward_pe": 14.611463,
-        "profit_margin": 0.29363,
-        "revenue_growth": 0.145,
-        "earnings_growth": 0.242,
-        "debt_to_equity": 678.596
+        "symbol": "MRVL",
+        "name": "Marvell Technology, Inc.",
+        "sector": "Technology",
+        "industry": "Semiconductors",
+        "market_cap": 166418153472,
+        "trailing_pe": 61.788963,
+        "forward_pe": 35.094025,
+        "profit_margin": 0.32584,
+        "revenue_growth": 0.221,
+        "earnings_growth": 1.063,
+        "debt_to_equity": 33.479
       },
       "news": [
         {
-          "title": "Is Most-Watched Stock The Goldman Sachs Group, Inc. (GS) Worth Betting on Now? - Yahoo Finance",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPTWE4NmRyNkljcW5sV0ZocGdkSlBUTXFwWTdNQXFfc0tDMXRaZkhRV20yZHJZYUJsdlMwcGFxdU9pVmRMbW1kczJzU0lMdkRfbUc1SkFUR1ItLVh2ZUhmVHdHd0pIR1ZBT0ZKaVRpSUtfZ1NyQmZ3ZWswcDhhNjg1TXJ1UXM?oc=5",
-          "published": "Wed, 13 May 2026 13:00:03 GMT"
+          "title": "Marvell Stock’s Path To $400 - Forbes",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPblRDU1BWSmFsa2xvYlNNS1RmM1pLeUtfalNoTXB6YkE4aEVtcVF4LWVNcWRMYllhZ285ZmRfekcteEJXLUFoRVJBQUhjMWpHUjhHSzRGMkJxbVJ6cTBad2xCMlp1NHZoRU5EMmJPOUk1R25jajNvVERIX0N6NTRMdF9oaFF6UlJyd0R2dmNR?oc=5",
+          "published": "Mon, 11 May 2026 12:11:44 GMT"
         },
         {
-          "title": "Goldman Sachs Stock Climbs Near Its 1-Year High After a Record GBM Revenue Quarter - TIKR.com",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRVZwYVhXc2gxbkllUUttMVlrNE9YY0NkcmpET0Z4Q2xYdDRLNVh2QVFOZXNsWXZkR2xpTEZ4cHlMNEhMQ3d0eUJyNG1GQlVwQ3dOS2V0UnJXcXVzcjJKblEzSTRYd1h0S2h6Q25XNG9JREY5RVpqZ0NBVG4zZjRienk0UDlHeWFmZ1lhWDdMUGFLMVlPalU5UnEyUWh2dXh3clJFZnlsMlNqYWRK?oc=5",
-          "published": "Tue, 12 May 2026 13:20:08 GMT"
+          "title": "What Is Going On With Marvell Stock On Wednesday? - Benzinga",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZ0NMUS1PbUFkTjh1NW5neGxLUF9YRXFCRmVpVHpkX3Uwd3lTblROOGZEZ0VNWC1sRG9tSDd6X2tIZlhGZWFmQ1c5d3h4V3BpdlN3LWxiSDRaVHNNRmdVMDlfX09vb0dzUnlnb3YyWXh0UHpBYW9QMW11X3RWTi1MbjlaSmlIeUhvOEtnZ0w3bjBiZjlnaUVqMnpjbmNaSnJ4cVJR?oc=5",
+          "published": "Wed, 13 May 2026 15:54:26 GMT"
         },
         {
-          "title": "Goldman Sachs (NYSE: GS) discloses 1.02M-share, 6.1% stake in Agilon Health - Stock Titan",
-          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPaGpNTGtHbGhLNG04Q1RVdmFZRE9UazRaQjF4VlRHYXJRUGZHM3VmNXRuSVpHcUoxSjkwZmRYSGNSNEtBbjBMZ3dHdkJfMVJRUHduYVQyM0tjMExrVUVONDl1UmZET1BNVFFsdk1Ha1Y4SzlHY1ZXam11TDNrOUxzTkNoTmJlSy05S3BfV3RZODhNU2ttcFd4cncza0E4bEFLRUdxMlBUUXRiOUM5ZUUxTHZGVmFvd2lZS2RpUUFqT2I?oc=5",
-          "published": "Wed, 13 May 2026 14:28:49 GMT"
+          "title": "What Is Happening With Marvell Technology Stock? - Trefis",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQSDhxak5Rd0p4bmg0ZUZCWmdvRG5WaHdwNFY5dG0wLVg4WTVaY2h6Q0pWMS1Ta1VCUXEyLU9wX3hsb2N3dG0weFltekdQdnFzTU40OUtISE5NRmx5LVd4d0ZhZ1ZGTGo4bXZxd0NYeU83ZXlUS0hyOVBvTjBXLVRiMk5nWHh1cWMxc1pLRlpfX2VlNGF2Wl82djI2ME9kQmxSMks1NXhLQ0p5Tk9LY0g0?oc=5",
+          "published": "Thu, 14 May 2026 08:34:39 GMT"
         },
         {
-          "title": "Is Wall Street Bullish or Bearish on Goldman Sachs Stock? - Yahoo Finance",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNRi1vaURwX2dleHlmYWNtY0VRRk9GMFI2V01oR2s1Y0lRRmZZUGE1bG9hZWhGUzIxckRsMGtRM3A2bVIySENzSlpEVDU2dTZGLW45WEdDakh2MGNnS2J4YVAzdnJJMWRqMWk4YlRrdHBBVC1MU3lUZ3dLalU4YllBWllXemdmejkt?oc=5",
-          "published": "Wed, 13 May 2026 13:20:22 GMT"
+          "title": "Marvell Technology, Inc. ($MRVL) CEO 2026 Pay Revealed - Quiver Quantitative",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNVV9QaUEzSWtpamVPNlpsS3dXMFA0WHVobzQ4RzFoYTdwZ0VDeGkyZUx2czdsSWE5U3JoLXpZYXZ6RW03Tk0xcHBhMUFVbURzVHhUWlpQcVE3VmIxNWRvZHp0UjJ5cmtOSWE3c3N0T3N1d1oxRWc3VVY4aE1LMVJkQ292QVZUdWZKUS1mOTJLVGQ0VEdOMThaTmhWWQ?oc=5",
+          "published": "Wed, 13 May 2026 22:25:00 GMT"
         },
         {
-          "title": "US Stocks Are Forecast to Rise 6% in 2026 - Goldman Sachs",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZFBsSHBVbkVBaGV4R01qR2lyS3kwQVhLbTM2SUExLTlicHBYeGhfZnAtVTRtRllJTVQ3SXpSU2FGZ2lkdEpTQmZVMk90TGlyOVFORkhqTzNjZ3ROUWFnS0g3bjU3ZUJCLTJLUFZaQWppM2V6V0E4dXU0eGlHMHlON3hIQzZQazU0?oc=5",
-          "published": "Wed, 29 Apr 2026 07:00:00 GMT"
+          "title": "Why Did Marvell Technology (MRVL) Stock Climb Today - Kavout",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOclRGZjROZmJNTkljOFlrMjZIU083NU9wMVhiSjNxYUFYN0haOGFPRTlvd2F6ampTcFZhZTNvR0IxWjZsdlhLaFlMTWdsQzluZUF4U01HRnRnZFh0Uk9vME5nMG91NDVjQmc0dzdodFQ5ZGlLQzhveWNPMjk3UGpYcThLcHB6aXpUZ0hjZQ?oc=5",
+          "published": "Wed, 13 May 2026 06:33:13 GMT"
         }
       ],
       "default_pass": true,
       "_funnel_pass_until": 5,
-      "ai_summary": "基于提供的股票 GS 信息，以下为简洁分析：\n\n**技术面**：股价收于 955.42 美元，周线和日线均为阳线，且站上所有主要均线（MA5/25/60），均线呈多头排列。周线KDJ指标偏多，但日线J值高达105.72，显示短期超买。近60日涨幅（2.32%）跑输标普500（8.16%）和纳斯达克100（17.98%），相对强度偏弱。成交量略高于20日均量，量价配合尚可。\n\n**基本面**：市值约2819亿美元，市盈率（TTM 17.27倍，远期14.61倍）处于金融板块合理区间。利润率29.36%，营收增长14.5%，盈利增长24.2%，显示盈利能力强劲且增长加速。但资产负债率（债务股本比678.6）极高，需关注杠杆风险。\n\n**新闻与政策**：近期新闻偏正面，包括GBM（全球银行与市场）季度收入创纪录、股价接近一年高点，以及机构对GS前景的讨论。公司自身预测美股2026年上涨6%，释放宏观乐观信号。但需注意市场整体情绪及利率政策对投行业务的影响。\n\n**风险**：主要风险包括：1）短期技术指标超买，存在回调压力；2）高财务杠杆（债务股本比极高）；3）近60日相对市场表现落后，存在补涨或继续跑输的可能；4）宏观经济及利率变动对资本市场业务的影响。\n\n**综合关注等级**：**中等偏正面**。技术面趋势良好但短期超买，基本面盈利增长强劲但杠杆高企，新闻面偏积极。建议持续关注，等待更佳介入时机或回调确认支撑。"
-    },
-    {
-      "symbol": "TRGP",
-      "name": "Targa Resources, Inc.",
-      "score": 11,
-      "tags": [
-        "高于5周线",
-        "高于25周线",
-        "高于60周线",
-        "5周线>25周线",
-        "25周线>60周线",
-        "周K实体突破",
-        "日K实体确认",
-        "流动性达标",
-        "跑赢SPY"
-      ],
-      "metrics": {
-        "close": 263.29,
-        "weekly_body_ratio": 1.0565,
-        "weekly_bullish": true,
-        "above_ma5": true,
-        "above_ma25": true,
-        "above_ma60": true,
-        "ma5_gt_ma25": true,
-        "ma25_gt_ma60": true,
-        "weekly_ma60": 187.75,
-        "weekly_ma60_deviation": 0.4023,
-        "weekly_ma60_deviation_risk": "正常延伸",
-        "daily_body_ratio": 1.6807,
-        "daily_bullish": true,
-        "volume_ratio": 0.8526,
-        "avg_dollar_volume_20": 299087909.28,
-        "stock_return_60d": 0.1567,
-        "spy_return_60d": 0.0816,
-        "qqq_return_60d": 0.1798,
-        "beat_spy_60d": true,
-        "beat_qqq_60d": false,
-        "weekly_k": 92.37,
-        "weekly_d": 87.94,
-        "weekly_j": 101.23,
-        "weekly_kdj_bullish": true,
-        "daily_k": 83.48,
-        "daily_d": 72.85,
-        "daily_j": 104.74,
-        "daily_kdj_bullish": true
-      },
-      "fundamentals": {
-        "symbol": "TRGP",
-        "name": "Targa Resources, Inc.",
-        "sector": "Energy",
-        "industry": "Oil & Gas Midstream",
-        "market_cap": 56513593344,
-        "trailing_pe": 26.866327,
-        "forward_pe": 22.25769,
-        "profit_margin": 0.12874,
-        "revenue_growth": -0.102,
-        "earnings_growth": 1.429,
-        "debt_to_equity": 585.249
-      },
-      "news": [
-        {
-          "title": "Director Paul Chung gifts 6,000 Targa (TRGP) shares, retains large holdings - Stock Titan",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZWx2eXdjQm1LLWhaX1NOWUFUNEJuZVl2ZTNFbXMtdE9YWXVSNUllY3lENGp0Q1JkTWE3RmtaTzRrZWdCUHFyRWM1SjZicXpnbTJtYmZRNEZMdmpBNkFkVkVjYVNtZUprR0h1dkQ4VFgtUFo0UTZUckdwM1lGOGNrc25GVjg5OFlNMjQ5SHh1WThxb3VMT1BKRFdNR1pmQi1tV2NUaGpKN19rUlU4NHdwQ2c4RU4?oc=5",
-          "published": "Wed, 13 May 2026 20:30:03 GMT"
-        },
-        {
-          "title": "Targa Resources (NYSE:TRGP) Director Sells $2,713,687.92 in Stock - MarketBeat",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOclpnZ1FTMGZaU0c1T053MEpyVm9vZWRNUWgwb1pPempweE4xcVJ1VGlRU3RQbXlDZWViVkxqVjVPYWdIRkVXZXlLRXVtQW5TNWZoaVhwSDFsbzRKcnVVVnBoREp6RjUxdEVZV1BoX1hkbUczVERYcloweHBrWkQ3WXFjZEtfV2VtaHRqeEZIcHhBNTE0N1VxVVZYUGdySG1Uc2c0OV9mM2llMm5MTm5ob213?oc=5",
-          "published": "Wed, 13 May 2026 21:30:38 GMT"
-        },
-        {
-          "title": "Targa Resources stock hits all-time high at 261.98 USD By Investing.com - Investing.com Nigeria",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPazRxaERvb29HeElUV2xIV0M0VTk5cjNYcHdfV2oxQjhyNVl3S21UUnRnczRQa0tUX3BRdlo3ai1QZ2FCYWZWdEhMS2VnNXJVRmg1QllJX1p5Y0l6QnkzZ0NvakZwbWYyaGZNZzk1ZDVlSEFYVjBMcEJuRG5XVFlpUXh3aXd0Z1phMjR1TVM3WHdUVHU2Z1g0Vm5Nc1o1MTBQV0dmOUV1NWktZjlt?oc=5",
-          "published": "Wed, 13 May 2026 23:41:28 GMT"
-        },
-        {
-          "title": "Targa Resources Director Sold Shares Worth Over $2.7M - TradingView",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRjB1U3pieWZHUEpWNlpiUUdycGgwbmIyMEdkQ2lPb0V4dTZMaks4aTZVZGIzbk55SmRySDJjZWFFNU1GUDVxTlhYRnQwVDc0aVZ3Y0N0aUlMWVhWRDRCLUZpRFRORG1ZeHhja3B0Vi0yZ2FSTkVFVnVjY2VXYWcwem1XR0tvUzA5NVBjUHdIWExjem9pSmVDaUxFOGpwbzl4bVFCcXdiMFhvZlBaNUZ1TDY5TEs?oc=5",
-          "published": "Wed, 13 May 2026 20:40:06 GMT"
-        },
-        {
-          "title": "Targa Resources (NYSE: TRGP) director sells 10,602 shares in open market - Stock Titan",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNcHRLdVFab2JWRERKbE00SGl3QkctVzhxZWd4eUhkaXd3VXF0c0Rtd05qODlwcVNhcHJkZ2dDOC1uSUIybG1HUVk3dVNfRjRjQXMxMkhLUF91eW0xRW1reXFjeUJURzMyMmpwaUFJNmNudUhyMUs4M3Zsa25rRTk2dU16Y3Fqbkptcl84V3FFT0N4SG9jOEVvZGg5R2E4UjhWZVhNR3JHY0J2WXM0emJoemw2cUo?oc=5",
-          "published": "Wed, 13 May 2026 20:30:09 GMT"
-        }
-      ],
-      "default_pass": true,
-      "_funnel_pass_until": 5,
-      "ai_summary": "基于提供的信息，对股票 TRGP 的简洁分析如下：\n\n### 技术面\n**强势多头格局。** 股价位于所有主要均线（MA5/25/60）之上，且均线呈多头排列。周线与日线均为阳线，KDJ指标均发出看涨信号。股价对周线MA60的偏离度为40.23%，属于正常延伸，但需注意短期超买（周J值101.23，日J值104.74）。近60日涨幅（15.67%）跑赢标普500，但略逊于纳斯达克100。\n\n### 基本面\n**成长与杠杆并存。** 公司属于能源中游行业，市值约565亿美元。盈利增长强劲（142.9%），但营收同比下滑（-10.2%），利润率12.87%尚可。估值方面，远期市盈率22.26倍，处于行业中上水平。**核心风险在于极高的财务杠杆**（负债权益比585.25），需关注其偿债能力。\n\n### 新闻政策\n**内部人减持信号。** 近期有多条新闻显示，公司董事Paul Chung在公开市场出售了总计超过1.6万股股票，套现约270万美元。虽然董事减持可能出于个人财务规划，但集中减持行为通常被视为负面信号，需警惕内部人信心变化。\n\n### 风险\n1.  **内部人减持风险：** 近期董事连续减持，可能暗示股价处于相对高位或内部人对短期前景持谨慎态度。\n2.  **高财务杠杆风险：** 负债权益比高达585%，在利率环境或行业景气度变化时，财务压力较大。\n3.  **技术超买风险：** 日线与周线KDJ指标均处于高位超买区，短期存在技术性回调压力。\n4.  **营收下滑风险：** 尽管盈利增长，但营收同比下降，增长质量需进一步验证。\n\n### 综合关注等级\n**【中等关注】**\n技术面强势，但基本面存在高杠杆隐忧，且近期内部人减持构成明确警示信号。建议投资者在关注其行业景气度与盈利持续性的同时，重点跟踪内部人后续交易行为及公司债务管理情况。"
-    },
-    {
-      "symbol": "BIIB",
-      "name": "Biogen Inc.",
-      "score": 10,
-      "tags": [
-        "高于5周线",
-        "高于25周线",
-        "高于60周线",
-        "5周线>25周线",
-        "25周线>60周线",
-        "周K实体突破",
-        "日K实体确认",
-        "流动性达标"
-      ],
-      "metrics": {
-        "close": 204.53,
-        "weekly_body_ratio": 1.3626,
-        "weekly_bullish": true,
-        "above_ma5": true,
-        "above_ma25": true,
-        "above_ma60": true,
-        "ma5_gt_ma25": true,
-        "ma25_gt_ma60": true,
-        "weekly_ma60": 155.81,
-        "weekly_ma60_deviation": 0.3127,
-        "weekly_ma60_deviation_risk": "正常延伸",
-        "daily_body_ratio": 1.3793,
-        "daily_bullish": true,
-        "volume_ratio": 1.1016,
-        "avg_dollar_volume_20": 212256444.12,
-        "stock_return_60d": 0.0536,
-        "spy_return_60d": 0.0816,
-        "qqq_return_60d": 0.1798,
-        "beat_spy_60d": false,
-        "beat_qqq_60d": false,
-        "weekly_k": 79.68,
-        "weekly_d": 66.6,
-        "weekly_j": 105.84,
-        "weekly_kdj_bullish": true,
-        "daily_k": 91.35,
-        "daily_d": 88.71,
-        "daily_j": 96.64,
-        "daily_kdj_bullish": true
-      },
-      "fundamentals": {
-        "symbol": "BIIB",
-        "name": "Biogen Inc.",
-        "sector": "Healthcare",
-        "industry": "Drug Manufacturers - General",
-        "market_cap": 30196219904,
-        "trailing_pe": 21.4617,
-        "forward_pe": 12.341127,
-        "profit_margin": 0.13805,
-        "revenue_growth": 0.019,
-        "earnings_growth": 0.311,
-        "debt_to_equity": 35.181
-      },
-      "news": [
-        {
-          "title": "Biogen Stock Rockets 6.6% With 7-Day Winning Streak - Trefis",
-          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNY1BlQ2trSlE3VlozLUw5X1BCcU1EN0FISWtvUzl2d1VSN18zRGV2Yjl1THU3S2xnSmhfcTF1U0JYS21scGVvTC1mcUdpaldZbXZxMElLZVE1Q09NdDBRTXhQRm5MbUdQYWFhUktwU1B5bFVlZ0ItN20wejgwWlc5ZEF5VVV3RHR6MktOeUlHQVk0Y3BUdlNNbEhSTVM2aDN3dzhxWXh5aVVvTEthV1k5Qw?oc=5",
-          "published": "Wed, 13 May 2026 05:26:31 GMT"
-        },
-        {
-          "title": "Biogen stock hits 52-week high at $202.64 - Investing.com",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNcW51Ty1ISTFQUzQ4Q0JfWmFXb2ZyVUJfbGU0dnJYVDE5QlRDZ1RkcVQ1YUFFYWVXRHdQOFpoRzlxNmxsMC0wN2JqYWVfNlhLanlQQTZqTXdFaG54S09PRUFPbXI5dkdGdV9DbUJJMFNfNC00Zmd0MC1kbElaTTdmQWU2a2pMRTgyZ3JtRTc3czlMZEtxSmd4NVVBTQ?oc=5",
-          "published": "Wed, 13 May 2026 13:48:33 GMT"
-        },
-        {
-          "title": "Biogen Inc. stock underperforms Wednesday when compared to competitors despite daily gains - MarketWatch",
-          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNdS1ZUlJWRHRsVHhBNnRYc2ZjVnpSM19mNVdKb1hBTlM2dGhzX21RUkNEUXBta2pBU2FURk1hdktpd0xmYTE4N01GNHhVanFwOGVPWVRTWEtibHI2TUg5aXg0XzJHbVBLYnJ6QTJSaDFLcWxDTVlGRlZlUmlJbUpYVjdWZVNsb3loLUwweWF0dUU1dlpxSmxYY3FRSE9Dd1Bmc2YxUV9SWm1NQ3VPc2t2Znl1TjdQN2hYbFVtNjN0RnhidlFJSmdqdUo3ZjUwN2dnQ0dhWmtYM1hDUXJOWDB6c3pfMA?oc=5",
-          "published": "Wed, 13 May 2026 20:58:00 GMT"
-        },
-        {
-          "title": "Is Biogen Inc. (BIIB) one of the Best Biotech Stocks to Invest In According to Billionaire Steve Cohen? - Yahoo Finance UK",
-          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1lTW1JWldTaXBRQ3gxQVM4MjZlUUkyZTVHUmhaU3gtclktWHNUYnhVM1JVMFZ5OEFrZG1zbHRyWFY1VzVmX0dqSW5FTEFuRUNQX3VWWEtTeTVvWVpmekxGLWNaZFNPX2VhWjM4QU9aN29LYnJHZm5lRlRZeTN3QQ?oc=5",
-          "published": "Tue, 12 May 2026 00:05:00 GMT"
-        },
-        {
-          "title": "Biogen Had A Nearly Perfect Sales Sweep, But One Beat Really Stood Out - Investor's Business Daily",
-          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPcWNJQ05Dejh6Yy1YWnZtU3V6a010bUotSWlPZU5FM01NUUZCN296WVN3STJxdnh1MXdjczMzNkh6UlFqYkdFcGdSeUY2TEFPSXJBb0p6M0NFeGgzMjZNR2FIQ3hNaGJvaFVySEpFbHJPZkFOVHdDMGhHRlIzUjd0cjhiaHJEUQ?oc=5",
-          "published": "Wed, 29 Apr 2026 07:00:00 GMT"
-        }
-      ],
-      "default_pass": true,
-      "_funnel_pass_until": 5,
-      "ai_summary": "基于您提供的信息，以下是对股票 BIIB（Biogen Inc.）的简洁分析：\n\n### 技术面\n- **趋势与形态**：股价处于强势多头排列，站上5日、25日、60日均线，且均线呈多头排列（MA5>MA25>MA60）。周线、日线均为阳线，且连续7日上涨，创52周新高。\n- **动能指标**：周线KDJ（K:79.68, D:66.6, J:105.84）与日线KDJ（K:91.35, D:88.71, J:96.64）均处于高位金叉状态，显示短期动能强劲，但J值已进入超买区域（>100），需警惕短期回调风险。\n- **相对表现**：近60日涨幅（5.36%）弱于标普500（8.16%）和纳斯达克100（17.98%），近期上涨更多属于补涨或个股驱动。\n- **量价关系**：成交量略高于20日均量（1.10倍），上涨伴随温和放量，支撑当前涨势。\n\n### 基本面\n- **估值**：当前市盈率（TTM 21.46倍）处于行业中等水平，但远期市盈率（12.34倍）显著低于当前，暗示市场预期未来盈利将大幅改善。\n- **盈利能力**：利润率13.8%尚可，但低于部分头部药企；营收增长仅1.9%，增长缓慢；但盈利增长达31.1%，显示成本控制或产品组合优化效果显著。\n- **财务风险**：资产负债率（Debt/Equity 35.18）处于较高水平，需关注其债务偿付能力及利息覆盖情况。\n\n### 新闻与政策\n- **正面催化**：股价连续7日上涨并创52周新高，市场情绪积极；分析师提及“近乎完美的销售表现”，暗示核心产品（如阿尔茨海默病药物Leqembi）或老产品线销售超预期。\n- **市场关注**：知名投资人Steve Cohen将其列为最佳生物科技投资标的之一，可能吸引资金关注。\n- **行业背景**：生物科技板块近期受宏观利率预期及创新药审批进展影响波动较大，但BIIB作为大型药企，防御性相对较强。\n\n### 风险\n1. **技术面超买**：周线J值达105.84，日线J值达96.64，短期回调压力较大，追高风险显著。\n2. **相对弱势**：近60日跑输大盘，当前上涨可能为补涨行情，持续性存疑。\n3. **产品依赖**：营收增长缓慢，高度依赖Leqembi等新药放量，若销售不及预期或遭遇竞争，股价可能承压。\n4. **高负债率**：35.18的负债权益比在制药行业中偏高，若利率维持高位，财务成本将侵蚀利润。\n\n### 综合关注等级\n**中等偏高关注**  \n- **理由**：技术面短期强势且突破新高，基本面盈利增长强劲、远期估值有吸引力，叠加正面新闻催化。但技术超买、相对大盘弱势及高负债风险需警惕。建议等待短期回调至均线支撑位（如MA5或MA25）后再评估介入时机，避免追高。"
-    },
-    {
-      "symbol": "CME",
-      "name": "CME Group Inc.",
-      "score": 10,
-      "tags": [
-        "高于5周线",
-        "高于25周线",
-        "高于60周线",
-        "25周线>60周线",
-        "周K实体突破",
-        "日K实体确认",
-        "日成交量放大",
-        "流动性达标"
-      ],
-      "metrics": {
-        "close": 297.13,
-        "weekly_body_ratio": 2.5217,
-        "weekly_bullish": true,
-        "above_ma5": true,
-        "above_ma25": true,
-        "above_ma60": true,
-        "ma5_gt_ma25": false,
-        "ma25_gt_ma60": true,
-        "weekly_ma60": 279.69,
-        "weekly_ma60_deviation": 0.0624,
-        "weekly_ma60_deviation_risk": "正常延伸",
-        "daily_body_ratio": 2.2645,
-        "daily_bullish": true,
-        "volume_ratio": 1.3317,
-        "avg_dollar_volume_20": 702213379.22,
-        "stock_return_60d": -0.0179,
-        "spy_return_60d": 0.0816,
-        "qqq_return_60d": 0.1798,
-        "beat_spy_60d": false,
-        "beat_qqq_60d": false,
-        "weekly_k": 40.39,
-        "weekly_d": 37.51,
-        "weekly_j": 46.15,
-        "weekly_kdj_bullish": true,
-        "daily_k": 62.73,
-        "daily_d": 46.22,
-        "daily_j": 95.74,
-        "daily_kdj_bullish": true
-      },
-      "fundamentals": {
-        "symbol": "CME",
-        "name": "CME Group Inc.",
-        "sector": "Financial Services",
-        "industry": "Financial Data & Stock Exchanges",
-        "market_cap": 107667841024,
-        "trailing_pe": 24.394909,
-        "forward_pe": 23.078846,
-        "profit_margin": 0.63324,
-        "revenue_growth": 0.144,
-        "earnings_growth": 0.213,
-        "debt_to_equity": 14.059
-      },
-      "news": [
-        {
-          "title": "Is CME Group Inc. (CME) A Good Stock To Buy Now? - Yahoo Finance",
-          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB5d3JCU3BJQlRwNllzZVlsZG9nZ1h4bnp3SHpzZTUzZ0FmLXo0YWxScWE5VzVBVDdfdXlCY3dYQm9sUnRheFdSbTBhdGJiNGprdGJobTdmOXBFMllLRGpPWkJrNlpoQ055TlpRNTRJSXFSSTY3aC1n?oc=5",
-          "published": "Wed, 13 May 2026 16:41:54 GMT"
-        },
-        {
-          "title": "E-mini S&P 500 Futures Overview - CME Group",
-          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA5UXRvZEwyTEt6T2x0OGJmLXNhM1BXLUUyTTlXZWY1S1VXSG5CSHMzSUpJRVVzcVRKYXd0YzI5Vm9Gc2pDY18zdGR1WU9GZU5oWTQzTWlDQnR3WlJwQVZka1oteS1VU3YtWG5kZEJEZnVmM0k?oc=5",
-          "published": "Fri, 08 May 2026 07:00:00 GMT"
-        },
-        {
-          "title": "Silicon Data partnership lifts CME Group stock higher - Traders Union",
-          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOaVdRYjhyTDVZQS1VSndhQ01SamtWRjVkbDVsUV9WODZKODJ3ajBDQzlNczdMRmdOMXJJbnF4aGZDUHkweHV4UE1YVDBJMG4wUkdHODFzWFNuQXdCOHo1NVg3UWdIZ2MxRjhfZWlzWWczc2p2OTgwa3VjR3J2OWsxTFQzUmUwc0psS2NxaXpMZlhEazg?oc=5",
-          "published": "Wed, 13 May 2026 18:50:49 GMT"
-        },
-        {
-          "title": "CME plans futures on GPU rentals for multi-trillion-dollar compute - Stock Titan",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZ0tNNG1GLVJpVGhUNEJtaUlQRFZHcnpxdDJmdHpNX3pjR2pyR29sM0lTeTFOTnZqb0k3QkFtOVQ2TDVjVWl2UTBnSEF4SnVqY2lCRTVrQjc0ejJScm1fU2tIc05FeFJjN05Ta1ZuUWFUdm4yTk9NZVJlQmxyZlJtMU1PcFRENk5CVmVkZUhTaEgwT0d1MmRvLTdhRE9JV1BrMjc3RFJCTVpKOEpHcGRrZXZ3?oc=5",
-          "published": "Tue, 12 May 2026 13:02:25 GMT"
-        },
-        {
-          "title": "CME Group Inc Stock (CME) Moved Up by 3.44% on May 13: Facts Behind the Movement - TradingKey",
-          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOdzZ5NGZPQmw2ZFNic2l6X3d0aGFxRUFJNkJoZ2JOVlVQMVFyVTA2UVFyRGNvU2RfY2lWMHREbFpRRS1KMi1SaWVNOUhJVjNnd29vajBIYkVtb0NBYnVWZXotZXZrby03Q2hKU0pTY3hUWV85ZkRwcGFDZDFES2xnUVhZNFpaeDcwbVE?oc=5",
-          "published": "Wed, 13 May 2026 19:15:26 GMT"
-        }
-      ],
-      "default_pass": true,
-      "_funnel_pass_until": 5,
-      "ai_summary": "基于您提供的信息，以下是对股票CME（芝加哥商品交易所集团）的简洁分析：\n\n**技术面**\n- **短期强势**：日线和周线均为阳线（bullish），且价格站上5日、25日、60日均线，显示短期多头动能较强。\n- **量价配合**：成交量放大（日量比1.33），日线KDJ指标处于高位（J值95.74），需警惕超买后的技术性回调。\n- **中期趋势**：周线KDJ金叉向上，但股价近60日跑输标普500和纳斯达克指数，相对强度偏弱，需关注能否突破前期压力。\n\n**基本面**\n- **盈利能力突出**：净利润率高达63.3%，营收和利润均实现双位数增长（14.4%和21.3%），显示核心业务稳健。\n- **估值合理**：当前市盈率24.4倍，略高于行业平均，但前瞻市盈率23倍，与增长匹配度尚可。\n- **财务杠杆较高**：债务权益比14倍，属于高杠杆运营模式，需关注利率变动对财务成本的影响。\n\n**新闻政策**\n- **正面催化**：与Silicon Data合作、推出GPU算力期货等创新业务，可能打开新的增长空间；近期股价因消息面利好上涨3.44%。\n- **行业地位**：作为全球衍生品交易所龙头，受益于市场波动率上升和交易量增长，但需关注监管政策对金融数据及衍生品交易的潜在影响。\n\n**风险**\n- **相对表现落后**：近60日股价下跌1.8%，而大盘上涨8-18%，存在补涨需求或基本面相对弱势的可能。\n- **技术超买**：日线J值接近100，短期回调压力增加；周线偏离60周均线6.2%，属正常延伸但需警惕均值回归。\n- **高杠杆风险**：债务权益比过高，若利率持续高位或信用环境收紧，可能侵蚀利润。\n\n**综合关注等级：中等偏高**\n- **核心逻辑**：基本面扎实（高利润率+增长），技术面短期偏强，但中期相对大盘表现疲软，且估值与杠杆需持续跟踪。建议关注后续能否放量突破前期高点，以及新业务（如GPU期货）的落地进展。"
-    },
-    {
-      "symbol": "F",
-      "name": "Ford Motor Company",
-      "score": 10,
-      "tags": [
-        "高于5周线",
-        "高于25周线",
-        "高于60周线",
-        "25周线>60周线",
-        "周K实体突破",
-        "日K实体确认",
-        "日成交量放大",
-        "流动性达标"
-      ],
-      "metrics": {
-        "close": 13.57,
-        "weekly_body_ratio": 2.46,
-        "weekly_bullish": true,
-        "above_ma5": true,
-        "above_ma25": true,
-        "above_ma60": true,
-        "ma5_gt_ma25": false,
-        "ma25_gt_ma60": true,
-        "weekly_ma60": 12.0,
-        "weekly_ma60_deviation": 0.1307,
-        "weekly_ma60_deviation_risk": "正常延伸",
-        "daily_body_ratio": 5.5172,
-        "daily_bullish": true,
-        "volume_ratio": 4.2187,
-        "avg_dollar_volume_20": 639503678.83,
-        "stock_return_60d": -0.0202,
-        "spy_return_60d": 0.0816,
-        "qqq_return_60d": 0.1798,
-        "beat_spy_60d": false,
-        "beat_qqq_60d": false,
-        "weekly_k": 40.11,
-        "weekly_d": 34.6,
-        "weekly_j": 51.13,
-        "weekly_kdj_bullish": true,
-        "daily_k": 51.99,
-        "daily_d": 46.51,
-        "daily_j": 62.94,
-        "daily_kdj_bullish": true
-      },
-      "fundamentals": {
-        "symbol": "F",
-        "name": "Ford Motor Company",
-        "sector": "Consumer Cyclical",
-        "industry": "Auto Manufacturers",
-        "market_cap": 54072279040,
-        "trailing_pe": null,
-        "forward_pe": 7.3272533,
-        "profit_margin": -0.03216,
-        "revenue_growth": 0.064,
-        "earnings_growth": 4.308,
-        "debt_to_equity": 425.544
-      },
-      "news": [
-        {
-          "title": "Ford Is Up 7% Today: Is It Outperforming Other Car Stocks Like General Motors and Tesla? - 24/7 Wall St.",
-          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPRmloVktBczcyNmR5Ni0ydlltckRrbjlaVHFkQnRsRW1tR2dPX01WcFRGdkZ0d1dlX0FaUVBNNWZhN3JBbDZ3b1ZBNW1BX2x2VGR5Y3VBZG1yVVU0MG44TmdBNFA5TWtUZWdzaGVadzBFNHhLRWxvc2RsY1gtaVV4RHlkcGFTLU5EU2FMZWdnTV81MjB5NkZmMGxQV0pDc2N3VkN6Mk5zYlVnSDU4bFg1M3I1STI5UXBTSDQ0d3NBeHZqcnZGcmZ4Zg?oc=5",
-          "published": "Wed, 13 May 2026 16:17:56 GMT"
-        },
-        {
-          "title": "Why Ford Stock Soared Today - The Motley Fool",
-          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBIMDVkc0N0OFlCUVQtS3ZaYzRnVkRvM2NkTndTU0pzM2xYWGFnMWxKU2UxQ2xWYzN1RjRFSkc1eHQzSXlzSFVKQUVoNFZEWVEwVXl2d0lYTlFRTDh6MTdxWUd2d1dIaFJ1YjJBRU1VZ1VqQUlrOGQ4cHlR?oc=5",
-          "published": "Wed, 13 May 2026 17:31:00 GMT"
-        },
-        {
-          "title": "Ford stock surges as Morgan Stanley gets bullish on energy storage business - Yahoo Finance",
-          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxORWRSemNPMi1TVk1UNGdLRVVNQklkbzlFMmdHT3NHVF9meUM5RGhvVWZoeFVVQlBVTnZWVzEzMlVlX05wOVVTeS1SUGo3dlB5YTFTd2IyelVzbEdycTBoSkVpMXppZEYxSHdfN2dtZ0tfbW5CSXdORzJHSUREUlFNdm0xRFM1X2RwRFVpVWk3Z1M5eVd1TWRPTVM0cGpaendla3ByZV9DclBFVnpLZnhuU243S3IxQUFTUnVNVFNlT2FXWXhJZDFXeUVvTUhPRUlHVFNWdldB?oc=5",
-          "published": "Wed, 13 May 2026 17:59:57 GMT"
-        },
-        {
-          "title": "Ford Soars Most in Six Years on Possible Hyperscaler Tie-Ups - Bloomberg.com",
-          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSUUxX3BvRG41WUR5a3lWUTVyM2prb0x4VGYwTWZzcG9OLTZUYTNsWDg5Yno5ejFCcXJ3Vmg5REdQbVMzWGZReS1iRHlrRTh3eDhfZUV5SzVTd1FlQWdNbzNPNXd1WTBqWGwxZW1tR1N6a0QwSjJLQ3F5VktDSEh2aGJ6MlBDdnRSQ1p2MF82a1ZsZHJXbmdoVFBVN3hiZjZsTVFsUEVyYjI5TnhrQXFYN2ZZTQ?oc=5",
-          "published": "Wed, 13 May 2026 17:23:15 GMT"
-        },
-        {
-          "title": "Why Ford (F) Stock Is Trading Up Today - TradingView",
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPQUNHbEE5NUlXWVBZZzdvd1lnRVN1OWNrVTlwQTBrS3gtVlpBS0FERXNoUlkxSy0zVnlOWDctWUY0Vl9ZdGFUWnhnQTJlLWllVVFMVlNMWnd2cF9SbWIwVkc4QjNMbHplcTB6T1dGN2pRR3lXeWpydld6MDBVYWhTVi1QRFJPYm5IR08xQ0JuSzQ1QzBQckFmOXBiS2k0UQ?oc=5",
-          "published": "Wed, 13 May 2026 15:45:47 GMT"
-        }
-      ],
-      "default_pass": true,
-      "_funnel_pass_until": 5,
-      "ai_summary": "基于您提供的股票F信息，以下是简洁分析：\n\n### 技术面\n- **短期强势**：今日涨幅显著（日线实体比5.52），成交量放大至均量4.2倍，显示资金积极介入。\n- **趋势结构**：股价站上5/25/60日均线，周线KDJ金叉，短期多头排列明确。但周线MA5未上穿MA25，中期均线尚未完全转强。\n- **相对表现**：近60日跑输标普500和纳斯达克100，今日大涨或为补涨或事件驱动。\n\n### 基本面\n- **估值**：远期市盈率7.3倍，处于历史低位，但当前市盈率为负（亏损），需关注盈利修复节奏。\n- **财务健康**：负债权益比高达425.5，杠杆风险显著；利润率-3.2%，盈利能力承压。\n- **增长**：营收增长6.4%，但盈利增长430%主要因低基数效应，可持续性存疑。\n\n### 新闻政策\n- **核心催化剂**：摩根士丹利看好其储能业务、潜在超大规模客户合作（如科技巨头）是今日暴涨主因。市场对福特从传统车企向能源/科技转型的预期升温。\n- **行业对比**：涨幅领先通用汽车和特斯拉，显示资金对福特转型故事的短期认可。\n\n### 风险\n- **高负债与低利润**：财务杠杆极高，若转型不及预期或利率维持高位，偿债压力将放大。\n- **转型不确定性**：储能/科技合作尚处传闻阶段，落地时间与规模未明，股价波动可能剧烈。\n- **技术面超买**：单日放量大涨后，短期获利盘回吐压力较大，需关注后续能否站稳关键均线。\n\n### 综合关注等级\n**中等偏高**  \n理由：短期技术面与消息面共振，存在交易性机会；但基本面风险（高负债、低利润）与转型不确定性并存，需密切跟踪储能业务进展及后续成交量能否维持。"
-    },
-    {
-      "symbol": "JNJ",
-      "name": "Johnson & Johnson",
-      "score": 10,
-      "tags": [
-        "高于5周线",
-        "高于25周线",
-        "高于60周线",
-        "5周线>25周线",
-        "25周线>60周线",
-        "周K实体突破",
-        "日K实体确认",
-        "流动性达标"
-      ],
-      "metrics": {
-        "close": 230.42,
-        "weekly_body_ratio": 1.2449,
-        "weekly_bullish": true,
-        "above_ma5": true,
-        "above_ma25": true,
-        "above_ma60": true,
-        "ma5_gt_ma25": true,
-        "ma25_gt_ma60": true,
-        "weekly_ma60": 193.34,
-        "weekly_ma60_deviation": 0.1918,
-        "weekly_ma60_deviation_risk": "正常延伸",
-        "daily_body_ratio": 2.8395,
-        "daily_bullish": true,
-        "volume_ratio": 0.7046,
-        "avg_dollar_volume_20": 1717880697.13,
-        "stock_return_60d": -0.0595,
-        "spy_return_60d": 0.0816,
-        "qqq_return_60d": 0.1798,
-        "beat_spy_60d": false,
-        "beat_qqq_60d": false,
-        "weekly_k": 49.14,
-        "weekly_d": 51.25,
-        "weekly_j": 44.93,
-        "weekly_kdj_bullish": false,
-        "daily_k": 33.03,
-        "daily_d": 16.93,
-        "daily_j": 65.24,
-        "daily_kdj_bullish": true
-      },
-      "fundamentals": {
-        "symbol": "JNJ",
-        "name": "Johnson & Johnson",
-        "sector": "Healthcare",
-        "industry": "Drug Manufacturers - General",
-        "market_cap": 554670882816,
-        "trailing_pe": 25.977451,
-        "forward_pe": 18.128405,
-        "profit_margin": 0.21834,
-        "revenue_growth": 0.099,
-        "earnings_growth": -0.529,
-        "debt_to_equity": 67.73
-      },
-      "news": [
-        {
-          "title": "Johnson & Johnson stock upgraded at Leerink (JNJ:NYSE) - Seeking Alpha",
-          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNelB2a2dMUGRtUXMwUmwycXBnZVlCWUpkZDZpTjBwQTFxanRSOUhoenBPNnZQNWhBTnJ1c1huX0xFQ3hZYmtmTlB1SEx3eExHVC1MT3FPWEppckJ2TlJVb0V0VzFsdG9TaE1TM3hnaTRtMGpiNURxQkwweERuTXFjRS1n?oc=5",
-          "published": "Wed, 13 May 2026 16:54:04 GMT"
-        },
-        {
-          "title": "Johnson & Johnson (NYSE:JNJ) Shares Up 2.8% on Analyst Upgrade - MarketBeat",
-          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQeWljeGl6QzRIZ0llWlU4U1VpUzNFMTBFZHloODVBNDRuSUZ6Y0dva28tZHpvN0FvLVliNHo1U0dZRnB4MzNGaVB6WnFDbjN3a2twVVNxMmV6eTM2UENyMVhuWlNTa3J2cWYwbGZjY2lrSjNucGVfZzVReHFITTg5MzRneXRVZTFtNGtDOWI3Tk9nUC1UZl9wbUgzN051c2lONTMwT2ZXWHEzeWwtN1E?oc=5",
-          "published": "Wed, 13 May 2026 21:18:05 GMT"
-        },
-        {
-          "title": "Johnson & Johnson: Why This Popular Core Stock Is a Sell - Morningstar Canada",
-          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxORzRRR3FpVUFWeEJ1MGE2VHUxUGJRU3Bma2pYckpiQXRzanBUQUxTcUlLNHNpNGxEU1M4azllTkdXcFVfenRQMXVNN3ZGN2V0Q2NmWGVsR05IOGUyM2daMFBoOVp1S3M2WG9mLXoxQkJOYUtrX0VWMWhiOEpqcTJyOF9PeUcwZw?oc=5",
-          "published": "Wed, 29 Apr 2026 07:00:00 GMT"
-        },
-        {
-          "title": "Is JNJ Stock Setup For A Rerating? - Trefis",
-          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQWXU0Rkc5TDF6SzkzSF9iZmJPRWU5emxNZVQ1cUotTUoyb0ZiYnh1dDd0d0tXT3dUNFJMTXB0NmpNVmYzbmt2VWdvbGtQTktFcHoxWTNvZG5XcnUxYjJfVTBtdDVLRDh0Qm9xaGJEOUtXYUpYOGZxV3RPbGRZSXd6NFRlRWZCbmdkTHhab2dIbUp6a2g2YTh0dw?oc=5",
-          "published": "Mon, 11 May 2026 05:35:58 GMT"
-        },
-        {
-          "title": "Pipeline Wins And Dividend Hike Might Change The Case For Investing In Johnson & Johnson (JNJ) - simplywall.st",
-          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNOGFDTlNjREN6ZHdfdU9WUk1fZWowcWUySFp4a0RIMFVxVUtFS01uWHVsbkRYT2R6X3d1NWtzdmpGX19MTkxTQ0dJeWdhNDZNRGlMRnJxbjBGYUxsc3kxSGhGVjhrOHlWUUtLaTZjQUZtbnJLY2FVbnFqV2FQWGlVQ2t1aW1USjVWYlJMS2xWUWFEdVBRUlJva3ByakIzVVlVdVd5WnVNSm54cTZmd0dzeDlvV0syamxHSVVFcEJnTUZNQl9SRzFwU3pzaGtUbXhXWjdLNm02QWpoM0lmeFhR0gHkAUFVX3lxTFB5RnIwTmpiclNnZE1nWW1jQjlPODBtNG5MYmMwUVoxUzV5NVJHbG01SjUxbFNLLVJNdWJtdXJtY0dKTTh4ajVZaHJKV2x1LUxhaE9DZ18ydXZBVVdsekJXVG9FSmR5VzREQUd0X1ZOWW9LdGpVemVJUEdmWU9Ndk1nLXpudHhBbHI2UWFSOTdERDNsZ21NX2pJb19vOTBFQ2RKRTY4aG9UcnFyMk15ZFUxbUR0N0ctNkt6YmVWRFpxVnV6dURjdkN2SnMtdy0yTHhYMXdReUE3RlE1Y3llQ3NJSXdEcA?oc=5",
-          "published": "Sat, 02 May 2026 07:00:00 GMT"
-        }
-      ],
-      "default_pass": true,
-      "_funnel_pass_until": 5,
-      "ai_summary": "基于您提供的资料，以下是对股票 JNJ（强生）的简洁分析：\n\n**技术面**\n股价收于230.42美元，周线呈多头排列（站上MA5/25/60，且均线多头），日线实体阳线强劲（2.84%），但成交量萎缩（0.70）。60日相对标普500和纳斯达克表现落后。周线KDJ偏空，日线KDJ偏多，短期存在多空分歧。整体处于均线支撑上的正常延伸状态，但动能有所减弱。\n\n**基本面**\n市值约5547亿美元，属大型医药股。市盈率（TTM 26倍）偏高，但前瞻市盈率（18倍）合理。利润率21.8%健康，营收增长9.9%稳健，但盈利增长为-52.9%（受一次性法律和解或重组费用影响）。资产负债率67.7%，处于医药行业中等水平。\n\n**新闻政策**\n近期获得Leerink分析师上调评级，股价随之上涨，市场情绪偏正面。但Morningstar等机构给出“卖出”评级，存在分歧。市场关注点集中在产品线进展、股息上调及潜在的重估机会。\n\n**风险**\n- 法律诉讼风险（滑石粉等遗留问题）仍是长期不确定性。\n- 盈利大幅下滑（-52.9%）需关注是否为一次性因素。\n- 股价60日跑输大盘，相对弱势可能延续。\n- 成交量萎缩，上涨缺乏量能配合。\n\n**综合关注等级：中性偏正面**\n技术面处于多头趋势但动能减弱，基本面稳健但盈利波动大，新闻面存在多空分歧。建议关注后续成交量能否放大及盈利修复进展。"
-    },
-    {
-      "symbol": "HSY",
-      "name": "The Hershey Company",
-      "score": 9,
-      "tags": [
-        "高于5周线",
-        "高于60周线",
-        "25周线>60周线",
-        "周K实体突破",
-        "日K实体确认",
-        "日成交量放大",
-        "流动性达标"
-      ],
-      "metrics": {
-        "close": 195.67,
-        "weekly_body_ratio": 1.0748,
-        "weekly_bullish": true,
-        "above_ma5": true,
-        "above_ma25": false,
-        "above_ma60": true,
-        "ma5_gt_ma25": false,
-        "ma25_gt_ma60": true,
-        "weekly_ma60": 185.77,
-        "weekly_ma60_deviation": 0.0533,
-        "weekly_ma60_deviation_risk": "正常延伸",
-        "daily_body_ratio": 1.2277,
-        "daily_bullish": true,
-        "volume_ratio": 1.3288,
-        "avg_dollar_volume_20": 384212842.08,
-        "stock_return_60d": -0.1188,
-        "spy_return_60d": 0.0816,
-        "qqq_return_60d": 0.1798,
-        "beat_spy_60d": false,
-        "beat_qqq_60d": false,
-        "weekly_k": 14.72,
-        "weekly_d": 14.83,
-        "weekly_j": 14.52,
-        "weekly_kdj_bullish": false,
-        "daily_k": 76.17,
-        "daily_d": 57.93,
-        "daily_j": 112.65,
-        "daily_kdj_bullish": true
-      },
-      "fundamentals": {
-        "symbol": "HSY",
-        "name": "The Hershey Company",
-        "sector": "Consumer Defensive",
-        "industry": "Confectioners",
-        "market_cap": 39690362880,
-        "trailing_pe": 35.706203,
-        "forward_pe": 19.766243,
-        "profit_margin": 0.09125,
-        "revenue_growth": 0.106,
-        "earnings_growth": 0.936,
-        "debt_to_equity": 120.011
-      },
-      "news": [
-        {
-          "title": "Hershey Trust Co (HSY) reports 30,000-share open‑market sale, retains large Class B stake - Stock Titan",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQbWlIUDNrX0pOMlozcDF5Qmt4SUZxOFoyQWdtWGFnMVBjaEN1alg3RDNYd09lRTdKdWxzT0pIZ0VkTXo1X3U2YWZGUERwbWZldm9SN0lnbzBlWG5EamtUa3NFWV9YYnB3ckFfaEc0VTdxRXgzWC15Xy1ubUJabUhVZTh4aDF6MzhBMjRUTzNmdmtrb3F4dC1XXzFnN0tJUzktN0QwSEp3?oc=5",
-          "published": "Wed, 13 May 2026 21:14:59 GMT"
-        },
-        {
-          "title": "Hershey(HSY.US) 10% Shareholder Sells US$5.74 Million in Common Stock - Moomoo",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQaXpXMU56ZGtDSVd5dFZvTUs0Ums1My15SFZCeTJ6b0Q5cDROUzZuOUE2aDlwd21KY1FmTTM1b1lKZGhFenJZVm9qbjdjYmhNNGkwbG1nSWxzYld0aHQ5aDlial82Z1BVaVE1ZlhwekxjXzVzM1RmYy1yNzh3bkU3TUpKSjREZkw2bVJ0M2xMcFJKRjUtZF9kV1Iycw?oc=5",
-          "published": "Wed, 13 May 2026 21:24:52 GMT"
-        },
-        {
-          "title": "The Hershey Co (HSY) Shares Surge 3.2% -- What GF Score of 75 Te - GuruFocus",
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObF8xNDc0SFhqWTd1Z3JYNjA4OWhJR3p1MjloMU5DZmpGa1ZSaGhJVVBhNTNzeUFGNk4yVkc0YW5EV20xQWo5NndUMXFOYUl2ZEdmbTFSY05hSHZ4TWdUT01zTF9vNEk1WTR1NXBpYXo3VGxGaVJRRHdMTG5WX1c5T0NXeEZ6QUQwdUZvMS1vOFdoUTdVTDE5VzRadk9CTjBSd0NOWlFHblYwQ0pGVkFGd0tBWWVLdzIxdDdkRFRn?oc=5",
-          "published": "Wed, 13 May 2026 01:30:00 GMT"
-        },
-        {
-          "title": "Hershey Company (The) $HSY Shares Sold by Generali Asset Management SPA SGR - MarketBeat",
-          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPRTdGU0tubGdSSS00UVNqWm1qeFhQTllqRFM5QXJkU1dQSVZBNm5YTk1ndUZYSDduM3ZfckVOb2hMUmg5SEZSWnJZYnM2TjQ5MnktNWMtVWpkNjBxVEMwMnVWQTk0UEgyQlMySlczdzg2bTdBQjJ2enRDSmE5YlowY1ItNXJoRjllSElXZzRKeVhPcU5vU2hVQXgtRVRtSE1nUmVHT0JjRVVicEVpLUdQLU92bDI0Zk93X191ZGVHQk9BMUQ1Z043VGRYN3NLQQ?oc=5",
-          "published": "Sun, 10 May 2026 09:34:25 GMT"
-        },
-        {
-          "title": "HERSHEY CO (HSY) director Guy Persaud files initial Form 3 showing zero shares - Stock Titan",
-          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPNWhnN1JRYXRWN0x3bFhkSmVHa3J2VHNDX0NabmhycVRzTDVycEotTnRDTnM5c001SWhCZnhHaEpfY0NIaVpSM1VYTkF6X21fUWZDd1FTYVBabncwaFA0X29mQlBYOUNVTmhsU05EQzItZ1RVcFRnOFVUSjNHb2l3TFE4blJJemhvY0R0U2dkZVA1MW1BRGdPUmsxendmRGIxQzdEdXFuZGxVRE0yQmZvckRkcWlKYmU5Q3NBQQ?oc=5",
-          "published": "Wed, 13 May 2026 20:23:18 GMT"
-        }
-      ],
-      "default_pass": true,
-      "_funnel_pass_until": 5,
-      "ai_summary": "基于提供的多维度数据，对股票 HSY（好时公司）的简洁分析如下：\n\n### 技术面\n- **短期走势**：日线呈现强势反弹，今日阳线实体较大（日线实体比1.23），成交量放大（量比1.33），日线KDJ金叉且J值超买（112.65），显示短期动能强劲。\n- **中期趋势**：周线收阳，站上5周均线及60周均线（185.77），但股价仍低于25周均线，且周线KDJ处于低位钝化（J值14.52），尚未形成金叉，中期趋势偏弱。\n- **相对表现**：过去60日股价下跌11.88%，显著跑输标普500（+8.16%）和纳斯达克100（+17.98%），近期反弹属于超跌修复。\n- **综合判断**：短期超跌反弹动能较强，但中期趋势尚未扭转，需关注能否有效突破25周均线压力。\n\n### 基本面\n- **估值**：静态市盈率35.7倍偏高，但前瞻市盈率19.8倍，反映市场预期未来盈利改善。利润率为9.1%，在消费品行业中属中等水平。\n- **增长**：营收同比增长10.6%，盈利同比增长93.6%，显示成本控制或利润率改善显著，增长质量较高。\n- **财务健康**：资产负债率（D/E）120%，杠杆水平较高，需关注利息覆盖能力及偿债风险。\n- **综合判断**：基本面稳健，盈利增长强劲，但高估值和高杠杆是潜在隐忧。\n\n### 新闻政策\n- **内部人交易**：近期有信托及机构股东减持（如Hershey Trust、Generali Asset Management），同时董事初始持股为零，可能传递谨慎信号。\n- **股价异动**：消息显示股价单日上涨3.2%，可能与市场对基本面改善或行业防御属性的重新定价有关。\n- **综合判断**：内部人减持行为需警惕，但股价上涨反映市场情绪短期偏积极。\n\n### 风险\n- **估值风险**：静态PE 35倍高于行业均值，若盈利增长不及预期，估值有回调压力。\n- **杠杆风险**：120%的负债率在利率高位环境下增加财务成本压力。\n- **技术风险**：日线J值超买，短期存在技术性回调需求；周线KDJ低位，若反弹受阻可能二次探底。\n- **内部人减持**：持续减持可能暗示管理层或大股东对当前股价或前景的保留态度。\n\n### 综合关注等级\n**中等关注**（短期反弹机会与中期趋势及内部人减持风险并存，需等待更明确的趋势确认信号。）"
+      "ai_summary": "基于您提供的资料，以下是对 MRVL（Marvell Technology）的简洁分析：\n\n### 技术面\n- **趋势强劲**：股价远高于周线MA60（偏离度123%），且短期均线（MA5）上穿长期均线（MA25），呈典型多头排列。\n- **超买信号明显**：周线与日线KDJ均处于高位（J值>90），周线MA60偏离度被标记为“明显过热”，短期存在技术性回调压力。\n- **相对强度突出**：近60日涨幅（+139%）远超标普500（+8.9%）和纳斯达克100（+19.1%），显示极强的相对动能。\n- **量能萎缩**：今日成交量仅为20日均量的27.5%，上涨动能可能减弱。\n\n### 基本面\n- **高估值**：静态市盈率61.8倍，但前瞻市盈率降至35倍，市场对其未来盈利增长有较高预期。\n- **增长强劲**：营收同比增长22%，净利润同比增长106%，利润率32.6%，显示盈利能力改善。\n- **财务风险**：资产负债率（33.5倍）极高，属于重资本开支的半导体行业特征，需关注债务偿付能力。\n\n### 新闻与政策\n- **市场关注度高**：近期有多家财经媒体（福布斯、Benzinga、Trefis等）报道，主题多围绕股价上涨、CEO薪酬及市场前景，无重大负面新闻。\n- **无直接政策冲击**：未出现针对MRVL的行业监管或贸易政策变化信息。\n\n### 风险\n1. **技术回调风险**：超买状态叠加量价背离，短期获利盘了结可能引发剧烈波动。\n2. **估值消化压力**：若未来季度业绩不及预期，高估值可能面临修正。\n3. **行业周期风险**：半导体行业具有周期性，AI需求若放缓可能影响其定制芯片业务。\n4. **高杠杆风险**：高负债率在利率维持高位时增加财务成本压力。\n\n### 综合关注等级\n**中等偏高关注**（短期谨慎，中长期积极）\n- **短期**：技术面过热信号明确，建议等待回调或横盘整理后再评估介入时机。\n- **中长期**：基本面增长强劲，AI与数据中心业务驱动逻辑清晰，若估值回调至合理区间，具备长期配置价值。"
     }
   ]
 }
