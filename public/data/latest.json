@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-20 01:34:20",
+  "generated_at": "2026-05-20 09:06:17",
   "market_status": "偏强",
   "universe_count": 516,
   "defaults": {
@@ -48,10 +48,10 @@
         "weekly_ma60": 141.39,
         "weekly_ma60_deviation": 0.5783,
         "weekly_ma60_deviation_risk": "正常延伸",
-        "daily_body_ratio": 1.2936,
+        "daily_body_ratio": 1.257,
         "daily_bullish": true,
-        "volume_ratio": 0.9396,
-        "avg_dollar_volume_20": 2565648793.91,
+        "volume_ratio": 0.9404,
+        "avg_dollar_volume_20": 2565760123.44,
         "stock_return_60d": 0.7415,
         "spy_return_60d": 0.0675,
         "qqq_return_60d": 0.1541,
@@ -72,9 +72,9 @@
         "sector": "Technology",
         "industry": "Semiconductors",
         "market_cap": 237431275520,
-        "trailing_pe": 259.47675,
+        "trailing_pe": 262.5294,
         "forward_pe": 73.04036,
-        "profit_margin": 0.17148,
+        "profit_margin": 0.18374,
         "revenue_growth": 0.201,
         "earnings_growth": 0.457,
         "debt_to_equity": 5.214
@@ -86,29 +86,29 @@
           "published": "Mon, 18 May 2026 15:33:00 GMT"
         },
         {
-          "title": "ARM (NASDAQ:ARM) Insider Sells $1,487,850.00 in Stock - MarketBeat",
-          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMHFxR3JrUEhDaFV6UmFtNmNmSU9TZVIxaC13LUJWY1AyNWxzQk1GR2gzRUdqeGU3czFCci1sdUdETjRCbGVDRHEyR0k3Yy1vc0NwdGNWTzREX2pHbHI4LVZRbjh1RnQ3RHpHZi01TDk5TjdTTTduTFgtcnROOUNSbmlJak43ckRjeUlWaWVsTFhLUGtaTlZyTFc5c0lQbjh1SkE?oc=5",
-          "published": "Tue, 19 May 2026 23:23:53 GMT"
-        },
-        {
-          "title": "Arm Holdings Has Doubled in 2026. Is It Outperforming Other Chip-IP Stocks Like Synopsys, Cadence, and Qualcomm? - 24/7 Wall St.",
-          "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPRWQtS2pVOUxubTUzcXpJQ2VTeFE4X2JjRHZQSmxtOVlfdzZ0MWNrbDloX25wLThWTWQ5dFVJUkR6Tk9EUlVNZE9GWDZGd1dJSDNHekhDZEJ3Nm1sZEJzSDVjU0RJQjBnRmdzaTZSRF9wZll1QTZnR3J4NVhxS3FCbVJpN1daNVpuWEczUmwxWkVRS3l2Qkw2VFQzbUswQVB5Rm1DNmFIMWFhUXk5a01xbXAtdHFRbDNhVDVBY2xnOFlMeXVrWkx1VUtvLS1ic0JtTHE2anJ5OVhmOWh1X3pSR1hSYlRKRW8?oc=5",
-          "published": "Tue, 19 May 2026 19:27:17 GMT"
-        },
-        {
           "title": "Should You Buy ARM Stock Right Now? - The Motley Fool",
           "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNRXBTZjdpRVRwUHFmUUlHMGNLR1RocFppR3RyWkowWG10Tjc2ZXRKX1ljb2Z5cW05cnVTWUw4Ry1malhCZnU0eUZ5dFU3djUzVlhQMmVIRWJfYVRZeTJja1c5dmpzMTF0SzJBMkppTXNFNGUwYXh6MDEwU0FRZmJHWWFBWQ?oc=5",
           "published": "Mon, 18 May 2026 21:49:53 GMT"
         },
         {
-          "title": "Arm (NASDAQ: ARM) CEO Rene Haas reports RSU vesting and tax share withholding - Stock Titan",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOS2M2SjU4dkV3MDNGemg2WG03alpONWM5Z3pNMGtxazFRYlppdFVoczdJYjFoRUlvRzZTanBGVjBqQWM1WThPSlZRVW5SbjZWR2w1UlMtZC1QcmRqLUhRa0lOb1lIcDB3YzgwaGp1R3pOclFyTVRuWjdibVlKOWExSHR4NVNpbjR2R1I1UUd3cUo3WWRfRkF2SkU1RGlGc3pvT0x4QjY2R0dfbEtuWWsxWEtn?oc=5",
-          "published": "Tue, 19 May 2026 21:10:16 GMT"
+          "title": "Arm Holdings is said to face FTC antitrust probe over chip licensing practices (ARM:NASDAQ) - Seeking Alpha",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQckVoZ1U4YWlUTkQwRlkwMTdRVjh4WFVzZEVKNFJzd1RQYjFxXzFFT0s0M3pOdjRacThxRXlTLUoxRlE3T3lwbThqanU5N1NhdUJXVXZPdU1RQVFYOFFSUER2aWE3SlY0RjNrcjRadGpGNzhLSGZlRDh0R2toY196NTRobi1iSHRwM1FyUW5ZNXlycXdEYWZUTXRmLXE1LUg3V1hMNTcyTGJCUXhkV0dkenpFY1BOc2ZL?oc=5",
+          "published": "Sun, 17 May 2026 21:29:39 GMT"
+        },
+        {
+          "title": "Arm Holdings Stock Jumps on Bullish Bets and Upgrade - TipRanks",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOTzFMZlhoTDlQNjlmYklrLXFCTVByVlJVX05YZl8yTTEwWmQ1TUo2QWlqRlh0VEt1WlFrM1k5dF9aMGlUX2ZHeXBnb1M2SWx3UlNzNzI3QWFUS0E2cUlLbDdTa3c1LUc4X3hXaDhyM3RyMGdpbDJLSTV2RU5IaEZzY1ZkRVdrYkFDblJaNFlxZmwwNTRHSkE?oc=5",
+          "published": "Tue, 19 May 2026 18:55:10 GMT"
+        },
+        {
+          "title": "Arm Holdings Has Doubled in 2026. Is It Outperforming Other Chip-IP Stocks Like Synopsys, Cadence, and Qualcomm? - 24/7 Wall St.",
+          "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPRWQtS2pVOUxubTUzcXpJQ2VTeFE4X2JjRHZQSmxtOVlfdzZ0MWNrbDloX25wLThWTWQ5dFVJUkR6Tk9EUlVNZE9GWDZGd1dJSDNHekhDZEJ3Nm1sZEJzSDVjU0RJQjBnRmdzaTZSRF9wZll1QTZnR3J4NVhxS3FCbVJpN1daNVpuWEczUmwxWkVRS3l2Qkw2VFQzbUswQVB5Rm1DNmFIMWFhUXk5a01xbXAtdHFRbDNhVDVBY2xnOFlMeXVrWkx1VUtvLS1ic0JtTHE2anJ5OVhmOWh1X3pSR1hSYlRKRW8?oc=5",
+          "published": "Tue, 19 May 2026 19:27:17 GMT"
         }
       ],
       "default_pass": true,
       "_funnel_pass_until": 5,
-      "ai_summary": "基于您提供的信息，我对股票 ARM 进行如下简洁分析：\n\n### 技术面\n- **趋势强度**：股价远高于周线MA60（偏离度57.8%），且周线、日线均为阳线，短期（60日）涨幅（74.15%）远超大盘（SPY +6.75%）和科技指数（QQQ +15.41%），显示极强的多头趋势。\n- **均线系统**：价格站上所有主要均线（MA5/25/60），且均线呈多头排列（MA5>MA25>MA60），属于典型上升通道。\n- **动能指标**：周线KDJ处于高位超买区（K=82.57），但未形成死叉；日线KDJ已从高位回落（J=39.69），出现短期回调信号。成交量略低于20日均量（0.94），上涨伴随缩量，需警惕动能衰减。\n- **结论**：中长期趋势强劲，但短期存在技术性回调压力，超买风险需关注。\n\n### 基本面\n- **估值**：静态市盈率高达259倍，但前瞻市盈率降至73倍，市场对其未来盈利增长给予极高溢价。负债权益比5.21，杠杆水平较高。\n- **成长性**：营收同比增长20%，盈利增长45.7%，利润率17.1%，显示公司处于高增长阶段，但盈利能力尚未完全释放。\n- **结论**：高成长预期已充分反映在股价中，估值处于极端水平，需依赖持续超预期的业绩来支撑。\n\n### 新闻与政策\n- **正面**：分析师看好“CPU复兴”趋势，给出45%上涨空间预期；公司股价年内翻倍，市场关注度极高。\n- **负面/中性**：内部人士近期减持约149万美元股票；CEO报告RSU归属及税务扣缴（属常规操作，但可能引发短期情绪扰动）。\n- **结论**：舆论整体偏多，但内部人减持信号需留意，市场情绪可能已过度乐观。\n\n### 风险\n1. **估值泡沫风险**：259倍PE远超行业平均，任何业绩不及预期都可能引发剧烈回调。\n2. **技术回调风险**：周线超买+日线KDJ死叉信号，短期获利盘抛压可能加大。\n3. **高杠杆风险**：负债权益比5.21，若利率环境变化或现金流恶化，财务压力将上升。\n4. **行业竞争风险**：与Synopsys、Cadence、高通等IP/芯片公司竞争，技术迭代速度是关键变量。\n\n### 综合关注等级\n**中等偏高关注**（短期谨慎，中长期趋势未破）\n- 理由：技术面强势但超买，基本面高估值需业绩验证，新闻面偏多但内部人减持。适合已持有者跟踪止盈信号，未入场者等待回调至均线支撑（如MA25或MA60）再评估。"
+      "ai_summary": "基于您提供的资料，以下是对 **ARM Holdings (ARM)** 的简洁分析：\n\n### 技术面\n**强势多头，但短期超买与动能背离**\n- **趋势**：价格远高于周线MA60（偏离度+57.8%），且周线、日线均为阳线，短期（60日）涨幅（+74.15%）远超大盘（SPY +6.75%）和科技指数（QQQ +15.41%），显示极强的相对强势。\n- **均线系统**：价格站稳MA5/MA25/MA60上方，且均线呈多头排列（MA5>MA25>MA60），中期趋势健康。\n- **动能与风险**：周线KDJ处于高位超买区（K=82.57），且周线与日线KDJ均出现**死叉信号**（bullish: False）。日线J值已回落至39.69，显示短期回调压力。成交量略低于20日均量（0.94），上涨动能有所减弱。\n\n### 基本面\n**高增长但估值昂贵，财务杠杆较高**\n- **成长性**：营收增长20.1%，盈利增长45.7%，增速在半导体行业中较为突出，符合“CPU复兴”叙事。\n- **估值**：静态市盈率（262倍）极高，但远期市盈率（73倍）大幅下降，市场已提前定价未来高增长。若增长不及预期，估值修正风险较大。\n- **财务健康**：利润率18.37%尚可，但**负债权益比（5.21）** 极高，表明公司财务杠杆较大，对利率环境敏感。\n\n### 新闻与政策\n**多空交织，监管风险是核心变量**\n- **利好**：分析师看多（目标价暗示45%上涨空间）、机构上调评级、股价近期创新高，市场情绪偏向乐观。\n- **利空**：**面临美国联邦贸易委员会（FTC）反垄断调查**，涉及芯片授权业务。这是重大政策风险，若调查升级或导致不利裁决，将严重冲击其商业模式和营收基础。\n\n### 风险提示\n1.  **反垄断监管风险**：FTC调查是当前最核心的不确定性，可能影响其授权费率和客户关系。\n2.  **高估值回调风险**：股价已大幅上涨，技术面出现超买和顶背离信号，短期获利回吐压力大。\n3.  **高财务杠杆风险**：负债权益比过高，在利率维持高位或经济放缓时，财务压力将增大。\n4.  **增长可持续性**：当前高增长部分依赖于AI和CPU架构升级周期，若需求放缓，高估值将难以维持。\n\n### 综合关注等级\n**【高关注，但需警惕短期回调与监管风险】**\n\n**理由**：技术面处于强势上升通道，基本面增长故事清晰，市场关注度极高。然而，短期技术指标已发出回调预警，且反垄断调查这一重大政策风险悬而未决。当前价位追高性价比不高，更适合等待技术性回调或监管风险明朗化后再评估。"
     },
     {
       "symbol": "TGT",
@@ -140,8 +140,8 @@
         "weekly_ma60_deviation_risk": "正常延伸",
         "daily_body_ratio": 2.3474,
         "daily_bullish": true,
-        "volume_ratio": 1.7824,
-        "avg_dollar_volume_20": 597272935.42,
+        "volume_ratio": 2.1761,
+        "avg_dollar_volume_20": 610575673.61,
         "stock_return_60d": 0.1015,
         "spy_return_60d": 0.0675,
         "qqq_return_60d": 0.1541,
@@ -171,19 +171,14 @@
       },
       "news": [
         {
-          "title": "Target Corp (TGT) Stock Price, Trades & News - GuruFocus",
-          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5RTWw1cGtaNVk5dUVzdkRvSjJxNHVqVG5OdzlpOW0zTE5OQlNwaEYtU0RUTG1lX244SkpLSjNOeUdySS1LU2RlV2Z2VlEzcVBqbjR2TlZn?oc=5",
-          "published": "Tue, 19 May 2026 15:56:29 GMT"
-        },
-        {
           "title": "TGT Stock Alert: What to Know as Target Taps Former Walmart Exec - Barchart.com",
           "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdWc4U3I5UG80ZFBURlkxN0U4dEYyb1hHb0Q3N2dmcVdpSk0xNjZib015MjA5MVFOajJzb3VwX1hDeDZwZEVVMjBac3BlMEkxakdyV1Znb21NTElTZTNZdGRZRDRiNldnenE2LUE2YWdHSS05VThVLWVDQXZsMGN6VmNEQlNVTEE0VFNGQlR5SE1NdF9XMWh6cGRINnpPUXdwUnRPaENLR1VhWWM?oc=5",
           "published": "Tue, 19 May 2026 19:29:28 GMT"
         },
         {
-          "title": "Target taps ex-Walmart exec to run its global supply chain - Stock Titan",
-          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPRlFOSkdsRzVSZGRWXzZ4SVRIV2hWRHBHRllSV1g5c1BhZUNGckxDUjZqaXVjREw4WGNrdF81X2ZzYk9PaDN5d20ybGhxS3RmcmtveFktWFhDV005ejZJQmtKYmdPUm1NMlNZVEV6b09vX3RZdVlJTUpnaUJxYk56LVd1NG41aFp1Ui1wRDFxRWl5cDFkS0hNNXhtLU5LRENxWms4X19EZ1ZuZnVSWmVaTWxNRQ?oc=5",
-          "published": "Tue, 19 May 2026 12:00:00 GMT"
+          "title": "Target Corp (TGT) Stock Up 3.1% and Still Undervalued -- GF Scor - GuruFocus",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPN0E4TGJjNzJxUHdFSjJNT3RQSmZNajVGOW4xblhrTWI5NmhjNnRENG43MzBFQ2ZzWVNkeGd3ckZIbTBlcHV3TGtJQ2VNMXRCZ1dTSjhXLUdzWnhnUU13elN0VU0yakpKcFRiaHNzQkJlaVVtWWJZcmtWVERaUzNwSl9SSFUwRGRrY2syY0hJc08wckZXNkIzQ0h0Q3VlTldmbnB6M1JR?oc=5",
+          "published": "Tue, 19 May 2026 21:24:13 GMT"
         },
         {
           "title": "Walmart, Earnings Loom Amid Consumer Fears - Investor's Business Daily",
@@ -191,14 +186,19 @@
           "published": "Tue, 19 May 2026 14:05:00 GMT"
         },
         {
-          "title": "5-star analyst drops eye-popping Intel stock price target - thestreet.com",
-          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOV0o2S1NTdWZtdElYTzJueWNIelI1WTN2NWh2emVjN1lDeUZKal9fSDJfTzZpWnpqVUNwclZUNFhyNUtjMnA0QTBneV9fSTlYR3FUZDZQbUhYTEx4WGJiNUpvZlE3d0Q1N0VGWVMxTHBsR0ZlcTFoZURCN25iN2hFTGxFREVnMWlIb3dNdVFhSWVUS2FyT1RLdDQyRC1CTU5QNEE?oc=5",
-          "published": "Tue, 19 May 2026 16:47:00 GMT"
+          "title": "Target taps ex-Walmart exec to run its global supply chain - Stock Titan",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPRlFOSkdsRzVSZGRWXzZ4SVRIV2hWRHBHRllSV1g5c1BhZUNGckxDUjZqaXVjREw4WGNrdF81X2ZzYk9PaDN5d20ybGhxS3RmcmtveFktWFhDV005ejZJQmtKYmdPUm1NMlNZVEV6b09vX3RZdVlJTUpnaUJxYk56LVd1NG41aFp1Ui1wRDFxRWl5cDFkS0hNNXhtLU5LRENxWms4X19EZ1ZuZnVSWmVaTWxNRQ?oc=5",
+          "published": "Tue, 19 May 2026 12:00:00 GMT"
+        },
+        {
+          "title": "Target, Nvidia And 3 Stocks To Watch Heading Into Wednesday - Benzinga",
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPSHBzcnhnOVpmMElQdlBEaGJmWXRiZmoyMGJqa2tIMlBQc1V0d1ZqeVV2Ti1ZRFR6TWVKczg1WDVrSUpZUHQ5VkNJb0tNQXhJRGxSVHh5V3hZdUVneURXandOUXRpaTU4ZVNsaGVCaXJXMldia3VPb19FUU1za2Y1M2ttanNTdko2aXl3d1l6U2tPdGU0dGRoUUUtZzdOb2RjaENnZ2RRbDJ3VDJLVDgwMFp2ek4wY3VUbERPQk84ak5Sczg?oc=5",
+          "published": "Wed, 20 May 2026 06:45:06 GMT"
         }
       ],
       "default_pass": true,
       "_funnel_pass_until": 5,
-      "ai_summary": "基于您提供的股票TGT信息，以下为简洁分析：\n\n**技术面**  \n- **短期强势**：股价收于127.24美元，日线阳线实体比例达2.35，且站上5日、25日、60日均线，均线呈多头排列（MA5>MA25>MA60）。  \n- **量价配合**：日成交量放大至20日均量的1.78倍，显示资金参与度较高。  \n- **中期趋势**：周线阳线实体比例1.35，周KDJ指标J值65.4（未超买），但周K线已高于周MA60约23.3%，属于正常延伸区间，需警惕短期回调风险。  \n- **相对表现**：过去60日跑赢标普500（+10.15% vs +6.75%），但跑输纳斯达克100（+15.41%），说明其防御属性强于成长性。\n\n**基本面**  \n- **估值合理**：市盈率15.65倍，略高于行业均值，但低于历史中位数；前瞻市盈率14.83倍，反映市场对盈利改善的预期。  \n- **盈利承压**：营收同比下滑1.5%，净利润同比下滑5%，利润率仅3.54%，显示成本压力或竞争加剧。  \n- **财务风险**：资产负债率高达125.5%（债务/权益），需关注利息覆盖能力及现金流健康度。\n\n**新闻与政策**  \n- **管理层变动**：任命前沃尔玛高管负责全球供应链，市场解读为优化运营效率的信号，短期提振信心。  \n- **行业情绪**：消费类股面临宏观压力（如沃尔玛财报、消费者信心数据），但TGT作为折扣零售商，在通胀环境下可能受益于“消费降级”趋势。  \n- **无重大政策风险**：未涉及关税、监管等直接冲击。\n\n**风险**  \n- **盈利下滑风险**：若消费支出进一步疲软，营收及利润可能继续承压。  \n- **高负债压力**：高杠杆在利率高位下增加财务成本，可能压缩利润空间。  \n- **技术回调风险**：周线偏离均线幅度较大，且周KDJ指标出现死叉信号（K<D），短期存在技术性调整可能。\n\n**综合关注等级**  \n**中等关注**  \n- 技术面短期偏多，但中期存在回调压力；基本面盈利下滑与高负债构成隐忧，但管理层调整及估值合理提供支撑。建议持续跟踪消费数据、季度财报及供应链优化进展。"
+      "ai_summary": "基于您提供的股票 TGT 信息，以下为简洁分析：\n\n**技术面**\n股价收于127.24美元，周线及日线均为阳线，且站上5日、25日及60日均线，均线系统呈多头排列（MA5>MA25>MA60）。近60日跑赢标普500指数，但略逊于纳斯达克100指数。日线KDJ金叉，但周线KDJ有高位死叉迹象，需警惕短期回调压力。成交量显著放大，显示市场参与度提升。\n\n**基本面**\n公司属于消费防御板块的折扣零售行业，市值约578亿美元。当前市盈率（15.65倍）略低于行业平均水平，但营收与盈利均出现同比下滑（营收-1.5%，盈利-5%）。利润率（3.5%）偏低，且资产负债率（125.5倍）较高，财务杠杆风险需关注。\n\n**新闻政策**\n近期新闻显示公司管理层变动（聘请前沃尔玛高管负责全球供应链），市场对此反应积极，股价上涨。同时，有机构认为该股仍被低估。但行业层面，消费信心疲软及沃尔玛等竞争对手的财报临近，可能对板块情绪产生扰动。\n\n**风险**\n- **基本面风险**：营收与盈利双降，高负债率可能限制财务灵活性。\n- **行业竞争风险**：折扣零售行业竞争激烈，沃尔玛等对手动态可能影响市场份额。\n- **技术面风险**：周线KDJ高位拐头，短期存在技术性回调可能。\n- **宏观风险**：消费支出数据及整体经济环境的不确定性。\n\n**综合关注等级**\n**中等关注**。技术面短期偏强，但基本面增长乏力且估值修复空间有限，建议结合后续财报及消费数据进一步观察。"
     },
     {
       "symbol": "EIX",
@@ -228,8 +228,8 @@
         "weekly_ma60_deviation_risk": "正常延伸",
         "daily_body_ratio": 2.0678,
         "daily_bullish": true,
-        "volume_ratio": 1.1904,
-        "avg_dollar_volume_20": 199870878.91,
+        "volume_ratio": 1.1905,
+        "avg_dollar_volume_20": 199871462.02,
         "stock_return_60d": -0.0606,
         "spy_return_60d": 0.0675,
         "qqq_return_60d": 0.1541,
@@ -259,19 +259,9 @@
       },
       "news": [
         {
-          "title": "Edison International Stock: Is Wall Street Bullish or Bearish? - FinancialContent",
-          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQdHpRbTJhU3NUbWhqWFRyMmN0LXZyamZ2NEx3dVVnRTNmVWkwcmVNM0NBTXplQTN6Qzl2Q05yc2VHOUhxMldjYjVKUmY1VUI1M2dleDNTLTdIVzBDMWZKaWxHWEJOOFJZUkhiWC1OUFo3RjRoQlpNUWQwbDRSUDRSOGxOLS0zWXBSNFAtQTM1ME5UTWdWdENCNl9adzFjZU5FRjNYSWhKVVpzYmhfMldRLUpQN3F5QkdMYnRuTDF4T3NlUVhGYWdEQ2FGQQ?oc=5",
-          "published": "Tue, 19 May 2026 12:53:00 GMT"
-        },
-        {
           "title": "A Look at Edison International (EIX) After 3.3% Gain -- GF Value $75.43 vs Price $70.68 - GuruFocus",
           "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOYVNvV0hKLWpuWFc0WWFOSWJpOTZCZUlfeGdjRDNOcXdjQUxlZWptczFQb2R1dDNGeENVTWZaRWJwU2ZtQlozY0w2dDNueGRod21Wemo1ZUlJMXFteEtIWFRIZy05MFlKVUJZMWpWUTNUWDJqZW9KMU5TblRoZlJPZ3VWUUd0bVJGdVZWX1cyZjl4bzktVHEzMWxIZGI5REpScVV0bjZPZlpfZ2t6aGotY2JVVTZUQQ?oc=5",
           "published": "Tue, 19 May 2026 21:42:31 GMT"
-        },
-        {
-          "title": "Assessing Edison International (EIX) Valuation After Recent Share Price Cooling And Long Term Gains - simplywall.st",
-          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQbTdZeUtpUVg1ZHBtNENvRmhvaVlydDBvRlY1TmVwOEhZcm5UNVdTdk55a2dCaWx2c0VhejJyNTFVTEh0azRaVklsQzlvX21sMlI3UUh0TFUtSEg5Tk1GSTlqVE1tX2wxR3FrazZuZTh6Wkw3Nmh0VmZnbEFmWWFXNmhTMzFfZXlwSWdXN0FVOWtoU1VWWHBMRGJGcUIzRll0bGVsSV9QWWtHTGRBZEJ3a0Y2Vm5lYWs3TnFyakFvUUp0RTZUTXNKZFlacE9nQ0MzTjdZeDN30gHbAUFVX3lxTE95ZVlVV01ScFVEWFNwaGdOZGl3YUNQS3phRGVrSGhLbFAtX2N6M1gxUHdhTERuY0pYSmRwZjg2bTA3ZS1kOEpUMzJWQXYyMFJLTjh6OFIzV3hvNVgxZlRLbl83dWxnS0ZGZVVKbkxKRzRrQ2FVT0gwV2hWZ21vLS1BQk9OTnItXzl4M3RIUk9LalFsSUdBSVQ2S3F5UUg4aV9JWFVDZkluWkZ0dGg1Wm1CLUo4RHpQX2hubjFuTXp1NkZHaE1FNndnaC1Vdm1VN29ldXRjSlFyWnluUQ?oc=5",
-          "published": "Tue, 19 May 2026 13:32:09 GMT"
         },
         {
           "title": "Edison International stock falls on California wildfire concerns - Investing.com",
@@ -279,14 +269,24 @@
           "published": "Tue, 19 May 2026 02:23:49 GMT"
         },
         {
-          "title": "iA Global Asset Management Inc. Trims Stock Position in Edison International $EIX - MarketBeat",
-          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNa1ItNWQ4cmdsMFA5b2JGTFoxNDZwXzkyY0x4eEhJMHk2empSbTY5ZFM0Zm56N19WYlJ3M2REV0pnVEpOTUpYVmtUTG9jY3c3RnVqMFJhSWJoNW9OVXFtUHVyd2ZDaGE4dzNoc0djNmdBb1RvUEo0Z3BMTU1xVVNnMjNrS1dwSVlvMWdYcDdnazN5X3VoNmZodmR1NExTSjl1c3p3TUdiaUQxeGN5TDY5MC0tQnFaakdEc2tKeVNualIxQml2YW9LbTl4c2lNM2phQkR4NThYYw?oc=5",
-          "published": "Tue, 19 May 2026 07:53:59 GMT"
+          "title": "Edison International Stock: Is Wall Street Bullish or Bearish? - Barchart.com",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWmZtc29TVW5XY2owRXJLaHRlMU81MFZKSWhkbk45QjFrNmFzT3RFWlRGZ0JNX2JRM0dxWkVVY0IycHJpNXBmMjFaMUc5LTZ2VXpHdUZLbGNtOEdWdHg2VVc2T29hRGRMcXdoRHVBRG1TSUpWTnRfemVGNk8wd1VUWm52V0RQNm9wNGRfckJXZ1VLUzdXV3VxVVlwY191UW9YNXdEMjBnaw?oc=5",
+          "published": "Tue, 19 May 2026 12:53:19 GMT"
+        },
+        {
+          "title": "Assessing Edison International (EIX) Valuation After Recent Share Price Cooling And Long Term Gains - simplywall.st",
+          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQbTdZeUtpUVg1ZHBtNENvRmhvaVlydDBvRlY1TmVwOEhZcm5UNVdTdk55a2dCaWx2c0VhejJyNTFVTEh0azRaVklsQzlvX21sMlI3UUh0TFUtSEg5Tk1GSTlqVE1tX2wxR3FrazZuZTh6Wkw3Nmh0VmZnbEFmWWFXNmhTMzFfZXlwSWdXN0FVOWtoU1VWWHBMRGJGcUIzRll0bGVsSV9QWWtHTGRBZEJ3a0Y2Vm5lYWs3TnFyakFvUUp0RTZUTXNKZFlacE9nQ0MzTjdZeDN30gHbAUFVX3lxTE95ZVlVV01ScFVEWFNwaGdOZGl3YUNQS3phRGVrSGhLbFAtX2N6M1gxUHdhTERuY0pYSmRwZjg2bTA3ZS1kOEpUMzJWQXYyMFJLTjh6OFIzV3hvNVgxZlRLbl83dWxnS0ZGZVVKbkxKRzRrQ2FVT0gwV2hWZ21vLS1BQk9OTnItXzl4M3RIUk9LalFsSUdBSVQ2S3F5UUg4aV9JWFVDZkluWkZ0dGg1Wm1CLUo4RHpQX2hubjFuTXp1NkZHaE1FNndnaC1Vdm1VN29ldXRjSlFyWnluUQ?oc=5",
+          "published": "Tue, 19 May 2026 13:32:09 GMT"
+        },
+        {
+          "title": "Over 10,000 people pursue Eaton Fire relief through SCE fund - Stock Titan",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdWY3ZTZtZXQ5eDFaTUY2MjI1bklwSXl3bjF0S0t1OHJQM3kzTHRzTEpheDB6SVppZkxocDBtc3dROV9IMmVCUWVOUXJ2amxQM1QxZFVDdGtDT1ZWRVVUMGNKVXdRRi1rVEtVNWU4TlR4bkFZSFJNdFFHNTNiaDA5NzhSekVvVUdBQ05tTkhkWXZONjNnX0pDYkNVdTJUMjdGR2pMNlV3aVlTT0RrQmpWczNFRzQ0LUtH?oc=5",
+          "published": "Mon, 18 May 2026 17:00:00 GMT"
         }
       ],
       "default_pass": true,
       "_funnel_pass_until": 5,
-      "ai_summary": "基于提供的资料，对股票 EIX（Edison International）的简洁分析如下：\n\n### 技术面\n- **短期强势，中期趋势健康**：日线和周线均为阳线，且周线实体饱满（周线实体比1.9）。股价站上5日、25日、60日均线，且均线呈多头排列（MA5>MA25>MA60）。\n- **量价配合**：日线成交量放大（量比1.19），显示资金参与度提升。\n- **中期动能偏强，短期存在分歧**：周线KDJ金叉向上，日线KDJ虽为金叉但J值（56.89）低于D值（64.23），短期上攻动能有所减弱。\n- **相对表现偏弱**：过去60日股价下跌6.06%，显著跑输标普500（+6.75%）和纳斯达克100（+15.41%），表明近期走势弱于大盘。\n\n### 基本面\n- **估值较低**：市盈率（TTM）仅7.68倍，远低于公用事业行业平均水平，但前瞻市盈率（10.85倍）有所抬升，反映市场对盈利恢复的预期。\n- **盈利能力尚可**：净利润率18.12%，在公用事业中属较好水平。\n- **增长分化**：营收同比增长7.7%，但盈利同比大幅下滑63.2%，需关注利润下滑原因（可能与加州野火相关成本或减值有关）。\n- **财务杠杆极高**：资产负债率（D/E）高达226.1%，在利率高企环境下，利息支出压力较大，财务风险突出。\n\n### 新闻与政策\n- **野火风险是核心负面因素**：近期股价因加州野火担忧而下跌，这是公用事业公司（尤其是加州电力公司）面临的主要政策与法律风险。野火可能带来巨额赔偿和监管处罚。\n- **机构态度偏谨慎**：有机构（iA Global Asset Management）减持该股，市场情绪存在分歧。\n- **估值讨论活跃**：多家财经媒体（GuruFocus、Simplywall.st）关注其估值，当前股价（$70.68）低于GF Value（$75.43），显示市场认为存在一定低估空间，但需结合风险判断。\n\n### 风险\n1. **野火责任风险**：加州野火可能引发巨额诉讼、罚款及基础设施改造支出，是公司最核心的不确定性。\n2. **高杠杆与利率风险**：资产负债率极高，若利率维持高位，财务费用将侵蚀利润。\n3. **盈利下滑**：盈利同比大幅下降，若不能恢复，将影响估值支撑。\n4. **相对表现弱势**：近期股价跑输大盘，市场信心不足。\n\n### 综合关注等级\n**中等关注（需谨慎）**\n\n**理由**：技术面呈现短期反弹和中期多头趋势，基本面估值较低（PE低）且营收增长，具有一定吸引力。但核心风险（加州野火、高杠杆、盈利下滑）非常突出，且近期股价表现弱于大盘。建议在关注野火相关进展及财报盈利恢复信号前，保持谨慎。"
+      "ai_summary": "基于提供的资料，以下是对股票EIX（Edison International）的简洁分析：\n\n**技术面**：短期技术指标偏积极。周线呈现看涨形态，价格站上所有主要均线（MA5/25/60），且均线呈多头排列。日线也收出较大阳线，成交量放大。但需注意，过去60日股价表现显著跑输大盘（SPY）和科技股（QQQ），日线KDJ指标已出现轻微看空信号，显示短期反弹后可能存在震荡或回调压力。\n\n**基本面**：估值较低（静态PE约7.68倍），但前瞻PE（10.85倍）高于静态PE，暗示市场预期未来盈利将下降。公司盈利增长为-63.2%，利润率和收入增长尚可。核心风险在于极高的负债权益比（226.1），财务杠杆高，对利率和现金流敏感。\n\n**新闻政策**：近期新闻焦点集中在加州野火相关担忧上，这是公用事业公司（尤其是加州电力公司）的核心政策与法律风险。公司旗下SCE基金正处理Eaton火灾相关索赔，市场情绪因此承压。同时，有分析关注其估值在股价回调后的合理性。\n\n**风险**：主要风险包括：1）加州野火相关的法律责任和巨额赔偿风险；2）高负债率带来的财务脆弱性；3）盈利大幅下滑（-63%）的持续性；4）近期股价跑输大盘，市场情绪偏弱。\n\n**综合关注等级**：**中等**。技术面短期有反弹动能，但基本面盈利下滑和野火风险构成显著压制，且股价中长期表现落后市场。建议关注野火诉讼进展及季度财报中盈利指引的改善信号。"
     },
     {
       "symbol": "EQT",
@@ -315,8 +315,8 @@
         "weekly_ma60_deviation_risk": "正常延伸",
         "daily_body_ratio": 1.7818,
         "daily_bullish": true,
-        "volume_ratio": 1.1801,
-        "avg_dollar_volume_20": 425737956.59,
+        "volume_ratio": 1.1809,
+        "avg_dollar_volume_20": 425757453.56,
         "stock_return_60d": 0.0233,
         "spy_return_60d": 0.0675,
         "qqq_return_60d": 0.1541,
@@ -346,9 +346,14 @@
       },
       "news": [
         {
-          "title": "EQT Corp. stock outperforms competitors on strong trading day - MarketWatch",
-          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPd1hTNkNrSHBILVpIb1NXNGdnM1JlUzJ6WDJFd3FLME1US1IyQnJKNDVEbUhtVUtudGhUY0dFOHFnZGktU1JfWkNXLTROMDNIcF9ORTV0Q1ZjMFo3VW4wTldRRzNMNmZEX2w5QWhoV1pfYmhpeF9xeUFPdC1ZQ0l3UmJnNmtlMjNQYUxGWTNTMUhlUEdjNkJMNElwVnNfZUF4RXVwcVVRQXdXR21GSVRjcHNCVFhzZnpIMC1URTd3XzlLMTNhWEJkcWphbWxwMW83ejBKTA?oc=5",
-          "published": "Tue, 19 May 2026 20:54:00 GMT"
+          "title": "EQT climbs 3.3% as natural-gas-linked sentiment improves; company’s recent cash-flow and LNG positioning stay in focus - Quiver Quantitative",
+          "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQUFJIODdxZm1pR18xMWNMdEhWcTZ0b3JJaWV0aXhZcG1QT3h4Unp0NVd0cS11ZFhYdFAwS0kxMU82ZTJKaEdOZmhzXy1pUEFCWUFOUlRhdGsySGZkakhyQS1wVGF4Zm5QeGg3bDhCcWgxY3EzTjJkN1RXZExtWmd6Ylh1NTMzZ1Ztb0VQV1lUOFBjdTlBcjNraE1NMlVkMkVFVlhMSklfRV9VaUtJenBMZUo2M3lLaTBPNTRScjFjT3dadWUxajRtczRIM2JnMlVxMHR6bE5jaFNXTmNaczlvdUFzXzJGU21ZZzgtMi12TUxpNjhfUnc?oc=5",
+          "published": "Tue, 19 May 2026 17:36:00 GMT"
+        },
+        {
+          "title": "Why EQT (EQT) Is Up 7.2% After Winning Mandate For €5 Billion Scaleup Europe Fund – And What's Next - simplywall.st",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWGluSGNjNGkwbXNuV0lfQkY3elB3azF1MFNPWkFTQ1BkdGhlaVZVZTlseFNWN3lVejdQZWlual9sNW1kWEQyVjdTenliSzFqWGhVMjJvUmctNmU2YlhPM0ZBNzh6NjVKcE9fVGpTZnFxUjVIZVBEMHBrTl9UOWM4U1Bxb2RJQ3lMWk1xYzNMQlRnbl9fSnRIdGxURTNaaEVvODJVcXJoSWlpTE92dnBQaDFDMDA2b1FW0gG-AUFVX3lxTFBLOWJUX0ZXMUpqRjFpaWthRHNTQ1A0NlVyQ3dYV190SExhWXM4NlRPLXFjMkdDMlEtY1JlcjIzMy1nSVFvenpKMWRQaE5ISzRtME1FZFdhQ0YwajZnSUhIbzdHX216ZzYxTHpPWTVWOUVDczd2c3hmVWVaMHAwbTc0WlB4M1hLOFRiNDBLZUQtY3Y3RWZrdWd1d0VFcWdNNEY1cU5qSHhSRTFhQ3FQOF9wZmNER1VMWVFGTElpOGc?oc=5",
+          "published": "Wed, 20 May 2026 05:46:54 GMT"
         },
         {
           "title": "Energy Resets After Rally. Technical Indicators Say It’s Time to Buy These Stocks. - Barron's",
@@ -356,24 +361,19 @@
           "published": "Mon, 18 May 2026 14:45:00 GMT"
         },
         {
-          "title": "A Look at EQT Corp (EQT) After 4.0% Gain -- GF Value $59.96 vs P - GuruFocus",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOV21OeUVuU0JyZnR1LVVGYUowZDlQZDBpdnpTZm9IeWZBTHU0Y2JhZFhxd1p3UTdJWTdZZWpSLXo1Y0JUYzFpMzF2aUVyN25tekJ5OTY0NzV1b0hrYXdlcUlsbksySlhHd2VMbldNeURMWlJfTEE2YUE3U1BMOU9pWk9Vc2Z6RExOeGxpQng2ZWU1MTFGUXNJSGhNMG5SWDJoRHpSRGtB?oc=5",
-          "published": "Tue, 19 May 2026 21:56:15 GMT"
+          "title": "EQT Corp. stock outperforms competitors on strong trading day - MarketWatch",
+          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPd1hTNkNrSHBILVpIb1NXNGdnM1JlUzJ6WDJFd3FLME1US1IyQnJKNDVEbUhtVUtudGhUY0dFOHFnZGktU1JfWkNXLTROMDNIcF9ORTV0Q1ZjMFo3VW4wTldRRzNMNmZEX2w5QWhoV1pfYmhpeF9xeUFPdC1ZQ0l3UmJnNmtlMjNQYUxGWTNTMUhlUEdjNkJMNElwVnNfZUF4RXVwcVVRQXdXR21GSVRjcHNCVFhzZnpIMC1URTd3XzlLMTNhWEJkcWphbWxwMW83ejBKTA?oc=5",
+          "published": "Tue, 19 May 2026 20:54:00 GMT"
         },
         {
           "title": "Intertek Set to Accept Bid From Private Equity Firm EQT - Morningstar Canada",
           "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPbmxLZjhDNjRxakhVdmtCWkZybFFKVGdJSmxRb0tEcDc4em52bEFPYWp2SU9PNE5rdFpmNmozZHNxdUIzN2R1MUdVQk9HYm04NzExMmhnQTBMV1dWYVh5R3ZzM2Z3dkM1NHJ4eXVnYTR5QWNDeEZsNFJkOWF5UVJVb0xPUTdxWUthNTRnMUFqNnJxTmN3bmc?oc=5",
           "published": "Mon, 18 May 2026 09:05:17 GMT"
-        },
-        {
-          "title": "My \"Do Nothing\" Stocks Just Might Do Something - TradingView",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNV21Jejc3UTlnYkhUR2xkNW5keWJvVGpVWWs0RG91WTdNUDFVdHJRTEtkVlhwV3RYV3VnUWRnUjlqbUVuODN3dWlIWDdPWlFQVkJwS01HbkExVHBTQWdWYlpTR2VsdEZ4UURGOWtRX0Rqa2Nvc250SlVTSG1rbDVHU1dSNzJRZjY2Ullldm8yMWprMW9uVGxlZ1hsdFdmOENHcUExOE5PWQ?oc=5",
-          "published": "Tue, 19 May 2026 14:30:44 GMT"
         }
       ],
       "default_pass": true,
       "_funnel_pass_until": 5,
-      "ai_summary": "基于您提供的信息，以下是对股票 EQT 的简洁分析：\n\n### 技术面\n- **短期趋势**：日线收出实体阳线（日线实体比1.78），成交量略高于均值（量比1.18），日线KDJ金叉向上，显示短线动能偏强。\n- **中期结构**：周线收阳，股价站稳5日、25日及60周均线，且均线系统呈多头排列（MA25>MA60），中期趋势健康。\n- **风险信号**：周线KDJ尚未形成金叉，且近60日涨幅（2.33%）显著跑输标普500（6.75%）和纳斯达克100（15.41%），相对强度偏弱。\n- **关键位置**：当前价格（59.77）略高于周线MA60（55.87），偏离度约7%，属于正常延伸区间，未出现极端超买。\n\n### 基本面\n- **估值**：市盈率（TTM 11.34倍，Forward 12.67倍）在能源行业中处于合理偏低水平。\n- **盈利质量**：利润率高达35%，且盈利增速（4.9倍）远超营收增速（49.9%），显示极强的成本控制或非经常性收益贡献。\n- **财务风险**：资产负债率（20.82倍）极高，属于高杠杆运营模式，对利率及能源价格波动敏感。\n\n### 新闻与政策\n- **行业情绪**：巴伦周刊提及能源板块技术指标显示买入时机，市场对能源股关注度回升。\n- **公司动态**：EQT旗下资产（Intertek）获私募股权收购要约，可能带来资产重估或现金流入预期。\n- **个股表现**：在强势交易日中跑赢同行，且GuruFocus估值模型显示当前价格接近公允价值（59.96美元）。\n\n### 风险\n1. **高杠杆风险**：债务权益比超20倍，若能源价格大幅下跌或融资成本上升，偿债压力将显著放大。\n2. **相对收益落后**：近60日表现明显弱于大盘，若市场风格持续偏向科技成长股，资金可能继续流出能源板块。\n3. **技术面背离**：周线KDJ未确认多头，而日线已快速拉升，短期存在技术性回调或震荡消化需求。\n\n### 综合关注等级\n**中等关注**  \n理由：基本面盈利质量优秀且估值合理，技术面中期趋势健康；但高杠杆和近期相对弱势是主要隐患，需等待周线KDJ确认或股价突破关键阻力位以增强确定性。"
+      "ai_summary": "基于提供的信息，对股票 EQT 分析如下：\n\n### 技术面\n股价收于59.77美元，日线和周线均为阳线，且站上所有主要均线（MA5/25/60）。周线KDJ指标偏弱（J值38.57），但日线KDJ已形成金叉（J值78.44），显示短期动能改善。近60日涨幅（2.33%）落后于标普500（6.75%）和纳斯达克100（15.41%），相对表现偏弱。成交量略高于20日均量，但未出现显著放量突破信号。整体处于均线多头排列但动能待确认的阶段。\n\n### 基本面\n公司属于能源板块油气勘探与生产行业，市值约374亿美元。市盈率（TTM 11.34倍）处于合理区间，盈利利润率高达35%，显示成本控制良好。营收同比增长49.9%，盈利增速达490%，增长强劲。但需注意债务权益比高达20.8倍，杠杆水平较高，财务风险需关注。\n\n### 新闻政策\n近期多条新闻偏正面：天然气相关情绪改善推动股价上涨；公司获得欧洲50亿欧元基金授权，显示其在LNG（液化天然气）和现金流方面的战略布局受市场认可；巴伦周刊等媒体提及能源板块技术面买入信号。整体舆论环境积极，但需注意部分新闻标题可能夸大短期事件影响。\n\n### 风险\n1. **高杠杆风险**：债务权益比超20倍，利率环境变化或现金流波动可能放大财务压力。\n2. **行业周期性**：油气价格受全球供需、地缘政治及能源转型政策影响，波动性较大。\n3. **相对表现落后**：近60日跑输大盘，若市场风格切换或板块轮动，可能继续承压。\n4. **技术面背离**：周线KDJ偏弱与日线金叉存在矛盾，短期反弹持续性存疑。\n\n### 综合关注等级\n**中等关注**。基本面增长强劲且估值合理，短期技术面有企稳迹象，但高杠杆和相对弱势表现构成主要制约。建议跟踪天然气价格走势、公司债务管理进展及LNG项目落地情况，等待更明确的趋势信号。"
     }
   ]
 }
