@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-21 01:33:10",
+  "generated_at": "2026-05-21 12:09:35",
   "market_status": "偏强",
   "universe_count": 516,
   "defaults": {
@@ -51,8 +51,8 @@
         "weekly_ma60_deviation_risk": "偏热",
         "daily_body_ratio": 2.253,
         "daily_bullish": true,
-        "volume_ratio": 1.4723,
-        "avg_dollar_volume_20": 2657816604.87,
+        "volume_ratio": 1.4938,
+        "avg_dollar_volume_20": 2661416023.81,
         "stock_return_60d": 0.9488,
         "spy_return_60d": 0.0694,
         "qqq_return_60d": 0.1564,
@@ -73,7 +73,7 @@
         "sector": "Technology",
         "industry": "Semiconductors",
         "market_cap": 273160372224,
-        "trailing_pe": 261.9694,
+        "trailing_pe": 302.0353,
         "forward_pe": 84.03161,
         "profit_margin": 0.18374,
         "revenue_growth": 0.201,
@@ -82,34 +82,124 @@
       },
       "news": [
         {
-          "title": "Why is Arm Holdings stock surging today? - Investing.com",
-          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOQ24tdnkybmJSSXlFSFFEa0JpNEVZVFlRQ2tfQmxqSXpyeDRiYWtXZWM2cElHM1lHN0FDeDhsNVpkVmZfWEJURS01MVFWWlJSejJnelQ3NFF6OW1wOFVTN3ZET05ZR2dOU1JhdGVYXzY4R1JtdWN0d1pJaUNld3M2dnBuZUJXWTUySHFQMTRQVk53bW5tZ2RTLXdGUThhY0JYZWsw?oc=5",
-          "published": "Wed, 20 May 2026 13:51:38 GMT"
-        },
-        {
-          "title": "Arm’s stock could rise another 45% as the ‘renaissance of CPUs’ takes hold, analyst says - MarketWatch",
-          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPRHR6dmpHOTRqTXJzREVoS3JBMWdBdFlOVWp3a3Z3cUJBWTU0RTR1OVJEVDNlLW5wcXMzVEp6Tzh6SWVsaXVEeFhKamxmMlBPb1d5S2xmejQ1b2VhQk5wdW10Rkh0OG9GcV9SLVd6cXVhRzdHUk1OVG1iSl9JSll2N1hQNGh4SWtlUjIxRVR4Q0Y4U05jQTFLay1ZWVcxcVhXRTZnN3cyeDBXbVZQSWdZZ0p0Y2JveUM5UTdlbFpMZXM1cVhk?oc=5",
-          "published": "Mon, 18 May 2026 15:33:00 GMT"
-        },
-        {
           "title": "Why Arm Holdings Stock Surged to an All-Time High Today - Yahoo Finance",
           "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOTDY4a3hHZy0wYTJZYTdvYWYzOERIdU1wYmQ5YWxNZmVwcDFEbGF2bTRqQVpPMDZKb29HUHNMNDhCdzNtcW4tZFBuTzFfZF9ZdG5teUdTRWJKYnFXd0JJanFhZU80VWNqeVBTLWFGc1ZKSU5OdC1OeG1OaGFHT2xlc0ZfeGkzcmNDbGdTcmtfdzVaN0FiZHRkMzlR?oc=5",
           "published": "Wed, 20 May 2026 22:01:49 GMT"
         },
         {
-          "title": "Arm Holdings Has Doubled in 2026. Is It Outperforming Other Chip-IP Stocks Like Synopsys, Cadence, and Qualcomm? - 24/7 Wall St.",
-          "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPRWQtS2pVOUxubTUzcXpJQ2VTeFE4X2JjRHZQSmxtOVlfdzZ0MWNrbDloX25wLThWTWQ5dFVJUkR6Tk9EUlVNZE9GWDZGd1dJSDNHekhDZEJ3Nm1sZEJzSDVjU0RJQjBnRmdzaTZSRF9wZll1QTZnR3J4NVhxS3FCbVJpN1daNVpuWEczUmwxWkVRS3l2Qkw2VFQzbUswQVB5Rm1DNmFIMWFhUXk5a01xbXAtdHFRbDNhVDVBY2xnOFlMeXVrWkx1VUtvLS1ic0JtTHE2anJ5OVhmOWh1X3pSR1hSYlRKRW8?oc=5",
-          "published": "Tue, 19 May 2026 19:27:17 GMT"
+          "title": "The Next Phase of the AI Chip Supercycle Is Here. 1 Growth Stock Buy Before It Is Too Late (Hint: It Isn't Intel or Broadcom) - The Motley Fool",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbGFKeTkzNk1LU0szODdjc01pbXY2ZXVJaXF2M0pTQS1GUS0wUnBHMlRXWW1ILU0xMTlJY2JWTXR6MF9GbmZyYU1fOUFPYXhvVnRkRTNqdGxuaHFRS2lTVV96YXpIbmcyRVNFamlhdW92MXhLOG5EM2toZ3V5NkRYb21VSExsUzl4OVBzVXIxcW9ic3hxanFGQg?oc=5",
+          "published": "Tue, 12 May 2026 07:00:00 GMT"
         },
         {
-          "title": "Arm Holdings Extends Lead With Record Earnings - TipRanks",
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZTJvSmlMRENISUY3Vy1RZDc5QjhrdzhyMnZFUUd6YVAtNzk0M2t0cFN3ZU5TYzBPU3BydkJUSGx4a185dHAwbXplczBxWER4R04yYkF6aGpvVjlBUmxIRm5Sc2FoaVc4MWxwNmFGUWRSUURXX1U2S1lMdWVrMkUzLUFHaVVNN1l6VHNCMUhmUFNkY1kzR3k5UlE2R0p2Y2M?oc=5",
-          "published": "Wed, 20 May 2026 09:17:35 GMT"
+          "title": "Why Arm Holdings Stock Surged to an All-Time High Today - The Motley Fool",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNODBISkplcmxwMm9HbTliWVl4NXBJTnZYdXpLcHVjS2liRDhCOUF4Wnc1Vk14bUFXMFptcFo5ekp0MzRmd2Y3WDloc3pOamwzVVRVZFJTam1Gbm14Z0RRZktjUC1xQkE3WHF3Q2REUzhSdUltU3JRbzU3MklxY2hjT1Q2MmpqYU8wSHJJWW5fcTFIZy1KQnI4NQ?oc=5",
+          "published": "Wed, 20 May 2026 22:41:00 GMT"
+        },
+        {
+          "title": "SoftBank Group shares soar 20% as Nvidia earnings signal strong AI momentum - CNBC",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOLWE3blBGMHNDZlNabE93WnRDRTFKcTk4Zjd1dEV2UkhCdl8xSTBxaEI5Mnl5bE9qQ0Y0ZXRRcG4xOUZNdEowaDBOTG5ROEthdF8teXM1dkJ1UDR5VC1FQ0VHMWJkWlAzZVdpOXFVazhmaDk0RzNlT25ycmg5a1R5SG51ZVnSAYoBQVVfeXFMTXdTZjFHSzNFRGNPeS0yTWZtX3d5YnJMZTlQU1hPN2h6ZWJNVWtMam9wRjlSY1VrS3RLZHlMTXl3dFpKa0xscTY0OVMzSnQ1RENYd292T1A1NjN6T0xfSmxQa1JHRW43Und4TUpGb0otRkVUNjNYZ1VkY1JVdW1aRkZWWkw4N2RON0p3?oc=5",
+          "published": "Thu, 21 May 2026 00:40:00 GMT"
+        },
+        {
+          "title": "ARM (NASDAQ:ARM) Stock Price Up 15% - Should You Buy? - MarketBeat",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNUlZsNjN4OGx6MjFCUGduUkZXVEVkSVF4R2E2QXp1cmVpR1JYeXY3NTZQVWN4a2VZU1ZzX2ZRal9Scjh4R0Nmb3VUSjNHVTBBYnV6cHczY0xvRDJfM0t4b3pYOVQ3eE1Yb2xDZzRVMG15R0UtTm5MZmpfeWJPWnhjQy1kM2hWQ3g0Qnd2b1JROW16RG00RjNleDZzQ2NTRjJ6QlE?oc=5",
+          "published": "Wed, 20 May 2026 21:30:18 GMT"
         }
       ],
       "default_pass": true,
       "_funnel_pass_until": 5,
-      "ai_summary": "基于您提供的资料，以下是对股票 **ARM (Arm Holdings plc)** 的简洁分析：\n\n### 技术面\n- **趋势强劲**：股价远高于周线MA60（偏离度80.86%），且周线与日线均呈多头排列（MA5>MA25>MA60），短期与中期上升趋势明确。\n- **动能指标过热**：周线KDJ指标（K:85.91, J:89.34）处于高位超买区，日线J值（85.47）同样偏高，显示短期动能强劲但存在技术性回调风险。\n- **量价配合**：日线阳线实体较大（2.25%），成交量放大（量比1.47），近60日涨幅（94.88%）远超大盘（SPY+6.94%，QQQ+15.64%），表现显著领先。\n\n### 基本面\n- **高估值**：静态市盈率（261.97）极高，但前瞻市盈率（84.03）有所下降，反映市场对其未来盈利高增长的预期。\n- **成长性**：营收增长20.1%，盈利增长45.7%，利润率达18.37%，显示公司处于高速扩张期，盈利能力改善。\n- **财务风险**：资产负债率（5.214）较高，需关注其杠杆水平及偿债能力。\n\n### 新闻与政策\n- **市场情绪积极**：多家财经媒体（Investing.com、MarketWatch、Yahoo Finance）报道股价创新高，分析师看多（目标价潜在涨幅45%），并强调“CPU复兴”主题。\n- **行业地位**：对比同业（Synopsys、Cadence、Qualcomm），ARM被指持续领先，且近期财报创纪录，强化了市场信心。\n\n### 风险\n1. **估值回调风险**：当前股价已大幅透支短期涨幅，技术指标超买，若市场情绪转变或业绩不及预期，可能面临剧烈回调。\n2. **高负债率**：债务权益比超5倍，若利率环境变化或现金流承压，财务风险将凸显。\n3. **行业竞争**：半导体IP领域竞争激烈，技术迭代或客户自研架构可能削弱ARM的授权模式优势。\n\n### 综合关注等级\n**高关注（偏积极，但需警惕过热）**\n\n**理由**：技术面与基本面均显示强劲上升趋势，新闻面高度正面，但高估值、技术超买及高负债构成显著短期风险。建议密切跟踪后续财报及行业动态，等待更合理的入场时机或回调确认。"
+      "ai_summary": "基于提供的多维度信息，对 **ARM Holdings (ARM)** 的简洁分析如下：\n\n### 技术面：强势看涨\n- **趋势结构**：股价远高于周线MA60（偏离度80.86%），且短期均线（MA5/MA25/MA60）呈标准多头排列，中期上升趋势极为强劲。\n- **动能指标**：周线与日线KDJ均处于高位金叉状态（周J值89.34），显示短期动能充沛，但周线KDJ已进入超买区（>80）。\n- **量价表现**：日线实体饱满（阳线实体比2.25），成交量放大至均量1.49倍，近60日涨幅（94.88%）远超大盘（SPY +6.94%）及科技指数（QQQ +15.64%），相对强度极高。\n- **风险信号**：周线偏离MA60达80.86%，技术指标明确标注“偏热”，存在短期回调或震荡消化获利盘的压力。\n\n### 基本面：高增长但估值昂贵\n- **成长性**：营收增长20%，盈利增长45.7%，利润率18.37%，显示公司处于高增长阶段，受益于AI芯片架构授权需求。\n- **估值压力**：静态市盈率高达302倍，即便按前瞻市盈率84倍计算，仍显著高于半导体行业平均水平，市场已提前定价未来数年高增长。\n- **财务结构**：资产负债率（D/E 5.21）偏高，主要因无厂半导体公司轻资产运营模式及授权业务特性，但需关注利息覆盖能力。\n\n### 新闻与政策：极度正面\n- **催化剂密集**：多家权威财经媒体（Yahoo Finance、Motley Fool、CNBC）集中报道股价创历史新高，核心逻辑围绕“AI芯片超级周期”及软银集团因英伟达财报强劲而大涨的联动效应。\n- **市场情绪**：标题普遍带有“买入”、“别错过”等积极措辞，市场对ARM在AI边缘计算、数据中心架构授权的前景高度乐观。\n\n### 风险提示\n1. **技术性回调风险**：短期涨幅过大、指标超买，且股价与长期均线偏离度过高，技术性修正概率上升。\n2. **估值泡沫风险**：300倍以上的PE意味着任何业绩不及预期（如授权收入增速放缓）都可能引发剧烈估值收缩。\n3. **股东减持压力**：软银作为控股股东持股比例极高，股价高位可能触发其套现或战略减持计划。\n4. **行业竞争**：RISC-V架构开源生态的崛起，以及英伟达、英特尔等巨头在CPU/GPU架构上的竞争，可能侵蚀ARM授权市场份额。\n\n### 综合关注等级：**高关注（偏谨慎）**\n- **理由**：技术面与新闻面形成强烈共振，短期动量极强，适合趋势跟踪者。但基本面估值极端、技术指标过热，风险收益比已不理想。\n- **建议**：若已持有，可考虑分批止盈锁定利润；若未持有，建议等待技术性回调至均线支撑（如MA25或MA60附近）或业绩验证窗口（如财报）后再评估介入时机。"
+    },
+    {
+      "symbol": "MS",
+      "name": "Morgan Stanley",
+      "score": 12,
+      "tags": [
+        "高于5周线",
+        "高于25周线",
+        "高于60周线",
+        "5周线>25周线",
+        "25周线>60周线",
+        "周K实体突破",
+        "日K实体确认",
+        "日成交量放大",
+        "流动性达标",
+        "跑赢SPY"
+      ],
+      "metrics": {
+        "close": 197.77,
+        "weekly_body_ratio": 1.6297,
+        "weekly_bullish": true,
+        "above_ma5": true,
+        "above_ma25": true,
+        "above_ma60": true,
+        "ma5_gt_ma25": true,
+        "ma25_gt_ma60": true,
+        "weekly_ma60": 157.02,
+        "weekly_ma60_deviation": 0.2595,
+        "weekly_ma60_deviation_risk": "正常延伸",
+        "daily_body_ratio": 2.9492,
+        "daily_bullish": true,
+        "volume_ratio": 1.4136,
+        "avg_dollar_volume_20": 974508290.84,
+        "stock_return_60d": 0.1384,
+        "spy_return_60d": 0.0694,
+        "qqq_return_60d": 0.1564,
+        "beat_spy_60d": true,
+        "beat_qqq_60d": false,
+        "weekly_k": 94.68,
+        "weekly_d": 91.98,
+        "weekly_j": 100.07,
+        "weekly_kdj_bullish": true,
+        "daily_k": 65.56,
+        "daily_d": 61.63,
+        "daily_j": 73.42,
+        "daily_kdj_bullish": true
+      },
+      "fundamentals": {
+        "symbol": "MS",
+        "name": "Morgan Stanley",
+        "sector": "Financial Services",
+        "industry": "Capital Markets",
+        "market_cap": 311939629056,
+        "trailing_pe": 17.91395,
+        "forward_pe": 15.57276,
+        "profit_margin": 0.24753,
+        "revenue_growth": 0.163,
+        "earnings_growth": 0.319,
+        "debt_to_equity": 502.246
+      },
+      "news": [
+        {
+          "title": "Microsoft’s Sliding Stock, AI Woes Make It Market’s Biggest Drag - Bloomberg.com",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMFE4WXRqR3d0cThjbGx4UENfY3llQUo2RFhHNzk1V2pzMFFFOHlFWkxlTGlFbGlDMnlPcGEteUktY0FjWmJRMzJCZUZ5ajZGSkdqZ1dDWXQ3RGRLZzllbXZ0Vkl2dlNSWUU1YjZYQkY1dnBZRnVuZC1OcTc5UXMzVjFBT0ttWm4xaXRQNXBVUjBTS216Y1o5NzZkWlhtVnlEaklueEdCSTJUR3BWSkhOOVY5d2U?oc=5",
+          "published": "Thu, 21 May 2026 09:09:02 GMT"
+        },
+        {
+          "title": "Should Investors Buy Microsoft Stock Instead of Apple Stock? - The Motley Fool",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQZDhwNkM2TUFLNGRsem54ay1QQzM4T1Eya0xweVp5ZjFSYTlmLUIxNFZZWGhrSTM1YkJDNmhOWktFN1kxTGcyeGVVS2Q4TTlsSEJWdXRDcXdkSjFsX3FaeEFaUW5OS19QRlRWc1dac2EyTUszT01rMnIxelloYkEtUTJjRmZIQlpDUUtJdnFmWjF2REhLMGNVUw?oc=5",
+          "published": "Thu, 21 May 2026 00:19:26 GMT"
+        },
+        {
+          "title": "Is It Too Late To Consider Morgan Stanley (MS) After Its Strong One Year Rally? - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNNWp6V1ozNURyeTJNRm1XSXJwRXNPSjVpOEN2Ni1LOUlCMi1iT3RrRVlpSzVNalJPczlPd1U0Xzg0YllIdG9OeW5IN1RzTm9QcnJscm1JMXFYYTgyUDFVYW0yTXVLUjdOQzVCVzZEd2l1U2MtczhBY0gyMGo3MEgyemNobHhPRWpOS0NZYlRKT1ZqVlc4WHJJR2kwQQ?oc=5",
+          "published": "Thu, 21 May 2026 03:21:00 GMT"
+        },
+        {
+          "title": "MSFT Stock Quote Price and Forecast - CNN",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBQX3dUSG5UYjhqVm1nRmNzS2pFY0VvMjFRVlQ0WWk0RzFlM2NQZ1lnR2M0b1JKOUlFRU1KZTllYnJfODBUd0RKQ0FzT2o2SmFJ?oc=5",
+          "published": "Mon, 18 May 2026 20:02:54 GMT"
+        },
+        {
+          "title": "Should Investors Buy Microsoft Stock Instead of Apple Stock? - The Globe and Mail",
+          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNUkJnTmhyU2I1Y2lhN1dWel8xT19tSlJoNkdKWnpTOGYyUWtBLTJIV2g3c250UmpzU0ZqWVFEeHV6NFdqei05RlFfOU1kOFdocGg5NGhmMmw4QklmR2V3UVFDV1lxWnFIeXk5ZlJEMWZtaFBpX1VWUEpxaDV4Y3p0R1dXZmNPOWVwcUxxTXF1b0xzcmxpMkxZLXpoazVaZW82TjhiLXZoS2hkTTlYLUxKQ2JMZUFvYng4MTNrcUJXcWlQbVRBNmF1Y3lYbllpN3JwYVNnZk01ekI4QV9wOGFR?oc=5",
+          "published": "Thu, 21 May 2026 00:45:10 GMT"
+        }
+      ],
+      "default_pass": true,
+      "_funnel_pass_until": 5,
+      "ai_summary": "好的，以下是对股票MS（摩根士丹利）的简洁分析：\n\n**技术面：**\n股价处于强劲多头趋势。周线、日线均为阳线，且成交量放大。价格站稳所有主要均线（5/25/60日），均线系统呈多头排列。周线KDJ指标处于高位超买区（J值100.07），日线KDJ亦为金叉状态。股价相对60日均线偏离度正常，但短期存在技术性回调压力。近60日表现跑赢标普500，但略逊于纳斯达克100。\n\n**基本面：**\n公司属于金融服务-资本市场板块，市值约3120亿美元。估值合理， trailing PE 17.9x，forward PE 15.6x。盈利能力强（利润率24.75%），营收和盈利均实现双位数增长（16.3%和31.9%）。需注意其资产负债率（Debt to Equity）高达502%，属于高杠杆行业特性，需关注利率环境变化对财务成本的影响。\n\n**新闻与政策：**\n- 搜索结果中大部分标题指向微软（Microsoft），与MS（摩根士丹利）无关，可能为搜索混淆。\n- 唯一相关新闻为雅虎财经文章，讨论MS在经历一年强劲上涨后是否仍值得关注，暗示市场对其近期涨幅存在分歧。\n- 当前无直接针对MS的重大政策或监管新闻冲击。\n\n**风险：**\n1.  **技术性回调风险：** 周线KDJ处于极端超买区，短期获利盘了结可能导致股价震荡。\n2.  **高杠杆风险：** 资产负债率极高，若利率持续高位或信用环境收紧，将增加财务成本压力。\n3.  **行业周期性风险：** 资本市场业务与宏观经济、市场交易量高度相关，经济放缓可能影响投行及交易收入。\n4.  **相对表现风险：** 近期涨幅已较大，且近60日表现未跑赢科技股为主的纳斯达克100，显示资金偏好可能切换。\n\n**综合关注等级：** **中等偏高（Watch with Caution）**\n**理由：** 技术面与基本面均呈现强势，但短期技术指标过热及高杠杆带来的财务风险不容忽视。建议关注其能否在高位横盘整理消化超买，以及后续财报中盈利增长能否持续。"
     },
     {
       "symbol": "GS",
@@ -140,8 +230,8 @@
         "weekly_ma60_deviation_risk": "正常延伸",
         "daily_body_ratio": 7.1659,
         "daily_bullish": true,
-        "volume_ratio": 1.354,
-        "avg_dollar_volume_20": 1685990783.14,
+        "volume_ratio": 1.6927,
+        "avg_dollar_volume_20": 1718647598.84,
         "stock_return_60d": 0.0659,
         "spy_return_60d": 0.0694,
         "qqq_return_60d": 0.1564,
@@ -152,8 +242,8 @@
         "weekly_j": 101.6,
         "weekly_kdj_bullish": true,
         "daily_k": 66.62,
-        "daily_d": 64.73,
-        "daily_j": 70.41,
+        "daily_d": 64.72,
+        "daily_j": 70.4,
         "daily_kdj_bullish": true
       },
       "fundamentals": {
@@ -162,7 +252,7 @@
         "sector": "Financial Services",
         "industry": "Capital Markets",
         "market_cap": 289732689920,
-        "trailing_pe": 17.921898,
+        "trailing_pe": 17.954662,
         "forward_pe": 15.019792,
         "profit_margin": 0.29363,
         "revenue_growth": 0.145,
@@ -171,14 +261,19 @@
       },
       "news": [
         {
-          "title": "GS Stock Quote Price and Forecast - CNN",
-          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE95bGF6YU10Vlk5ZGxkZEx6QWJvQXN0bmF0N1pxNWl2WDdHWFNWb0dKNThPeGF5d216NVNvOU9jQ21kNy1yTW16TGl2ckZrdw?oc=5",
-          "published": "Mon, 18 May 2026 20:15:51 GMT"
+          "title": "Rep. Josh Gottheimer Sells The Goldman Sachs Group, Inc. (NYSE:GS) Stock - MarketBeat",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOVlllcEtBYUxHSzUtZWRHX213dXJXLWdpblpxcEYycmlTNjNQRXhSOUVqQkVUQ2ZVMFpCVHFqT3gxRzJhTHhmLUlvUnpVa3MxazkyNzV3aEJMZDhmUEo0SEVoVHlWbFRqRzl4bGlpTGdNc2VqalgwMHR4QzVWbGtRS1lLN2xOU3RTY3BJMkhiZzU3MFRjTF9ESHBCZWdKalA1amdCek1BSWxNVVBZam5sQUdSd2dyMld4VG5tdw?oc=5",
+          "published": "Thu, 21 May 2026 06:04:33 GMT"
+        },
+        {
+          "title": "2 Momentum Stocks for Long-Term Investors and 1 That Underwhelm - StockStory",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPNHVack1tbHhMckpiWVlVa2NKX0xXTF9keTdDWnRKYXBRaEJtZVgxbklORUpxTzFJOGhYc25FTk1fODlVUkhCZ2VIYjAySVBuVFZHR2N6MkpmRXBia1RyMkM4UVJZTURTYkM2bGhtdml3LUowVDFrVGpQZVo1c0ZxTDVpLXppMmJ2cXRCMGxkZDliRGpjekJTdmVXUzRpeHJmbHFacW5INWNoMzZSMk1TdUNpeDVKN0plcVgtMENB?oc=5",
+          "published": "Thu, 21 May 2026 09:37:38 GMT"
         },
         {
           "title": "Why Goldman Sachs Stock Popped on Wednesday - The Motley Fool",
           "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNakdQenY5b0xnU0RURlZBTWlSVlFnc2JjVEh2RTQ5Y3prMllWblZibEE1WFlZaVNWTElVZ0RWczBwa1VCZ2dRQmNYZU5EdnJwZVdYa3k3LXhQMkZ3N3dWaWVMWjZHYWdpcV9WcEo5YjJQZmFhajltc25QSW9DTnFmbjNJWHZ2eXZfS28zOVpuOA?oc=5",
-          "published": "Wed, 20 May 2026 20:42:51 GMT"
+          "published": "Wed, 20 May 2026 21:20:00 GMT"
         },
         {
           "title": "The Goldman Sachs Group Inc (GS) Stock Price, Trades & News - GuruFocus",
@@ -186,19 +281,14 @@
           "published": "Mon, 18 May 2026 21:20:01 GMT"
         },
         {
-          "title": "Why Goldman Sachs Stock Popped on Wednesday - The Globe and Mail",
-          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQVjJfcFJNYlZBdW0zcTdHMHppQTI3X3BRaVIzb0VuRW1vMFcwc1ZCdGZpYXc5MUlEZGhxTWx2eHhkVU9MSGRFcm91WnhLb25sVl9hYmUweklyVjhadHNUbTlfRldUeUo5ZE1kdHlaTEVtZkJ1U3NnTXBjSzBjS2R0S2NXMkIyaTFJaEl1bW5jMmhqdG1YaDlEMlZ1N3dxdWl3YjBQczg3NVJzU1BuWFg1MjVWdmRjYWlMYTZfc2ppRVFsamNIczNjSw?oc=5",
-          "published": "Wed, 20 May 2026 21:00:34 GMT"
-        },
-        {
-          "title": "Goldman Sachs reveals lurking risks as stock market surges - thestreet.com",
-          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQX3JBRUNTU0ozdWdKWWk3Y0dSMVBwZmx0R2hFV2Q4Y3hiazI3Zk05aC05M3NFVnV2T3pyR19GbVRUWUU2a0lTSGdSOTJIMFJXTzlUaVo3Q0Rvdk9oTG5SQTFwRm9tNlRfWko3STVwOG9heVlKTjE2SVJJMVZqQTktM3dZNzl2NUFlQzNyNnZ6eS1LQmhvV250RmxkZ2dPbVdpZUpz?oc=5",
-          "published": "Wed, 20 May 2026 14:06:00 GMT"
+          "title": "GS Stock Price, Quote & Chart | GOLDMAN SACHS GROUP INC (NYSE:GS) - ChartMill",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE94OUF3WjVVdDZMUUhUdEwtTU80ek1MdDBJekttMHZXak5TbDN6azFjUVdTS19mTjYtdHlxRU1lUHdWVTdyMnFkNHdOV2NoZVFNTkdBNVlRcDdrQm5E?oc=5",
+          "published": "Mon, 18 May 2026 07:00:00 GMT"
         }
       ],
       "default_pass": true,
       "_funnel_pass_until": 5,
-      "ai_summary": "基于提供的信息，对股票 GS（高盛）的简洁分析如下：\n\n### 技术面\n- **趋势与形态**：周线、日线均为阳线，价格站上所有主要均线（MA5/25/60），且均线呈多头排列（MA5>MA25>MA60），中期上升趋势明确。\n- **强度与偏离**：周线价格高于MA60约26%，属于“正常延伸”但偏离度较高；周线KDJ的J值达101.6，进入超买区，短期存在技术性回调压力。\n- **相对表现**：近60日涨幅（6.59%）略低于标普500（6.94%），显著跑输纳斯达克100（15.64%），相对大盘动能偏弱。\n- **量能**：日成交量放大至20日均量的1.35倍，显示资金参与度提升。\n\n### 基本面\n- **估值**：静态PE约17.9倍，动态PE约15倍，处于金融板块合理偏低水平。\n- **盈利质量**：净利润率29.36%，营收同比增长14.5%，盈利同比增长24.2%，显示高盈利能力和强劲增长势头。\n- **风险指标**：资产负债率极高（债务股本比678.6），属于投行典型高杠杆经营模式，对利率和信用环境敏感。\n\n### 新闻与政策\n- **情绪偏正面**：多家财经媒体（Motley Fool、Globe and Mail）报道股价上涨，市场关注度提升。\n- **潜在风险提示**：TheStreet文章指出“市场飙升下高盛揭示潜伏风险”，暗示市场情绪过热或存在未充分定价的尾部风险（如交易对手风险、衍生品敞口）。\n\n### 风险\n1. **技术面超买**：周线J值>100，短期回调概率增加。\n2. **高杠杆经营**：债务股本比近679倍，利率上升或信用事件将放大盈利波动。\n3. **相对弱势**：近60日跑输科技指数，若市场风格切换，可能面临资金流出压力。\n4. **宏观不确定性**：美联储政策路径、资本市场活跃度变化直接影响投行收入。\n\n### 综合关注等级\n**中等偏高关注**  \n理由：技术面处于强势多头但短期超买，基本面盈利增长强劲但杠杆风险突出，新闻面存在多空交织信号。建议等待技术性回调或超买消化后，结合宏观利率环境再做进一步评估。"
+      "ai_summary": "基于您提供的信息，以下是对股票 GS（高盛集团）的简洁分析：\n\n### 技术面\n- **趋势与形态**：周线、日线均为阳线，且价格站上5日、25日、60日均线，均线系统呈多头排列（MA5>MA25>MA60），中期上升趋势明确。\n- **强度与动能**：周线KDJ指标J值高达101.6，处于超买区域，短期存在技术性回调压力；日线KDJ亦为金叉状态，但J值70.4，动能尚可。\n- **量价关系**：日线成交量放大（量比1.69），显示资金参与度较高。\n- **相对表现**：近60日涨幅（6.59%）略跑输标普500（6.94%），显著跑输纳斯达克100（15.64%），相对大盘强度一般。\n\n### 基本面\n- **估值**：静态市盈率17.95倍，动态市盈率15.02倍，处于金融行业合理区间。\n- **盈利质量**：净利润率29.36%，盈利能力优秀；营收同比增长14.5%，净利润同比增长24.2%，成长性良好。\n- **财务风险**：资产负债率极高（债务股本比678.6），属于高杠杆经营模式，需关注利率变动对财务成本的影响。\n\n### 新闻与政策\n- **消息面**：近期有国会议员卖出GS股票，但公司股价在周三出现上涨（Motley Fool报道），市场情绪偏正面。整体新闻以常规报道为主，无重大政策或监管冲击。\n\n### 风险\n- **技术风险**：周线J值超买，短期可能面临技术性回调或震荡。\n- **财务风险**：高杠杆率在利率环境变化时可能放大盈利波动。\n- **相对表现风险**：近期跑输科技股为主的纳斯达克，若市场风格切换，可能继续承压。\n\n### 综合关注等级\n**中等偏正面**  \n技术面多头趋势明确，基本面盈利增长稳健，但短期超买信号和高杠杆风险需警惕。建议关注后续能否在均线支撑下消化超买，以及利率政策对金融股的影响。"
     },
     {
       "symbol": "MAR",
@@ -227,10 +317,10 @@
         "weekly_ma60": 293.06,
         "weekly_ma60_deviation": 0.2617,
         "weekly_ma60_deviation_risk": "正常延伸",
-        "daily_body_ratio": 2.4801,
+        "daily_body_ratio": 2.3363,
         "daily_bullish": true,
-        "volume_ratio": 1.2609,
-        "avg_dollar_volume_20": 495279073.25,
+        "volume_ratio": 1.2612,
+        "avg_dollar_volume_20": 495287170.78,
         "stock_return_60d": 0.0642,
         "spy_return_60d": 0.0694,
         "qqq_return_60d": 0.1564,
@@ -251,7 +341,7 @@
         "sector": "Consumer Cyclical",
         "industry": "Lodging",
         "market_cap": 97498865664,
-        "trailing_pe": 37.576218,
+        "trailing_pe": 38.757862,
         "forward_pe": 28.255215,
         "profit_margin": 0.35969,
         "revenue_growth": 0.126,
@@ -260,19 +350,19 @@
       },
       "news": [
         {
-          "title": "Marriott International, Inc. $MAR Shares Sold by Harvest Portfolios Group Inc. - MarketBeat",
-          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQWHJzd2Y4Q1RlRmpDVWFKZlpxUF8yY3JBWlFuX25UWmpPTDBWVi1lZkZBcVpXSGxtdUdjYTI0bjhvdWwzNWF5ZkNLMmdwMkRYcU1zaEdUT000Z0F6ZWQyQUVpdXhFUXJoaVZLcWhKLUhtZWRCUHRpVXNCX2JXTEV5blRQOGdFWXhRcU41V01HazVDT0RaX1pwT2pneDJRVHdGTFJaQTQ4Wm1xQ0dUU2VDdmkyeVNmaW9ZVXhKQnhLOWxwVWVMcG9xQ1N3cE96WGZs?oc=5",
-          "published": "Wed, 20 May 2026 10:00:47 GMT"
-        },
-        {
-          "title": "Carter's, Wolverine Worldwide, and Marriott Shares Are Soaring, What You Need To Know - The Globe and Mail",
-          "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNcnlWLVpGcjFJU1FicWlFVDBxNWgzZGJ1ejV0ZWw2czViSHhuWkJCcFpUWkpLMjkwOWFCZWV1TmZjd2ZlQWIyVUc3Wm9ock54eFNxaEJtdmdlNll0QjdxeERDWFFwQzY3YXZKYm9EZFNYc2VjeldaWUp1UHZWMHV5NEpoNzVpVVNWZFNrREdQQXl5Zi1qcWdseUI5M3pBSVdfMFJLNHNZclQ5allacGRPck9UOU5qNkY2RGloQm80M3p0eHFZSzVFc0pSTHFfcWt1SmtoU0NfY2VkcjZwTEpNbVRJWlZUR0RzTTA2Xy1abVRkZ19XU0JJZg?oc=5",
-          "published": "Wed, 20 May 2026 19:36:12 GMT"
+          "title": "ABN Amro Investment Solutions Sells 5,227 Shares of Marriott International, Inc. $MAR - MarketBeat",
+          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOODFoSlk0SGxYWVJ3dHo3bGswTW9UZ29fZ1pnQ2JJRm9CckpNcVB4NDJxZHdQMEwtV2V0b2c3R1czNlZKc19zaTUzSDZ3cXlLY09qRzBOQnhpZTBxVXRFbHF5eEl4WF9GM3I1ZHN5eVRfcTlVa19FNHd0cUVHREplWlFWdEN0Y1lHbFl2ajBHSkVrQV8tYTRaSkJ5M1dyMFp5Skh1V1huWWtHUWRadnlUclJHOG1vb1VobmpLY21pc3FZbW1GRmQ5bDc4ejFoMktwU1dBbXZHbjYwZw?oc=5",
+          "published": "Thu, 21 May 2026 07:27:47 GMT"
         },
         {
           "title": "Marriott (MAR) EVP Peggy Roe sells 3,000 shares in open-market trade - Stock Titan",
           "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNSmNMZFdMbVBPQmZhZ2tGRUZjT0RxSUdaaWFKR1lpUXRtTFo2Y3htM3BTbm56cFZ0c0VKN0Jnc2lGTFpWdEVxN3ZsdnVjXzgxQnVCWUxzNnZRcWtmUlpwRzRuOW5MUE5rX2k4MHBzRlVPT3lzZUluTkNkVldsbnpMMnFTWDE1UkpYUk9obnNWak0wdWJvblA5UmhfclRiRzJTZVV3U0tTQjFNcjE2dmpHNUVMRXcyelFHRklhcFdjRQ?oc=5",
           "published": "Tue, 19 May 2026 21:52:26 GMT"
+        },
+        {
+          "title": "Carter's, Wolverine Worldwide, and Marriott Shares Are Soaring, What You Need To Know - The Globe and Mail",
+          "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNcnlWLVpGcjFJU1FicWlFVDBxNWgzZGJ1ejV0ZWw2czViSHhuWkJCcFpUWkpLMjkwOWFCZWV1TmZjd2ZlQWIyVUc3Wm9ock54eFNxaEJtdmdlNll0QjdxeERDWFFwQzY3YXZKYm9EZFNYc2VjeldaWUp1UHZWMHV5NEpoNzVpVVNWZFNrREdQQXl5Zi1qcWdseUI5M3pBSVdfMFJLNHNZclQ5allacGRPck9UOU5qNkY2RGloQm80M3p0eHFZSzVFc0pSTHFfcWt1SmtoU0NfY2VkcjZwTEpNbVRJWlZUR0RzTTA2Xy1abVRkZ19XU0JJZg?oc=5",
+          "published": "Wed, 20 May 2026 19:36:12 GMT"
         },
         {
           "title": "Mar Stock Screen - ChartMill",
@@ -287,96 +377,7 @@
       ],
       "default_pass": true,
       "_funnel_pass_until": 5,
-      "ai_summary": "基于您提供的资料，以下是对股票 MAR（万豪国际）的简洁分析：\n\n### 技术面\n- **趋势强劲**：周线、日线均为阳线（bullish），且股价站上所有主要均线（MA5/25/60），均线系统呈多头排列（MA5>MA25>MA60）。\n- **动能偏强**：周线KDJ金叉向上，日线J值已进入超买区（105.49），短期存在技术性回调压力。\n- **量价配合**：日线成交量放大（量比1.26），但近60日涨幅（6.42%）弱于标普500（6.94%）和纳斯达克100（15.64%），相对强度落后。\n- **偏离程度**：股价高于周线MA60约26%，属于“正常延伸”范围，未出现极端泡沫信号。\n\n### 基本面\n- **估值偏高**：静态市盈率37.6倍，动态市盈率28.3倍，高于行业平均水平，市场已计入较高增长预期。\n- **盈利质量**：净利润率35.97%非常优秀，但盈利增速（1.7%）远低于营收增速（12.6%），显示成本或费用端压力。\n- **增长分化**：营收增长12.6%表现稳健，但盈利增长仅1.7%，需关注利润率是否面临下行风险。\n- **杠杆未知**：债务权益比数据缺失，无法评估财务风险。\n\n### 新闻与政策\n- **内部交易**：EVP卖出3,000股（金额较小，可能为常规税务或资产配置操作，但需留意后续是否持续减持）。\n- **市场情绪**：多家媒体提及股价上涨，但无重大利好催化剂（如财报超预期或行业政策）。\n- **潜在风险**：有报道提及“股息上调”和“新诉讼”可能重塑风险回报，需关注诉讼进展对品牌或财务的潜在影响。\n\n### 风险\n- **估值回调风险**：高市盈率叠加盈利增速放缓，若市场情绪转弱或利率上行，估值可能承压。\n- **相对表现落后**：近60日跑输大盘，资金关注度可能不足，存在补跌或持续弱势的可能。\n- **内部人减持**：虽金额不大，但高管卖出行为需结合后续披露判断是否构成趋势。\n- **行业周期性**：酒店业对经济周期敏感，若消费支出放缓或商务旅行需求下降，将直接影响入住率和房价。\n\n### 综合关注等级\n**中等关注**  \n理由：技术面多头形态完好，但短期超买且相对大盘表现偏弱；基本面营收增长稳健但盈利增速疲软，估值偏高；新闻面缺乏明确催化剂且存在内部人减持。建议等待更明确的盈利改善信号或技术性回调后的介入机会。"
-    },
-    {
-      "symbol": "MS",
-      "name": "Morgan Stanley",
-      "score": 11,
-      "tags": [
-        "高于5周线",
-        "高于25周线",
-        "高于60周线",
-        "5周线>25周线",
-        "25周线>60周线",
-        "周K实体突破",
-        "日K实体确认",
-        "流动性达标",
-        "跑赢SPY"
-      ],
-      "metrics": {
-        "close": 197.77,
-        "weekly_body_ratio": 1.6297,
-        "weekly_bullish": true,
-        "above_ma5": true,
-        "above_ma25": true,
-        "above_ma60": true,
-        "ma5_gt_ma25": true,
-        "ma25_gt_ma60": true,
-        "weekly_ma60": 157.02,
-        "weekly_ma60_deviation": 0.2595,
-        "weekly_ma60_deviation_risk": "正常延伸",
-        "daily_body_ratio": 2.9492,
-        "daily_bullish": true,
-        "volume_ratio": 1.0924,
-        "avg_dollar_volume_20": 957399979.08,
-        "stock_return_60d": 0.1384,
-        "spy_return_60d": 0.0694,
-        "qqq_return_60d": 0.1564,
-        "beat_spy_60d": true,
-        "beat_qqq_60d": false,
-        "weekly_k": 94.68,
-        "weekly_d": 91.98,
-        "weekly_j": 100.07,
-        "weekly_kdj_bullish": true,
-        "daily_k": 65.56,
-        "daily_d": 61.63,
-        "daily_j": 73.42,
-        "daily_kdj_bullish": true
-      },
-      "fundamentals": {
-        "symbol": "MS",
-        "name": "Morgan Stanley",
-        "sector": "Financial Services",
-        "industry": "Capital Markets",
-        "market_cap": 311939629056,
-        "trailing_pe": 17.18245,
-        "forward_pe": 15.57276,
-        "profit_margin": 0.24753,
-        "revenue_growth": 0.163,
-        "earnings_growth": 0.319,
-        "debt_to_equity": 502.246
-      },
-      "news": [
-        {
-          "title": "Should Investors Buy Microsoft Stock Instead of Apple Stock? - The Motley Fool",
-          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQZDhwNkM2TUFLNGRsem54ay1QQzM4T1Eya0xweVp5ZjFSYTlmLUIxNFZZWGhrSTM1YkJDNmhOWktFN1kxTGcyeGVVS2Q4TTlsSEJWdXRDcXdkSjFsX3FaeEFaUW5OS19QRlRWc1dac2EyTUszT01rMnIxelloYkEtUTJjRmZIQlpDUUtJdnFmWjF2REhLMGNVUw?oc=5",
-          "published": "Thu, 21 May 2026 00:19:26 GMT"
-        },
-        {
-          "title": "Stephanie Ruhle: Trump’s multimillion-dollar stock trades are just the ‘tip of the iceberg’ - MS NOW",
-          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNZGlLbHZoQTZzZE93NEhaT01MRUdtSHFsOFpYM2pEWnlNLXMwSWxBLVBDeDNOZWlQMk9TbExNYXhPd1JqUk1Sc21FdFpMS08tTGRmb2RWdnF6dFd2Smt5UHdNOHdiWkJLMzdKUEZscGd2Yi01UjV4QUtESDFHWEpyQktKLWhDazg?oc=5",
-          "published": "Wed, 20 May 2026 17:58:01 GMT"
-        },
-        {
-          "title": "Should Investors Buy Microsoft Stock Instead of Apple Stock? - The Globe and Mail",
-          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNUkJnTmhyU2I1Y2lhN1dWel8xT19tSlJoNkdKWnpTOGYyUWtBLTJIV2g3c250UmpzU0ZqWVFEeHV6NFdqei05RlFfOU1kOFdocGg5NGhmMmw4QklmR2V3UVFDV1lxWnFIeXk5ZlJEMWZtaFBpX1VWUEpxaDV4Y3p0R1dXZmNPOWVwcUxxTXF1b0xzcmxpMkxZLXpoazVaZW82TjhiLXZoS2hkTTlYLUxKQ2JMZUFvYng4MTNrcUJXcWlQbVRBNmF1Y3lYbllpN3JwYVNnZk01ekI4QV9wOGFR?oc=5",
-          "published": "Thu, 21 May 2026 00:45:10 GMT"
-        },
-        {
-          "title": "Morgan Stanley (MS) Shares Surge 4.3% -- What GF Score of 76 Tel - GuruFocus",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNF82OUdaSktHQl9OS05scEhnTlZBTFd0LUlhVlNZM2NwX3ZVeHhyZTROSURjRGkwYVVqckI2b05LdEllNVJJZ1ZYMGJfQWdhNGpzOHgycVMycGhzbkp2YnBQYWZadUVuRDBEZXNOWDFQbnJNSnZqVnFvSUI1bjFKTDdGY002T2E2Wlkzd1NSZzZpREwwcnhTQ3YtMnlPeG53Q1BzVTRXQ05QMzlW?oc=5",
-          "published": "Wed, 20 May 2026 21:22:20 GMT"
-        },
-        {
-          "title": "Morgan Stanley $MS Shares Sold by Lazard Freres Gestion S.A.S. - MarketBeat",
-          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQNHUtZk11RU1BR0xNUFd2aWxmSTNJdGpJUl9hRUhMemRsalBHQmV6LUJBVU9hVjB0VmctWUpxanRaTWM0TloyZng0MzN2SEQwMFRXVVhhdXVlVVVTUnZmUG1wXzNPSEF5Q29nN01Rc2did2R2UUs2dUtJd1lZYjVXY2wwU21McUhvWEF2eTRLNUpNbFlQZzJtRXdwcVRESDE5bmhwdUltM3lTY1l3blNGYVJuMDhKei02XzQw?oc=5",
-          "published": "Wed, 20 May 2026 10:38:54 GMT"
-        }
-      ],
-      "default_pass": true,
-      "_funnel_pass_until": 5,
-      "ai_summary": "基于您提供的信息，以下是对股票 MS（摩根士丹利）的简洁分析：\n\n### 技术面\n- **趋势强劲**：周线、日线均为阳线，且股价站上所有主要均线（MA5/25/60），均线系统呈多头排列（MA5>MA25>MA60）。\n- **动量指标**：周线KDJ处于高位超买区（J值100.07），日线KDJ亦偏多，短期动能充足但需警惕技术性回调。\n- **相对表现**：近60日涨幅（13.84%）跑赢标普500（6.94%），但略逊于纳斯达克100（15.64%），显示其强势但并非科技股中最优。\n- **成交量**：量比1.09，成交额接近10亿美元，交投活跃。\n\n### 基本面\n- **估值合理**：静态市盈率17.18倍，前瞻市盈率15.57倍，低于行业平均水平，估值具备吸引力。\n- **盈利质量**：净利润率24.75%，营收增长16.3%，盈利增长31.9%，显示公司盈利能力强劲且处于高速增长期。\n- **财务风险**：资产负债率（债务股本比）高达502.25，属于典型的高杠杆金融企业，需关注利率变动对其债务成本的影响。\n\n### 新闻与政策\n- **正面关注**：近期股价单日上涨4.3%，有分析提及“GF Score 76”等积极信号。市场对MS的关注度较高。\n- **中性/干扰信息**：部分新闻标题涉及微软（Microsoft）与苹果对比，与MS无关，可能为算法推送错误。另有高管或机构交易（如Lazard Freres减持）的报道，需留意内部人动向。\n- **政策环境**：作为投行，受益于资本市场活跃度提升及并购、IPO回暖预期。特朗普相关交易报道（MS NOW）可能暗示监管或政治风险，但影响有限。\n\n### 风险\n- **技术面超买**：周线J值超过100，短期存在回调压力。\n- **高杠杆风险**：债务股本比极高，若利率持续高位或信用环境收紧，将侵蚀利润。\n- **行业竞争**：需关注其与高盛、摩根大通等对手在投行、财富管理业务上的竞争态势。\n- **宏观风险**：经济衰退预期、地缘政治冲突可能抑制资本市场活动，影响其核心收入。\n\n### 综合关注等级\n**中等偏高（关注）**\n- **理由**：技术面强势、基本面盈利增长稳健且估值合理，但高杠杆及技术超买信号提示短期风险。建议持续跟踪其后续财报及行业政策变化，等待更佳介入时机或确认趋势延续性。"
+      "ai_summary": "基于您提供的资料，以下是对股票 MAR（万豪国际）的简洁分析：\n\n### 技术面\n- **短期强势**：日线及周线均为阳线，且实体比例较大（周线1.67，日线2.34），显示多头动能强劲。\n- **均线多头排列**：股价站上MA5、MA25、MA60，且短期均线（MA5）高于长期均线（MA25、MA60），呈典型多头趋势。\n- **指标偏热**：日线J值高达105.49，周线J值73.78，KDJ均处于高位，短期存在超买回调压力。\n- **相对表现**：近60日涨幅（6.42%）落后于标普500（6.94%）和纳斯达克100（15.64%），表明近期跑输大盘及科技板块。\n\n### 基本面\n- **估值偏高**：静态市盈率38.76倍，动态市盈率28.26倍，高于行业平均水平，市场给予较高增长预期。\n- **盈利能力优秀**：净利润率高达35.97%，显示极强的成本控制与定价能力。\n- **增长放缓**：营收增长12.6%，但盈利增长仅1.7%，利润增速显著低于收入增速，需关注成本或费用端压力。\n- **财务杠杆未知**：负债权益比数据缺失，无法评估其债务风险。\n\n### 新闻与政策\n- **内部人减持**：EVP Peggy Roe在公开市场卖出3000股，属常规高管减持，但需留意后续是否持续。\n- **机构调仓**：ABN Amro Investment Solutions卖出少量股份，影响有限。\n- **股价异动**：与Carter's、Wolverine Worldwide等一同上涨，可能受行业或大盘情绪带动。\n- **风险事件**：新诉讼及股息上调可能重塑风险回报，需关注法律进展及分红政策变化。\n\n### 风险\n- **技术回调风险**：短期超买信号明显，可能面临获利回吐。\n- **盈利增速不匹配**：利润增长远低于收入增长，若成本持续上升，可能压制估值。\n- **行业竞争与宏观**：酒店业对经济周期敏感，若消费疲软或旅行需求下降，将直接影响业绩。\n- **内部人减持信号**：虽金额不大，但高管减持可能暗示对短期股价的谨慎态度。\n\n### 综合关注等级\n**中等关注**  \n技术面呈强势多头，但短期指标过热且相对大盘表现偏弱；基本面盈利能力强但估值偏高、增长放缓；存在内部人减持及诉讼等不确定性。建议等待回调或确认盈利改善信号后再做进一步评估。"
     },
     {
       "symbol": "FDX",
@@ -406,8 +407,8 @@
         "weekly_ma60_deviation_risk": "正常延伸",
         "daily_body_ratio": 1.6165,
         "daily_bullish": true,
-        "volume_ratio": 0.7388,
-        "avg_dollar_volume_20": 590167142.73,
+        "volume_ratio": 0.9001,
+        "avg_dollar_volume_20": 595274823.31,
         "stock_return_60d": 0.0111,
         "spy_return_60d": 0.0694,
         "qqq_return_60d": 0.1564,
@@ -428,7 +429,7 @@
         "sector": "Industrials",
         "industry": "Integrated Freight & Logistics",
         "market_cap": 92302639104,
-        "trailing_pe": 20.631466,
+        "trailing_pe": 20.66453,
         "forward_pe": 17.29418,
         "profit_margin": 0.04877,
         "revenue_growth": 0.083,
@@ -437,9 +438,14 @@
       },
       "news": [
         {
-          "title": "A Look At FedEx (FDX) Valuation As Freight Spin Off And Cost Savings Support Investor Optimism - simplywall.st",
-          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNbmU3SjJrdVp0ZC1KcmY5cnc3anlUUzlIQ2ItbnpsSnp4Q01zTlBQaWx6TDAtR1ZKS1NtdEhHemJlSm0welBXeFh0X3NUVlNyZXFHZC0xS1duUmNkZGJTbTZwLWx3SklIX3VmRVB4amhyNU9JMEpiS1lRak9NMVYzS2VhWHlpaGNtWUpGdVd0R2QtZ2pUcF9MZEpLQk1HWnAtTTBZbXpULXBoS1BPcmNHaFE5MWc1NlFERWNDSUZaZG1ldTBSd0HSAcsBQVVfeXFMTXlVVG1ZTkxDWE1pOE9QY2xxOXZxb3kyUWRJNE1iUHZMNVpMdnVSQk9oSHd1d0dHLVhHcXJ4dTJHRWt5ZFNWVmZFSVh1WDYtMHB5V0xicVRJaEdqSi1ac0hoWlVOTFA5djJ0Z2Y5Y1pRYVl1UnBFX3FIMkxuelhwVE9BYUFlTlVTSXFPNTdUb2hScTVyYTdoc3BFRU1JYklQZ3h1c2YwdERVSWY5YkFUSE9QcjZhOWlqakpRck9hVFhHa1NjeXgwWlczU3M?oc=5",
-          "published": "Wed, 20 May 2026 08:43:23 GMT"
+          "title": "Fideuram Intesa Sanpaolo Private Banking S.P.A. Takes Position in FedEx Corporation $FDX - MarketBeat",
+          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPMGRsTDBJOTBmUE95MGVGY05SaVV2S0ZXOFpoaWo1TE1TM3VvNWxNWXdaQ3prWUNZX3Rma3NDTnVlQ1l4THpxZnAyeUN1VF9WY21RRHhqeXFhcmFSTDlUdGt1a0RjWUtNVTNlYUMtaG1YU01MbVNGM0VZckM0OWtoOFZFbXNORWl4TlJVMVdXbWN2cWE0eXJBTW1sejVkUzdlMWN3REhrMEtsbm83eUdPS1hNUmg0Y29FQkFYTjM0RFlRaW1qYjVwbTFlTVhzZnZ1akZELVdXQmpjMVNWMnc?oc=5",
+          "published": "Thu, 21 May 2026 09:46:04 GMT"
+        },
+        {
+          "title": "How Amazon’s Expanded Logistics Network At FedEx (FDX) Has Changed Its Investment Story - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOUkFlTWFHTXkySFZYeWR0aTZwOHcwdk9PUGJsbUNkLWFLU2c0OU5PS2NyaWFTZWYzQlUxVXNXeWFCUTduelI2WVZiMS1NUmwtSjQxREw0am9qSE05dFAwcUV4WVlVWGJqSkExS1JYcXg2SlNCNVFJSXBnOER0RmQwenVGUUR2NjdkZXE5aWIzbGFpeV85aW5DRXpqOFZzQ0V5MlUtSkNYTQ?oc=5",
+          "published": "Thu, 07 May 2026 07:00:00 GMT"
         },
         {
           "title": "FDX Stock Chart | FEDEX CORP (NYSE:FDX) - ChartMill",
@@ -455,16 +461,11 @@
           "title": "SA analyst upgrades/downgrades: MU, INTC, FDX, CRTO - Seeking Alpha",
           "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQM3dJNkUxaEo5cUp0RFktOWtxVmwxZnp6dU9sMElJTGVGaUVKUjF0LVRsUlRFNDBfVFZocTJRVHMxLXhtNHN4OHllU3hvbzRKUEJWYWZ2QlZHVnh0UVB3RjhUT3lkSnljVkdINVAwMi04a2JuQm9CcWFnU2tCZ2w3X2laRkpkdDZ0QjFpX0F3?oc=5",
           "published": "Mon, 18 May 2026 18:32:26 GMT"
-        },
-        {
-          "title": "FedEx (FDX) Gained From Strong Execution in Q1 - Yahoo Finance",
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNYjRYMXQzVWRzMWJKeEM3YmhYMTh0aHdBellsQ1YybVBfR2s1OHJvUEZnTUJrQzJPRGdacnB2aXBHOXl2eXlTQmZ4VXdLQjVOT21TaTRWV0FOcElQTXJSaThHcnhwWHRrSThKRUdPMUhWSmFJUGdMdUZpNDltMXI1VHpMckNiY05OSUFfZWN5cHVFaUdLclhRcTNITFJnWWs?oc=5",
-          "published": "Mon, 18 May 2026 13:21:05 GMT"
         }
       ],
       "default_pass": true,
       "_funnel_pass_until": 5,
-      "ai_summary": "基于提供的信息，以下是对 FDX（联邦快递）的简洁分析：\n\n**技术面**\n- **趋势结构**：价格站上 MA5、MA25、MA60 且均线多头排列（MA5>MA25>MA60），周线级别呈强势阳线，中期上升趋势明确。\n- **动能与背离**：日线KDJ金叉向上，但周线KDJ出现高位死叉信号（K值78.01，D值81.53），显示短期超买后存在技术性回调压力。\n- **相对表现**：近60日涨幅（1.11%）显著落后于标普500（6.94%）和纳斯达克100（15.64%），近期走势弱于大盘。\n\n**基本面**\n- **估值**：市盈率20.6倍，略高于行业平均水平；前瞻市盈率17.3倍，反映市场对盈利改善的预期。\n- **盈利质量**：利润率4.88%偏低，但营收增长8.3%，盈利增长17.3%，显示成本控制或业务优化正在见效。\n- **财务风险**：债务权益比高达141%，杠杆水平较高，需关注利息覆盖能力及现金流状况。\n\n**新闻政策**\n- **市场情绪**：近期有分析师评级调整（SA提及MU、INTC、FDX等），且多家媒体（SimplyWallSt、TIKR、Yahoo Finance）关注其货运分拆潜力、成本节约计划（Network 2.0）及Q1强劲执行，整体偏正面。\n- **催化剂**：分拆货运业务、成本优化措施尚未完全反映在股价中，市场对后续盈利释放存在期待。\n\n**风险**\n- **技术回调风险**：周线KDJ死叉叠加股价处于52周高位附近，短期获利盘回吐压力较大。\n- **宏观与行业风险**：工业板块受经济周期影响大，若货运需求放缓或燃油成本上升，将直接冲击利润。\n- **高杠杆风险**：债务权益比超过140%，利率环境若持续偏高，财务费用可能侵蚀盈利。\n- **相对弱势**：近期明显跑输大盘，若市场风格切换或资金流出，可能加剧调整。\n\n**综合关注等级：中等偏高**\n- **理由**：中期技术趋势和基本面改善（盈利增长、成本优化）提供支撑，但短期技术指标出现背离、估值不低、杠杆较高且近期相对表现疲弱。建议关注周线级别能否消化超买、以及货运分拆等催化剂的实际落地进展。"
+      "ai_summary": "基于提供的多维度数据，以下是对 FDX（联邦快递）的简洁分析：\n\n### 技术面\n- **短期趋势**：日线及周线均为阳线，价格站上所有主要均线（MA5/25/60），且均线呈多头排列（MA5>MA25>MA60），短期动能偏强。\n- **中期结构**：周线价格较MA60偏离38.19%，属于正常延伸区间，未出现极端超买。周KDJ指标出现高位死叉信号（K值78.01，D值81.53），需警惕短期回调风险。\n- **相对表现**：过去60日股价涨幅（1.11%）显著落后于标普500（6.94%）和纳斯达克100（15.64%），近期存在补涨或相对弱势特征。\n- **量价配合**：日成交量略低于20日均量（0.9倍），上涨过程中量能未显著放大，需关注后续资金跟进情况。\n\n### 基本面\n- **估值水平**：当前市盈率（TTM 20.66倍）略高于行业均值，但前瞻市盈率（17.29倍）显示市场预期未来盈利增长，估值处于合理区间。\n- **盈利能力**：净利润率4.88%处于物流行业中游，营收增长8.3%与盈利增长17.3%匹配，显示经营效率改善。\n- **财务风险**：资产负债率（债务/权益比141%）偏高，属于重资产行业特征，需关注利息覆盖能力及现金流健康度。\n\n### 新闻政策\n- **机构动向**：Fideuram Intesa Sanpaolo Private Banking新进持仓，显示部分长期资金对当前价位的认可。\n- **行业竞争**：亚马逊物流网络扩张持续影响市场对FDX的投资叙事，长期竞争格局存在不确定性。\n- **市场关注**：分析师评级出现分化（MU/INTC/FDX/CRTO），有机构上调评级，但“Network 2.0”成本节约计划尚未充分反映在股价中，存在预期差。\n\n### 风险\n- **竞争风险**：亚马逊自建物流及UPS等对手的持续投入，可能侵蚀FDX市场份额与定价能力。\n- **成本压力**：燃油价格波动、劳动力成本上升及“Network 2.0”转型执行风险，可能影响利润率修复节奏。\n- **宏观风险**：全球贸易增速放缓、地缘政治冲突及潜在经济衰退风险，将直接影响货运需求。\n- **技术风险**：周线KDJ高位死叉信号若确认，短期可能面临技术性回调压力。\n\n### 综合关注等级\n**中等关注（Hold/Monitor）**\n\n**理由**：技术面呈现多头排列但动能减弱（相对大盘落后、KDJ高位死叉），基本面盈利改善但估值合理偏高且财务杠杆较大，新闻面存在机构增持利好与竞争格局隐忧的博弈。建议重点观察“Network 2.0”成本节约成效的季度验证、周线级别能否有效突破前高压力，以及量能是否配合放大。"
     },
     {
       "symbol": "KIM",
@@ -494,8 +495,8 @@
         "weekly_ma60_deviation_risk": "正常延伸",
         "daily_body_ratio": 1.2258,
         "daily_bullish": true,
-        "volume_ratio": 0.5609,
-        "avg_dollar_volume_20": 103266498.47,
+        "volume_ratio": 0.7909,
+        "avg_dollar_volume_20": 104517803.23,
         "stock_return_60d": 0.021,
         "spy_return_60d": 0.0694,
         "qqq_return_60d": 0.1564,
@@ -516,7 +517,7 @@
         "sector": "Real Estate",
         "industry": "REIT - Retail",
         "market_cap": 16057220096,
-        "trailing_pe": 26.75281,
+        "trailing_pe": 27.367815,
         "forward_pe": 27.750584,
         "profit_margin": 0.28537,
         "revenue_growth": 0.04,
@@ -524,6 +525,11 @@
         "debt_to_equity": 78.788
       },
       "news": [
+        {
+          "title": "Listen in as Kimco Realty management joins Bernstein 2026 - Stock Titan",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVUhKMG85U0dXMmVtdDdNdWZkSTdQamo0SG1XdnpzY2E2b25WZlpNbGlrVmRpTDVGalJHRTdwVTI2V25KalhfTnFYMXRHcmZkZjI4QnRrNFRpbWNCUlZaQUdraS1KTGo0UEdCSUtCZjAwZzIxSVBybHFLUHpQQW1faEdNc0dkNWY1dExFM3RpbzgxRjMtVGlHNGNTQ21ITnllR3pJX21UWTYtRUVYVTVpWmNjbzVQUQ?oc=5",
+          "published": "Thu, 21 May 2026 10:50:00 GMT"
+        },
         {
           "title": "Kimco Realty: Why Preferred Stocks Are The \"Hidden Lemon\" In The REIT Giant's Portfolio - Seeking Alpha",
           "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOZ3AyNE11aGpYQUFyVU9iR1pva1ItMUZnNk5vS3M2MHh1S00wMjF3OTdBNDRzRjlWV3FJS0NiS3lBZ2UtMHNqNFZELW9sT1F2alhwLUltRjh6T2JnbDdQNTR6U21nWHFuU2VGTW9ZbGgzSE1GLWhqaTdfZGl6OXhzT1FUQU1FUHZUam0wRG1xV1NGdWR1QU5MY2Y1ek95bHFfX3BGVk14QnczODh5TWdBNGdPbDBWMlRPRGt0TGlmdnZhdw?oc=5",
@@ -540,11 +546,6 @@
           "published": "Tue, 19 May 2026 10:37:54 GMT"
         },
         {
-          "title": "DRIP COFFEE ACCUSES KIMCO OF FRAUDULENTLY INDUCING FEMALE OWNED BUSINESSES IN NEW LAWSUIT - Stock Titan",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNTlJqbnpVaU1SRzFVS2tyMDFEcW5sYktxVUd2aUZ1NUhybE1oblIzOVBYMlQyQXYwaDh0UW1KeVloaDYyWVZZYUpMUlFYdzFYVWllZ0pwdkw0OGxsWm1IOFVIejktVWtTV2JxLUtWSXlXNENPOGhGRkpUYURfajZvSmE0NGI4VmxkMkdlRkRweGVvRUlUX0MzZ0VGcEtlMVUycGdpeG5OZUx0MEhwbVFTSjRBcENRQjF1?oc=5",
-          "published": "Mon, 18 May 2026 13:31:00 GMT"
-        },
-        {
           "title": "Why Kimco Realty (KIM) is a Great Dividend Stock Right Now - Yahoo Finance",
           "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5adTRKQTFCempzcUlJWnVWOUUzcUZrYWdCZjFLN1dmYnEtTzlkdDVVcVktOG5xTkF3WHpXMzY1Zk9XNlVXTWpIVXdJN0ZHUXNqMkszT0JyUGdZcV9vOUFnTlFzX2dvaTByQUxabXhqdmE3S2RJT2ZuTmhpSzE?oc=5",
           "published": "Wed, 13 May 2026 15:45:04 GMT"
@@ -552,7 +553,7 @@
       ],
       "default_pass": true,
       "_funnel_pass_until": 5,
-      "ai_summary": "基于提供的信息，对股票 KIM（Kimco Realty Corporation）的简洁分析如下：\n\n### 技术面\n- **趋势结构**：当前价格 23.81 美元，站上所有主要均线（MA5/MA25/MA60），且均线呈多头排列（MA5 > MA25 > MA60），周线与日线均为阳线，中期上升趋势明确。\n- **动量指标**：周线KDJ处于高位（K=78.63）但未形成死叉，日线KDJ金叉向上（J=84.74），短期动能偏强。但需注意周线KDJ已进入超买区，存在短期回调压力。\n- **相对表现**：近60日涨幅（2.1%）显著跑输大盘SPY（6.94%）和QQQ（15.64%），显示个股相对弱势。\n- **量价配合**：当日成交量仅为20日均量的56%，上涨缩量，需警惕动能不足。\n\n### 基本面\n- **估值水平**：静态PE 26.75倍，动态PE 27.75倍，对于零售REIT行业而言估值偏高（通常行业PE在15-20倍），市场给予了一定溢价。\n- **盈利能力**：净利润率28.5%表现优秀，盈利质量较高。营收增长4%，但每股收益增长达29.4%，显示利润弹性主要来自成本控制或非经常性项目。\n- **财务风险**：资产负债率（Debt/Equity）高达78.8，作为REIT行业属于较高水平，利息支出对利润的侵蚀需持续关注。\n\n### 新闻与政策\n- **负面舆情**：存在“DRIP COFFEE”起诉指控欺诈的诉讼新闻，可能对品牌声誉和投资者情绪造成短期扰动。\n- **估值争议**：有分析指出当前股价在近期走软后仍维持较高PE，市场对其估值合理性存在分歧。\n- **股息吸引力**：有文章强调其股息价值，符合REIT行业高分红特征，对收益型投资者有一定吸引力。\n- **内部交易**：高管（Jae Kim）卖出其他公司股票，与KIM无直接关联，但需留意管理层资金动向。\n\n### 风险\n1. **估值回调风险**：高PE叠加跑输大盘，若市场风格切换或业绩不及预期，可能面临估值压缩。\n2. **利率敏感风险**：作为REIT，对利率变化高度敏感。当前高负债率（D/E 78.8）在利率维持高位时，融资成本压力较大。\n3. **诉讼不确定性**：欺诈诉讼若持续发酵，可能影响运营及财务表现。\n4. **技术面背离**：股价上涨但成交量萎缩，且相对大盘弱势，存在技术性回调可能。\n\n### 综合关注等级\n**中等关注（中性偏谨慎）**\n\n**理由**：技术面中期趋势向好但短期动能减弱且相对弱势，基本面盈利质量尚可但估值偏高、负债率较高，叠加负面诉讼和利率环境不确定性。建议等待更明确的量价配合信号或基本面催化剂出现后再做决策。"
+      "ai_summary": "基于您提供的信息，以下是对股票KIM（Kimco Realty Corporation）的简洁分析：\n\n**技术面**\n- **短期趋势**：日线及周线均为阳线，价格站上5日、25日、60日均线，且均线呈多头排列，短期动能偏强。\n- **量价关系**：今日成交量低于20日均量，上涨缩量，需关注后续能否补量。\n- **相对表现**：过去60日涨幅（2.1%）弱于标普500（6.94%）和纳斯达克100（15.64%），近期跑输大盘。\n- **超买/超卖**：周线KDJ处于高位（K=78.6）且未形成金叉，有钝化风险；日线KDJ金叉但J值已至84.7，短期存在超买压力。\n\n**基本面**\n- **估值**：当前市盈率（TTM 27.4倍）与远期市盈率（27.8倍）接近，处于行业中等偏高水平。\n- **盈利能力**：净利润率28.5%较高，但债务权益比78.8倍，杠杆水平显著，需关注偿债能力。\n- **增长**：营收同比增长4%，盈利同比增长29.4%，利润增速显著高于收入，显示运营效率提升或成本控制有效。\n\n**新闻与政策**\n- **市场关注**：近期有分析师讨论其估值（P/E溢价）及分红吸引力，同时有内部人士（非KIM高管）卖出其他股票，对KIM直接影响有限。\n- **行业背景**：作为零售REIT，受利率政策及消费环境影响较大。当前无直接政策冲击新闻。\n\n**风险**\n- **利率风险**：高杠杆（D/E 78.8倍）使公司对利率变动敏感，若利率维持高位或上升，融资成本及估值将承压。\n- **相对表现弱势**：近期持续跑输大盘，若市场风格转向成长或科技，可能继续面临资金流出。\n- **技术回调风险**：日线J值偏高，周线KDJ高位钝化，短期存在技术性回调可能。\n\n**综合关注等级：中性偏谨慎**\n- **短期**：技术面多头排列但量能不足且超买，建议观察能否放量突破或回踩均线支撑。\n- **中期**：基本面盈利增长良好，但高杠杆及跑输大盘的表现需警惕，关注后续利率政策及零售地产行业数据。"
     },
     {
       "symbol": "SPG",
@@ -582,8 +583,8 @@
         "weekly_ma60_deviation_risk": "正常延伸",
         "daily_body_ratio": 1.1549,
         "daily_bullish": true,
-        "volume_ratio": 0.6071,
-        "avg_dollar_volume_20": 266605045.56,
+        "volume_ratio": 0.8619,
+        "avg_dollar_volume_20": 270190194.83,
         "stock_return_60d": 0.0155,
         "spy_return_60d": 0.0694,
         "qqq_return_60d": 0.1564,
@@ -604,7 +605,7 @@
         "sector": "Real Estate",
         "industry": "REIT - Retail",
         "market_cap": 77553844224,
-        "trailing_pe": 14.193324,
+        "trailing_pe": 14.183461,
         "forward_pe": 29.644154,
         "profit_margin": 0.70594,
         "revenue_growth": 0.193,
@@ -613,19 +614,14 @@
       },
       "news": [
         {
+          "title": "Simon Property Group, Inc. $SPG Stake Decreased by Aew Capital Management L P - MarketBeat",
+          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQU09BMzE0dDNubDEwZWdxOVBiZXZDQmdMWFMyaVMzTHJRd2x5akdlWkM5RG01bVVCR2NMTDROQ1NncldreHNnTkpremc4ZE5zMUhQbHlVYVFVcElzSGpGRGRJUUlXV3BxVGNhQUFZcnBwMDBwb2lRZlpScXhZT3pNQUVoYWo1aWhKamRWSXItbFFUN09SYVJKRWRvZzI2TnBHdmxEMEswNjZEeUpFTzU5dW1ORENjcndZZ3RsNUNlaDBnanA2S00wZEw3aG1nQ0xW?oc=5",
+          "published": "Thu, 21 May 2026 07:43:44 GMT"
+        },
+        {
           "title": "What Are Wall Street Analysts' Target Price for Simon Property Group Stock? - FinancialContent",
           "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOaTFTclBFUE9aWTlyUXk1ZUUtU3RXQ2dBeFNzQzQyUl9tdHNrYjlxcmFrNl8wWTA3OEhMdVh1dE5ZTEFWdDBWUTZQdHM2ak52LVVMY0ZlNzFRbEhpdGhPUFRfM0FwSFVyVTJNem9sUG1sLVNTQjlTWkZ2eXdGdEZPTUFnRFBWN3JEQWllZzJpTWtaQVpGallONlFXQ3ZLdEp2QTdDWnNFdFVzbWZ4c08ydWd2dlVPbndZRXZqVmZDdkc1NEhaUU5iLWpOX2RpUGRsYXNHV1RZUk5zdHlm?oc=5",
           "published": "Wed, 20 May 2026 13:43:00 GMT"
-        },
-        {
-          "title": "Simon Property (SPG) Receives a Hold from Barclays - The Globe and Mail",
-          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPczA1cko1WFpnankweXJCcVVJc1pzdERzaHpEY0xBSVZBYU8tOTY2c0owei00cVpReTFkLTRmUFZ6VXdzYWotX1RCazRhczBpUnVvRjJnelBIaWoxNFpFMjZfZ25KRkFGaUlWR1VyWnVQc2NwMXI3dUh3bVlTYzF3MEI4QTlRX0FralFoamdPc04zTUdjaExhajJId3F5OHJzSVM3SmJYX2JrbDlNUVBrUUxfYUxhMnVyMXIzWlRoOVZleTVlRDlXWkZEYXY?oc=5",
-          "published": "Wed, 20 May 2026 08:56:00 GMT"
-        },
-        {
-          "title": "Sapient Capital LLC Trims Stock Holdings in Simon Property Group, Inc. $SPG - MarketBeat",
-          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOYmNNRkpWMkxEY21IUExkSUFyWS1hVHh6cUpLTEs3LWFGZXA1akZkby13RTlVa05vWE0wcjVkc24yQW1WSGJnWWFtZGNLbHpBQ1A5dWkwbGZ0UzlrcVZOUTZRUFNxQ3prQUZldzlkdGRtNVZVT21wT0pTNHE1UkZGT1h6Q3NISjhQZkFBNDVtYnJ5WUNVWExSekF0UldXWGtKVTRqSkRiNDVSMno4NEpsSWt0WFU3WjJIaVM1Q3RMRm9qSnFoVzdIWDFId1g1UQ?oc=5",
-          "published": "Mon, 18 May 2026 10:01:38 GMT"
         },
         {
           "title": "Simon Property Group Stock Is Up 32% Over the Past Year: Here’s What’s Driving the Move - TIKR.com",
@@ -633,14 +629,19 @@
           "published": "Fri, 15 May 2026 21:53:56 GMT"
         },
         {
-          "title": "Director Peggy Roe gets 1,073-share grant in Simon Property Group (SPG) stock - Stock Titan",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPcXZOSUlSR3RLVk5VUllvb2hwWEJYMTRIdXcxeFU2alRLcjYxYkROOU5oR0lacHRacDFlbmIxd3VsaTBmTk5SbS1XRHMxOTEwMFh5emZWTXVBZTBsZVhObW9fSUs4OEJwUHQ3amlUd0JwZ1g2TDVCNnhDeG5aTWpPRXlkWTZTNTRFSEtrbHVhYWtwWjkzYnlTS2ZuSk4ybHFoMlNRQ2tBbkIta0E2Q0FpbnFkMlFyYnhx?oc=5",
-          "published": "Fri, 15 May 2026 15:14:53 GMT"
+          "title": "Simon Property (SPG) Receives a Hold from Barclays - The Globe and Mail",
+          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPczA1cko1WFpnankweXJCcVVJc1pzdERzaHpEY0xBSVZBYU8tOTY2c0owei00cVpReTFkLTRmUFZ6VXdzYWotX1RCazRhczBpUnVvRjJnelBIaWoxNFpFMjZfZ25KRkFGaUlWR1VyWnVQc2NwMXI3dUh3bVlTYzF3MEI4QTlRX0FralFoamdPc04zTUdjaExhajJId3F5OHJzSVM3SmJYX2JrbDlNUVBrUUxfYUxhMnVyMXIzWlRoOVZleTVlRDlXWkZEYXY?oc=5",
+          "published": "Wed, 20 May 2026 08:56:00 GMT"
+        },
+        {
+          "title": "SIMON PROPERTY GROUP (SPG) director granted 1,073 restricted shares as equity pay - Stock Titan",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSkxnbTZySElXYkQ1d1dTSE5UNHZvSTFEb3BicHhVamlYbjB0NTFMT0pJcmVuNkFXREFmVi1ydnRIWm5GYXhzb3lGQUUyVk1OclhkN0QyTVVKSFNFckdwaF9ZTGtqOUxrZVlyVk84cVNYM1VoOERQR1BvempEdHBSU0xCTFBUREpOZkdFQUpRenNqRWJDbENSRjV1eEZIM2FvMExvNjJLM2h0d3NqYWY5VTNxZkgtMG4z?oc=5",
+          "published": "Fri, 15 May 2026 14:58:55 GMT"
         }
       ],
       "default_pass": true,
       "_funnel_pass_until": 5,
-      "ai_summary": "基于您提供的资料，以下是对 SPG（Simon Property Group）的简洁分析：\n\n**技术面**\n- **短期趋势**：日线与周线均为阳线，且价格站上5日、25日、60日均线，均线系统呈多头排列（MA5>MA25>MA60），短期动能偏强。\n- **超买信号**：周线KDJ指标（K:79.6, J:81.2）处于高位，存在短期超买风险；日线KDJ（K:42, J:61.4）处于中性偏强区域。\n- **相对表现**：近60日涨幅（1.55%）显著落后于标普500（6.94%）和纳斯达克100（15.64%），显示相对弱势。\n- **量价配合**：当日成交量仅为20日均量的60.7%，上涨缩量，需警惕动能不足。\n\n**基本面**\n- **估值**：当前市盈率（TTM）14.19倍，低于行业平均水平；但远期市盈率（Forward PE）高达29.64倍，市场对其未来盈利增长预期较高。\n- **盈利能力**：净利润率高达70.6%，在零售REIT中表现突出；营收增长（19.3%）与盈利增长（16.4%）均保持双位数增长。\n- **财务风险**：资产负债率（Debt/Equity）高达457.47，杠杆水平极高，对利率环境敏感。\n\n**新闻与政策**\n- **机构观点**：巴克莱给予“持有”评级，整体市场目标价分析中性偏谨慎。\n- **内部交易**：董事获授股票（非市场买入），不构成积极信号。\n- **资金动向**：Sapient Capital减持仓位，显示部分机构存在获利了结或调仓行为。\n- **行业背景**：零售REIT受消费韧性支撑，但高利率环境持续压制估值扩张。\n\n**风险**\n1. **利率风险**：高杠杆（D/E>450）使公司对利率变动极为敏感，若降息预期推迟，将增加融资成本。\n2. **估值透支**：远期PE接近30倍，若盈利增长不及预期，股价面临回调压力。\n3. **相对弱势**：近期跑输大盘，资金关注度可能不足。\n4. **技术背离**：周线KDJ高位钝化与缩量上涨并存，短期回调风险上升。\n\n**综合关注等级：中性偏谨慎**\n- **短期**：技术面多头排列但超买且缩量，建议观望，等待量能配合或回调至均线支撑。\n- **中长期**：基本面盈利质量优秀，但高杠杆与高远期估值需持续跟踪利率政策与零售消费数据。"
+      "ai_summary": "基于提供的多维度数据，对SPG（西蒙地产集团）的简要分析如下：\n\n### 技术面\n- **趋势结构**：周线、日线均为阳线，价格站稳MA5/MA25/MA60，且均线呈多头排列（MA5>MA25>MA60），中期上升趋势明确。\n- **动能指标**：周线KDJ处于高位超买区（K=79.6，J=81.2），但指标仍偏多；日线KDJ在50附近形成金叉，短期动能有所修复。\n- **相对表现**：近60日涨幅（1.55%）显著跑输标普500（6.94%）和纳斯达克100（15.64%），显示个股近期相对大盘偏弱。\n- **量价配合**：成交量略低于20日均量（0.86），上涨伴随缩量，需关注后续能否补量。\n\n### 基本面\n- **盈利能力**：净利润率高达70.6%，显示其作为零售REIT的运营效率极高；营收（+19.3%）与盈利（+16.4%）均实现双位数增长，基本面稳健。\n- **估值水平**：当前市盈率14.18倍，低于行业平均水平，但远期市盈率高达29.64倍，隐含市场对其未来盈利增速放缓或利率环境变化的担忧。\n- **财务风险**：资产负债率（457.47）极高，符合REIT行业高杠杆特性，但对利率变动敏感，需关注融资成本压力。\n\n### 新闻政策\n- **机构动向**：Aew Capital Management减持，但整体市场关注度较高（多家媒体覆盖）。\n- **分析师观点**：巴克莱给予“持有”评级，目标价未披露；过去一年股价上涨32%，主要受零售物业复苏及租金收入增长驱动。\n- **内部交易**：董事获授限制性股票作为股权激励，属常规操作，无重大信号。\n\n### 风险\n1. **利率风险**：高杠杆REIT对利率上行敏感，若美联储维持高利率，融资成本及估值压力将持续。\n2. **零售业结构性风险**：电商冲击及消费者习惯变化可能影响线下零售物业出租率及租金增长。\n3. **相对表现落后**：近期跑输大盘，若市场风格切换至成长股，资金可能持续流出。\n4. **技术面超买**：周线KDJ高位，短期存在技术性回调需求。\n\n### 综合关注等级\n**中等关注**  \n理由：基本面稳健（高利润率、双位数增长）与中期技术多头趋势形成支撑；但高杠杆、远期估值偏高、近期相对表现疲软及利率环境不确定性构成主要制约。建议等待回调至均线支撑或量能放大确认突破信号后再做进一步评估。"
     },
     {
       "symbol": "TJX",
@@ -668,10 +669,10 @@
         "weekly_ma60": 142.96,
         "weekly_ma60_deviation": 0.1137,
         "weekly_ma60_deviation_risk": "正常延伸",
-        "daily_body_ratio": 3.0704,
+        "daily_body_ratio": 3.068,
         "daily_bullish": true,
-        "volume_ratio": 1.6405,
-        "avg_dollar_volume_20": 861592754.35,
+        "volume_ratio": 1.6619,
+        "avg_dollar_volume_20": 862638883.5,
         "stock_return_60d": 0.0218,
         "spy_return_60d": 0.0694,
         "qqq_return_60d": 0.1564,
@@ -693,42 +694,42 @@
         "industry": "Apparel Retail",
         "market_cap": 176056696832,
         "trailing_pe": 30.97471,
-        "forward_pe": 28.040348,
-        "profit_margin": 0.091000006,
-        "revenue_growth": 0.085,
-        "earnings_growth": 0.279,
-        "debt_to_equity": 132.375
+        "forward_pe": 27.875536,
+        "profit_margin": 0.09402,
+        "revenue_growth": 0.092,
+        "earnings_growth": 0.293,
+        "debt_to_equity": 136.307
       },
       "news": [
-        {
-          "title": "TJX shows it's the right retail stock for this moment with a stellar quarter, guidance boost - CNBC",
-          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNYW50ZUpPQzZOb3FSeC1ITFZpUDIxU05oU2o5aml6M0hWNkZ5d28wbV83bExKYWRmQkk3WnhBVl9qTzQzZFByLXhPb0xHekxZQ0xrQjFRdWRlMnpQUmt3c1JWU2h5WXRqT2pFTGZNYUFqOXNIemtYY0NHbGl5QnAyUThCQzNJTFJVRVkzY3FNY1EwVmVPNnkxbGJsVm1IR29U?oc=5",
-          "published": "Wed, 20 May 2026 16:48:20 GMT"
-        },
         {
           "title": "TJX Earnings Growth Accelerates, Shrugging Off High Gas Prices. The Stock Is Rising Near Key Levels. - Investor's Business Daily",
           "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE40YTZmbnRYWnhnbFNQMEF2Y09aLTRIWW5mT2IxQ216c1N5SzVfSHh6TEk2Qng3Vk53NVZGRFNpSDFwdVVRRVk0TU1rTE9FdllLSWM2dk1OWWdCWF9kd2stMWY5N2huWGl4WlF4ZXVDVzF2d00?oc=5",
           "published": "Wed, 20 May 2026 15:12:00 GMT"
         },
         {
-          "title": "TJX Companies gains as strong sales offset soft quarterly outlook (TJX:NYSE) - Seeking Alpha",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPcDlHT1hkQXhORnZGVEpwcFRKUkNlQXlUblptN0ZnVnY5UnpHQ0k4UldBZnRVcGxSODFMTjZXaERTakNxaUNTdTJXcUhxY3VPWEVCMS1samR2VzMyb1dYc2NBelA2QTF3Sm5vNjFuY0J4WlRqSUVrdXEtVjJEQTk0ZWphbTBMQk9fM210elRNNGZjaV9oZkxvV3FJSGFGUXNlNEU5a1lR?oc=5",
-          "published": "Wed, 20 May 2026 12:44:43 GMT"
+          "title": "TJX Companies (NYSE:TJX) Stock Price Expected to Rise, Telsey Advisory Group Analyst Says - MarketBeat",
+          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOLXl6Y3kwbUlwcy1tb05HOFBSdnphSW9Senh4ZEZqUlI0eEE2Xzl0SURkSTh5U3FFUDFJd0dja2VBWGdMMjBVZFdSU0h1MlhFWFJoU0VpZ2l5S282QTkyYi1xVWVjMkl0TGVrNEZwcXM1S2VBSlNDbktGRVM5RndONzIzM1F0TVBxVHVPa29mam1DaXh5Ykdfc1FWcWJNZ1AwY1l3cWEydmlKbnRCTXJ6d29UWkNUd0ZpUzdMRF9QeDd6MHp4NUxxM0pxZkQ4T0R2OG12UGNR?oc=5",
+          "published": "Thu, 21 May 2026 12:08:30 GMT"
         },
         {
-          "title": "Why TJX Companies Stock Surged Today - The Motley Fool",
-          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOakxBUjExRzlUMEJ3WXFpVDFBNHBqLWdzampyMHlUTG54MjlwN3pONHVZbzMxVWJ1SDhfa0xEZjNmeWx4aGRjV00tUGxKTklPV2lDS0hDeG12R21WMDhfUkJ6Q3FKUTJvOFNqYmNZN0F1aDlVZGtjeHU5cHRBRnhFT1h3M0Y3QQ?oc=5",
-          "published": "Wed, 20 May 2026 21:59:07 GMT"
+          "title": "TJX Companies vs Boot Barn: Which Stock Could Rally? - Trefis",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQSU9PSEVYTVdBV1dhUFdRRnF4NzdvQWF6TE92Y2l0Y0NsVHIzaVYtaUZPVWpNcmw0MVVYRmZpSkF3Y0x1Skc0UUtKa0xLNmNDeUNZckNieldwZ2I5YzR0UHdvRVZvdVl6a3g1clVsa1F1OEI4UVk0bnlDem1lZ1phX2ZMYUNVa3NFbzRMWmlPeXkxdDhVeXZwb0JlaDFndG5MZ3c?oc=5",
+          "published": "Thu, 21 May 2026 06:10:42 GMT"
         },
         {
-          "title": "Why Is TJX Companies Stock Soaring Wednesday? - TJX Companies (NYSE:TJX) - Benzinga",
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOS1lPSUNpNktUSDNNbUVoSkxxeTlUb2NfNHVoMUtRVTBWVVd0eUtMU2k1eEUtUUl1LU5Cbk5iRFZnczVWU200RERXNUVEcjhDS21oQWVXUVZFd3o5RFA2c3R4bWZOeERuX2FucWlzMGM4VGdJT1lBSm0tNndOTzlkX3NQWktpbGlmR0hKcks3amI3N3VEMzNSOXV3ZHd0QWRDbVctODRiZzM1VEU?oc=5",
-          "published": "Wed, 20 May 2026 17:03:48 GMT"
+          "title": "Why TJX (TJX) Stock Is Trading Up Today - StockStory",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNd19JX1BLTnJuTjBTdzJaenZ6Y2FpZzJvQVcySjBiNHBhWFFqTjFwaHBGN3JxNnpLanFkRl9SQUtqbDZMVkVKclVyZnk0b3dhMFRucVBMUGhSRkNPdFNiZlZ0TFFUeFpTbWp0REZLZUZ6ZGJrNUN1cXBKaDRCNERyTU1SbHJkN2ltNUh5NWNlQmhzXzE4NFo3b0JEQTljSnM?oc=5",
+          "published": "Wed, 20 May 2026 19:58:24 GMT"
+        },
+        {
+          "title": "New Analyst Forecast: $TJX Given $190 Price Target - Quiver Quantitative",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOMVhTaHlRZmk5ZU5jQW1mRjJ2cnVaZFotUWdjR0gzVnlCZWRVeEN0M3BqVFBIUTBocTQ1RTR0b0tSLUNrTDdyeEUxSXR0d21EdXR5YkZJR2l6ZnN6THJmQXZwWmNXcEc4YVd6S1p4M3JmaUtKN3RGUHJCYlV2RnQ1M1YxUXRlWEItOVBEV1R0YVFkWlE?oc=5",
+          "published": "Thu, 21 May 2026 10:20:00 GMT"
         }
       ],
       "default_pass": true,
       "_funnel_pass_until": 5,
-      "ai_summary": "基于您提供的资料，以下是对TJX股票的简洁分析：\n\n**技术面**\n- **短期趋势**：日线收出实体阳线，成交量放大至均量1.64倍，日线KDJ金叉向上（J值94.01），显示短期动能强劲。\n- **中期结构**：周线收阳且实体比例健康，股价站上所有主要均线（MA5/25/60），但周线KDJ尚未形成金叉（J值32.15），且近60日涨幅（2.18%）落后于大盘（SPY 6.94%）和科技股（QQQ 15.64%），中期相对强度偏弱。\n- **偏离度**：股价高于周线MA60约11.37%，处于“正常延伸”区间，无极端超买信号。\n\n**基本面**\n- **估值**：静态市盈率30.97倍，动态市盈率28.04倍，对于零售股而言估值偏高，但盈利增长（27.9%）快于收入增长（8.5%），显示利润率提升。\n- **财务健康**：净利润率9.1%尚可，但债务权益比高达132.4%，杠杆水平较高，需关注利息覆盖能力。\n- **成长性**：盈利增速（27.9%）显著高于收入增速（8.5%），表明成本控制或运营效率改善驱动利润增长。\n\n**新闻政策**\n- 多家权威财经媒体（CNBC、IBD、Seeking Alpha等）一致报道其季度业绩超预期并上调指引，市场情绪积极。\n- 新闻强调其在高油价环境下仍能实现销售增长，显示公司具备较强的抗周期消费韧性。\n- 无直接政策风险提及，行业层面关注消费者支出趋势及通胀对可选消费的影响。\n\n**风险**\n1. **估值风险**：30倍以上PE隐含较高增长预期，若未来增速放缓，估值可能面临压缩。\n2. **杠杆风险**：债务权益比超过130%，在利率维持高位环境下，财务费用可能侵蚀利润。\n3. **相对表现风险**：近60日股价跑输大盘，若市场风格切换至成长股，资金可能流出价值型零售股。\n4. **技术面背离**：日线J值已进入超买区（94），短期存在技术性回调压力；周线KDJ尚未确认趋势，中期方向待观察。\n\n**综合关注等级：中等偏高**\n- **理由**：基本面盈利加速、新闻面极度正面构成核心支撑，但高估值、高杠杆及短期技术超买信号需警惕。建议关注后续能否突破前高压力位，以及周线KDJ能否形成金叉确认中期趋势。"
+      "ai_summary": "基于您提供的资料，以下是对 TJX 股票的简洁分析：\n\n### 技术面\n- **短期强势，中期偏弱**：日线级别呈现强劲阳线（实体比3.068），且站上所有短期均线（MA5/25/60），KDJ金叉向上，显示短期动能充足。但周线级别KDJ指标偏弱（J值32.15），且近60日股价涨幅（2.18%）显著跑输标普500（6.94%）和纳斯达克100（15.64%），表明中期相对市场表现不佳。\n- **趋势结构健康**：周线MA60（142.96）保持向上，股价偏离幅度11.37%处于正常延伸区间，中长期上升趋势未破坏。\n\n### 基本面\n- **估值偏高**：当前市盈率（TTM 30.97倍）和前瞻市盈率（27.88倍）均处于较高水平，反映市场对其增长预期已充分定价。\n- **增长质量良好**：营收增长9.2%，盈利增长29.3%，利润率达9.4%，显示公司在通胀环境下仍具备较强的成本控制和盈利提升能力。\n- **财务杠杆较高**：资产负债率（136.3）偏高，需关注其偿债能力和利息覆盖水平。\n\n### 新闻与政策\n- **情绪偏正面**：多家机构（Telsey Advisory Group、Quiver Quantitative）给出看涨预期，目标价190美元；近期财报显示盈利增长加速，市场对高油价冲击的担忧被淡化。\n- **行业对比**：与Boot Barn等同行相比，市场关注其相对价值，但未出现重大政策或监管风险信号。\n\n### 风险\n1. **相对表现风险**：近60日显著跑输大盘，若市场风格转向成长或科技股，TJX可能继续承压。\n2. **估值回调风险**：高市盈率下，若未来盈利增速不及预期，股价存在向下修正空间。\n3. **消费环境风险**：高利率和高油价持续压制消费者可支配支出，可能影响服装零售行业整体需求。\n4. **技术面背离**：日线强势但周线KDJ偏弱，短期反弹后若无法放量突破，可能形成阶段性顶部。\n\n### 综合关注等级\n**中等关注**（短期技术面反弹信号与中期相对弱势、高估值风险并存，建议等待更明确的趋势确认或基本面催化剂。）"
     },
     {
       "symbol": "AES",
@@ -757,8 +758,8 @@
         "weekly_ma60_deviation_risk": "正常延伸",
         "daily_body_ratio": 2.6667,
         "daily_bullish": true,
-        "volume_ratio": 1.0999,
-        "avg_dollar_volume_20": 184785923.58,
+        "volume_ratio": 1.153,
+        "avg_dollar_volume_20": 185318156.03,
         "stock_return_60d": -0.1002,
         "spy_return_60d": 0.0694,
         "qqq_return_60d": 0.1564,
@@ -779,7 +780,7 @@
         "sector": "Utilities",
         "industry": "Utilities - Diversified",
         "market_cap": 10504812544,
-        "trailing_pe": 7.592783,
+        "trailing_pe": 7.671875,
         "forward_pe": 6.1663017,
         "profit_margin": 0.10819,
         "revenue_growth": 0.087,
@@ -793,29 +794,29 @@
           "published": "Mon, 18 May 2026 07:00:00 GMT"
         },
         {
+          "title": "AES earnings on deck as $15 buyout deal looms over results - Investing.com",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNQXIwa1BNcU1oZlc4M2VLMlhBdXNZd0tIeFoxNkQzbWFTNEU0WDlfTGJFTjU0OWFBbjdoMDNOV2I2SURTTFd5eGp0c0JWZXBjWVFYQXJZUHF4OF8xR0pTU3Z6M3BsdURRZWRFLVFQUGc3NnpLRnhGUDU0M3NMWGhkRzJoWm1iaDF0NnV3dUQtbVZpZ1pZbHZlUmhnYXlLSnVRVnlpY2JETV9pZVdZZ2pF?oc=5",
+          "published": "Wed, 29 Apr 2026 07:00:00 GMT"
+        },
+        {
+          "title": "AES Stock Underperforms Industry in 3 Months: How to Play? - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPUV9qSXo1NUhDN0tlQTU1eFZoSmRRTDB6YW1xcm1EY0p2OV9XeGFLZmFGTHZJLXlyVnY2S3BCUl81MXZlSkcwZ194b2NpVmJHVjdpYnUtSXBiY1RuS3dSZGdzLXZfX3ZJaVZBclo2ZmV5bm51V21rODhiQy11S2J3U3N4WTF6UUk?oc=5",
+          "published": "Wed, 11 Mar 2026 07:00:00 GMT"
+        },
+        {
           "title": "Why AES Stock Crashed Hard Today - The Motley Fool",
           "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQU1RrOEZPQkxyYkYyS2xVY2tXZnV3MTh2V2paOEdlSDR2VjUwRnhlbDI4MElmcDQwUllDV3NZMnFZaVF4eHJ2d01OYmIxVXBVc18zVU01QnJFR2lUNEVHLUNOTHFhVHRiQzJLNnpNeGU1eXRMT2l6dGppODYzQUVBeg?oc=5",
           "published": "Mon, 02 Mar 2026 08:00:00 GMT"
         },
         {
-          "title": "Should You Buy, Sell or Hold AES Stock After a 9.2% Rise in a Month? - Yahoo Finance",
-          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1Wd01XaXczRHZIZmkzcUxKc0JtZjNjUzJTOFJyMzlKdFd2RlF4UnM4WktKbURLVVlUNU5yUndmZXdkYS1XNjlpVkh3N19tYnNMVlBpZ2lrSUM0VWsxQXEwdDBYZnJ2NGNDOTRwc29ncmFNb19jMGpkMQ?oc=5",
-          "published": "Wed, 04 Feb 2026 08:00:00 GMT"
-        },
-        {
-          "title": "Argus downgrades AES stock rating on pending acquisition - Investing.com",
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOc04tVmtVNGVROVkxNmdaVWdTc1FOUXZoWXdqZ0l5aEFtd1Z2Smo2U29DMGlsaW0xcGhiSy1tTXlERC1iWHBtWHNibHk2SHRTcC1PcVZxUFJKankzemI0WUFMUF80QmotZ2diZHJsLUgxWG5FUXlwYksxVFAwSHhEVm1jSV82dktna05tdjdGQ3gxQ21raWphQnNyeHZIYVN2RmliY09YN290MU5aVUwzY3RITnB1NmM?oc=5",
-          "published": "Thu, 26 Mar 2026 07:00:00 GMT"
-        },
-        {
-          "title": "Is It Time To Reassess AES (AES) After Its Mixed Share Price Performance? - simplywall.st",
-          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNXzhYRnNFR25iREYtN1d2Tm9ZdWYyUGdOQmw2U01aVUphS1R3VUFtQm1zbFV0OUNzaVNJbUVMd1JBWHAyTzFydmZoRjlaaWEwV2VRWm82S084WmJEWEhYTGRPZ0VkOHNhdVBLbVlQX1J6blV0T3c2TnBnT0V6bHh4ZWI4OE1SM184MlpYdVpOTTE5UHVWVUtRd01yaG5VVENpellvLUdRMEIyZ0xvS1lJRFVnVUIyaDd4b1dPMNIBwgFBVV95cUxOUW5yTWQ1QTI2bUdTUVBxOG5OOHdUNm92V0o0QW1ibXBsNy1TcTZneVRsNDV1dVdOeHI5a2pNTGh1eWEtOWdFWlNPTTJJaURicEEyNndxNm1uTXFwclZ0N2R0T1NTbElzNk9Uekh1YjV4YlpKNmVtRU91TnM5dFRPWm5adHpjaGZGVGZoSjZnb3o4cnoya2U2Y3RTR09YenRFc3pZclN1b0g3ZTltUnRCUE8zVFBhUUlEMkRJYmczX3JFUQ?oc=5",
-          "published": "Sun, 17 May 2026 17:07:00 GMT"
+          "title": "AES Stock (-18%): Disappointing $15/Share Buyout Price Triggers Sell-Off - Trefis",
+          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNelI3dTNjR3h5MGZhMVpQNXptb2RYSEpNbkZheGJweFJTNlJBV01kZDkxRGFfcWQtLTZhVUU0c2o2WkpFRlllZjVWQ0JHSmIyQzFVMGh3WXU1dW5OMXhfRnE2VzE3MjVfTzBBSFhQa1piRWU2WHp2ZXpRaVd5UEFlTnFkMlFuZEw4bzVhdTlFV3RGNDljMF9GS014YW4xTGdmd0ZCVXlMTTdFMnFlVzlzSHFfZkZuNlF4THc3QkYxejhXTUMxNnZ3UXI0aUNDYzZq?oc=5",
+          "published": "Tue, 03 Mar 2026 08:00:00 GMT"
         }
       ],
       "default_pass": true,
       "_funnel_pass_until": 5,
-      "ai_summary": "基于提供的信息，对股票 AES 的简洁分析如下：\n\n### 技术面\n- **短期强势**：日线及周线均为阳线，且股价站上所有主要均线（MA5/25/60），日线KDJ处于超买区（J值107.94），显示短期动能强劲。\n- **中期趋势**：周线KDJ金叉向上，且股价高于周线MA60（13.36），偏离度约10%，属于正常延伸，中期趋势偏多。\n- **相对表现**：过去60日股价下跌约10%，显著跑输标普500（+6.9%）和纳斯达克（+15.6%），近期反弹属于超跌修复。\n\n### 基本面\n- **估值较低**：静态市盈率7.59倍，远期市盈率6.17倍，在公用事业板块中处于较低水平。\n- **盈利增长强劲**：净利润率10.8%，营收同比增长8.7%，盈利增速高达951%（可能受基数效应或一次性项目影响，需核实）。\n- **高杠杆风险**：资产负债率高达259.6%，债务负担沉重，对利率敏感度高。\n\n### 新闻与政策\n- **负面消息**：Motley Fool报道“股价暴跌”，Argus因待定收购下调评级，市场存在不确定性。\n- **中性偏多**：ChartMill技术分析、Yahoo Finance及Simplywall.st文章关注近期反弹及业绩表现，市场观点存在分歧。\n\n### 风险\n1. **高债务风险**：资产负债率超250%，若利率维持高位或现金流恶化，偿债压力大。\n2. **收购不确定性**：Argus下调评级提及待定收购，交易进展或结果可能影响股价。\n3. **相对弱势**：过去60日大幅跑输大盘，反弹持续性存疑，需观察能否突破前期阻力。\n\n### 综合关注等级\n**中等关注**。技术面短期反弹信号明确，但基本面高杠杆及负面新闻构成压制，需等待更多关于收购进展及债务管理的明确信息。"
+      "ai_summary": "基于您提供的信息，以下是对股票 AES 的简洁分析：\n\n### 技术面\n- **短期趋势**：日线及周线均为阳线，且站上5、25、60日均线，显示短期动能偏强。日线KDJ指标处于高位超买区（J值107.94），需警惕短期回调风险。\n- **中期趋势**：周线KDJ金叉向上，但周线MA5尚未上穿MA25，均线系统尚未形成多头排列。股价偏离周线MA60约10%，属正常延伸，未出现极端乖离。\n- **相对表现**：近60日股价下跌约10%，显著跑输标普500（+6.9%）和纳斯达克100（+15.6%），显示个股走势弱于大盘。\n\n### 基本面\n- **估值**：市盈率（TTM）约7.67倍，远低于行业平均水平；前瞻市盈率约6.17倍，市场对其未来盈利预期较为保守。\n- **成长性**：营收同比增长8.7%，盈利增速高达951%（可能受低基数或一次性项目影响），需关注盈利增长的可持续性。\n- **财务风险**：资产负债率极高（债务股本比259.6），属于高杠杆运营模式，对利率变动敏感，财务弹性较弱。\n\n### 新闻与政策\n- **收购事件**：近期股价大幅下跌（单日跌18%），主因是市场对每股15美元收购报价失望，该价格较前期股价存在明显折价。收购进展存在不确定性，可能压制股价。\n- **行业环境**：公用事业板块近期受利率预期影响较大，但公司作为多元化电力企业，可能受益于数据中心等电力需求增长。\n\n### 风险提示\n1. **收购失败风险**：若收购交易未能完成，股价可能面临进一步下行压力。\n2. **高杠杆风险**：债务水平过高，在利率维持高位时，利息支出将侵蚀利润。\n3. **技术面回调风险**：日线KDJ超买，短期获利盘可能涌出。\n4. **相对弱势**：近60日持续跑输大盘，资金关注度较低。\n\n### 综合关注等级\n**中性偏谨慎**  \n技术面短期反弹但超买，基本面估值低但杠杆高，核心风险来自收购事件的不确定性。建议等待收购进展明朗或股价回调至均线支撑位后再做进一步评估。"
     },
     {
       "symbol": "GE",
@@ -843,8 +844,8 @@
         "weekly_ma60_deviation_risk": "正常延伸",
         "daily_body_ratio": 1.8742,
         "daily_bullish": true,
-        "volume_ratio": 0.7723,
-        "avg_dollar_volume_20": 1765614202.84,
+        "volume_ratio": 0.9896,
+        "avg_dollar_volume_20": 1786498036.25,
         "stock_return_60d": -0.1246,
         "spy_return_60d": 0.0694,
         "qqq_return_60d": 0.1564,
@@ -876,17 +877,17 @@
         {
           "title": "GE Stock Price, Quote & Chart | GENERAL ELECTRIC (NYSE:GE) - ChartMill",
           "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9NWkJEazhweG5CNnNsSWM4cl9WMnNjUlNVZTA1eGZWczJOTm5vZENIb1FhTGJKbGV1UmdoOVR5RDAyWWpaenhGb2JTemRlWmVLZmJHSmlSTDFMVFJ0?oc=5",
-          "published": "Wed, 20 May 2026 08:00:46 GMT"
-        },
-        {
-          "title": "Why Are GE Aerospace (GE) Shares Soaring Today - StockStory",
-          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSFRid3JMbDloOWlWOTdCMXZNcWN5YkxveVhQRGsxcUVXeFdoeHR3S1FPZ1dCTjhpbHR2dnZ0eWFzckJFZTJkbUxWV0k2Zlp1REt4Ykd1SFhNSDB2TUkzcXBLTDJuTVhCUXF2SXFtYU5vYWlSN0d1UEpiX05aTm9oaXJmaWZsMndxN1V4OTVoWmFXejk4QUhQZXFVUnNVWmtULVFRQg?oc=5",
-          "published": "Wed, 20 May 2026 17:24:12 GMT"
+          "published": "Wed, 20 May 2026 17:07:38 GMT"
         },
         {
           "title": "GE Aerospace Stock at $292: Iran Conflict Compressed the Multiple but Overvaluation Persists - TIKR.com",
           "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQMVc2NjE5TXBTSWsxOGE3M0htcGxjY3EyOVhsb0VNQy00c21Yek9YeWdwNENRcUJOdEswdUVuWUtpZi1hVzdMRHlRbGJiRjBRTTZ2LWJUS0Z0ZW00aFdqby1zVTBGeEVQbEJnUzFzT05JVTdJc2MxWFNSSGl5YzZMb0ZwUTNHMVFfVWxEWEdNZFpVSWFNbzdjUGZaZjFyZmRmcXQ1YnBPaG54ekZBVzBSc2pzY1dQSDQ?oc=5",
           "published": "Fri, 15 May 2026 15:49:22 GMT"
+        },
+        {
+          "title": "Why Are GE Aerospace (GE) Shares Soaring Today - StockStory",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSFRid3JMbDloOWlWOTdCMXZNcWN5YkxveVhQRGsxcUVXeFdoeHR3S1FPZ1dCTjhpbHR2dnZ0eWFzckJFZTJkbUxWV0k2Zlp1REt4Ykd1SFhNSDB2TUkzcXBLTDJuTVhCUXF2SXFtYU5vYWlSN0d1UEpiX05aTm9oaXJmaWZsMndxN1V4OTVoWmFXejk4QUhQZXFVUnNVWmtULVFRQg?oc=5",
+          "published": "Wed, 20 May 2026 17:24:12 GMT"
         },
         {
           "title": "How Much Upside Can GE Stock Deliver? - Trefis",
@@ -901,7 +902,7 @@
       ],
       "default_pass": true,
       "_funnel_pass_until": 5,
-      "ai_summary": "基于您提供的资料，以下是对GE Aerospace（GE）的简洁分析：\n\n**技术面：** 周线和日线均呈现看涨形态（阳线实体），且价格站上5日均线和60周均线。周线KDJ金叉向上，日线KDJ亦为金叉，短期动能偏多。但股价位于25日均线下方，且近60日相对标普500和纳斯达克100指数表现落后（分别跑输约19%和28%），显示中期相对强度较弱。成交量低于20日均量，上涨动能或需进一步确认。\n\n**基本面：** 公司所属航空航天与国防行业，市值超3130亿美元。盈利能力较强（利润率17.86%），营收增长24.7%表现强劲。但市盈率（37.3倍）和远期市盈率（34.6倍）均处于较高水平，且盈利增长为负（-1.8%），估值与增长存在一定背离。债务权益比高达116.5，财务杠杆较高。\n\n**新闻与政策：** 近期有报道称股价因某些因素上涨（StockStory），但亦有分析指出地缘冲突（伊朗局势）压缩了估值倍数，且整体估值仍偏高（TIKR.com）。同时存在关于股价下跌及数据解读的负面消息（Quiver Quantitative）。市场观点存在分歧。\n\n**风险：** 主要风险包括：1）高估值与负盈利增长不匹配带来的估值回调风险；2）高财务杠杆（债务权益比）在利率环境下可能增加财务压力；3）地缘政治事件（如中东冲突）对航空航天供应链及需求的潜在冲击；4）近期股价相对大盘表现疲软，存在趋势转弱风险。\n\n**综合关注等级：** **中性偏谨慎**。技术面短期有反弹迹象，但中期相对弱势；基本面营收增长强劲但估值偏高且盈利下滑；新闻面多空交织。建议关注后续能否站稳25日均线及盈利增长能否改善。"
+      "ai_summary": "基于您提供的资料，以下是对GE（GE Aerospace）的简洁分析：\n\n### 技术面\n- **短期趋势**：周线与日线均为阳线，且KDJ指标均呈现金叉看涨信号，显示短期动能偏强。股价站上5日及60日均线，但低于25日均线，短期均线尚未形成多头排列。\n- **中期表现**：近60日股价下跌12.46%，显著跑输标普500（+6.94%）和纳斯达克100（+15.64%），中期相对弱势。\n- **量价结构**：成交量接近20日均量，价格波动幅度较大（日线实体比例1.87），显示多空博弈激烈。股价偏离60周均线约7.67%，属于正常延伸范围，未出现极端超买/超卖。\n- **综合判断**：技术面呈现短期反弹修复特征，但中期趋势仍待确认，上方25日均线构成近期阻力。\n\n### 基本面\n- **估值**：静态市盈率37.33倍，动态市盈率34.59倍，高于工业及航空航天行业平均水平，估值溢价明显。\n- **成长性**：营收同比增长24.7%，表现强劲；但净利润同比下滑1.8%，盈利增长出现停滞。\n- **盈利能力**：利润率17.86%，处于健康水平，显示核心业务仍具竞争力。\n- **财务风险**：资产负债率（D/E）高达116.53，杠杆水平较高，需关注利息覆盖能力及债务到期结构。\n- **综合判断**：基本面呈现“高营收增长、高估值、高杠杆”特征，盈利增长放缓是主要隐忧。\n\n### 新闻与政策\n- **地缘政治**：有分析指出伊朗冲突压缩了估值倍数，地缘风险可能持续影响航空及国防板块情绪。\n- **市场情绪**：近期股价出现单日3%下跌，同时也有“为何今日大涨”的报道，显示消息面驱动明显，市场分歧较大。\n- **机构观点**：部分机构认为当前估值仍偏高，上涨空间有限；另有分析关注其长期潜力。\n- **综合判断**：新闻面多空交织，地缘政治与估值争议是当前主要关注点。\n\n### 风险\n1. **估值回调风险**：高PE叠加盈利增速放缓，若市场风险偏好下降，可能面临估值压缩。\n2. **地缘政治风险**：中东局势升级可能影响航空出行需求、供应链及国防订单预期。\n3. **财务杠杆风险**：高负债率在利率维持高位环境下，财务费用压力较大。\n4. **相对表现风险**：近60日持续跑输大盘，若资金持续流出，可能进一步拖累股价。\n\n### 综合关注等级\n**中等关注**  \n理由：技术面出现短期反弹信号，基本面营收增长强劲，但估值偏高、盈利下滑、高杠杆及地缘风险并存，中期趋势尚不明朗。建议持续跟踪盈利改善信号及地缘局势变化，等待更明确的趋势确认。"
     },
     {
       "symbol": "WBD",
@@ -927,10 +928,10 @@
         "weekly_ma60": 19.73,
         "weekly_ma60_deviation": 0.39,
         "weekly_ma60_deviation_risk": "正常延伸",
-        "daily_body_ratio": 2.2143,
+        "daily_body_ratio": 2.1428,
         "daily_bullish": true,
-        "volume_ratio": 1.0745,
-        "avg_dollar_volume_20": 431226355.55,
+        "volume_ratio": 1.0746,
+        "avg_dollar_volume_20": 431228731.49,
         "stock_return_60d": -0.0512,
         "spy_return_60d": 0.0694,
         "qqq_return_60d": 0.1564,
@@ -960,29 +961,29 @@
       },
       "news": [
         {
-          "title": "WBD Stock Quote Price and Forecast - CNN",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB5RkZjcjZjWHA2QjdMOEFOaTFwSERYNnBfeWtiOEJMOWJac3h1djBJYmFxdVJkTmFkQ0ZxVnNocEk1cFVEenJnc1lKS1NSWk0?oc=5",
-          "published": "Tue, 19 May 2026 18:05:01 GMT"
-        },
-        {
-          "title": "Paul Tudor Jones’ Hedge Fund Buys 7 Million Shares of Warner Bros. Discovery. The WBD Stock Turnaround Could Finally Be Here. - Barchart.com",
-          "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOX3F1N3NSM2pHQkhXdlJycTZFNVBmckVBWXBwVFVkRVZZS244Q1NtbmpnMGpaSkpWMWlOVHcxZVZlcHdsZGxWdkRZbUFObzEyVHBqa0NVU1lqSVRiMUpPajRBT2NScXJwWE9rb2hIVWh3YWNLTEtCaUZMSEJtZ1dLZzZ0SmNnWV8zLVZlM05TdnZoRkVLZ1NEd3REbzJzbURFU0hfM0pqcVo4dVo4ekpaSGFaY2tWVV9xdUxaTWcwT210TldCXy1Ick5BcHJTTFdoZkpkTzVWdkR0c01tQVdkajk3aG5nRFFDTTlFSlNYelphWGNpczlCNA?oc=5",
-          "published": "Wed, 20 May 2026 18:27:26 GMT"
-        },
-        {
           "title": "Paramount Skydance aims to close Warner Bros. deal in July - report (WBD:NASDAQ) - Seeking Alpha",
           "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNMEp2dXQzbGhOem5QWGtqTHljWTVTN2FLelVYSWNZX1dLd2tkLTVkeVBLYUI1TUFiY3lCeTV5bDRtRXVCOFpwcHZJem5FOFdYZEFuakdSSVBoY3lOc2NZRmlJVm1XMFJ5MDlMSTAxYmpjX1RBUlV4Zmw5NkVHdi1sZnZFX1lqamJjcExaUFpvQUFGNW5PV3FNLWVURWJEWTBXcjViVQ?oc=5",
           "published": "Wed, 20 May 2026 16:42:38 GMT"
         },
         {
-          "title": "WBD Technical Analysis | Trend, Signals & Chart Patterns | WARNER BROS DISCOVERY INC (NASDAQ:WBD) - ChartMill",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE56bUZZbnRHbEJmWkNwVEV4ZXZsaTlyX0pQblVCY3FZdnVvM0xGbWFjeVNOZFVrZEg1cW1uS2RNQS1UbjBXNXlNWXowZzFTdU4zY2tDOG1ySk9uR0ZUWWdrSXNtMlBtTl9MWHRJdg?oc=5",
-          "published": "Mon, 18 May 2026 07:00:00 GMT"
+          "title": "Wall St banks launch loan sale to refinance Warner Bros' bridge facility - Reuters",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOdklwNW04STIxVDlDN3REU1V3RkVfU3ZpMlkwVzd2NklCdFFEbEwwdzMzOXVpRmVrbHU3cUxzZGFJb3E0eWt5c0hRTHdyUXk1cmo5S1Nsc3NxQ2FZaVZPMVhmeTRoT1R2WDZsTHBqV1hjQnV1NjRWZnVaNWJxckY4M2tlRkl2R0tCc0FJUVo2TzlFM3lPOHBfbHkxVWduZHE2NVdwb3pwSVhyU2stSWJXXzRyeDNDRDdwNVlZVkVYQjJUZw?oc=5",
+          "published": "Tue, 19 May 2026 15:31:43 GMT"
         },
         {
-          "title": "Warner Bros. Discovery, Inc. $WBD Shares Acquired by Handelsbanken Fonder AB - MarketBeat",
-          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPTmJvUXJyZGJjUEh4Vmh1RTdRQjIzSVZ3Zm5kckVUWklESUNscHlzRTRoZnc0bjJ0RnluamNRM1dYcDZoU3hkbVowMHRaLTlZWkNUZVJGT2d0SVVWY2k3bDlDemNkaHlRWUdCc0R5Y3pHcjlSckFLdzFwRTJMdzlDSGxpN0p1TjhmWnFRQXZHWWJtQTdfcDduUXZsLXpFVmlfOFE1XzFUaGUtS05FOGZlMnI5Xy1FU01TWm9EdVFJaE9RZHBqUHhDb2lDaU4wZw?oc=5",
-          "published": "Wed, 20 May 2026 08:03:29 GMT"
+          "title": "Paul Tudor Jones’ Hedge Fund Buys 7 Million Shares of Warner Bros. Discovery. The WBD Stock Turnaround Could Finally Be Here. - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQZHFEeDMyandfX01NVGZsNEs3QW5ucU1uajlsa3dWZ0JKYWJ5aE0yUVIyQ2hQZnRyQm0xTlQ0SGNKTUZJaXlMT2FvNUpnNzdMTkh5NlpUT0EtbkN5WmVNZ1BvTy10eUhGX1liYVdHUnFtVzJ1UEJRUTZtLXNvQWJLdURUZmVBYWx6N2RUdmlXU3d3WHV1TmQ0?oc=5",
+          "published": "Wed, 20 May 2026 18:27:26 GMT"
+        },
+        {
+          "title": "Warner Bros. Discovery, Inc. $WBD Stock Holdings Lessened by Eubel Brady & Suttman Asset Management Inc. - MarketBeat",
+          "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNdE1IZkNLUHlJRmhoYlcyMHRrdUR2VTNwa19MR1VicEhpbHNjc1hQUVg2cExsWXlMZW8wRk1fMjBtVWRvQXduallWanRBcEJGMmhjRHNFSl9kNkRUVHlIcHk3RXN0UDA5T015ME1ma2E2dVBfZnBST2RIS3JVM2JENS1OdnhDbTR4Z1dGczdOSWxnNjBYQ0R1ZTNiSmQtbE9BZ3pNWGo2YnNiQTF0MG9XVncwNldpVU54SkVKaVQ2OXgzN3Q2SUtDbkdSck92aDZXVy03dEtWbW5JblI2UHhESmRtODZyZGFnUnZJVGlEdw?oc=5",
+          "published": "Sun, 17 May 2026 11:11:19 GMT"
+        },
+        {
+          "title": "David Ellison Set For Cash, Stock Awards Valued At $150 Million After Close Of Paramount-WBD Deal - Deadline",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQanNOWkhEeDdDVmNNcnRGWDFRS0pDVEVoWnlWdTlfZUl1WXFTWmtrd3p2WG9WWGdBblpMNkt0N01CQk5USEtITFRtdWpubWowbU9nWWJvRFlyYjM0RkRFSnpJdzF5U3FtTjNxTk9IWmZpSHg2em12R1puMnp5RHpaLWFXOW1EQ2NIaWtFNnh5bEd0b3VNdjJYbWNlYllDeFQybEE?oc=5",
+          "published": "Fri, 08 May 2026 07:00:00 GMT"
         }
       ],
       "default_pass": true,
