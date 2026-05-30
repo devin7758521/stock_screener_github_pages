@@ -160,7 +160,7 @@ def run(argv=None):
     }
 
     if args.site_output:
-        latest, run_file = write_site_data(payload)
+        latest, run_file = write_site_data(payload, all_items=items)
         print(f"Site data written: {latest}, {run_file}")
 
     if not args.no_feishu:

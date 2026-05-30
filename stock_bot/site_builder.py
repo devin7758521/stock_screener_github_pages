@@ -15,7 +15,7 @@ def build_history_index():
     (DATA_DIR / "history.json").write_text(json.dumps(history, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
-def write_site_data(payload):
+def write_site_data(payload, all_items=None):
     ensure_dirs()
     date_key = datetime.now().strftime("%Y-%m-%d")
     latest_file = DATA_DIR / "latest.json"
@@ -23,6 +23,12 @@ def write_site_data(payload):
     text = json.dumps(payload, ensure_ascii=False, indent=2)
     latest_file.write_text(text, encoding="utf-8")
     run_file.write_text(text, encoding="utf-8")
+
+    # Save full scan for debugging
+    if all_items is not None:
+        full_file = RUNS_DIR / f"{date_key}_full.json"
+        full_payload = {**payload, "items": all_items}
+        full_file.write_text(json.dumps(full_payload, ensure_ascii=False, indent=2), encoding="utf-8")
 
     build_history_index()
     return latest_file, run_file

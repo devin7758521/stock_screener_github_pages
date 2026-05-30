@@ -208,6 +208,65 @@
       "default_pass": true,
       "_funnel_pass_until": 5,
       "ai_summary": "Dry-run分析：技术形态满足筛选条件；基本面和新闻为模拟数据；请在真实环境中复核。"
+    },
+    {
+      "symbol": "DEMO2",
+      "name": "DEMO2 Demo Corp",
+      "score": 6,
+      "tags": [
+        "高于5周线",
+        "高于25周线",
+        "高于60周线",
+        "5周线>25周线",
+        "25周线>60周线",
+        "流动性达标"
+      ],
+      "metrics": {
+        "close": 135.21,
+        "weekly_body_ratio": 0.2529,
+        "weekly_bullish": false,
+        "above_ma5": true,
+        "above_ma25": true,
+        "above_ma60": true,
+        "ma5_gt_ma25": true,
+        "ma25_gt_ma60": true,
+        "weekly_ma60": 123.41,
+        "weekly_ma60_deviation": 0.0956,
+        "weekly_ma60_deviation_risk": "正常延伸",
+        "daily_body_ratio": 0.0172,
+        "daily_bullish": true,
+        "volume_ratio": 1.0,
+        "avg_dollar_volume_20": 265251303.92,
+        "stock_return_60d": 0.1264,
+        "spy_return_60d": 0.2152,
+        "qqq_return_60d": 0.2152,
+        "beat_spy_60d": false,
+        "beat_qqq_60d": false,
+        "weekly_k": 85.64,
+        "weekly_d": 85.31,
+        "weekly_j": 86.29,
+        "weekly_kdj_bullish": true,
+        "daily_k": 81.47,
+        "daily_d": 80.07,
+        "daily_j": 84.26,
+        "daily_kdj_bullish": true
+      },
+      "fundamentals": {
+        "symbol": "DEMO2",
+        "name": "DEMO2 Demo Corp",
+        "sector": "Demo",
+        "revenue_growth": 0.12,
+        "profit_margin": 0.18
+      },
+      "news": [
+        {
+          "title": "DEMO2 demo news: business momentum remains positive",
+          "link": "",
+          "published": ""
+        }
+      ],
+      "default_pass": false,
+      "_funnel_pass_until": 2
     }
   ]
 }
